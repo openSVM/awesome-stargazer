@@ -1,0 +1,628 @@
+[← Previous: Llms Other 1](llms-other-1.txt) | [🏠 Back to README](../README.md) | [Next: Llms Other 3 →](llms-other-3.txt)
+
+---
+
+# LLMS OTHER 2
+
+**90 repositories**
+
+---
+
+## [google-gemini/starter-applets](https://github.com/google-gemini/starter-applets)
+
+Google AI Studio Starter Apps
+
+🔗 [https://github.com/google-gemini/starter-applets](https://github.com/google-gemini/starter-applets)
+
+---
+
+## [iusztinpaul/hands-on-llms](https://github.com/iusztinpaul/hands-on-llms)
+
+🦖 𝗟𝗲𝗮𝗿𝗻 about 𝗟𝗟𝗠𝘀, 𝗟𝗟𝗠𝗢𝗽𝘀, and 𝘃𝗲𝗰𝘁𝗼𝗿 𝗗𝗕𝘀 for free by designing, training, and deploying a real-time financial advisor LLM system ~ 𝘴𝘰𝘶𝘳𝘤𝘦 𝘤𝘰𝘥𝘦 + 𝘷𝘪𝘥𝘦𝘰 & 𝘳𝘦𝘢𝘥𝘪𝘯𝘨 𝘮𝘢𝘵𝘦𝘳𝘪𝘢𝘭𝘴
+
+🔗 [https://github.com/iusztinpaul/hands-on-llms](https://github.com/iusztinpaul/hands-on-llms)
+
+---
+
+## [eth-sri/lmql](https://github.com/eth-sri/lmql)
+
+A language for constraint-guided and efficient LLM programming.
+
+🔗 [https://github.com/eth-sri/lmql](https://github.com/eth-sri/lmql)
+
+---
+
+## [01-ai/Yi](https://github.com/01-ai/Yi)
+
+A series of large language models trained from scratch by developers @01-ai
+
+🔗 [https://github.com/01-ai/Yi](https://github.com/01-ai/Yi)
+
+---
+
+## [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai)
+
+Sample code and notebooks for Generative AI on Google Cloud, with Gemini on Vertex AI
+
+🔗 [https://github.com/GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai)
+
+---
+
+## [rashadphz/farfalle](https://github.com/rashadphz/farfalle)
+
+🔍 AI search engine - self-host with local or cloud LLMs
+
+🔗 [https://github.com/rashadphz/farfalle](https://github.com/rashadphz/farfalle)
+
+---
+
+## [intel/intel-extension-for-transformers](https://github.com/intel/intel-extension-for-transformers)
+
+⚡ Build your chatbot within minutes on your favorite device; offer SOTA compression techniques for LLMs; run LLMs efficiently on Intel Platforms⚡
+
+🔗 [https://github.com/intel/intel-extension-for-transformers](https://github.com/intel/intel-extension-for-transformers)
+
+---
+
+## [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)
+
+The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data 🔥
+
+🔗 [https://github.com/firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)
+
+---
+
+## [lsmgeb89/asynch_bellman_ford](https://github.com/lsmgeb89/asynch_bellman_ford)
+
+Implementation of Asynchronous Bellman–Ford Algorithm in the field of Distributed Algorithms
+
+🔗 [https://github.com/lsmgeb89/asynch_bellman_ford](https://github.com/lsmgeb89/asynch_bellman_ford)
+
+---
+
+## [tobegit3hub/llm_examples](https://github.com/tobegit3hub/llm_examples)
+
+The LLM examples.
+
+🔗 [https://github.com/tobegit3hub/llm_examples](https://github.com/tobegit3hub/llm_examples)
+
+---
+
+## [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
+
+🍒 Cherry Studio is a desktop client that supports for multiple LLM providers.
+
+🔗 [https://github.com/CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
+
+---
+
+## [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
+
+利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.
+
+🔗 [https://github.com/harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
+
+---
+
+## [poloclub/transformer-explainer](https://github.com/poloclub/transformer-explainer)
+
+Transformer Explained Visually: Learn How LLM Transformer Models Work with Interactive Visualization
+
+🔗 [https://github.com/poloclub/transformer-explainer](https://github.com/poloclub/transformer-explainer)
+
+---
+
+## [bentoml/BentoML](https://github.com/bentoml/BentoML)
+
+The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!
+
+🔗 [https://github.com/bentoml/BentoML](https://github.com/bentoml/BentoML)
+
+---
+
+## [paradigmxyz/flux](https://github.com/paradigmxyz/flux)
+
+Graph-based LLM power tool for exploring many completions in parallel.
+
+🔗 [https://github.com/paradigmxyz/flux](https://github.com/paradigmxyz/flux)
+
+---
+
+## [palico-ai/palico-ai](https://github.com/palico-ai/palico-ai)
+
+Build, Improve Performance, and Productionize your LLM Application with an Integrated Framework
+
+🔗 [https://github.com/palico-ai/palico-ai](https://github.com/palico-ai/palico-ai)
+
+---
+
+## [marcusschiesser/ui](https://github.com/marcusschiesser/ui)
+
+UI components for your LLM application
+
+🔗 [https://github.com/marcusschiesser/ui](https://github.com/marcusschiesser/ui)
+
+---
+
+## [NexaAI/Awesome-LLMs-on-device](https://github.com/NexaAI/Awesome-LLMs-on-device)
+
+Awesome LLMs on Device: A Comprehensive Survey
+
+🔗 [https://github.com/NexaAI/Awesome-LLMs-on-device](https://github.com/NexaAI/Awesome-LLMs-on-device)
+
+---
+
+## [SylphAI-Inc/AdalFlow](https://github.com/SylphAI-Inc/AdalFlow)
+
+AdalFlow: The library to build & auto-optimize LLM applications.
+
+🔗 [https://github.com/SylphAI-Inc/AdalFlow](https://github.com/SylphAI-Inc/AdalFlow)
+
+---
+
+## [mrztti/M-SIDH](https://github.com/mrztti/M-SIDH)
+
+Implementation of Masked torsion point Supersingular Isogeny Diffie-Hellman (M-SIDH) key exchange
+
+🔗 [https://github.com/mrztti/M-SIDH](https://github.com/mrztti/M-SIDH)
+
+---
+
+## [performant23/sage-against-the-machine](https://github.com/performant23/sage-against-the-machine)
+
+This project explores and implements various techniques and protocols using SageMath. It covers topics such as Elliptic Curve Diffie-Hellman (ECDH) key exchange, homomorphic encryption, secure multi-party computation (MPC), queueing theory analysis, and RSA cryptanalysis.
+
+🔗 [https://github.com/performant23/sage-against-the-machine](https://github.com/performant23/sage-against-the-machine)
+
+---
+
+## [UmileVX/LegalChat](https://github.com/UmileVX/LegalChat)
+
+LLM powered chatbot of legal domain
+
+🔗 [https://github.com/UmileVX/LegalChat](https://github.com/UmileVX/LegalChat)
+
+---
+
+## [georgezouq/awesome-ai-in-finance](https://github.com/georgezouq/awesome-ai-in-finance)
+
+🔬 A curated list of awesome LLMs & deep learning strategies & tools in financial market.
+
+🔗 [https://github.com/georgezouq/awesome-ai-in-finance](https://github.com/georgezouq/awesome-ai-in-finance)
+
+---
+
+## [TristanWellman/Vstat](https://github.com/TristanWellman/Vstat)
+
+Vstat is a program written in c. Vstat displays your certain system information in your terminal like CPU, GPU, Memory, and more.
+
+🔗 [https://github.com/TristanWellman/Vstat](https://github.com/TristanWellman/Vstat)
+
+---
+
+## [Ryan-yang125/ChatLLM-Web](https://github.com/Ryan-yang125/ChatLLM-Web)
+
+🗣️ Chat with LLM like Vicuna totally in your browser with WebGPU, safely, privately, and with no server. Powered by web llm.
+
+🔗 [https://github.com/Ryan-yang125/ChatLLM-Web](https://github.com/Ryan-yang125/ChatLLM-Web)
+
+---
+
+## [hrmk1o3/bellman-sample](https://github.com/hrmk1o3/bellman-sample)
+
+
+
+🔗 [https://github.com/hrmk1o3/bellman-sample](https://github.com/hrmk1o3/bellman-sample)
+
+---
+
+## [mlc-ai/web-llm](https://github.com/mlc-ai/web-llm)
+
+High-performance In-browser LLM Inference Engine
+
+🔗 [https://github.com/mlc-ai/web-llm](https://github.com/mlc-ai/web-llm)
+
+---
+
+## [Account-Link/teleport-gramine-rs](https://github.com/Account-Link/teleport-gramine-rs)
+
+One-time programs on X, create and share a one-time post link from your Twitter account with LLM-enforced policies
+
+🔗 [https://github.com/Account-Link/teleport-gramine-rs](https://github.com/Account-Link/teleport-gramine-rs)
+
+---
+
+## [matter-labs/bellman](https://github.com/matter-labs/bellman)
+
+Bellman zkSNARK library for community with Ethereum's BN256 support
+
+🔗 [https://github.com/matter-labs/bellman](https://github.com/matter-labs/bellman)
+
+---
+
+## [arcalinea/bellman-examples](https://github.com/arcalinea/bellman-examples)
+
+examples for bellman zk-snarks library
+
+🔗 [https://github.com/arcalinea/bellman-examples](https://github.com/arcalinea/bellman-examples)
+
+---
+
+## [run-ai/genv](https://github.com/run-ai/genv)
+
+GPU environment and cluster management with LLM support
+
+🔗 [https://github.com/run-ai/genv](https://github.com/run-ai/genv)
+
+---
+
+## [ludwig-ai/ludwig](https://github.com/ludwig-ai/ludwig)
+
+Low-code framework for building custom LLMs, neural networks, and other AI models
+
+🔗 [https://github.com/ludwig-ai/ludwig](https://github.com/ludwig-ai/ludwig)
+
+---
+
+## [MathisWellmann/trade_aggregation-rs](https://github.com/MathisWellmann/trade_aggregation-rs)
+
+Aggregate trade data into user-defined candles using information driven rules
+
+🔗 [https://github.com/MathisWellmann/trade_aggregation-rs](https://github.com/MathisWellmann/trade_aggregation-rs)
+
+---
+
+## [Ledmington/bellman-ford-cuda](https://github.com/Ledmington/bellman-ford-cuda)
+
+CUDA implementation of the Bellman-Ford's algorithm.
+
+🔗 [https://github.com/Ledmington/bellman-ford-cuda](https://github.com/Ledmington/bellman-ford-cuda)
+
+---
+
+## [RuijianSZ/parallel-bellman-ford-algorithm](https://github.com/RuijianSZ/parallel-bellman-ford-algorithm)
+
+use CUDA to accelerate SSSP problem algorithm
+
+🔗 [https://github.com/RuijianSZ/parallel-bellman-ford-algorithm](https://github.com/RuijianSZ/parallel-bellman-ford-algorithm)
+
+---
+
+## [qiansunn/BellmanFord](https://github.com/qiansunn/BellmanFord)
+
+Parallel Implementation of Bellman Ford Algorithm
+
+🔗 [https://github.com/qiansunn/BellmanFord](https://github.com/qiansunn/BellmanFord)
+
+---
+
+## [kanewallmann/web3.zig](https://github.com/kanewallmann/web3.zig)
+
+A collection of utilities for interacting with a local or remote ethereum node. Written in Zig.
+
+🔗 [https://github.com/kanewallmann/web3.zig](https://github.com/kanewallmann/web3.zig)
+
+---
+
+## [taskforcesh/bullmq](https://github.com/taskforcesh/bullmq)
+
+BullMQ - Message Queue and Batch processing for NodeJS and Python based on Redis
+
+🔗 [https://github.com/taskforcesh/bullmq](https://github.com/taskforcesh/bullmq)
+
+---
+
+## [taskforcesh/bullmq-redis](https://github.com/taskforcesh/bullmq-redis)
+
+BullMQ - Redis Module for handling queues of jobs and messages.
+
+🔗 [https://github.com/taskforcesh/bullmq-redis](https://github.com/taskforcesh/bullmq-redis)
+
+---
+
+## [clauderic/react-tiny-virtual-list](https://github.com/clauderic/react-tiny-virtual-list)
+
+A tiny but mighty 3kb list virtualization library, with zero dependencies 💪 Supports variable heights/widths, sticky items, scrolling to index, and more!
+
+🔗 [https://github.com/clauderic/react-tiny-virtual-list](https://github.com/clauderic/react-tiny-virtual-list)
+
+---
+
+## [lisp-mirror/tinmop](https://github.com/lisp-mirror/tinmop)
+
+Gemini, Gopher, Kami & Pleroma TUI client (mirror)
+
+🔗 [https://github.com/lisp-mirror/tinmop](https://github.com/lisp-mirror/tinmop)
+
+---
+
+## [mit-han-lab/TinyChatEngine](https://github.com/mit-han-lab/TinyChatEngine)
+
+TinyChatEngine: On-Device LLM Inference Library
+
+🔗 [https://github.com/mit-han-lab/TinyChatEngine](https://github.com/mit-han-lab/TinyChatEngine)
+
+---
+
+## [chongdashu/unreal-mcp](https://github.com/chongdashu/unreal-mcp)
+
+Enable AI assistant clients like Cursor, Windsurf and Claude Desktop to control Unreal Engine through natural language using the Model Context Protocol (MCP).
+
+🔗 [https://github.com/chongdashu/unreal-mcp](https://github.com/chongdashu/unreal-mcp)
+
+---
+
+## [lingodotdev/lingo.dev](https://github.com/lingodotdev/lingo.dev)
+
+⚡ Lingo.dev - open-source, AI-powered i18n toolkit for instant localization with LLMs. Bring your own LLM or use Lingo.dev Translation Engine. Join discord:
+
+🔗 [https://github.com/lingodotdev/lingo.dev](https://github.com/lingodotdev/lingo.dev)
+
+---
+
+## [Simplifine-gamedev/Simplifine](https://github.com/Simplifine-gamedev/Simplifine)
+
+🚀 Easy, open-source LLM finetuning with one-line commands, seamless cloud integration, and popular optimization frameworks. ✨
+
+🔗 [https://github.com/Simplifine-gamedev/Simplifine](https://github.com/Simplifine-gamedev/Simplifine)
+
+---
+
+## [google-gemini/live-api-web-console](https://github.com/google-gemini/live-api-web-console)
+
+A react-based starter app for using the Live API over websockets with Gemini
+
+🔗 [https://github.com/google-gemini/live-api-web-console](https://github.com/google-gemini/live-api-web-console)
+
+---
+
+## [microsoft/lida](https://github.com/microsoft/lida)
+
+Automatic Generation of Visualizations and Infographics using Large Language Models
+
+🔗 [https://github.com/microsoft/lida](https://github.com/microsoft/lida)
+
+---
+
+## [kr1sp1n/awesome-gemini](https://github.com/kr1sp1n/awesome-gemini)
+
+A collection of awesome things regarding the gemini protocol ecosystem.
+
+🔗 [https://github.com/kr1sp1n/awesome-gemini](https://github.com/kr1sp1n/awesome-gemini)
+
+---
+
+## [microsoft/BitNet](https://github.com/microsoft/BitNet)
+
+Official inference framework for 1-bit LLMs
+
+🔗 [https://github.com/microsoft/BitNet](https://github.com/microsoft/BitNet)
+
+---
+
+## [microsoft/vidur](https://github.com/microsoft/vidur)
+
+A large-scale simulation framework for LLM inference
+
+🔗 [https://github.com/microsoft/vidur](https://github.com/microsoft/vidur)
+
+---
+
+## [shaneholloman/mcp-knowledge-graph](https://github.com/shaneholloman/mcp-knowledge-graph)
+
+MCP server enabling persistent memory for Claude through a local knowledge graph - fork focused on local development
+
+🔗 [https://github.com/shaneholloman/mcp-knowledge-graph](https://github.com/shaneholloman/mcp-knowledge-graph)
+
+---
+
+## [stanford-oval/storm](https://github.com/stanford-oval/storm)
+
+An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.
+
+🔗 [https://github.com/stanford-oval/storm](https://github.com/stanford-oval/storm)
+
+---
+
+## [cfahlgren1/natural-sql](https://github.com/cfahlgren1/natural-sql)
+
+A series of top performing Text to SQL LLMs
+
+🔗 [https://github.com/cfahlgren1/natural-sql](https://github.com/cfahlgren1/natural-sql)
+
+---
+
+## [Dataherald/dataherald](https://github.com/Dataherald/dataherald)
+
+Interact with your SQL database, Natural Language to SQL using LLMs
+
+🔗 [https://github.com/Dataherald/dataherald](https://github.com/Dataherald/dataherald)
+
+---
+
+## [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates)
+
+CLI tool for configuring and monitoring Claude Code
+
+🔗 [https://github.com/davila7/claude-code-templates](https://github.com/davila7/claude-code-templates)
+
+---
+
+## [SJTU-IPADS/PowerInfer](https://github.com/SJTU-IPADS/PowerInfer)
+
+High-speed Large Language Model Serving for Local Deployment
+
+🔗 [https://github.com/SJTU-IPADS/PowerInfer](https://github.com/SJTU-IPADS/PowerInfer)
+
+---
+
+## [rohitg00/kubectl-mcp-server](https://github.com/rohitg00/kubectl-mcp-server)
+
+Chat with your Kubernetes Cluster using AI tools and IDEs like Claude and Cursor!
+
+🔗 [https://github.com/rohitg00/kubectl-mcp-server](https://github.com/rohitg00/kubectl-mcp-server)
+
+---
+
+## [InternLM/lmdeploy](https://github.com/InternLM/lmdeploy)
+
+LMDeploy is a toolkit for compressing, deploying, and serving LLMs.
+
+🔗 [https://github.com/InternLM/lmdeploy](https://github.com/InternLM/lmdeploy)
+
+---
+
+## [PaddlePaddle/FastDeploy](https://github.com/PaddlePaddle/FastDeploy)
+
+High-performance Inference and Deployment Toolkit for LLMs and VLMs based on PaddlePaddle
+
+🔗 [https://github.com/PaddlePaddle/FastDeploy](https://github.com/PaddlePaddle/FastDeploy)
+
+---
+
+## [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts)
+
+A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API
+
+🔗 [https://github.com/anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts)
+
+---
+
+## [shubham0204/SmolChat-Android](https://github.com/shubham0204/SmolChat-Android)
+
+Running any GGUF SLMs/LLMs locally, on-device in Android
+
+🔗 [https://github.com/shubham0204/SmolChat-Android](https://github.com/shubham0204/SmolChat-Android)
+
+---
+
+## [e2b-dev/desktop](https://github.com/e2b-dev/desktop)
+
+E2B Desktop Sandbox for LLMs. E2B Sandbox with desktop graphical environment that you can connect to any LLM for secure computer use.
+
+🔗 [https://github.com/e2b-dev/desktop](https://github.com/e2b-dev/desktop)
+
+---
+
+## [bodo-run/yek](https://github.com/bodo-run/yek)
+
+A fast Rust based tool to serialize text-based files in a repository or directory for LLM consumption
+
+🔗 [https://github.com/bodo-run/yek](https://github.com/bodo-run/yek)
+
+---
+
+## [google-gemini/nano-banana-hackathon-kit](https://github.com/google-gemini/nano-banana-hackathon-kit)
+
+🍌 The official starter kit for the Nano Banana Hackathon. Clone this repo to get building fast!
+
+🔗 [https://github.com/google-gemini/nano-banana-hackathon-kit](https://github.com/google-gemini/nano-banana-hackathon-kit)
+
+---
+
+## [google-gemini/cookbook](https://github.com/google-gemini/cookbook)
+
+Examples and guides for using the Gemini API
+
+🔗 [https://github.com/google-gemini/cookbook](https://github.com/google-gemini/cookbook)
+
+---
+
+## [mochi-neko/clust](https://github.com/mochi-neko/clust)
+
+An unofficial Rust client for the Anthropic/Claude API.
+
+🔗 [https://github.com/mochi-neko/clust](https://github.com/mochi-neko/clust)
+
+---
+
+## [kyegomez/tree-of-thoughts](https://github.com/kyegomez/tree-of-thoughts)
+
+Plug in and Play Implementation of Tree of Thoughts: Deliberate Problem Solving with Large Language Models that Elevates Model Reasoning by atleast 70%
+
+🔗 [https://github.com/kyegomez/tree-of-thoughts](https://github.com/kyegomez/tree-of-thoughts)
+
+---
+
+## [chinpeerapat/anthropic-fastapi-service](https://github.com/chinpeerapat/anthropic-fastapi-service)
+
+This is a FastAPI service that provides a RESTful API for the Anthropic Claude AI model using anthropic-sdk-python.
+
+🔗 [https://github.com/chinpeerapat/anthropic-fastapi-service](https://github.com/chinpeerapat/anthropic-fastapi-service)
+
+---
+
+## [SpiderLabs/Responder](https://github.com/SpiderLabs/Responder)
+
+Responder is a LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication.
+
+🔗 [https://github.com/SpiderLabs/Responder](https://github.com/SpiderLabs/Responder)
+
+---
+
+## [sgl-project/sglang](https://github.com/sgl-project/sglang)
+
+SGLang is a fast serving framework for large language models and vision language models.
+
+🔗 [https://github.com/sgl-project/sglang](https://github.com/sgl-project/sglang)
+
+---
+
+## [0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig)
+
+⚙️🦀 Build modular and scalable LLM Applications in Rust
+
+🔗 [https://github.com/0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig)
+
+---
+
+## [openGemini/openGemini](https://github.com/openGemini/openGemini)
+
+CNCF sandbox project, an open source distributed time-series database with high concurrency, high performance, and high scalability
+
+🔗 [https://github.com/openGemini/openGemini](https://github.com/openGemini/openGemini)
+
+---
+
+## [Luukdegram/lemon_pie](https://github.com/Luukdegram/lemon_pie)
+
+Library to build fast, reliable, Gemini servers with ease
+
+🔗 [https://github.com/Luukdegram/lemon_pie](https://github.com/Luukdegram/lemon_pie)
+
+---
+
+## [ikskuh/zig-serve](https://github.com/ikskuh/zig-serve)
+
+Server implementations for several protocols in Zig. Includes http(s), gemini and gopher
+
+🔗 [https://github.com/ikskuh/zig-serve](https://github.com/ikskuh/zig-serve)
+
+---
+
+## [thu-pacman/GeminiGraph](https://github.com/thu-pacman/GeminiGraph)
+
+A computation-centric distributed graph processing system.
+
+🔗 [https://github.com/thu-pacman/GeminiGraph](https://github.com/thu-pacman/GeminiGraph)
+
+---
+
+## [steel-dev/claude-browser](https://github.com/steel-dev/claude-browser)
+
+claude-browser
+
+🔗 [https://github.com/steel-dev/claude-browser](https://github.com/steel-dev/claude-browser)
+
+---
+
+## [ciuzaak/Claude-Telegram-Bot](https://github.com/ciuzaak/Claude-Telegram-Bot)
+
+Anthropic Claude & Google Bard Bot for Telegram.
+
+🔗 [https://github.com/ciuzaak/Claude-Telegram-Bot](https://github.com/ciuzaak/Claude-Telegram-Bot)
+
+---
+
+
+[← Previous: Llms Other 1](llms-other-1.txt) | [🏠 Back to README](../README.md) | [Next: Llms Other 3 →](llms-other-3.txt)

@@ -1,3 +1,0 @@
-# ANDROID FRAMEWORKS (1 repositories)
-
-yanivagman/BPFroid: Trace Android framework API, native libraries, system calls and other events using eBPF - https://github.com/yanivagman/BPFroid

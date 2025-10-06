@@ -1,3 +1,0 @@
-# PROFILERS FLAME GRAPHS (1 repositories)
-
-hendriknielaender/zflame: 🔥 Flamegraph Profiling  - https://github.com/hendriknielaender/zflame

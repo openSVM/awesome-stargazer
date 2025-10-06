@@ -1,7 +1,0 @@
-# PROJECT MANAGEMENT (5 repositories)
-
-Citizen-Group/SteelRain-Ideas: This is a special repository used to store ideas, project management publicly, and to engage with fans. - https://github.com/Citizen-Group/SteelRain-Ideas
-apache/dolphinscheduler: Apache DolphinScheduler is the modern data orchestration platform. Agile to create high performance workflow with low-code - https://github.com/apache/dolphinscheduler
-ethereum/pm: Project Management: Meeting notes and agenda items - https://github.com/ethereum/pm
-cpmbits/cpm: A modern project management tool for C/C++ projects - https://github.com/cpmbits/cpm
-flashbots/mev-research: Project management for MEV Research - https://github.com/flashbots/mev-research

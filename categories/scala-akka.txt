@@ -1,5 +1,0 @@
-# SCALA AKKA (3 repositories)
-
-leostera/lam: :rocket: a lightweight, universal actor-model vm for writing scalable and reliable applications that run natively and on WebAssembly - https://github.com/leostera/lam
-Drakkar-Software/OctoBot: Open source crypto trading bot - https://github.com/Drakkar-Software/OctoBot
-drakkan/sftpgo: Full-featured and highly configurable SFTP, HTTP/S, FTP/S and WebDAV server - S3, Google Cloud Storage, Azure Blob - https://github.com/drakkan/sftpgo

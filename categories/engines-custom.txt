@@ -1,3 +1,0 @@
-# ENGINES CUSTOM (1 repositories)
-
-love2d/love: LÖVE is an awesome 2D game framework for Lua. - https://github.com/love2d/love

@@ -1,4 +1,0 @@
-# PYTHON ML AI (2 repositories)
-
-victor369basu/Real-time-stock-market-prediction: In this repository, I have developed the entire server-side principal architecture for real-time stock market prediction with Machine Learning. I have used Tensorflow.js for constructing ml model architecture, and Kafka for real-time data streaming and pipelining. - https://github.com/victor369basu/Real-time-stock-market-prediction
-PINTO0309/Keras-OneClassAnomalyDetection: [5 FPS - 150 FPS] Learning Deep Features for One-Class Classification (AnomalyDetection). Corresponds RaspberryPi3. Convert to Tensorflow, ONNX, Caffe, PyTorch. Implementation by Python + OpenVINO/Tensorflow Lite. - https://github.com/PINTO0309/Keras-OneClassAnomalyDetection

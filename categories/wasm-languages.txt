@@ -1,5 +1,0 @@
-# WASM LANGUAGES (3 repositories)
-
-lume/glas: WebGL in WebAssembly with AssemblyScript - https://github.com/lume/glas
-AssemblyScript/assemblyscript: A TypeScript-like language for WebAssembly. - https://github.com/AssemblyScript/assemblyscript
-trunk-rs/trunk: Build, bundle & ship your Rust WASM application to the web. - https://github.com/trunk-rs/trunk

@@ -1,3 +1,0 @@
-# ASTRO TELESCOPE (1 repositories)
-
-ledatelescope/bifrost_tutorial: A collection of examples that show how to use various features in the Bifrost framework. - https://github.com/ledatelescope/bifrost_tutorial

@@ -1,7 +1,0 @@
-# DOCKER IMAGES (5 repositories)
-
-ottomatica/slim: Build and run tiny vms from Dockerfiles. Small and sleek. - https://github.com/ottomatica/slim
-gauthamp10/dockerfile-boilerplates: Docker boilerplates a.k.a templates for most programming language. - https://github.com/gauthamp10/dockerfile-boilerplates
-earthly/earthly: Super simple build framework with fast, repeatable builds and an instantly familiar syntax – like Dockerfile and Makefile had a baby. - https://github.com/earthly/earthly
-Grokzen/docker-redis-cluster: Dockerfile for Redis Cluster (redis 3.0+) - https://github.com/Grokzen/docker-redis-cluster
-ziglang/docker-zig: Dockerfile for zig programming language - https://github.com/ziglang/docker-zig

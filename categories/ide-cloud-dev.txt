@@ -1,3 +1,0 @@
-# IDE CLOUD DEV (1 repositories)
-
-loft-sh/devpod: Codespaces but open-source, client-only and unopinionated: Works with any IDE and lets you use any cloud, kubernetes or just localhost docker. - https://github.com/loft-sh/devpod

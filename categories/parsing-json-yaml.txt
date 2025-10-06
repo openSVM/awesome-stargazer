@@ -1,8 +1,0 @@
-# PARSING JSON YAML (6 repositories)
-
-simdjson/simdjson: Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks - https://github.com/simdjson/simdjson
-EzequielRamis/zimdjson: Parsing gigabytes of JSON per second. Zig port of simdjson with fundamental features. - https://github.com/EzequielRamis/zimdjson
-oxigraph/json-event-parser: JSON event parser is a simple streaming JSON parser and serializer implementation in Rust. - https://github.com/oxigraph/json-event-parser
-Ellipsis-Labs/reverse-idl-parser: Recursive Rust types for parsing IDL JSON files - https://github.com/Ellipsis-Labs/reverse-idl-parser
-kubkon/zig-yaml: YAML parser for Zig - https://github.com/kubkon/zig-yaml
-ikskuh/zig-args: Simple-to-use argument parser with struct-based config - https://github.com/ikskuh/zig-args

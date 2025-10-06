@@ -1,3 +1,0 @@
-# PARSING PARSERS GENERATORS (1 repositories)
-
-sambacha/vyp4r: Vyp4r - ANTLR4 Parser for Vyper Language - https://github.com/sambacha/vyp4r

@@ -1,9 +1,0 @@
-# RL FRAMEWORKS (7 repositories)
-
-helius-labs/solana-awesome: The "Solana-Awesome" repository serves as a comprehensive, factual resource hub for anyone interested in learning about the Solana blockchain and its underlying technology. It is meticulously curated to include a wide array of informative materials such as articles, videos, and Twitter threads, as well as insightful blog posts. - https://github.com/helius-labs/solana-awesome
-OpenXRay/xray-16: Improved version of the X-Ray Engine, the game engine used in the world-famous S.T.A.L.K.E.R. game series by GSC Game World. Join OpenXRay! ;) - https://github.com/OpenXRay/xray-16
-karl-zylinski/odin-raylib-hot-reload-game-template: An Odin + Raylib game template with Hot Reloading pre-setup - https://github.com/karl-zylinski/odin-raylib-hot-reload-game-template
-Raymo111/i3lock-color: The world's most popular non-default computer lockscreen. - https://github.com/Raymo111/i3lock-color
-DhruvSrikanth/Monte-Carlo-Ray-Tracing: In this repository, you will find a serial and distributed GPU-based implementation of the ray tracing simulation. - https://github.com/DhruvSrikanth/Monte-Carlo-Ray-Tracing
-daemyung/metal-by-tutorials-2nd: Metal by Tutorials By the raywenderlich Tutorial Team - https://github.com/daemyung/metal-by-tutorials-2nd
-Dr-Nekoma/lyceum: An MMO game written in Erlang (+ PostgreSQL + Omnigres) + Zig (+ Raylib)  - https://github.com/Dr-Nekoma/lyceum

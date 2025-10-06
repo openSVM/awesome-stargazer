@@ -1,0 +1,444 @@
+[← Previous: Typescript Other 1](typescript-other-1.txt) | [🏠 Back to README](../README.md) | [Next: Vector Db →](vector-db.txt)
+
+---
+
+# TYPESCRIPT OTHER 2
+
+**62 repositories**
+
+---
+
+## [excaliburjs/Excalibur](https://github.com/excaliburjs/Excalibur)
+
+🎮 Your friendly TypeScript 2D game engine for the web 🗡️
+
+🔗 [https://github.com/excaliburjs/Excalibur](https://github.com/excaliburjs/Excalibur)
+
+---
+
+## [probably-nothing-labs/denormalized](https://github.com/probably-nothing-labs/denormalized)
+
+Embeddable stream processing engine based on Apache DataFusion
+
+🔗 [https://github.com/probably-nothing-labs/denormalized](https://github.com/probably-nothing-labs/denormalized)
+
+---
+
+## [vishalxl/nostr_console](https://github.com/vishalxl/nostr_console)
+
+Nostr console is an open-source twitter-like social network, direct chat app and group chat all bundled into one program. Built on the decentralized Nostr protocol.
+
+🔗 [https://github.com/vishalxl/nostr_console](https://github.com/vishalxl/nostr_console)
+
+---
+
+## [Cyclenerd/ethereum_nvidia_miner](https://github.com/Cyclenerd/ethereum_nvidia_miner)
+
+💰 USB flash drive ISO image for Ethereum, Zcash and Monero mining with NVIDIA graphics cards and Ubuntu GNU/Linux (headless)
+
+🔗 [https://github.com/Cyclenerd/ethereum_nvidia_miner](https://github.com/Cyclenerd/ethereum_nvidia_miner)
+
+---
+
+## [dubinc/oss-gallery](https://github.com/dubinc/oss-gallery)
+
+A crowdsourced list of the best open-source projects on the internet. Built with the Dub TypeScript SDK.
+
+🔗 [https://github.com/dubinc/oss-gallery](https://github.com/dubinc/oss-gallery)
+
+---
+
+## [microsoft/tsdoc](https://github.com/microsoft/tsdoc)
+
+A doc comment standard for TypeScript
+
+🔗 [https://github.com/microsoft/tsdoc](https://github.com/microsoft/tsdoc)
+
+---
+
+## [cryptoandcoffee/akashos](https://github.com/cryptoandcoffee/akashos)
+
+AkashOS is an unattended install of Ubuntu Server that will become the operating system of the machine. Akash OS will create a Kubernetes cluster and configure it as an Akash provider.
+
+🔗 [https://github.com/cryptoandcoffee/akashos](https://github.com/cryptoandcoffee/akashos)
+
+---
+
+## [AssemblyScript/assemblyscript](https://github.com/AssemblyScript/assemblyscript)
+
+A TypeScript-like language for WebAssembly.
+
+🔗 [https://github.com/AssemblyScript/assemblyscript](https://github.com/AssemblyScript/assemblyscript)
+
+---
+
+## [13xforever/x86-assembly-textmate-bundle](https://github.com/13xforever/x86-assembly-textmate-bundle)
+
+A bundle for TextMate/Sublime Text providing syntax highlighting for x86 assembly code.
+
+🔗 [https://github.com/13xforever/x86-assembly-textmate-bundle](https://github.com/13xforever/x86-assembly-textmate-bundle)
+
+---
+
+## [tniessen/node-pqclean](https://github.com/tniessen/node-pqclean)
+
+PQClean for Node.js, Deno, and browsers 🔏🔑 Node.js native addon and WebAssembly implementation
+
+🔗 [https://github.com/tniessen/node-pqclean](https://github.com/tniessen/node-pqclean)
+
+---
+
+## [denosaurs/netsaur](https://github.com/denosaurs/netsaur)
+
+Powerful Powerful Machine Learning library with GPU, CPU and WASM backends
+
+🔗 [https://github.com/denosaurs/netsaur](https://github.com/denosaurs/netsaur)
+
+---
+
+## [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app)
+
+📨 The ultimate social media scheduling tool, with a bunch of AI  🤖
+
+🔗 [https://github.com/gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app)
+
+---
+
+## [Turbin3/poseidon](https://github.com/Turbin3/poseidon)
+
+A Transpiler to convert your Solana programs from Typescript to Anchor
+
+🔗 [https://github.com/Turbin3/poseidon](https://github.com/Turbin3/poseidon)
+
+---
+
+## [denosaurs/neo](https://github.com/denosaurs/neo)
+
+👩‍💻 Matrix and other math, accelerated by WebGPU and WASM
+
+🔗 [https://github.com/denosaurs/neo](https://github.com/denosaurs/neo)
+
+---
+
+## [tidwall/buntdb](https://github.com/tidwall/buntdb)
+
+BuntDB is an embeddable, in-memory key/value database for Go with custom indexing and geospatial support
+
+🔗 [https://github.com/tidwall/buntdb](https://github.com/tidwall/buntdb)
+
+---
+
+## [buffalojoec/Crypto-on-Ubuntu](https://github.com/buffalojoec/Crypto-on-Ubuntu)
+
+Some out-of-the-box scripts to do crypto stuff on Ubuntu!
+
+🔗 [https://github.com/buffalojoec/Crypto-on-Ubuntu](https://github.com/buffalojoec/Crypto-on-Ubuntu)
+
+---
+
+## [codenotary/immudb](https://github.com/codenotary/immudb)
+
+immudb - immutable database based on zero trust, SQL/Key-Value/Document model, tamperproof, data change history
+
+🔗 [https://github.com/codenotary/immudb](https://github.com/codenotary/immudb)
+
+---
+
+## [privacy-ethereum/zkp-app-boilerplate](https://github.com/privacy-ethereum/zkp-app-boilerplate)
+
+Build your zkp app with typescript, hardhat, circom, and snarkjs!
+
+🔗 [https://github.com/privacy-ethereum/zkp-app-boilerplate](https://github.com/privacy-ethereum/zkp-app-boilerplate)
+
+---
+
+## [DangerAcorn/pumpfun-tools](https://github.com/DangerAcorn/pumpfun-tools)
+
+All-in-one PumpFun Bundler suite featuring PumpFun Bundler (20+ wallets), MEV bot protection, high-frequency trading bot, Solana token creator, jito bundle, multi wallet management, live price tracking, custom RPC nodes, anti rug tools, and instant token launches.
+
+🔗 [https://github.com/DangerAcorn/pumpfun-tools](https://github.com/DangerAcorn/pumpfun-tools)
+
+---
+
+## [cryptoloutre/solana-tools](https://github.com/cryptoloutre/solana-tools)
+
+A bunch of tools to help people in the Solana ecosystem. This website includes an UI to burn Solana NFTs and an UI to create SPL-Tokens. More tools are scheduled...
+
+🔗 [https://github.com/cryptoloutre/solana-tools](https://github.com/cryptoloutre/solana-tools)
+
+---
+
+## [MagicalBitcoin/libtor](https://github.com/MagicalBitcoin/libtor)
+
+Bundle and run Tor inside your own project
+
+🔗 [https://github.com/MagicalBitcoin/libtor](https://github.com/MagicalBitcoin/libtor)
+
+---
+
+## [Ashburton-Finance/flash-aggregator](https://github.com/Ashburton-Finance/flash-aggregator)
+
+This Solana smart contract aggregates flash loans to offer users the cheapest possible flash loan in any token denomination.
+
+🔗 [https://github.com/Ashburton-Finance/flash-aggregator](https://github.com/Ashburton-Finance/flash-aggregator)
+
+---
+
+## [0xAlcibiades/mev-bundle-generator](https://github.com/0xAlcibiades/mev-bundle-generator)
+
+A graph based, trait pluggable MEV bundle generator with quadratic gradient descent price optimization implemented in Rust.
+
+🔗 [https://github.com/0xAlcibiades/mev-bundle-generator](https://github.com/0xAlcibiades/mev-bundle-generator)
+
+---
+
+## [cesarjorgemartinez/build-virtual-machines-environment](https://github.com/cesarjorgemartinez/build-virtual-machines-environment)
+
+Automate Linux Virtual Machines for Cloud VirtualBox OpenStack VMware ESXI Nutanix CentOS Ubuntu
+
+🔗 [https://github.com/cesarjorgemartinez/build-virtual-machines-environment](https://github.com/cesarjorgemartinez/build-virtual-machines-environment)
+
+---
+
+## [waydroid/waydroid](https://github.com/waydroid/waydroid)
+
+Waydroid uses a container-based approach to boot a full Android system on a regular GNU/Linux system like Ubuntu.
+
+🔗 [https://github.com/waydroid/waydroid](https://github.com/waydroid/waydroid)
+
+---
+
+## [rnadigital/agentcloud](https://github.com/rnadigital/agentcloud)
+
+Agent Cloud is like having your own GPT builder with a bunch extra goodies. The GUI features 1) RAG pipeline which can natively embed 260+ datasources 2) Create Conversational apps (like GPTs) 3) Create Multi Agent process automation apps (crewai) 4) Tools 5) Teams+user permissions. Get started fast with Docker and our install.sh
+
+🔗 [https://github.com/rnadigital/agentcloud](https://github.com/rnadigital/agentcloud)
+
+---
+
+## [eclipse-theia/theia](https://github.com/eclipse-theia/theia)
+
+Eclipse Theia is a cloud & desktop IDE framework implemented in TypeScript.
+
+🔗 [https://github.com/eclipse-theia/theia](https://github.com/eclipse-theia/theia)
+
+---
+
+## [cicere/solana-bundler](https://github.com/cicere/solana-bundler)
+
+An open-source Raydium Bundler that buys with 27 wallets & deploys a token.
+
+🔗 [https://github.com/cicere/solana-bundler](https://github.com/cicere/solana-bundler)
+
+---
+
+## [Rezzecup/solana-bundler](https://github.com/Rezzecup/solana-bundler)
+
+A token-deploying open-source Raydium Bundler using 27 wallets for purchases.
+
+🔗 [https://github.com/Rezzecup/solana-bundler](https://github.com/Rezzecup/solana-bundler)
+
+---
+
+## [canonical/multipass](https://github.com/canonical/multipass)
+
+Multipass orchestrates virtual Ubuntu instances
+
+🔗 [https://github.com/canonical/multipass](https://github.com/canonical/multipass)
+
+---
+
+## [aleph-im/aleph-indexer-framework](https://github.com/aleph-im/aleph-indexer-framework)
+
+TypeScript framework for deploying distributed indexers on Aleph VMs for Solana and EVM chains.
+
+🔗 [https://github.com/aleph-im/aleph-indexer-framework](https://github.com/aleph-im/aleph-indexer-framework)
+
+---
+
+## [RandomCoderOrg/ubuntu-on-android](https://github.com/RandomCoderOrg/ubuntu-on-android)
+
+Run Ubuntu with pre-installed Desktop Environments in android/termux with ease! Everything is preinstalled so just download install and done🚀🚀
+
+🔗 [https://github.com/RandomCoderOrg/ubuntu-on-android](https://github.com/RandomCoderOrg/ubuntu-on-android)
+
+---
+
+## [zufuliu/notepad4](https://github.com/zufuliu/notepad4)
+
+Notepad4 (Notepad2⨯2, Notepad2++) is a light-weight Scintilla based text editor for Windows with syntax highlighting, code folding, auto-completion and API list for many programming languages and documents, bundled with file browser plugin matepath.
+
+🔗 [https://github.com/zufuliu/notepad4](https://github.com/zufuliu/notepad4)
+
+---
+
+## [jnsgruk/firecracker-ubuntu](https://github.com/jnsgruk/firecracker-ubuntu)
+
+🚀 Use Firecracker and helpings of bash to boot Ubuntu virtual machines very fast 🔥
+
+🔗 [https://github.com/jnsgruk/firecracker-ubuntu](https://github.com/jnsgruk/firecracker-ubuntu)
+
+---
+
+## [east4ming/homelab2](https://github.com/east4ming/homelab2)
+
+Tailscale + Ubuntu 24.04! Fully automated homelab from empty disk to running services with a single command.
+
+🔗 [https://github.com/east4ming/homelab2](https://github.com/east4ming/homelab2)
+
+---
+
+## [pythops/jetson-image](https://github.com/pythops/jetson-image)
+
+💾 Create minimalist, Ubuntu based images for the Nvidia jetson boards
+
+🔗 [https://github.com/pythops/jetson-image](https://github.com/pythops/jetson-image)
+
+---
+
+## [ruanjue/smartdenovo](https://github.com/ruanjue/smartdenovo)
+
+Ultra-fast de novo assembler using long noisy reads
+
+🔗 [https://github.com/ruanjue/smartdenovo](https://github.com/ruanjue/smartdenovo)
+
+---
+
+## [yutkat/dotfiles](https://github.com/yutkat/dotfiles)
+
+The best and strongest dotfiles. Editor: Neovim; Shell: zsh(zinit, powerlevel10k); Terminal: WezTerm; Desktop: Hyprland, walker, dunst; OS: NixOS, ArchLinux (Ubuntu/Fedora/CentOS)
+
+🔗 [https://github.com/yutkat/dotfiles](https://github.com/yutkat/dotfiles)
+
+---
+
+## [trunk-rs/trunk](https://github.com/trunk-rs/trunk)
+
+Build, bundle & ship your Rust WASM application to the web.
+
+🔗 [https://github.com/trunk-rs/trunk](https://github.com/trunk-rs/trunk)
+
+---
+
+## [Scale3-Labs/langtrace](https://github.com/Scale3-Labs/langtrace)
+
+Langtrace 🔍 is an open-source,  Open Telemetry based end-to-end observability tool for LLM applications, providing real-time tracing, evaluations and metrics for popular LLMs, LLM frameworks, vectorDBs and more.. Integrate using Typescript, Python. 🚀💻📊
+
+🔗 [https://github.com/Scale3-Labs/langtrace](https://github.com/Scale3-Labs/langtrace)
+
+---
+
+## [StructuredLabs/preswald](https://github.com/StructuredLabs/preswald)
+
+Preswald is a WASM packager for Python-based interactive data apps: bundle full complex data workflows, particularly visualizations, into single files, runnable completely in-browser, using Pyodide, DuckDB, Pandas, and Plotly, Matplotlib, etc. Build dashboards, reports, and notebooks that run offline, load fast, and share like a document.
+
+🔗 [https://github.com/StructuredLabs/preswald](https://github.com/StructuredLabs/preswald)
+
+---
+
+## [zouyee/zig-learning](https://github.com/zouyee/zig-learning)
+
+A bunch of links to blog posts, articles, videos, etc for learning Zig
+
+🔗 [https://github.com/zouyee/zig-learning](https://github.com/zouyee/zig-learning)
+
+---
+
+## [punkpeye/fastmcp](https://github.com/punkpeye/fastmcp)
+
+A TypeScript framework for building MCP servers.
+
+🔗 [https://github.com/punkpeye/fastmcp](https://github.com/punkpeye/fastmcp)
+
+---
+
+## [AminoffZ/catonaut](https://github.com/AminoffZ/catonaut)
+
+Astro + Bun browser extension template.
+
+🔗 [https://github.com/AminoffZ/catonaut](https://github.com/AminoffZ/catonaut)
+
+---
+
+## [castholm/wasm-sliding-puzzle](https://github.com/castholm/wasm-sliding-puzzle)
+
+Very simple interactive web app written in Zig and TypeScript
+
+🔗 [https://github.com/castholm/wasm-sliding-puzzle](https://github.com/castholm/wasm-sliding-puzzle)
+
+---
+
+## [oven-sh/bun](https://github.com/oven-sh/bun)
+
+Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one
+
+🔗 [https://github.com/oven-sh/bun](https://github.com/oven-sh/bun)
+
+---
+
+## [aeyakovenko/bunker_coin](https://github.com/aeyakovenko/bunker_coin)
+
+bunker coin
+
+🔗 [https://github.com/aeyakovenko/bunker_coin](https://github.com/aeyakovenko/bunker_coin)
+
+---
+
+## [buffalojoec/bundle-chekr](https://github.com/buffalojoec/bundle-chekr)
+
+
+
+🔗 [https://github.com/buffalojoec/bundle-chekr](https://github.com/buffalojoec/bundle-chekr)
+
+---
+
+## [spirobel/bunny-llama](https://github.com/spirobel/bunny-llama)
+
+iterate quickly with llama.cpp hot reloading. use the llama.cpp bindings with bun.sh
+
+🔗 [https://github.com/spirobel/bunny-llama](https://github.com/spirobel/bunny-llama)
+
+---
+
+## [anoushk1234/tmev](https://github.com/anoushk1234/tmev)
+
+A bundle explorer on the terminal for jito solana's mempool
+
+🔗 [https://github.com/anoushk1234/tmev](https://github.com/anoushk1234/tmev)
+
+---
+
+## [oven-sh/awesome-bun](https://github.com/oven-sh/awesome-bun)
+
+⚡️ A curated list of awesome things related to Bun
+
+🔗 [https://github.com/oven-sh/awesome-bun](https://github.com/oven-sh/awesome-bun)
+
+---
+
+## [leruaa/alloy-mev](https://github.com/leruaa/alloy-mev)
+
+An Alloy transport to send transaction bundles via Flashbots.
+
+🔗 [https://github.com/leruaa/alloy-mev](https://github.com/leruaa/alloy-mev)
+
+---
+
+## [nextify-limited/saasfly](https://github.com/nextify-limited/saasfly)
+
+Your Next SaaS Template or Boilerplate ! A magic trip start with `bun create saasfly` . The more stars, the more surprises
+
+🔗 [https://github.com/nextify-limited/saasfly](https://github.com/nextify-limited/saasfly)
+
+---
+
+## [tonyke-bot/ore-miner](https://github.com/tonyke-bot/ore-miner)
+
+ORE Miner built on top of Jito bundle with both CPU and GPU support.
+
+🔗 [https://github.com/tonyke-bot/ore-miner](https://github.com/tonyke-bot/ore-miner)
+
+---
+
+
+[← Previous: Typescript Other 1](typescript-other-1.txt) | [🏠 Back to README](../README.md) | [Next: Vector Db →](vector-db.txt)

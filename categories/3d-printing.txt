@@ -1,4 +1,0 @@
-# 3D PRINTING (2 repositories)
-
-JanLahmann/RasQberry: The RasQberry project: Exploring Quantum Computing and Qiskit with a Raspberry Pi and a 3D Printer - https://github.com/JanLahmann/RasQberry
-chr15m/slingcode: personal computing platform - https://github.com/chr15m/slingcode

@@ -1,0 +1,68 @@
+[← Previous: Encryption Asymmetric 2](encryption-asymmetric-2.txt) | [🏠 Back to README](../README.md) | [Next: Encryption Other →](encryption-other.txt)
+
+---
+
+# ENCRYPTION HASHING
+
+**7 repositories**
+
+---
+
+## [mominalix/ParallelCryptography](https://github.com/mominalix/ParallelCryptography)
+
+ParallelCryptography harnesses high-performance computing to optimize cryptographic algorithms. Explore our subprojects for parallel encryption, decryption, hashing, and more. Secure your data efficiently with the power of parallel computing.
+
+🔗 [https://github.com/mominalix/ParallelCryptography](https://github.com/mominalix/ParallelCryptography)
+
+---
+
+## [Avarok-Cybersecurity/Citadel-Protocol](https://github.com/Avarok-Cybersecurity/Citadel-Protocol)
+
+Post-quantum endpoint-to-endpoint encryption for messaging, file-sharing, and secret remote file storage SDK
+
+🔗 [https://github.com/Avarok-Cybersecurity/Citadel-Protocol](https://github.com/Avarok-Cybersecurity/Citadel-Protocol)
+
+---
+
+## [WindowsNT/sha3cng](https://github.com/WindowsNT/sha3cng)
+
+A CNG implementation of new encryption algorithms
+
+🔗 [https://github.com/WindowsNT/sha3cng](https://github.com/WindowsNT/sha3cng)
+
+---
+
+## [shadawck/awesome-anti-forensic](https://github.com/shadawck/awesome-anti-forensic)
+
+Tools and packages that are used for countering forensic activities, including encryption, steganography, and anything that modify attributes. This all includes tools to work with anything in general that makes changes to a system for the purposes of hiding information.
+
+🔗 [https://github.com/shadawck/awesome-anti-forensic](https://github.com/shadawck/awesome-anti-forensic)
+
+---
+
+## [hashicorp/vault](https://github.com/hashicorp/vault)
+
+A tool for secrets management, encryption as a service, and privileged access management
+
+🔗 [https://github.com/hashicorp/vault](https://github.com/hashicorp/vault)
+
+---
+
+## [bee-san/Ciphey](https://github.com/bee-san/Ciphey)
+
+⚡ Automatically decrypt encryptions without knowing the key or cipher, decode encodings, and crack hashes ⚡
+
+🔗 [https://github.com/bee-san/Ciphey](https://github.com/bee-san/Ciphey)
+
+---
+
+## [xploitspeeds/Bookmarklet-Hacks-For-School](https://github.com/xploitspeeds/Bookmarklet-Hacks-For-School)
+
+* READ THE README FOR INFO!! * Incoming Tags- z score statistics,find mean median mode statistics in ms excel,variance,standard deviation,linear regression,data processing,confidence  intervals,average value,probability theory,binomial distribution,matrix,random numbers,error propagation,t statistics analysis,hypothesis testing,theorem,chi square,time series,data collection,sampling,p value,scatterplots,statistics lectures,statistics tutorials,business mathematics statistics,share stock market statistics in calculator,business analytics,GTA,continuous frequency distribution,statistics mathematics in real life,modal class,n is even,n is odd,median mean of series of numbers,math help,Sujoy Krishna Das,n+1/2 element,measurement of variation,measurement of central tendency,range of numbers,interquartile range,casio fx991,casio fx82,casio fx570,casio fx115es,casio 9860,casio 9750,casio 83gt,TI BAII+ financial,casio piano,casio calculator tricks and hacks,how to cheat in exam and not get caught,grouped interval data,equation of triangle rectangle curve parabola hyperbola,graph theory,operation research(OR),numerical methods,decision making,pie chart,bar graph,computer data analysis,histogram,statistics formula,matlab tutorial,find arithmetic mean geometric mean,find population standard deviation,find sample standard deviation,how to use a graphic calculator,pre algebra,pre calculus,absolute deviation,TI Nspire,TI 84 TI83 calculator tutorial,texas instruments calculator,grouped data,set theory,IIT JEE,AIEEE,GCSE,CAT,MAT,SAT,GMAT,MBBS,JELET,JEXPO,VOCLET,Indiastudychannel,IAS,IPS,IFS,GATE,B-Tech,M-Tech,AMIE,MBA,BBA,BCA,MCA,XAT,TOEFL,CBSE,ICSE,HS,WBUT,SSC,IUPAC,Narendra Modi,Sachin Tendulkar Farewell Speech,Dhoom 3,Arvind Kejriwal,maths revision,how to score good marks in exams,how to pass math exams easily,JEE 12th physics chemistry maths PCM,JEE maths shortcut techniques,quadratic equations,competition exams tips and ticks,competition maths,govt job,JEE KOTA,college math,mean value theorem,L hospital rule,tech guru awaaz,derivation,cryptography,iphone 5 fingerprint hack,crash course,CCNA,converting fractions,solve word problem,cipher,game theory,GDP,how to earn money online on youtube,demand curve,computer science,prime factorization,LCM & GCF,gauss elimination,vector,complex numbers,number systems,vector algebra,logarithm,trigonometry,organic chemistry,electrical math problem,eigen value eigen vectors,runge kutta,gauss jordan,simpson 1/3 3/8 trapezoidal rule,solved problem example,newton raphson,interpolation,integration,differentiation,regula falsi,programming,algorithm,gauss seidal,gauss jacobi,taylor series,iteration,binary arithmetic,logic gates,matrix inverse,determinant of matrix,matrix calculator program,sex in ranchi,sex in kolkata,vogel approximation VAM optimization problem,North west NWCR,Matrix minima,Modi method,assignment problem,transportation problem,simplex,k map,boolean algebra,android,casio FC 200v 100v financial,management mathematics tutorials,net present value NPV,time value of money TVM,internal rate of return IRR Bond price,present value PV and future value FV of annuity casio,simple interest SI & compound interest CI casio,break even point,amortization calculation,HP 10b financial calculator,banking and money,income tax e filing,economics,finance,profit & loss,yield of investment bond,Sharp EL 735S,cash flow casio,re finance,insurance and financial planning,investment appraisal,shortcut keys,depreciation,discounting
+
+🔗 [https://github.com/xploitspeeds/Bookmarklet-Hacks-For-School](https://github.com/xploitspeeds/Bookmarklet-Hacks-For-School)
+
+---
+
+
+[← Previous: Encryption Asymmetric 2](encryption-asymmetric-2.txt) | [🏠 Back to README](../README.md) | [Next: Encryption Other →](encryption-other.txt)

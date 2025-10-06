@@ -1,0 +1,244 @@
+[← Previous: Compilers Wasm](compilers-wasm.txt) | [🏠 Back to README](../README.md) | [Next: Computer Vision →](computer-vision.txt)
+
+---
+
+# COMPRESSION
+
+**29 repositories**
+
+---
+
+## [PINTO0309/simple-onnx-processing-tools](https://github.com/PINTO0309/simple-onnx-processing-tools)
+
+A set of simple tools for splitting, merging, OP deletion, size compression, rewriting attributes and constants, OP generation, change opset, change to the specified input order, addition of OP, RGB to BGR conversion, change batch size, batch rename of OP, and JSON convertion for ONNX models.
+
+🔗 [https://github.com/PINTO0309/simple-onnx-processing-tools](https://github.com/PINTO0309/simple-onnx-processing-tools)
+
+---
+
+## [intel/intel-extension-for-transformers](https://github.com/intel/intel-extension-for-transformers)
+
+⚡ Build your chatbot within minutes on your favorite device; offer SOTA compression techniques for LLMs; run LLMs efficiently on Intel Platforms⚡
+
+🔗 [https://github.com/intel/intel-extension-for-transformers](https://github.com/intel/intel-extension-for-transformers)
+
+---
+
+## [ouch-org/ouch](https://github.com/ouch-org/ouch)
+
+Painless compression and decompression in the terminal
+
+🔗 [https://github.com/ouch-org/ouch](https://github.com/ouch-org/ouch)
+
+---
+
+## [Simon-Bertrand/ohlc-timeserie-db.rs](https://github.com/Simon-Bertrand/ohlc-timeserie-db.rs)
+
+Numeric 4-D Timeseries database with  BTreeMap on Sparse Indexes, custom binary encoding/compression and blocs splitting
+
+🔗 [https://github.com/Simon-Bertrand/ohlc-timeserie-db.rs](https://github.com/Simon-Bertrand/ohlc-timeserie-db.rs)
+
+---
+
+## [gitteri/solana-zk-compression](https://github.com/gitteri/solana-zk-compression)
+
+A demo app showcasing Light Protocol's compressed tokens on Solana Devnet. Create wallets, send/receive USDC, and interact with ZK compressed tokens. Built with Next.js and Tailwind CSS.
+
+🔗 [https://github.com/gitteri/solana-zk-compression](https://github.com/gitteri/solana-zk-compression)
+
+---
+
+## [iamvon/zk-compression-nextjs-actions](https://github.com/iamvon/zk-compression-nextjs-actions)
+
+A project using ZK Compression and Actions & Blinks to compress, decompress, and send compressed USDC on Solana blockchain.
+
+🔗 [https://github.com/iamvon/zk-compression-nextjs-actions](https://github.com/iamvon/zk-compression-nextjs-actions)
+
+---
+
+## [quickwit-oss/bitpacking](https://github.com/quickwit-oss/bitpacking)
+
+SIMD algorithms for integer compression via bitpacking. This crate is a port of a C library called simdcomp.
+
+🔗 [https://github.com/quickwit-oss/bitpacking](https://github.com/quickwit-oss/bitpacking)
+
+---
+
+## [oscar-franzen/dynamic-markov-compression](https://github.com/oscar-franzen/dynamic-markov-compression)
+
+Dynamic Markov Compression (DMC) implemented in Rust. DMC is a lossless, general purpose, compression technique based on a probabilistic model.
+
+🔗 [https://github.com/oscar-franzen/dynamic-markov-compression](https://github.com/oscar-franzen/dynamic-markov-compression)
+
+---
+
+## [nickfrosty/compressed.app](https://github.com/nickfrosty/compressed.app)
+
+Estimate costs for compressed NFTs. Discover the wonders of State Compression, and concurrent Merkle trees on Solana.
+
+🔗 [https://github.com/nickfrosty/compressed.app](https://github.com/nickfrosty/compressed.app)
+
+---
+
+## [cnosdb/cnosdb](https://github.com/cnosdb/cnosdb)
+
+A cloud-native open source distributed time series database with high performance, high compression ratio and high availability.
+
+🔗 [https://github.com/cnosdb/cnosdb](https://github.com/cnosdb/cnosdb)
+
+---
+
+## [tugrul512bit/TurtleSort](https://github.com/tugrul512bit/TurtleSort)
+
+Multi-heap-sort for many small arrays, quicksort with 3 pivots for one big array, CUDA acceleration, CUDA memory compression.
+
+🔗 [https://github.com/tugrul512bit/TurtleSort](https://github.com/tugrul512bit/TurtleSort)
+
+---
+
+## [mhx/dwarfs](https://github.com/mhx/dwarfs)
+
+A fast high-compression read-only file system for Linux, FreeBSD, macOS and Windows
+
+🔗 [https://github.com/mhx/dwarfs](https://github.com/mhx/dwarfs)
+
+---
+
+## [kopia/kopia](https://github.com/kopia/kopia)
+
+Cross-platform backup tool for Windows, macOS & Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included.
+
+🔗 [https://github.com/kopia/kopia](https://github.com/kopia/kopia)
+
+---
+
+## [fast-pack/streamvbyte](https://github.com/fast-pack/streamvbyte)
+
+Fast integer compression in C using the StreamVByte codec
+
+🔗 [https://github.com/fast-pack/streamvbyte](https://github.com/fast-pack/streamvbyte)
+
+---
+
+## [H20Zhang/Crystal](https://github.com/H20Zhang/Crystal)
+
+Crystal is a novel method for distributed subgraph matching on very large graphs. Crystal outperforms existing methods by several orders of magnitude on very large graphs. The work was published on VLDB 2018 with title "Subgraph matching: on compression and computation".
+
+🔗 [https://github.com/H20Zhang/Crystal](https://github.com/H20Zhang/Crystal)
+
+---
+
+## [monomadic/lz77](https://github.com/monomadic/lz77)
+
+A zero dependency, pure rust implementation of the FastLZ LZ77 compression algorithm.
+
+🔗 [https://github.com/monomadic/lz77](https://github.com/monomadic/lz77)
+
+---
+
+## [x011/SecretPixel](https://github.com/x011/SecretPixel)
+
+SecretPixel is a cutting-edge steganography tool designed to securely conceal sensitive information within images. It stands out in the realm of digital steganography by combining advanced encryption, compression, and a seeded Least Significant Bit (LSB) technique to provide a robust solution for embedding data undetectably.
+
+🔗 [https://github.com/x011/SecretPixel](https://github.com/x011/SecretPixel)
+
+---
+
+## [judofyr/minz](https://github.com/judofyr/minz)
+
+Minimal string compression
+
+🔗 [https://github.com/judofyr/minz](https://github.com/judofyr/minz)
+
+---
+
+## [gsquire/zig-snappy](https://github.com/gsquire/zig-snappy)
+
+Snappy compression for Zig
+
+🔗 [https://github.com/gsquire/zig-snappy](https://github.com/gsquire/zig-snappy)
+
+---
+
+## [lz4/lz4](https://github.com/lz4/lz4)
+
+Extremely Fast Compression algorithm
+
+🔗 [https://github.com/lz4/lz4](https://github.com/lz4/lz4)
+
+---
+
+## [facebook/zstd](https://github.com/facebook/zstd)
+
+Zstandard - Fast real-time compression algorithm
+
+🔗 [https://github.com/facebook/zstd](https://github.com/facebook/zstd)
+
+---
+
+## [exchange-core/exchange-core](https://github.com/exchange-core/exchange-core)
+
+Ultra-fast matching engine written in Java based on LMAX Disruptor, Eclipse Collections, Real Logic Agrona, OpenHFT, LZ4 Java, and Adaptive Radix Trees.
+
+🔗 [https://github.com/exchange-core/exchange-core](https://github.com/exchange-core/exchange-core)
+
+---
+
+## [ianic/flate](https://github.com/ianic/flate)
+
+deflate compression algorithm in Zig
+
+🔗 [https://github.com/ianic/flate](https://github.com/ianic/flate)
+
+---
+
+## [MrKrzYch00/zopfli](https://github.com/MrKrzYch00/zopfli)
+
+Advanced Zopfli fork: ZIP support, multi-threading, compression cache (zopfliDB), auto/manual block split, compression and speed control with thread affinity locking and more, experimental switches.
+
+🔗 [https://github.com/MrKrzYch00/zopfli](https://github.com/MrKrzYch00/zopfli)
+
+---
+
+## [powturbo/TurboBench](https://github.com/powturbo/TurboBench)
+
+Compression Benchmark
+
+🔗 [https://github.com/powturbo/TurboBench](https://github.com/powturbo/TurboBench)
+
+---
+
+## [helius-labs/photon-explorer](https://github.com/helius-labs/photon-explorer)
+
+Photon - Solana ZK Compression Explorer
+
+🔗 [https://github.com/helius-labs/photon-explorer](https://github.com/helius-labs/photon-explorer)
+
+---
+
+## [eternal-io/quadim](https://github.com/eternal-io/quadim)
+
+High-performance Quadtree image compression/stylization, 100+FPS on modern computers and avoiding ugly non-squares 💢
+
+🔗 [https://github.com/eternal-io/quadim](https://github.com/eternal-io/quadim)
+
+---
+
+## [solana-developers/compressed-nfts](https://github.com/solana-developers/compressed-nfts)
+
+Example code to use compressed NFTs (using state compression) on Solana
+
+🔗 [https://github.com/solana-developers/compressed-nfts](https://github.com/solana-developers/compressed-nfts)
+
+---
+
+## [Lightprotocol/light-protocol](https://github.com/Lightprotocol/light-protocol)
+
+The ZK Compression Protocol For Solana
+
+🔗 [https://github.com/Lightprotocol/light-protocol](https://github.com/Lightprotocol/light-protocol)
+
+---
+
+
+[← Previous: Compilers Wasm](compilers-wasm.txt) | [🏠 Back to README](../README.md) | [Next: Computer Vision →](computer-vision.txt)

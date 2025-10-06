@@ -1,4 +1,0 @@
-# POLKADOT (2 repositories)
-
-Polkadex-Substrate/Polkadex: An Orderbook-based Decentralized Exchange using the Substrate Blockchain Framework.  - https://github.com/Polkadex-Substrate/Polkadex
-hyperledger-solang/solang: Solidity Compiler for Solana, Polkadot and Stellar - https://github.com/hyperledger-solang/solang

@@ -1,5 +1,0 @@
-# TERMINAL FILE MANAGERS (3 repositories)
-
-alohe/quicky: A simple CLI tool to self-host Next.js applications. - https://github.com/alohe/quicky
-kamiyaa/joshuto: ranger-like terminal file manager written in Rust - https://github.com/kamiyaa/joshuto
-jarun/nnn: n³ The unorthodox terminal file manager - https://github.com/jarun/nnn

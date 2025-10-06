@@ -1,6 +1,0 @@
-# IDE EMACS PACKAGES (4 repositories)
-
-minad/osm: :earth_africa: osm.el - OpenStreetMap viewer for Emacs - https://github.com/minad/osm
-replit/upm: ⠕ Universal Package Manager - Python, Node.js, Ruby, Emacs Lisp. - https://github.com/replit/upm
-novoid/Memacs: What did I do on February 14th 2007? Visualize your (digital) life in Org-mode - https://github.com/novoid/Memacs
-emacs-exwm/exwm: Emacs X Window Manager - https://github.com/emacs-exwm/exwm

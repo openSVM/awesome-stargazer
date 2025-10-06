@@ -1,3 +1,0 @@
-# K8S STORAGE (1 repositories)
-
-rook/rook: Storage Orchestration for Kubernetes - https://github.com/rook/rook

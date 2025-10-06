@@ -1,3 +1,0 @@
-# PHYSICS GAME PHYSICS (1 repositories)
-
-liabru/matter-js: a 2D rigid body physics engine for the web ▲● ■ - https://github.com/liabru/matter-js

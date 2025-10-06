@@ -1,4 +1,0 @@
-# BENCHMARKING MICRO (2 repositories)
-
-bheisler/criterion.rs: Statistics-driven benchmarking library for Rust - https://github.com/bheisler/criterion.rs
-sharkdp/hyperfine: A command-line benchmarking tool - https://github.com/sharkdp/hyperfine

@@ -1,4 +1,0 @@
-# ZIG COMPTIME (2 repositories)
-
-permutationlock/zimpl: Simple comptime generic interfaces for Zig - https://github.com/permutationlock/zimpl
-Luukdegram/ctradix: Comptime radix tree in Zig - https://github.com/Luukdegram/ctradix

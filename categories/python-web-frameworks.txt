@@ -1,3 +1,0 @@
-# PYTHON WEB FRAMEWORKS (1 repositories)
-
-chinpeerapat/anthropic-fastapi-service: This is a FastAPI service that provides a RESTful API for the Anthropic Claude AI model using anthropic-sdk-python. - https://github.com/chinpeerapat/anthropic-fastapi-service

@@ -1,3 +1,0 @@
-# SCALA SPARK (1 repositories)
-
-ytsaurus/ytsaurus: YTsaurus is a scalable and fault-tolerant open-source big data platform. - https://github.com/ytsaurus/ytsaurus

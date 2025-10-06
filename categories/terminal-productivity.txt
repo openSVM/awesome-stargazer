@@ -1,3 +1,0 @@
-# TERMINAL PRODUCTIVITY (1 repositories)
-
-dundalek/notcurses-zig-example: Demo showing how to use Notcurses library for building terminal UIs with Zig - https://github.com/dundalek/notcurses-zig-example

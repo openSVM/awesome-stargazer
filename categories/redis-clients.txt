@@ -1,5 +1,0 @@
-# REDIS CLIENTS (3 repositories)
-
-jgaskins/redis: Pure-Crystal Redis client, supporting clustering, RedisJSON, RediSearch, RedisGraph, and RedisTimeSeries - https://github.com/jgaskins/redis
-guzba/ready: A Redis client for multi-threaded servers. - https://github.com/guzba/ready
-redis/rueidis: A fast Golang Redis client that supports Client Side Caching, Auto Pipelining, Generics OM, RedisJSON, RedisBloom, RediSearch, etc. - https://github.com/redis/rueidis

@@ -1,3 +1,0 @@
-# CPP EMBEDDED (1 repositories)
-
-SmingHub/Sming: Sming - powerful  open source framework simplifying the creation of embedded C++ applications. - https://github.com/SmingHub/Sming

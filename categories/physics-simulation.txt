@@ -1,4 +1,0 @@
-# PHYSICS SIMULATION (2 repositories)
-
-amandaghassaei/gpu-io: A GPU-accelerated computing library for running physics simulations and other GPGPU computations in a web browser. - https://github.com/amandaghassaei/gpu-io
-AvtechScientific/ASL: Advanced Simulation Library -  hardware accelerated multiphysics simulation platform. - https://github.com/AvtechScientific/ASL

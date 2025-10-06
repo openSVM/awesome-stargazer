@@ -1,7 +1,0 @@
-# LOWLEVEL BOOTLOADERS (5 repositories)
-
-android-hacker/VirtualXposed: A simple app to use Xposed without root, unlock the bootloader or modify system image, etc. - https://github.com/android-hacker/VirtualXposed
-limine-bootloader/limine: Modern, advanced, portable, multiprotocol bootloader and boot manager. (Mirror of https://codeberg.org/Limine/Limine) - https://github.com/limine-bootloader/limine
-CTCaer/hekate: hekate - A GUI based Nintendo Switch Bootloader - https://github.com/CTCaer/hekate
-AsahiLinux/m1n1: A bootloader and experimentation playground for Apple Silicon - https://github.com/AsahiLinux/m1n1
-Bootloaders: 5 repos

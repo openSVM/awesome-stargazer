@@ -1,8 +1,0 @@
-# LLMS OTHER 3 (6 repositories)
-
-LLM_Applications_react: 2 repos
-LLM_Applications_telegram: 2 repos
-Data_Visualization_GeminiGraph: 1 repos
-LLM_Applications_nexa: 1 repos
-LLM_Applications_system: 1 repos
-LLM_Applications_yek: 1 repos

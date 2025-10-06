@@ -1,3 +1,0 @@
-# CREATIVE SHADERS (1 repositories)
-
-diwi/PixelFlow: A Processing/Java library for high performance GPU-Computing (GLSL). Fluid Simulation + SoftBody Dynamics + Optical Flow + Rendering + Image Processing + Particle Systems + Physics +... - https://github.com/diwi/PixelFlow

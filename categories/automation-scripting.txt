@@ -1,3 +1,0 @@
-# AUTOMATION SCRIPTING (1 repositories)
-
-BlackSnufkin/PwnBox-Kali: Bash Script to automate the process of setting up a new Kali Linux virtual machine to look a like HTB PwnBox - https://github.com/BlackSnufkin/PwnBox-Kali

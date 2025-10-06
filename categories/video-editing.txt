@@ -1,6 +1,0 @@
-# VIDEO EDITING (4 repositories)
-
-pageauc/speed-camera: A Unix, Windows, Raspberry Pi Object Speed Camera using python3, opencv, video streaming, motion tracking.  Includes a Standalone Web Server , Image Search using opencv template match and a whiptail Admin Menu Interface  Includes picam and webcam Plugins for motion track security camera configuration including rclone sync scripts.  - https://github.com/pageauc/speed-camera
-OpenShot/openshot-qt: OpenShot Video Editor is an award-winning free and open-source video editor for Linux, Mac, and Windows, and is dedicated to delivering high quality video editing and animation solutions to the world. - https://github.com/OpenShot/openshot-qt
-akashi-org/akashi: A next-generation video editor - https://github.com/akashi-org/akashi
-olive-editor/olive: Free open-source non-linear video editor - https://github.com/olive-editor/olive

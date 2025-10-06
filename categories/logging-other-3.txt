@@ -1,9 +1,0 @@
-# LOGGING OTHER 3 (7 repositories)
-
-alecmuffett/the-onion-diaries: Blog-type notes about building Onion sites - https://github.com/alecmuffett/the-onion-diaries
-pcaversaccio/reentrancy-attacks: A chronological and (hopefully) complete list of reentrancy attacks to date. - https://github.com/pcaversaccio/reentrancy-attacks
-trimstray/the-book-of-secret-knowledge: A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. - https://github.com/trimstray/the-book-of-secret-knowledge
-CMS_Blogging: 6 repos
-Log_Management: 3 repos
-Systems_Languages_zlog: 3 repos
-Data_Visualization_graphology: 1 repos

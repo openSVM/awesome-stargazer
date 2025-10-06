@@ -1,3 +1,0 @@
-# CHAT DISCORD (1 repositories)
-
-mmpneo/curses: Speech to Text and KB input captions for OBS, VRChat, Twitch chat and Discord - https://github.com/mmpneo/curses

@@ -1,4 +1,0 @@
-# RUBY SINATRA (2 repositories)
-
-DangerAcorn/pumpfun-tools: All-in-one PumpFun Bundler suite featuring PumpFun Bundler (20+ wallets), MEV bot protection, high-frequency trading bot, Solana token creator, jito bundle, multi wallet management, live price tracking, custom RPC nodes, anti rug tools, and instant token launches. - https://github.com/DangerAcorn/pumpfun-tools
-getlago/lago: Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics - https://github.com/getlago/lago

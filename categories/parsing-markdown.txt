@@ -1,3 +1,0 @@
-# PARSING MARKDOWN (1 repositories)
-
-kivikakk/koino: CommonMark + GFM compatible Markdown parser and renderer - https://github.com/kivikakk/koino
