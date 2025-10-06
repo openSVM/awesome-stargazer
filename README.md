@@ -99,7 +99,8 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - [**solana-sdk-tools**](categories/solana-sdk-tools.md) (1) - Solana SDK, web3.js, solana-py
 - [**solana-gaming**](categories/solana-gaming.md) (49) - Star Atlas, Aurory, blockchain gaming
 - [**solana-analytics**](categories/solana-analytics.md) (86) - On-chain analytics, indexers, data tools
-- [**solana-dev-other-1**](categories/solana-dev-other-1.md) through [**solana-dev-other-3**](categories/solana-dev-other-3.md) (90 each) - General Solana development
+- [**solana-dev-other-1**](categories/solana-dev-other-1.md) through
+- [**solana-dev-other-3**](categories/solana-dev-other-3.md) (90 each) - General Solana development
 - [**solana-bots**](categories/solana-bots.md) (16) - Trading bots, snipers, automation
 
 ### Ethereum Ecosystem (285 repos split)
@@ -239,7 +240,8 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - [**modding-retro-console**](categories/modding-retro-console.md) (34) - ROM hacks, console mods
 - [**modding-frameworks**](categories/modding-frameworks.md) (82) - Mod loaders, injection frameworks
 - **modding-tools** (83) - Modding tools, extractors, patchers
-- [**modding-other-1**](categories/modding-other-1.md) through [**modding-other-5**](categories/modding-other-5.md) (90 each) - General modding
+- [**modding-other-1**](categories/modding-other-1.md) through
+- [**modding-other-5**](categories/modding-other-5.md) (90 each) - General modding
 
 ### Gaming Categories
 - [**game-dev**](categories/game-dev.md) (14) - Game development, indie games
