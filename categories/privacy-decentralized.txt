@@ -1,0 +1,4 @@
+# PRIVACY DECENTRALIZED (2 repositories)
+
+mit-dci/zkledger: Privacy-preserving auditing for distributed ledgers - https://github.com/mit-dci/zkledger
+cypherpunk-symposium/decentralized-cryptography-toolkit: 👾 notes and resources on applied cryptography for decentralized protocols, both for privacy and optimization (e.g., zk, tees, fhe, mpc, provers) - https://github.com/cypherpunk-symposium/decentralized-cryptography-toolkit

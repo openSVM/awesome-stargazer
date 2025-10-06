@@ -1,0 +1,11 @@
+# SVELTE (9 repositories)
+
+atomicdata-dev/atomic-server: An open source headless CMS / real-time database. Powerful table editor, full-text search, and SDKs for JS / React / Svelte. - https://github.com/atomicdata-dev/atomic-server
+usagi-coffee/svallet: Headless Svelte Wallet logic for EVM & SVM - https://github.com/usagi-coffee/svallet
+chakra-ui/zag: Build your design system in React, Solid, Vue or Svelte. Powered by finite state machines - https://github.com/chakra-ui/zag
+BuilderIO/builder: Visual Development for React, Vue, Svelte, Qwik, and more - https://github.com/BuilderIO/builder
+BuilderIO/mitosis: Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more.  - https://github.com/BuilderIO/mitosis
+TanStack/table: 🤖 Headless UI for building powerful tables & datagrids for TS/JS -  React-Table, Vue-Table, Solid-Table, Svelte-Table - https://github.com/TanStack/table
+sveltejs/kit: web development, streamlined - https://github.com/sveltejs/kit
+Abdenasser/neohtop: 💪🏻 Blazing-fast system monitoring for your desktop (built with Rust, Tauri & Svelte) - https://github.com/Abdenasser/neohtop
+Svelte_Projects: 2 repos

@@ -1,0 +1,7 @@
+# NIM OTHER 3 (5 repositories)
+
+Animation: 1 repos
+Systems_Languages_manim: 3 repos
+Systems_Languages_anime: 2 repos
+Systems_Languages_minima: 2 repos
+Reinforcement_Learning_Anime4KCPP: 1 repos

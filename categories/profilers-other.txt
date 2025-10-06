@@ -1,0 +1,34 @@
+# PROFILERS OTHER (32 repositories)
+
+ydataai/ydata-profiling: 1 Line of code data quality profiling & exploratory data analysis for Pandas and Spark DataFrames.  - https://github.com/ydataai/ydata-profiling
+NoiseByNorthwest/php-spx: A simple & straight-to-the-point PHP profiling extension with its built-in web UI - https://github.com/NoiseByNorthwest/php-spx
+EmbarkStudios/puffin: 🐦 Friendly little instrumentation profiler for Rust 🦀 - https://github.com/EmbarkStudios/puffin
+ferencberes/ethereum-privacy: Profiling and Deanonymizing Ethereum Users - https://github.com/ferencberes/ethereum-privacy
+parca-dev/parca-agent: eBPF based always-on profiler auto-discovering targets in Kubernetes and systemd, zero code changes or restarts needed! - https://github.com/parca-dev/parca-agent
+pawurb/hotpath: A simple Rust profiler that shows exactly where your code spends time and allocates - https://github.com/pawurb/hotpath
+nektro/zig-tracy: Zig bindings for the Tracy profiler. - https://github.com/nektro/zig-tracy
+abhirag/pacman.tracy.zig: Demonstrating client setup and client markup for Tracy in Zig by profiling floooh's pacman.zig - https://github.com/abhirag/pacman.tracy.zig
+dfeneyrou/palanteer: Visual Python and C++ nanosecond profiler, logger, tests enabler - https://github.com/dfeneyrou/palanteer
+ROCm/omnitrace: Omnitrace: Application Profiling, Tracing, and Analysis - https://github.com/ROCm/omnitrace
+wolfpld/tracy: Frame profiler - https://github.com/wolfpld/tracy
+taskflow/tfprof: Profiling Taskflow Programs through Visualization - https://github.com/taskflow/tfprof
+Profilers: 205 repos
+Profilers_other: 174 repos
+Profilers_solana: 4 repos
+Profilers_web: 3 repos
+Profilers_CUDA: 2 repos
+Profilers_High: 2 repos
+Profilers_bolt: 2 repos
+Profilers_bpf: 2 repos
+Profilers_countingsort: 2 repos
+Profilers_FlyCV: 1 repos
+Profilers_ROMA: 1 repos
+Profilers_benchmarks: 1 repos
+Profilers_bmssp: 1 repos
+Profilers_desbordante: 1 repos
+Profilers_doradd: 1 repos
+Profilers_editable: 1 repos
+Profilers_likwid: 1 repos
+Profilers_taffy: 1 repos
+Profilers_tentris: 1 repos
+Profilers_tinybuf: 1 repos

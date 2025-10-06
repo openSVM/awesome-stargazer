@@ -1,0 +1,12 @@
+# PHP (10 repositories)
+
+NoiseByNorthwest/php-spx: A simple & straight-to-the-point PHP profiling extension with its built-in web UI - https://github.com/NoiseByNorthwest/php-spx
+ccxt/ccxt: A cryptocurrency trading API with more than 100 exchanges in JavaScript / TypeScript / Python / C# / PHP / Go  - https://github.com/ccxt/ccxt
+phpgl/flappyphpant: A very simple Flappy Bird-like game written in PHP, built on PHP-GLFW and the VISU framework. - https://github.com/phpgl/flappyphpant
+modal-labs/awesome-modal: A curated list of amazingly awesome Modal applications, demos, and shiny things. Inspired by awesome-php. - https://github.com/modal-labs/awesome-modal
+deployphp/deployer: The PHP deployment tool with support for popular frameworks out of the box - https://github.com/deployphp/deployer
+kaitai-io/kaitai_struct: Kaitai Struct: declarative language to generate binary data parsers in C++ / C# / Go / Java / JavaScript / Lua / Nim / Perl / PHP / Python / Ruby / Rust - https://github.com/kaitai-io/kaitai_struct
+jagenjo/wide: A lightweight web IDE (mostly a coding editor) based in monaco-editor (with a one-file server made in php). It allows to navigate the server with commands. - https://github.com/jagenjo/wide
+grpc/grpc: C++ based gRPC (C++, Python, Ruby, Objective-C, PHP, C#) - https://github.com/grpc/grpc
+stef/libopaque: c implementation of the OPAQUE protocol with bindings for python, php, ruby, lua, zig, java, erlang, golang, js and SASL. also supports a threshold variants based on 2hashdh and 3hashtdh - https://github.com/stef/libopaque
+laruence/yar: Light, concurrent RPC framework for PHP & C - https://github.com/laruence/yar

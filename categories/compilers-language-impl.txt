@@ -1,0 +1,5 @@
+# COMPILERS LANGUAGE IMPL (3 repositories)
+
+markedjs/marked: A markdown parser and compiler. Built for speed. - https://github.com/markedjs/marked
+IntersectMBO/plutus: The Plutus language implementation and tools - https://github.com/IntersectMBO/plutus
+grpc/grpc-go: The Go language implementation of gRPC. HTTP/2 based RPC - https://github.com/grpc/grpc-go

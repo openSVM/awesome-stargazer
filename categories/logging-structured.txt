@@ -1,0 +1,3 @@
+# LOGGING STRUCTURED (1 repositories)
+
+hendriknielaender/zlog: 🪵 structured logging library for zig - https://github.com/hendriknielaender/zlog

@@ -1,0 +1,3 @@
+# DOCKER TOOLS (1 repositories)
+
+lablup/backend.ai: Backend.AI is a streamlined, container-based computing cluster platform that hosts popular computing/ML frameworks and diverse programming languages, with pluggable heterogeneous accelerator support including CUDA GPU, ROCm GPU, TPU, IPU and other NPUs. - https://github.com/lablup/backend.ai

@@ -1,0 +1,97 @@
+# RE TOOLS (95 repositories)
+
+andriyDev/dodgy: A Rust crate to compute local collision avoidance (specifically ORCA) for AI characters. - https://github.com/andriyDev/dodgy
+test-zeus-ai/testzeus-hercules: Hercules is the world’s first open-source testing agent, enabling UI, API, Security, Accessibility, and Visual validations – all without code or maintenance. Automate testing effortlessly and let Hercules handle the heavy lifting! ⚡ - https://github.com/test-zeus-ai/testzeus-hercules
+solanahcl/solanahcl: Hardware Compatibilty List for running a Solana Mainnet Validator - https://github.com/solanahcl/solanahcl
+xtreme1-io/xtreme1: Xtreme1 is an all-in-one data labeling and annotation platform for multimodal data training and supports 3D LiDAR point cloud, image, and LLM. - https://github.com/xtreme1-io/xtreme1
+guidance-ai/guidance: A guidance language for controlling large language models. - https://github.com/guidance-ai/guidance
+fvella/AIdaptive: Towards a new generation of adaptive run-time and heuristic selection framework - https://github.com/fvella/AIdaptive
+rigetti/forest-benchmarking: A library for quantum characterization, verification, validation (QCVV), and benchmarking using pyQuil. - https://github.com/rigetti/forest-benchmarking
+CodeByAidan/Homomorphic-Encryption-Decryption-with-Strings: Homomorphic Encryption/Decryption with Strings! - https://github.com/CodeByAidan/Homomorphic-Encryption-Decryption-with-Strings
+guidance-ai/llguidance: Super-fast Structured Outputs - https://github.com/guidance-ai/llguidance
+context-labs/toly-gpt: A chatbot trained on the Solana validator codebase. - https://github.com/context-labs/toly-gpt
+tnballo/scapegoat: Safe, fallible, embedded-friendly ordered set/map via a scapegoat tree. Validated against BTreeSet/BTreeMap. - https://github.com/tnballo/scapegoat
+aidanaden/shamir-zig: secret sharing (shamir, feldman, pedersen) in zig - https://github.com/aidanaden/shamir-zig
+Bonfida/dex-v4: Orderbook-based on-chain SPL token swap market - https://github.com/Bonfida/dex-v4
+moltar/typescript-runtime-type-benchmarks: 📊 Benchmark Comparison of Packages with Runtime Validation and TypeScript Support - https://github.com/moltar/typescript-runtime-type-benchmarks
+colinhacks/zod: TypeScript-first schema validation with static type inference - https://github.com/colinhacks/zod
+mytechnotalent/Hacking-Windows: A FREE Windows C development course where we will learn the Win32API and reverse engineer each step utilizing IDA Free in both an x86 and x64 environment. - https://github.com/mytechnotalent/Hacking-Windows
+gridaco/code: Design to Code Engine - https://github.com/gridaco/code
+EpicsDAO/solv: 🔥 solv - CLI Tool for Managing Solana Validators 🚧 What...? solv is evolving to SLV! - https://github.com/EpicsDAO/solv
+acidanthera/Lilu: Arbitrary kext and process patching on macOS - https://github.com/acidanthera/Lilu
+microsoft/lida: Automatic Generation of Visualizations and Infographics using Large Language Models - https://github.com/microsoft/lida
+ffimnsr/lumos-svm-rs: A simple SVM test validator. - https://github.com/ffimnsr/lumos-svm-rs
+mvines/sosh: Solana validator operations shell scripts - https://github.com/mvines/sosh
+Stream-AD/MIDAS: Anomaly Detection on Dynamic (time-evolving) Graphs in Real-time and Streaming manner. Detecting intrusions (DoS and DDoS attacks), frauds, fake rating anomalies. - https://github.com/Stream-AD/MIDAS
+gweidart/alpha-evm-dex-bot: 🤖 Automated multifunctional DeFi trading bot for the KCC ecosystem.  Sniping, Front run, Limit orders, Stop Loss, and more... - https://github.com/gweidart/alpha-evm-dex-bot
+lorenzorovida/LowMemoryFHEResNet20: Source code for the paper "Encrypted Image Classification with Low Memory Footprint using Fully Homomorphic Encryption" - https://github.com/lorenzorovida/LowMemoryFHEResNet20
+yoshidan/anchor-liquidity-pool: The example anchor implementation for solana-swap - https://github.com/yoshidan/anchor-liquidity-pool
+Bonfida/bonfida-utils: Collection of different utilities in use across various Bonfida projects - https://github.com/Bonfida/bonfida-utils
+3uild-3thos/valid8: Composable local validator setup for Solana - https://github.com/3uild-3thos/valid8
+al3xtjames/ghidra-firmware-utils: Ghidra utilities for analyzing PC firmware - https://github.com/al3xtjames/ghidra-firmware-utils
+slonana-labs/slonana.cpp: c++ implementation of svm/solana validator - https://github.com/slonana-labs/slonana.cpp
+mfactory-lab/sv-manager: Solana Validator Manager - https://github.com/mfactory-lab/sv-manager
+project-serum/validators: Guide to setting up a Solana validator cluster - https://github.com/project-serum/validators
+metaplex-foundation/amman: A modern mandatory toolbelt to help test solana SDK libraries and apps on a locally running validator. - https://github.com/metaplex-foundation/amman
+ValidatorsDAO/slv: The Toolkit for Solana Devs - https://github.com/ValidatorsDAO/slv
+GabrielePicco/ephemeral-validator: Blazing-Fast SVM Ephemeral Validator - https://github.com/GabrielePicco/ephemeral-validator
+metaplex-foundation/digital-asset-validator-plugin: The NFT Geyser plugin that powers metaplex APIs - https://github.com/metaplex-foundation/digital-asset-validator-plugin
+abdulrahman-mh/get-proxy: Collecting, validating, and caching free proxies, very fast! - https://github.com/abdulrahman-mh/get-proxy
+FormidableLabs/victory: A collection of composable React components for building interactive data visualizations - https://github.com/FormidableLabs/victory
+trizin/homomorphic-voting-on-evm-with-zkp: An implementation of a secure, stake-weighted voting system on any EVM-compatible blockchain, leveraging Elliptic Curve Cryptography, ElGamal encryption, and Disjunctive Chaum-Pedersen Zero-Knowledge Proof for vote validation. - https://github.com/trizin/homomorphic-voting-on-evm-with-zkp
+ice-staking/monitoor: A custom monitering system for a rpc / validator node - https://github.com/ice-staking/monitoor
+ice-staking/validator-jumpstart: Solana Validator Guide - https://github.com/ice-staking/validator-jumpstart
+gregcusack/simple-rpc: simple rpc for rpc separate from agave validator - https://github.com/gregcusack/simple-rpc
+helius-labs/validator-firewall: A low level ingress firewall for Solana validators - https://github.com/helius-labs/validator-firewall
+Overclock-Validator/mithril: A verifying node for the Solana blockchain, implemented in Go. - https://github.com/Overclock-Validator/mithril
+thi-ng/blog: Current blog posts and consolidated historical articles from various other blog platforms used previously - https://github.com/thi-ng/blog
+yieldprotocol/yield-liquidator: Utility for force-closing undercollateralized Yield Protocol loans and participating in dutch auctions with liquidity sourced by Uniswap flash loans - https://github.com/yieldprotocol/yield-liquidator
+Ruddle/oxidator: RTS game/engine in Rust and WebGPU  - https://github.com/Ruddle/oxidator
+ajv-validator/ajv: The fastest JSON schema Validator. Supports JSON Schema draft-04/06/07/2019-09/2020-12 and JSON Type Definition (RFC8927) - https://github.com/ajv-validator/ajv
+Bonfida/vault-watcher: An easily deployable service to monitor mission-critical SPL token accounts - https://github.com/Bonfida/vault-watcher
+fadeevab/cocoon: Simple and reliable secure storage with strong encryption and format validation. - https://github.com/fadeevab/cocoon
+NLnetLabs/routinator: An RPKI Validator and RTR server written in Rust - https://github.com/NLnetLabs/routinator
+NationalSecurityAgency/ghidra: Ghidra is a software reverse engineering (SRE) framework - https://github.com/NationalSecurityAgency/ghidra
+a-guard/malicious-validators: Solana validators caught in sandwich attacks - https://github.com/a-guard/malicious-validators
+tardis-dev/tardis-machine: Locally runnable server with built-in data caching, providing both tick-level historical and consolidated real-time cryptocurrency market data via HTTP and WebSocket APIs - https://github.com/tardis-dev/tardis-machine
+solana-nft-programs/token-manager: Token manager is a set of smart contracts on Solana to facilitate conditionally managed ownership. Using the invalidators and approvers in various ways allows for building rentals, expiring in-game items, subscriptions, permits, tickets, passes and more. - https://github.com/solana-nft-programs/token-manager
+Rektoff/Security-Roadmap-for-Solana-applications: We are systematizing everything we know about Solana security into one structured resource: the Solana Security Strategy. It’s a field-tested knowledge base for teams building serious products — packed with practical guidance, reference links, and strategy templates. - https://github.com/Rektoff/Security-Roadmap-for-Solana-applications
+firedancer-io/firedancer: Firedancer is Jump Crypto's Solana validator software. - https://github.com/firedancer-io/firedancer
+mongodb/kingfisher: Kingfisher is a blazingly fast tool for secret detection and live validation across files, Git repos, S3, Docker images, Jira, Slack, and Confluence - https://github.com/mongodb/kingfisher
+steve0hh/midas: Go implementation of MIDAS: Microcluster-Based Detector of Anomalies in Edge Streams - https://github.com/steve0hh/midas
+PRBonn/lidar-bonnetal: Semantic and Instance Segmentation of LiDAR point clouds for autonomous driving - https://github.com/PRBonn/lidar-bonnetal
+aws-solutions-library-samples/guidance-for-building-a-high-performance-numerical-weather-prediction-system-on-aws: HPC on AWS removes the long wait times and lost productivity often associated with on-premises HPC clusters. Flexible HPC cluster configurations and virtually unlimited scalability allows you to grow and shrink your infrastructure as your workloads dictate, not the other way around - https://github.com/aws-solutions-library-samples/guidance-for-building-a-high-performance-numerical-weather-prediction-system-on-aws
+Throbac-Labs/SolanaValidator_FullDeployment: End to end deployment of a testnet Solana Validator - https://github.com/Throbac-Labs/SolanaValidator_FullDeployment
+nsacyber/HIRS: Trusted Computing based services supporting TPM provisioning and supply chain validation concepts. #nsacyber - https://github.com/nsacyber/HIRS
+crdroidandroid/android_device_oneplus_sm8250-common:  - https://github.com/crdroidandroid/android_device_oneplus_sm8250-common
+x64dbg/x64dbg: An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis. - https://github.com/x64dbg/x64dbg
+pydantic/pydantic-core: Core validation logic for pydantic written in rust - https://github.com/pydantic/pydantic-core
+facontidavide/PlotJuggler: The Time Series Visualization Tool that you deserve. - https://github.com/facontidavide/PlotJuggler
+samchon/typia: Super-fast/easy runtime validators and serializers via transformation - https://github.com/samchon/typia
+liquidaty/zsv: zsv+lib: tabular data swiss-army knife CLI + world's fastest (simd) CSV parser - https://github.com/liquidaty/zsv
+backbone-link/solana-identity-transition: Ansible Playbook used to transition Solana Validator from a primary node to a backup node - https://github.com/backbone-link/solana-identity-transition
+ChorusOne/solana-mev: Decentralized MEV extraction from inside the validator - https://github.com/ChorusOne/solana-mev
+cue-lang/cue: The home of the CUE language! Validate and define text-based and dynamic configuration - https://github.com/cue-lang/cue
+aourednik/ideograph: an interactive visual tool for exploring ideologies of political parties from up to date WikiData, using SPARQL, D3js, and PixiJS - https://github.com/aourednik/ideograph
+auan0001/MPI-One-sided-Game-of-Life: Onesided parallel OpenMPI implementation of Sir Conway's Game of Life with toroidal boundary conditions. The performance is compared to a conventional two-sided Sendrecv approach. - https://github.com/auan0001/MPI-One-sided-Game-of-Life
+xploitspeeds/Bookmarklet-Hacks-For-School: * READ THE README FOR INFO!! * Incoming Tags- z score statistics,find mean median mode statistics in ms excel,variance,standard deviation,linear regression,data processing,confidence  intervals,average value,probability theory,binomial distribution,matrix,random numbers,error propagation,t statistics analysis,hypothesis testing,theorem,chi square,time series,data collection,sampling,p value,scatterplots,statistics lectures,statistics tutorials,business mathematics statistics,share stock market statistics in calculator,business analytics,GTA,continuous frequency distribution,statistics mathematics in real life,modal class,n is even,n is odd,median mean of series of numbers,math help,Sujoy Krishna Das,n+1/2 element,measurement of variation,measurement of central tendency,range of numbers,interquartile range,casio fx991,casio fx82,casio fx570,casio fx115es,casio 9860,casio 9750,casio 83gt,TI BAII+ financial,casio piano,casio calculator tricks and hacks,how to cheat in exam and not get caught,grouped interval data,equation of triangle rectangle curve parabola hyperbola,graph theory,operation research(OR),numerical methods,decision making,pie chart,bar graph,computer data analysis,histogram,statistics formula,matlab tutorial,find arithmetic mean geometric mean,find population standard deviation,find sample standard deviation,how to use a graphic calculator,pre algebra,pre calculus,absolute deviation,TI Nspire,TI 84 TI83 calculator tutorial,texas instruments calculator,grouped data,set theory,IIT JEE,AIEEE,GCSE,CAT,MAT,SAT,GMAT,MBBS,JELET,JEXPO,VOCLET,Indiastudychannel,IAS,IPS,IFS,GATE,B-Tech,M-Tech,AMIE,MBA,BBA,BCA,MCA,XAT,TOEFL,CBSE,ICSE,HS,WBUT,SSC,IUPAC,Narendra Modi,Sachin Tendulkar Farewell Speech,Dhoom 3,Arvind Kejriwal,maths revision,how to score good marks in exams,how to pass math exams easily,JEE 12th physics chemistry maths PCM,JEE maths shortcut techniques,quadratic equations,competition exams tips and ticks,competition maths,govt job,JEE KOTA,college math,mean value theorem,L hospital rule,tech guru awaaz,derivation,cryptography,iphone 5 fingerprint hack,crash course,CCNA,converting fractions,solve word problem,cipher,game theory,GDP,how to earn money online on youtube,demand curve,computer science,prime factorization,LCM & GCF,gauss elimination,vector,complex numbers,number systems,vector algebra,logarithm,trigonometry,organic chemistry,electrical math problem,eigen value eigen vectors,runge kutta,gauss jordan,simpson 1/3 3/8 trapezoidal rule,solved problem example,newton raphson,interpolation,integration,differentiation,regula falsi,programming,algorithm,gauss seidal,gauss jacobi,taylor series,iteration,binary arithmetic,logic gates,matrix inverse,determinant of matrix,matrix calculator program,sex in ranchi,sex in kolkata,vogel approximation VAM optimization problem,North west NWCR,Matrix minima,Modi method,assignment problem,transportation problem,simplex,k map,boolean algebra,android,casio FC 200v 100v financial,management mathematics tutorials,net present value NPV,time value of money TVM,internal rate of return IRR Bond price,present value PV and future value FV of annuity casio,simple interest SI & compound interest CI casio,break even point,amortization calculation,HP 10b financial calculator,banking and money,income tax e filing,economics,finance,profit & loss,yield of investment bond,Sharp EL 735S,cash flow casio,re finance,insurance and financial planning,investment appraisal,shortcut keys,depreciation,discounting - https://github.com/xploitspeeds/Bookmarklet-Hacks-For-School
+milan-sedivy/confidential_multi_vote_system: This project demonstrates principles of a protocol outlined in my master thesis. The protocol is a superset of the Practical Multi-Candidate Election System (Baudron et. al 2001). It focuses on allowing the user to vote for multiple choices and to have multiple votes (an example of a shareholder meeting is implemented here) - https://github.com/milan-sedivy/confidential_multi_vote_system
+karlseguin/validate.zig: A validation framework for Zig - https://github.com/karlseguin/validate.zig
+Validark/Accelerated-Zig-Parser: A high-throughput parser for the Zig programming language. - https://github.com/Validark/Accelerated-Zig-Parser
+pkjmesra/PKScreener: A Python-based stock screener for NSE, India. PKScreener is an advanced free stock screener to find potential breakout stocks from NSE and show its possible breakout values. It also helps to find the stocks which are consolidating and may breakout, or the particular chart patterns that you're looking specifically to make your decisions. - https://github.com/pkjmesra/PKScreener
+aidanaden/astro-zig-canvas: Minimal example for astro + HTML5 canvas + wasm memory + zig - https://github.com/aidanaden/astro-zig-canvas
+mov-rax/zig-validate: A type validation library for writing a zero-cost, declarative, understandable, generic code in zig. - https://github.com/mov-rax/zig-validate
+Syndica/sig: a Solana validator client implementation written in Zig - https://github.com/Syndica/sig
+saber-hq/vipers: 🕶 Assorted checks and validations for writing safer Solana programs. - https://github.com/saber-hq/vipers
+chrislgarry/Apollo-11: Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules. - https://github.com/chrislgarry/Apollo-11
+WilfredAlmeida/LightDAS: Lightweight DAS for Solana - https://github.com/WilfredAlmeida/LightDAS
+Decurity/solana-ebpf-ida-processor: Solana Virtual Machine bytecode processor for IDA Pro - https://github.com/Decurity/solana-ebpf-ida-processor
+valida-xyz/valida: A STARK-based VM focused on code reuse, performance, and modularity - https://github.com/valida-xyz/valida
+saulpw/visidata: A terminal spreadsheet multitool for discovering and arranging data - https://github.com/saulpw/visidata
+Oudwins/zog: Go with Zod inspired simple schema validation - https://github.com/Oudwins/zog
+medz/OvO: OvO is a Dart-first schema declaration and validation library. - https://github.com/medz/OvO
+chugach-foundation/cypher-cli-v3: command line utilities for cypher v3, including market making and liquidating - https://github.com/chugach-foundation/cypher-cli-v3
+pedro-javierf/NTRGhidra: A Nintendo DS binary loader for Ghidra - https://github.com/pedro-javierf/NTRGhidra
+Adubbz/Ghidra-Switch-Loader: Nintendo Switch loader for Ghidra - https://github.com/Adubbz/Ghidra-Switch-Loader
+Nalen98/eBPF-for-Ghidra: eBPF Processor for Ghidra - https://github.com/Nalen98/eBPF-for-Ghidra
+Bonfida/audaces-perps:  - https://github.com/Bonfida/audaces-perps

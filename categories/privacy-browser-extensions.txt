@@ -1,0 +1,5 @@
+# PRIVACY BROWSER EXTENSIONS (3 repositories)
+
+seanpm2001/Bliss_Browser_OSMode: 🌳️🌐️💻️ The OS mode for Bliss Browser lets you turn your computer into a netbook for as much time as you choose. A privacy-focused alternative to ChromeOS/ChromiumOS - https://github.com/seanpm2001/Bliss_Browser_OSMode
+dothq/browser: The browser that fights for your privacy. - https://github.com/dothq/browser
+minbrowser/min: A fast, minimal browser that protects your privacy - https://github.com/minbrowser/min

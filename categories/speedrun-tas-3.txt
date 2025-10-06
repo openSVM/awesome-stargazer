@@ -1,0 +1,14 @@
+# SPEEDRUN TAS 3 (12 repositories)
+
+polyfractal/Turbine: A low-latency, high-throughput inter-task communication library - https://github.com/polyfractal/Turbine
+RichardKnop/machinery: Machinery is an asynchronous task queue/job queue based on distributed message passing. - https://github.com/RichardKnop/machinery
+upstash/claps: Adds clap button (like medium) to any page for your Next.js apps. - https://github.com/upstash/claps
+upstash/ratelimit-js: Rate limiting library for serverless runtimes - https://github.com/upstash/ratelimit-js
+hatchet-dev/hatchet: 🪓 Run Background Tasks at Scale - https://github.com/hatchet-dev/hatchet
+wilsonfreitas/awesome-quant: A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance) - https://github.com/wilsonfreitas/awesome-quant
+taskflow/awesome-parallel-computing: A curated list of awesome parallel computing resources - https://github.com/taskflow/awesome-parallel-computing
+hollance/metal-gpgpu: Collection of notes on how to use Apple’s Metal API for compute tasks - https://github.com/hollance/metal-gpgpu
+block-sync-one/SolanaHub: The best place to handle all your everyday Solana task. Built for degens & maxis - https://github.com/block-sync-one/SolanaHub
+Dataset_Tools: 26 repos
+Dataset_Tools_other: 25 repos
+Dataset_Tools_datasets: 1 repos

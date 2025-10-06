@@ -1,0 +1,3 @@
+# REACT SSR SSG (1 repositories)
+
+panacloud-modern-global-apps/jamstack-serverless: Learn JAMstack Serverless Modern App Development in Baby Steps using Gatsby.js, React, TypeScript, GraphQL, Contentful, Netlify, FaunaDB, MongoDB, Apollo, Github Actions, Project Fugu, and CSS Houdini. - https://github.com/panacloud-modern-global-apps/jamstack-serverless

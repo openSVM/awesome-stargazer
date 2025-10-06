@@ -1,0 +1,4 @@
+# APIS TESTING (2 repositories)
+
+hoppscotch/hoppscotch: Open source API development ecosystem - https://hoppscotch.io (open-source alternative to Postman, Insomnia) - https://github.com/hoppscotch/hoppscotch
+usebruno/bruno: Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia) - https://github.com/usebruno/bruno

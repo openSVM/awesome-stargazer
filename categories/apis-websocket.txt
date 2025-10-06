@@ -1,0 +1,14 @@
+# APIS WEBSOCKET (12 repositories)
+
+lyndskg/black-scholes-cpp: A UI-friendly program calculating Black-Scholes options pricing with advanced algorithms incorporating option Greeks, IV, Heston model, etc. Reads input from users, files, databases, and real-time, external market feeds (e.g. APIs). - https://github.com/lyndskg/black-scholes-cpp
+loganrudd/implied-vol-plot: Using the LedgerX public websocket API we're able to get live top of the orderbook updates for an option chain with over 150 different contracts and save the data to a RedisTimeSeries type as well as publish updates to listening subscribers.  An example subscriber, an interactive plot showing the implied volatility skew of the selected expiration and type (call or put). - https://github.com/loganrudd/implied-vol-plot
+cg-tuwien/Auto-Vk-Toolkit: Getting serious about Vulkan development with this modern C++ framework, battle-tested in rapid prototyping, research, and teaching. Includes support for real-time ray tracing (RTX), serialization, and meshlets. - https://github.com/cg-tuwien/Auto-Vk-Toolkit
+google-gemini/live-api-web-console: A react-based starter app for using the Live API over websockets with Gemini - https://github.com/google-gemini/live-api-web-console
+tardis-dev/tardis-machine: Locally runnable server with built-in data caching, providing both tick-level historical and consolidated real-time cryptocurrency market data via HTTP and WebSocket APIs - https://github.com/tardis-dev/tardis-machine
+gigapi/gigapi: GigAPI is a Timeseries lakehouse for real-time data and sub-second queries, powered by DuckDB OLAP + Parquet Query Engine, Compactor w/ Cloud-Native Storage. Drop-in FDAP alternative ⭐ - https://github.com/gigapi/gigapi
+openmeterio/openmeter: Metering and Billing for AI, API and DevOps. Collect and aggregate millions of usage events in real-time and enable usage-based billing. - https://github.com/openmeterio/openmeter
+kubeshark/kubeshark: The API traffic analyzer for Kubernetes providing real-time K8s protocol-level visibility, capturing and monitoring all traffic and payloads going in, out and across containers, pods, nodes and clusters. Inspired by Wireshark, purposely built for Kubernetes - https://github.com/kubeshark/kubeshark
+RickWong/bitmex-orderbook: The fastest order book implementation for the BitMEX WebSocket API. - https://github.com/RickWong/bitmex-orderbook
+lloydmeta/finnhub-ws-rs:  UI for finnhub.io live trades websocket API, written in Rust, compiled to WASM - https://github.com/lloydmeta/finnhub-ws-rs
+feathersjs/feathers: The API and real-time application framework - https://github.com/feathersjs/feathers
+stelace/marketplace-demo: Open-source marketplace front-end powered by Stelace API including search, platform automation, user management, transactions, real-time messaging, ratings and much more :zap: - https://github.com/stelace/marketplace-demo

@@ -1,0 +1,4 @@
+# TERMINAL MULTIPLEXERS (2 repositories)
+
+xyaman/mibu: Pure Zig library for low-level terminal manipulation: zero heap allocations, UTF-8 support, text styling, color output, cursor and screen control, key and mouse event handling. - https://github.com/xyaman/mibu
+orhun/ratatui-splash-screen: A Ratatui widget to turn any image to a splash screen in your terminal ✨ - https://github.com/orhun/ratatui-splash-screen

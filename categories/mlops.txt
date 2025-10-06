@@ -1,0 +1,8 @@
+# MLOPS (6 repositories)
+
+visenger/awesome-mlops: A curated list of references for MLOps  - https://github.com/visenger/awesome-mlops
+zenml-io/zenml: ZenML 🙏: MLOps for Reliable AI: from Classical AI to Agents. https://zenml.io. - https://github.com/zenml-io/zenml
+RiccardoBiosas/awesome-MLSecOps: A curated list of MLSecOps tools, articles and other resources on security applied to Machine Learning and MLOps systems. - https://github.com/RiccardoBiosas/awesome-MLSecOps
+kf5i/k3ai: K3ai is a lightweight, fully automated, AI infrastructure-in-a-box solution that allows anyone to experiment quickly with Kubeflow pipelines. K3ai  is perfect for anything from Edge to laptops. - https://github.com/kf5i/k3ai
+kubeflow/katib: Automated Machine Learning on Kubernetes - https://github.com/kubeflow/katib
+wandb/openui: OpenUI let's you describe UI using your imagination, then see it rendered live. - https://github.com/wandb/openui

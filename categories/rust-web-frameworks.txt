@@ -1,0 +1,4 @@
+# RUST WEB FRAMEWORKS (2 repositories)
+
+devanlooches/rocketfetch: A WIP command line system information tool written with multithreading in rust for performance with toml file configuration. - https://github.com/devanlooches/rocketfetch
+johnthagen/rust-belt: :rocket: Asteroids-like arcade game implemented in Rust ✨ - https://github.com/johnthagen/rust-belt

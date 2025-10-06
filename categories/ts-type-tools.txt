@@ -1,0 +1,3 @@
+# TS TYPE TOOLS (1 repositories)
+
+colinhacks/zod: TypeScript-first schema validation with static type inference - https://github.com/colinhacks/zod

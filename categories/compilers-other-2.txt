@@ -1,0 +1,33 @@
+# COMPILERS OTHER 2 (31 repositories)
+
+nordlow/compiler-benchmark: Benchmarks compilation speeds of different combinations of languages and compilers. - https://github.com/nordlow/compiler-benchmark
+TilBlechschmidt-ProjectGraveyard/remarkable-toolchain-rust: Docker image which contains the rust toolchain and compiler for cross-compilation to the reMarkable tablet. - https://github.com/TilBlechschmidt-ProjectGraveyard/remarkable-toolchain-rust
+marler8997/zigup: Download and manage zig compilers. - https://github.com/marler8997/zigup
+zigcc/zig-idioms: Common idioms used in Zig - https://github.com/zigcc/zig-idioms
+zigcc/learning-zig: 《Learning Zig》中文翻译 - https://github.com/zigcc/learning-zig
+zigcc/awesome-zig: A collection of some awesome public Zig programming language projects. - https://github.com/zigcc/awesome-zig
+zigcc/zig-cookbook: Simple Zig programs that demonstrate good practices to accomplish common programming tasks. - https://github.com/zigcc/zig-cookbook
+Snektron/pareas: GPU-accelerated compiler - https://github.com/Snektron/pareas
+pcaversaccio/zksync-vyper-sandbox: A sandbox environment for ZKsync Era Vyper compiler testing. - https://github.com/pcaversaccio/zksync-vyper-sandbox
+matter-labs/zkvyper-bin: Releases of the Vyper compiler for ZKsync. - https://github.com/matter-labs/zkvyper-bin
+crypdoughdoteth/vyper-rs: A rust library to interact with the Vyper compiler!  - https://github.com/crypdoughdoteth/vyper-rs
+Compiler_Tools: 262 repos
+Compiler_Tools_other: 207 repos
+Compiler_Tools_substreams: 7 repos
+Compiler_Tools_astro: 6 repos
+Compiler_Tools_fast: 6 repos
+Compiler_Tools_awesome: 5 repos
+Compiler_Tools_compiler: 4 repos
+Compiler_Tools_solana: 4 repos
+Compiler_Tools_quantum: 3 repos
+Compiler_Tools_Fast: 2 repos
+Compiler_Tools_fastmcp: 2 repos
+Compiler_Tools_firehose: 2 repos
+Compiler_Tools_flash: 2 repos
+Compiler_Tools_nix: 2 repos
+Compiler_Tools_tx: 2 repos
+Compiler_Tools_Multi: 1 repos
+Compiler_Tools_binary: 1 repos
+Compiler_Tools_cursive: 1 repos
+Compiler_Tools_neo: 1 repos
+Compiler_Tools_tinyraycaster: 1 repos

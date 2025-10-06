@@ -1,0 +1,8 @@
+# ZIGLANA (6 repositories)
+
+ziglana/gRPC-zig: blazigly fast gRPC client & server implementation in zig - https://github.com/ziglana/gRPC-zig
+ziglana/clickhouse-zig: blazigly fast Clickhouse client ⚡️ - https://github.com/ziglana/clickhouse-zig
+ziglana/zolt: Zigged[WIP] High-performance, Composable framework for Fully On Chain Games and Autonomous Worlds - https://github.com/ziglana/zolt
+ziglana/zup.sol: zup.sol onchain registry for my beloved zigcels who are brave enough to dev on ziglana for lulz - https://github.com/ziglana/zup.sol
+ziglana/solana-zig-program-template: Minimal Solana Zig program template - https://github.com/ziglana/solana-zig-program-template
+ziglana/ziglet.sh: solana zig sdk ⚡️blazigly fast⚡️ - https://github.com/ziglana/ziglet.sh

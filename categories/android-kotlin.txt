@@ -1,0 +1,6 @@
+# ANDROID KOTLIN (4 repositories)
+
+joreilly/PeopleInSpace: Kotlin Multiplatform sample with SwiftUI, Jetpack Compose, Compose for Wear, Compose for Desktop, and Compose for Web clients along with Ktor backend. - https://github.com/joreilly/PeopleInSpace
+JustAmalll/StockMarketApp: Clean Architecture Stock Market App 📈 (Jetpack Compose, Caching, SOLID) - https://github.com/JustAmalll/StockMarketApp
+android/nowinandroid: A fully functional Android app built entirely with Kotlin and Jetpack Compose - https://github.com/android/nowinandroid
+kaleidot725/text-editor-compose: A simple text editor library for Jetpack Compose - https://github.com/kaleidot725/text-editor-compose

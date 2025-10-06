@@ -1,0 +1,3 @@
+# CASSANDRA (1 repositories)
+
+scylladb/scylladb: NoSQL data store using the Seastar framework, compatible with Apache Cassandra and Amazon DynamoDB - https://github.com/scylladb/scylladb

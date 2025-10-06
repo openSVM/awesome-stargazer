@@ -1,0 +1,6 @@
+# PARSING LEXERS (4 repositories)
+
+distribute-dev/modelplexer: Multiplexer for AI protocols, agents, models, and tools - https://github.com/distribute-dev/modelplexer
+deinstapel/cursive-multiplex: A tmux like multiplexer for gyscos/cursive views 🖥️ - https://github.com/deinstapel/cursive-multiplex
+FCLC/Multi-Plexer: Goal: Low power cluster capable of serving 24+ streams of 4KHDR60 source transcodes while consuming no more than 100W at peak and idling at less than 10W - https://github.com/FCLC/Multi-Plexer
+wezterm/wezterm: A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust - https://github.com/wezterm/wezterm

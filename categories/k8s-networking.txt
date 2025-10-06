@@ -1,0 +1,4 @@
+# K8S NETWORKING (2 repositories)
+
+GoogleCloudPlatform/microservices-demo: Sample cloud-first application with 10 microservices showcasing Kubernetes, Istio, and gRPC. - https://github.com/GoogleCloudPlatform/microservices-demo
+linkerd/linkerd2: Ultralight, security-first service mesh for Kubernetes. Main repo for Linkerd 2.x. - https://github.com/linkerd/linkerd2

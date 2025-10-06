@@ -1,0 +1,3 @@
+# DISTRIBUTED BLOCKCHAIN (1 repositories)
+
+mit-dci/zkledger: Privacy-preserving auditing for distributed ledgers - https://github.com/mit-dci/zkledger

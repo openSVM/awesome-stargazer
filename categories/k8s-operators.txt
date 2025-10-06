@@ -1,0 +1,16 @@
+# K8S OPERATORS (14 repositories)
+
+substratusai/kubeai: AI Inference Operator for Kubernetes. The easiest way to serve ML models in production. Supports VLMs, LLMs, embeddings, and speech-to-text. - https://github.com/substratusai/kubeai
+bugfest/tor-controller: Tor toolkit for Kubernetes (Tor instances, onion services and more) - https://github.com/bugfest/tor-controller
+apecloud/kubeblocks: KubeBlocks is a Kubernetes Operator designed to manage a variety of databases and streaming systems, including MySQL, PostgreSQL, MongoDB, Redis, RabbitMQ, RocketMQ, and more, within Kubernetes environments. - https://github.com/apecloud/kubeblocks
+operator-framework/operator-sdk: SDK for building Kubernetes applications. Provides high level APIs, useful abstractions, and project scaffolding. - https://github.com/operator-framework/operator-sdk
+expedio-blockchain/Kontract: Kubernetes operator for smart contracts deployment - https://github.com/expedio-blockchain/Kontract
+NVIDIA/k8s-nim-operator: An Operator for deployment and maintenance of NVIDIA NIMs and NeMo microservices in a Kubernetes environment. - https://github.com/NVIDIA/k8s-nim-operator
+nebius/soperator: Run Slurm in Kubernetes - https://github.com/nebius/soperator
+databricks/click: The "Command Line Interactive Controller for Kubernetes" - https://github.com/databricks/click
+liquidmetal-dev/microvm-operator: Kubernetes Operator to create MicroVMs on Flintlock hosts - https://github.com/liquidmetal-dev/microvm-operator
+Altinity/clickhouse-operator: Altinity Kubernetes Operator for ClickHouse creates, configures and manages ClickHouse® clusters running on Kubernetes - https://github.com/Altinity/clickhouse-operator
+NVIDIA/gpu-operator: NVIDIA GPU Operator creates, configures, and manages GPUs in Kubernetes - https://github.com/NVIDIA/gpu-operator
+agabani/tor-operator: Tor Operator is a Kubernetes Operator that manages Onion Balances, Onion Keys and Onion Services to provide a highly available, load balanced and fault tolerate Tor Ingress and Tor Proxy. - https://github.com/agabani/tor-operator
+FairwindsOps/rbac-manager: A Kubernetes operator that simplifies the management of Role Bindings and Service Accounts. - https://github.com/FairwindsOps/rbac-manager
+kube-rs/kube: Rust Kubernetes client and controller runtime - https://github.com/kube-rs/kube

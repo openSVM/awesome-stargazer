@@ -1,0 +1,63 @@
+# GAME ENGINES OTHER (61 repositories)
+
+MihailRis/voxelcore: VoxelCore – voxel game engine in C++ - https://github.com/MihailRis/voxelcore
+defold/defold: Defold is a completely free to use game engine for development of desktop, mobile and web games. - https://github.com/defold/defold
+Shirakumo/trial: A modular Common Lisp game engine - https://github.com/Shirakumo/trial
+scottcgi/Mojoc: A cross-platform, open-source, pure C  game engine for mobile game. - https://github.com/scottcgi/Mojoc
+eduard-permyakov/permafrost-engine: An OpenGL RTS game engine written in C - https://github.com/eduard-permyakov/permafrost-engine
+OpenXRay/xray-16: Improved version of the X-Ray Engine, the game engine used in the world-famous S.T.A.L.K.E.R. game series by GSC Game World. Join OpenXRay! ;) - https://github.com/OpenXRay/xray-16
+fdivitto/FabGL: ESP32 Display Controller (VGA, PAL/NTSC Color Composite, SSD1306, ST7789, ILI9341), PS/2 Mouse and Keyboard Controller, Graphics Library, Sound Engine, Game Engine and ANSI/VT Terminal - https://github.com/fdivitto/FabGL
+clibequilibrium/EquilibriumEngine: Data-oriented and multi-threaded C11 Game Engine with libraries & shaders hot-reloading. - https://github.com/clibequilibrium/EquilibriumEngine
+hyperion-mc/hyperion: Minecraft game engine for massive custom events - https://github.com/hyperion-mc/hyperion
+glouw/littlewolf: A tiny software graphics and game engine - https://github.com/glouw/littlewolf
+RobertBeckebans/RBDOOM-3-BFG: Doom 3 BFG Edition source port with updated DX12 / Vulkan renderer and modern game engine features - https://github.com/RobertBeckebans/RBDOOM-3-BFG
+karl-zylinski/odin-raylib-hot-reload-game-template: An Odin + Raylib game template with Hot Reloading pre-setup - https://github.com/karl-zylinski/odin-raylib-hot-reload-game-template
+excaliburjs/Excalibur: 🎮 Your friendly TypeScript 2D game engine for the web 🗡️ - https://github.com/excaliburjs/Excalibur
+fegennari/3DWorld: 3D Procedural Game Engine Using OpenGL  - https://github.com/fegennari/3DWorld
+ajweeks/FlexEngine: Cross-platform game engine with Vulkan backend - https://github.com/ajweeks/FlexEngine
+AshenvaleZX/ZXEngine: C++ game engine project, for learning, practice and experiment. - https://github.com/AshenvaleZX/ZXEngine
+o2-engine/o2: 2D Game Engine with visual WYSIWYG editor and JS scripting - https://github.com/o2-engine/o2
+JonSnowbd/slingworks: Small to Medium scale 2d Game Engine for Zig - https://github.com/JonSnowbd/slingworks
+phoboslab/high_impact: A 2d game engine written in C - https://github.com/phoboslab/high_impact
+scemino/z_impact: A 2d game engine written in ZIG - https://github.com/scemino/z_impact
+PistonDevelopers/piston: A modular game engine written in Rust - https://github.com/PistonDevelopers/piston
+fishfolk/bones: An easy-to-use game engine for making real games. - https://github.com/fishfolk/bones
+foxgirl-labs/catgirl-engine: A game engine for cool moddability and procedurally generated data - https://github.com/foxgirl-labs/catgirl-engine
+BoomingTech/Piccolo: Piccolo (formerly Pilot) – mini game engine for games104 - https://github.com/BoomingTech/Piccolo
+isadorasophia/murder: Murder is a pixel art ECS game engine. - https://github.com/isadorasophia/murder
+RanvierMUD/ranviermud: A node.js based MUD game engine - https://github.com/RanvierMUD/ranviermud
+castle-engine/castle-engine: Cross-platform (desktop, mobile, console, web) 3D and 2D game engine. Powerful visual editor. Support for glTF, X3D, IFC and more. Fast clean code using modern Pascal. Free and open-source. - https://github.com/castle-engine/castle-engine
+ihhub/fheroes2: fheroes2 is a recreation of Heroes of Might and Magic II game engine. - https://github.com/ihhub/fheroes2
+Strrationalism/CPyMO: PyMO AVG Game Engine implemention in C. - https://github.com/Strrationalism/CPyMO
+kris-classes/pyxel-snippets: Small snippets for the Python retro game engine - https://github.com/kris-classes/pyxel-snippets
+elgopher/pi: Game engine for creating retro games for modern computers. Inspired by Pico-8 and powered by Ebitengine. - https://github.com/elgopher/pi
+jean-philippe-martin/reloadpyxel: Reload-Pyxel is a library that adds hot-reload capabilities for the retro game engine Pyxel, for both code and assets. - https://github.com/jean-philippe-martin/reloadpyxel
+swr06/GLGame: A Tiny 2D OpenGL based C++ Game Engine that is fast, lightweight and comes with a level editor. - https://github.com/swr06/GLGame
+supernovaengine/supernova: Game engine for 2D and 3D projects with entity component system (ECS) and data-oriented design - https://github.com/supernovaengine/supernova
+ensisoft/detonator: 2D game engine and editor 💥💣 - https://github.com/ensisoft/detonator
+Pikachuxxxx/Razix: A Cool High Performance Game Engine - https://github.com/Pikachuxxxx/Razix
+Rythe-Interactive/Rythe-Engine: Rythe is a data-oriented C++20 game engine built to make optimal use of modern hardware. - https://github.com/Rythe-Interactive/Rythe-Engine
+polymonster/pmtech: Lightweight, multi-platform, data-oriented game engine. - https://github.com/polymonster/pmtech
+elnormous/ouzel: C++ game engine for Windows, macOS, Linux, iOS, tvOS, Android, and web browsers - https://github.com/elnormous/ouzel
+nCine/nCine: A cross-platform 2D game engine - https://github.com/nCine/nCine
+EngoEngine/engo: Engo is an open-source 2D game engine written in Go. - https://github.com/EngoEngine/engo
+kitao/pyxel: A retro game engine for Python - https://github.com/kitao/pyxel
+AmbientRun/Ambient: The multiplayer game engine - https://github.com/AmbientRun/Ambient
+peterino2/NeonWood: A game engine written in zig - https://github.com/peterino2/NeonWood
+raysan5/raylib-games: A collection of small sample games made with raylib - https://github.com/raysan5/raylib-games
+hexops/mach: zig game engine & graphics toolkit - https://github.com/hexops/mach
+MissingDeadlines/iolite: A highly flexible, voxel-powered game engine with an embedded editor. Create games using Lua, the native C/C++ API, and assets authored in voxel editors like MagicaVoxel or Avoyd. - https://github.com/MissingDeadlines/iolite
+Dr-Nekoma/lyceum: An MMO game written in Erlang (+ PostgreSQL + Omnigres) + Zig (+ Raylib)  - https://github.com/Dr-Nekoma/lyceum
+rozukke/zig-gol: Game of Life implemented with Raylib and Zig. - https://github.com/rozukke/zig-gol
+recombinant/raylib-game-template-zig: Translation of raysan5/raylib-game-template to zig - https://github.com/recombinant/raylib-game-template-zig
+Liam-Malone/ZigPong: GUI Pong written in Zig, using Raylib - https://github.com/Liam-Malone/ZigPong
+schmee/zig-raylib-imgui-template: Get started with Zig + Raylib + ImGui! - https://github.com/schmee/zig-raylib-imgui-template
+Durobot/raylib-zig-examples: Raylib examples ported to Zig - https://github.com/Durobot/raylib-zig-examples
+raylib-zig/raylib-zig: Manually tweaked, auto-generated raylib bindings for zig. https://github.com/raysan5/raylib - https://github.com/raylib-zig/raylib-zig
+toxoidengine/toxoid: A modern, cross-platform, highly modular / decoupled, data-driven, ECS-based game engine written in Rust with scripting support for C#, JavaScript and Rust to Rust (WASM), hot-reloading, WebGPU rendering, and web target support. - https://github.com/toxoidengine/toxoid
+vapandris/raylib-zig-wasm: ZIG raylib wasm example. Zig version: 0.12 - https://github.com/vapandris/raylib-zig-wasm
+shmolyneaux/zig_simon: Zig game developed with Raylib compiled to WASM - https://github.com/shmolyneaux/zig_simon
+raysan5/raylib: A simple and easy-to-use library to enjoy videogames programming - https://github.com/raysan5/raylib
+SafarSoFar/pixelater: A Pixel Art software written in C++ and raylib - https://github.com/SafarSoFar/pixelater
+raylib-extras/simple_ecs: A very simple ECS using raylib - https://github.com/raylib-extras/simple_ecs
+Systems_Languages_raylib: 3 repos

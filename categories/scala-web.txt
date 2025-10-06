@@ -1,0 +1,5 @@
+# SCALA WEB (3 repositories)
+
+0xPlaygrounds/rig: ⚙️🦀 Build modular and scalable LLM Applications in Rust - https://github.com/0xPlaygrounds/rig
+eQuantumOS/QPlayer: Light-weight, Scalable and Fast Quantum Simulator - https://github.com/eQuantumOS/QPlayer
+ArmaRelife/ArmaLife: Arma Relife is a roleplay framework for Arma Reforger - https://github.com/ArmaRelife/ArmaLife

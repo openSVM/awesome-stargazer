@@ -1,0 +1,44 @@
+# C CPP OTHER 4 (42 repositories)
+
+sashamakarenko/fixpp: FIX library generated with C++ PreProcessor to be used in latency sensitive context. - https://github.com/sashamakarenko/fixpp
+Arturovicz/OBCPP: Limit orderbook supporting multiple order types written in C++ - https://github.com/Arturovicz/OBCPP
+DVLab-NTU/qsyn: A C++-based growing software system for synthesizing, optimizing, and verifying quantum circuits - https://github.com/DVLab-NTU/qsyn
+blitzpp/blitz: Blitz++ Multi-Dimensional Array Library for C++ - https://github.com/blitzpp/blitz
+thatbakamono/bakery: Build system for C/C++ heavily inspired by Cargo - https://github.com/thatbakamono/bakery
+cpmbits/cpm: A modern project management tool for C/C++ projects - https://github.com/cpmbits/cpm
+AbdeltwabMF/anthology-of-algorithms-and-data-structures: Common Code for Competitive Programming in C++ - https://github.com/AbdeltwabMF/anthology-of-algorithms-and-data-structures
+felixguendling/cista: Cista is a simple, high-performance, zero-copy C++ serialization & reflection library. - https://github.com/felixguendling/cista
+reo7sp/tgbot-cpp: C++ library for Telegram bot API - https://github.com/reo7sp/tgbot-cpp
+sogou/workflow: C++ Parallel Computing and Asynchronous Networking Framework - https://github.com/sogou/workflow
+ROCm/hip: HIP: C++ Heterogeneous-Compute Interface for Portability - https://github.com/ROCm/hip
+SafarSoFar/pixelater: A Pixel Art software written in C++ and raylib - https://github.com/SafarSoFar/pixelater
+MolSSI-Education/gpu_programming_beginner: Fundamentals of heterogeneous parallel programming with CUDA C/C++ at the beginner level. - https://github.com/MolSSI-Education/gpu_programming_beginner
+NVIDIA/cub: [ARCHIVED] Cooperative primitives for CUDA C++. See https://github.com/NVIDIA/cccl  - https://github.com/NVIDIA/cub
+gunrock/gunrock: Programmable CUDA/C++ GPU Graph Analytics - https://github.com/gunrock/gunrock
+roq-trading/roq-algo: C++ tools and utilities for algorithmic trading. - https://github.com/roq-trading/roq-algo
+Lingxi-Li/lock_free: C++17 lock-free data structure library - https://github.com/Lingxi-Li/lock_free
+jpcima/ring-buffer: Ring buffer library for C++17 - https://github.com/jpcima/ring-buffer
+Tzadiko/Orderbook: A limit orderbook supporting multiple order types written in C++. The writing of all this code has been documented on my YouTube channel, @TheCodingJesus - https://github.com/Tzadiko/Orderbook
+libtrading/libtrading: Libtrading, an ultra low-latency trading connectivity library for C and C++. - https://github.com/libtrading/libtrading
+C_CPP_Projects: 1725 repos
+C_CPP_Projects_other: 1538 repos
+C_CPP_Projects_awesome: 77 repos
+C_CPP_Projects_solana: 33 repos
+C_CPP_Projects_zk: 9 repos
+C_CPP_Projects_gpu: 7 repos
+C_CPP_Projects_anchor: 6 repos
+C_CPP_Projects_Awesome: 5 repos
+C_CPP_Projects_CUDA: 5 repos
+C_CPP_Projects_GPU: 5 repos
+C_CPP_Projects_crypto: 5 repos
+C_CPP_Projects_Quantum: 4 repos
+C_CPP_Projects_cpp: 4 repos
+C_CPP_Projects_dotfiles: 4 repos
+C_CPP_Projects_nft: 4 repos
+C_CPP_Projects_vyper: 4 repos
+C_CPP_Projects_Solana: 3 repos
+C_CPP_Projects_c: 3 repos
+C_CPP_Projects_core: 3 repos
+C_CPP_Projects_micro: 3 repos
+C_CPP_Projects_monero: 3 repos
+Reinforcement_Learning_Anime4KCPP: 1 repos

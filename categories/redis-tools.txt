@@ -1,0 +1,4 @@
+# REDIS TOOLS (2 repositories)
+
+redis/RedisInsight: Redis GUI by Redis - https://github.com/redis/RedisInsight
+Key_Value_Stores_RedisInsight: 1 repos

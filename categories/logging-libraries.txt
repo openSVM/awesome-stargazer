@@ -1,0 +1,3 @@
+# LOGGING LIBRARIES (1 repositories)
+
+emelyanovkr/ClickHouseAppender: Custom Log4J2 Appender to store messages in ClickHouse DB - https://github.com/emelyanovkr/ClickHouseAppender

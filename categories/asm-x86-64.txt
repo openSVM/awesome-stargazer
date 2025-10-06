@@ -1,0 +1,44 @@
+# ASM X86 64 (42 repositories)
+
+uraimo/run-on-arch-action: A Github Action that executes jobs/commands on non-x86 cpu architectures (ARMv6, ARMv7, aarch64, s390x, ppc64le, riscv64) via QEMU - https://github.com/uraimo/run-on-arch-action
+armbian/build: Armbian Linux build framework generates custom Debian or Ubuntu image for x86, aarch64, riscv64 & armhf - https://github.com/armbian/build
+tyfkda/xcc: Standalone C compiler/assembler/linker/libc for x86-64/aarch64/riscv64/wasm - https://github.com/tyfkda/xcc
+nrootconauto/Aiwnios: A HolyC Compiler/Runtime for 64bit ARM/X86 - https://github.com/nrootconauto/Aiwnios
+joexbayer/RetrOS-32: A x86 32bit Hobby Operatingsystem with graphics, multitasking, networking and 32bit C-Compiler for i386 architecture. - https://github.com/joexbayer/RetrOS-32
+mytechnotalent/Hacking-Windows: A FREE Windows C development course where we will learn the Win32API and reverse engineer each step utilizing IDA Free in both an x86 and x64 environment. - https://github.com/mytechnotalent/Hacking-Windows
+zer011b/fdtd3d: fdtd3d is an open source 1D, 2D, 3D FDTD electromagnetics solver with MPI, OpenMP and CUDA support for x64, ARM, ARM64, RISC-V, PowerPC, Wasm architectures - https://github.com/zer011b/fdtd3d
+capstone-engine/capstone: Capstone disassembly/disassembler framework for ARM, ARM64 (ARMv8), Alpha, BPF, Ethereum VM, HPPA, LoongArch, M68K, M680X, Mips, MOS65XX, PPC, RISC-V(rv32G/rv64G), SH, Sparc, SystemZ, TMS320C64X, TriCore, Webassembly, XCore and X86. - https://github.com/capstone-engine/capstone
+ikskuh/Ziguana-Game-System: A retro-style gaming console running on bare x86 metal written in Zig - https://github.com/ikskuh/Ziguana-Game-System
+plasma-disassembler/plasma: Plasma is an interactive disassembler for x86/ARM/MIPS. It can generates indented pseudo-code with colored syntax. - https://github.com/plasma-disassembler/plasma
+ReturnInfinity/BareMetal-OS-legacy: BareMetal is a 64-bit OS for x86-64 based computers. The OS is written entirely in Assembly while applications can be written in Assembly, C/C++, and Rust. - https://github.com/ReturnInfinity/BareMetal-OS-legacy
+nemasu/asmttpd: Web server for Linux written in amd64 assembly. - https://github.com/nemasu/asmttpd
+CorruptedByCPU/Cyjon: A simple, clean code, multi-tasking kernel written in pure Assembly language for 64-bit processors from the AMD64 family. - https://github.com/CorruptedByCPU/Cyjon
+whily/yalo: Lisp OS running on bare metal x86-64 hardware (WIP) - https://github.com/whily/yalo
+ctlos/ctlosiso: Ctlos Linux source. Arch based distro x86-64(64-bit). - https://github.com/ctlos/ctlosiso
+MaciekLeks/bebok: A 64-bit kernel (and eventually an operating system) written in Zig, currently targeting x86_64. Utilizes Limine as a bootloader. - https://github.com/MaciekLeks/bebok
+andrewrk/HellOS: "hello world" x86 kernel example - https://github.com/andrewrk/HellOS
+fix8mt/fiber: C++20 fiber implementation with similar interface to std::thread, header-only / x86_64 / Linux only / stackful / built-in scheduler / thread shareable - https://github.com/fix8mt/fiber
+13xforever/x86-assembly-textmate-bundle: A bundle for TextMate/Sublime Text providing syntax highlighting for x86 assembly code. - https://github.com/13xforever/x86-assembly-textmate-bundle
+Specy/asm-editor: A modern webapp to write, run and learn M68K, MIPS, RISC-V, X86 assembly - https://github.com/Specy/asm-editor
+mmcloughlin/avo: Generate x86 Assembly with Go - https://github.com/mmcloughlin/avo
+JaoCR/asm-examples: Nasm style x86_64 assembly examples for linux. - https://github.com/JaoCR/asm-examples
+0xAX/asm: Learning assembly for Linux x86_64 - https://github.com/0xAX/asm
+ZystemOS/pluto: An x86 kernel written in Zig - https://github.com/ZystemOS/pluto
+netwide-assembler/nasm: A cross-platform x86 assembler with an Intel-like syntax - https://github.com/netwide-assembler/nasm
+dmsc/emu2: Simple x86 and DOS emulator for the Linux terminal. - https://github.com/dmsc/emu2
+x86matthew/WinVisor: WinVisor - A hypervisor-based emulator for Windows x64 user-mode executables using Windows Hypervisor Platform API - https://github.com/x86matthew/WinVisor
+copy/v86: x86 PC emulator and x86-to-wasm JIT, running in the browser - https://github.com/copy/v86
+minio/sha256-simd: Accelerate SHA256 computations in pure Go using  AVX512, SHA Extensions for x86 and ARM64 for ARM. On AVX512 it provides an up to 8x improvement (over 3 GB/s per core). SHA Extensions give a performance boost of close to 4x over native. - https://github.com/minio/sha256-simd
+yrp604/rappel: A linux-based assembly REPL for x86, amd64, armv7, and armv8 - https://github.com/yrp604/rappel
+ffwff/lilith: x86-64 os made in crystal - https://github.com/ffwff/lilith
+ASD0x41/xide: An online x86 assembly IDE, containing the Netwide Assembler (NASM), the Advanced Fullscreen Debugger (AFD) and em-dosbox (a WASM port of the DOSBox Emulator) - https://github.com/ASD0x41/xide
+l1mey112/jitcalc: jitcalc is a calculator written in the V programming language that evaluates expressions by creating x86_64 programs at runtime. - https://github.com/l1mey112/jitcalc
+momumi/x86-zig: library for assembling x86 in zig (WIP) - https://github.com/momumi/x86-zig
+luamfb/intro_x86-64: Introduction to x86-64 assembly - https://github.com/luamfb/intro_x86-64
+spitbol/x64: SPITBOL x64 provides raw power and speed for non-numeric computation on the x86_64 architecture - https://github.com/spitbol/x64
+x86y/dynasty: A cross-platform native desktop application for trading cryptocurrency on Binance - https://github.com/x86y/dynasty
+mempodippy/vlany: Linux LD_PRELOAD rootkit (x86 and x86_64 architectures) - https://github.com/mempodippy/vlany
+mrfearless/libraries: Collection of libraries for use with x86 / x64 assembler - https://github.com/mrfearless/libraries
+akhin/microarchitecture-cheatsheet: X86 CPU topics overview for developers , oriented towards performance - https://github.com/akhin/microarchitecture-cheatsheet
+JamesCJ60/Universal-x86-Tuning-Utility: Unlock the full potential of your Intel/AMD based device. - https://github.com/JamesCJ60/Universal-x86-Tuning-Utility
+JamesCJ60/Universal-x86-Tuning-Utility-Handheld: Unlock the full potential of your Intel/AMD based handheld. - https://github.com/JamesCJ60/Universal-x86-Tuning-Utility-Handheld

@@ -1,0 +1,4 @@
+# MODDING FRAMEWORKS (2 repositories)
+
+cztomsik/tokamak: Web framework for Zig that leverages dependency injection for clean, modular application development. - https://github.com/cztomsik/tokamak
+praydog/REFramework: Scripting platform, modding framework and VR support for all RE Engine games - https://github.com/praydog/REFramework

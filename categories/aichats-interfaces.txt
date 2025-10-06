@@ -1,0 +1,3 @@
+# AICHATS INTERFACES (1 repositories)
+
+horizon-ui/shadcn-nextjs-boilerplate: Shadcn UI NextJS Boilerplate ⚡️ Free Open-source ChatGPT UI Admin Dashboard Template - Horizon AI Boilerplate - https://github.com/horizon-ui/shadcn-nextjs-boilerplate

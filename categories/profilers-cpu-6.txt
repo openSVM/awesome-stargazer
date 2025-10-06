@@ -1,0 +1,13 @@
+# PROFILERS CPU 6 (11 repositories)
+
+arrayfire/forge: High Performance Visualization - https://github.com/arrayfire/forge
+usnistgov/hiperc: High Performance Computing Strategies for Boundary Value Problems - https://github.com/usnistgov/hiperc
+solana-labs/solana-perf-libs: C and CUDA libraries to enhance Solana - https://github.com/solana-labs/solana-perf-libs
+turbo/js: turbo.js - perform massive parallel computations in your browser with GPGPU. - https://github.com/turbo/js
+xreptoid/viperfish: Library for algorithmic trading - https://github.com/xreptoid/viperfish
+akhin/microarchitecture-cheatsheet: X86 CPU topics overview for developers , oriented towards performance - https://github.com/akhin/microarchitecture-cheatsheet
+bernardladenthin/BitcoinAddressFinder: A high performance bitcoin address finder. - https://github.com/bernardladenthin/BitcoinAddressFinder
+kprotty/zap: An asynchronous runtime with a focus on performance and resource efficiency. - https://github.com/kprotty/zap
+emilianobonassi/whitehacks-kit: A simple template to perform whitehacks safely - https://github.com/emilianobonassi/whitehacks-kit
+pAulseperformance/awesome-pinescript: A Comprehensive Collection of Everything Related to Tradingview Pine Script.  - https://github.com/pAulseperformance/awesome-pinescript
+Profilers_perf: 3 repos

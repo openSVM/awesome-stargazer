@@ -1,0 +1,4 @@
+# DISTRIBUTED COORDINATION (2 repositories)
+
+etcd-io/etcd: Distributed reliable key-value store for the most critical data of a distributed system - https://github.com/etcd-io/etcd
+hashicorp/consul: Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure. - https://github.com/hashicorp/consul

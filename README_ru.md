@@ -1,16 +1,16 @@
-# 🌟 Categorized GitHub Stars Collection
+# 🌟 Категоризированная коллекция GitHub Stars
 
-A comprehensive collection of 575 categorized GitHub repositories, organized by technology, framework, and use case. Each category contains curated repos with fewer than 100 entries for easy browsing.
+Полная коллекция из 575 категоризированных репозиториев GitHub, организованных по технологиям, фреймворкам и вариантам использования.
 
-## 📊 Statistics
-- **Total Categories**: 575
-- **Total Repos**: ~59,300 unique entries
-- **Max per Category**: 99 repos
-- **Organization**: Semantic grouping by technology trends
+## 📊 Статистика
+- **Всего категорий**: 575
+- **Всего репозиториев**: ~59,300 unique entries
+- **Максимум на категорию**: 99 репозиториев
+- **Организация**: Семантическая группировка по технологическим трендам
 
-## 🗂️ Navigation
+## 🗂️ Навигация
 
-### Quick Jump
+### Быстрый переход
 - [🤖 AI & Machine Learning](#-ai--machine-learning)
 - [⛓️ Blockchain & Crypto](#️-blockchain--crypto)
 - [🚀 Systems & Low-Level](#-systems--low-level)
@@ -27,7 +27,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 
 ---
 
-## 🤖 AI & Machine Learning
+## 🤖 ИИ и машинное обучение
 
 ### LLMs & Language Models
 - **llms-gpt-openai** (90) - OpenAI GPT models, ChatGPT integrations, API wrappers
@@ -87,9 +87,9 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 
 ---
 
-## ⛓️ Blockchain & Crypto
+## ⛓️ Блокчейн и криптовалюты
 
-### Solana Ecosystem (716 repos split)
+### Solana Ecosystem (716 репозиториев split)
 - [**solana-anchor-framework**](categories/solana-anchor-framework.txt) (73) - Anchor framework, Solana programs
 - [**solana-defi-protocols**](categories/solana-defi-protocols.txt) (86) - Raydium, Orca, Marinade, DeFi protocols
 - [**solana-nft-metaplex**](categories/solana-nft-metaplex.txt) (74) - Metaplex, Candy Machine, NFT tools
@@ -102,7 +102,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - [**solana-dev-other-1**](categories/solana-dev-other-1.txt) through [**solana-dev-other-3**](categories/solana-dev-other-3.txt) (90 each) - General Solana development
 - [**solana-bots**](categories/solana-bots.txt) (16) - Trading bots, snipers, automation
 
-### Ethereum Ecosystem (285 repos split)
+### Ethereum Ecosystem (285 репозиториев split)
 - [**ethereum-defi**](categories/ethereum-defi.txt) (66) - Uniswap, Aave, Compound, Curve
 - [**ethereum-l2**](categories/ethereum-l2.txt) (36) - Optimism, Arbitrum, zkSync, L2 solutions
 - [**ethereum-dev-tools**](categories/ethereum-dev-tools.txt) (57) - Hardhat, Foundry, Truffle, Remix
@@ -112,7 +112,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - [**ethereum-smart-contracts**](categories/ethereum-smart-contracts.txt) (48) - Solidity, Vyper, Yul development
 - **ethereum-other** (17) - Miscellaneous Ethereum tools
 
-### Smart Contracts (180 repos split)
+### Smart Contracts (180 репозиториев split)
 - [**contracts-solidity**](categories/contracts-solidity.txt) (71) - Solidity, OpenZeppelin, security
 - [**contracts-rust**](categories/contracts-rust.txt) (35) - CosmWasm, NEAR, Solana programs
 - [**contracts-other-langs**](categories/contracts-other-langs.txt) (9) - Vyper, Cairo, Move languages
@@ -142,6 +142,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - [**avalanche**](categories/avalanche.txt) (5) - Avalanche, AVAX ecosystem
 - [**layer2**](categories/layer2.txt) (47) - Generic L2 solutions, rollups
 - **nft** - Split into subcategories:
+  _Невзаимозаменяемые токены - Цифровые коллекционные предметы и искусство на блокчейне, каждый уникален._
   - **nft-marketplaces** (32) - OpenSea, Blur, Magic Eden
   - [**nft-standards**](categories/nft-standards.txt) (17) - ERC721, ERC1155, standards
   - [**nft-generative**](categories/nft-generative.txt) (24) - Generative NFTs, Art Blocks
@@ -156,9 +157,9 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 
 ---
 
-## 🚀 Systems & Low-Level
+## 🚀 Системы и низкий уровень
 
-### Operating Systems & Kernels (242 repos split)
+### Operating Systems & Kernels (242 репозиториев split)
 - [**lowlevel-kernels**](categories/lowlevel-kernels.txt) (87) - Linux kernel, BSD, OS development
 - [**lowlevel-drivers**](categories/lowlevel-drivers.txt) (14) - Device drivers, kernel modules
 - [**lowlevel-embedded**](categories/lowlevel-embedded.txt) (76) - Embedded systems, microcontrollers, RTOS
@@ -168,7 +169,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - [**lowlevel-bare-metal**](categories/lowlevel-bare-metal.txt) (6) - Bare metal programming, no OS
 - [**low-level-other**](categories/low-level-other.txt) (40) - Miscellaneous systems programming
 
-### Assembly Programming (363 repos split)
+### Assembly Programming (363 репозиториев split)
 - [**asm-x86-64**](categories/asm-x86-64.txt) (42) - x86-64, Intel, AMD64 assembly
 - [**asm-arm**](categories/asm-arm.txt) (6) - ARM, AArch64, Cortex, Thumb
 - [**asm-riscv**](categories/asm-riscv.txt) (3) - RISC-V assembly programming
@@ -180,7 +181,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - [**assembly-other-1**](categories/assembly-other-1.txt) (90) - General assembly programming
 - [**assembly-other-2**](categories/assembly-other-2.txt) (34) - Additional assembly projects
 
-### Compilers & Language Implementation (212 repos split)
+### Compilers & Language Implementation (212 репозиториев split)
 - [**compilers-llvm**](categories/compilers-llvm.txt) (48) - LLVM, Clang, MLIR infrastructure
 - [**compilers-jit**](categories/compilers-jit.txt) (19) - JIT compilation, dynamic compilation
 - [**compilers-interpreters**](categories/compilers-interpreters.txt) (31) - Interpreters, bytecode VMs
@@ -190,14 +191,14 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - [**compilers-transpilers**](categories/compilers-transpilers.txt) (14) - Source-to-source compilers
 - **compilers-other** (30) - Miscellaneous compiler projects
 
-### Virtual Machines & Containers (132 repos split)
+### Virtual Machines & Containers (132 репозиториев split)
 - [**vms-hypervisors**](categories/vms-hypervisors.txt) (40) - QEMU, KVM, VirtualBox, VMware
 - [**vms-containers**](categories/vms-containers.txt) (15) - LXC, LXD, Kata Containers
 - **vms-cloud** (12) - EC2, GCE, Azure VMs
 - **vms-management** (26) - Libvirt, Vagrant, Packer
 - **vms-other** (39) - Miscellaneous VM tools
 
-### CUDA & GPU Computing (174 repos split)
+### CUDA & GPU Computing (174 репозиториев split)
 - [**cuda-deep-learning**](categories/cuda-deep-learning.txt) (33) - cuDNN, TensorRT, GPU ML
 - [**cuda-kernels**](categories/cuda-kernels.txt) (48) - CUDA kernels, Thrust, CUB
 - **cuda-tools** (24) - Nsight, cuda-gdb, nvprof
@@ -207,9 +208,9 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 
 ---
 
-## 🎮 Gaming & Graphics
+## 🎮 Игры и графика
 
-### Game Engines (205 repos split)
+### Game Engines (205 репозиториев split)
 - [**engines-unity-1**](categories/engines-unity-1.txt) (90) - Unity3D, C# game development
 - [**engines-unity-2**](categories/engines-unity-2.txt) (12) - Additional Unity projects
 - [**engines-unreal**](categories/engines-unreal.txt) (14) - Unreal Engine, UE4/UE5
@@ -220,7 +221,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - [**engines-rust**](categories/engines-rust.txt) (9) - Bevy, Amethyst, Macroquad
 - [**game-engines-other**](categories/game-engines-other.txt) (61) - Miscellaneous game engines
 
-### Graphics Programming (108 repos split)
+### Graphics Programming (108 репозиториев split)
 - **opengl** - Split into subcategories:
   - [**gl-modern**](categories/gl-modern.txt) (24) - Modern OpenGL, Vulkan, WebGPU
   - [**gl-shaders**](categories/gl-shaders.txt) (29) - GLSL, shader programming
@@ -230,7 +231,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - [**shaders**](categories/shaders.txt) (57) - Shader programming, GLSL, HLSL, Shadertoy
 - [**raytracing**](categories/raytracing.txt) (9) - Ray tracing, path tracing, PBR
 
-### Game Modding (767 repos split)
+### Game Modding (767 репозиториев split)
 - [**modding-minecraft**](categories/modding-minecraft.txt) (84) - Minecraft mods, Forge, Fabric
 - **modding-skyrim-bethesda** (31) - Skyrim, Fallout, Elder Scrolls
 - [**modding-gta**](categories/modding-gta.txt) (7) - GTA mods, FiveM, scripts
@@ -245,6 +246,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - [**game-dev**](categories/game-dev.txt) (14) - Game development, indie games
 - [**minecraft**](categories/minecraft.txt) (48) - Minecraft servers, plugins, tools
 - **emulators** - Split into subcategories:
+  _Эмуляторы - Программы для запуска игр старых консолей на компьютере._
   - [**emu-console**](categories/emu-console.txt) (87) - NES, SNES, GameBoy, N64, PlayStation
   - [**emu-arcade**](categories/emu-arcade.txt) (1) - MAME, arcade emulation
   - [**emu-computer**](categories/emu-computer.txt) (9) - DOS, Amiga, C64, ZX Spectrum
@@ -252,6 +254,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
   - **emu-frameworks** (8) - Unicorn, Qiling frameworks
   - **emu-other** (11) - Miscellaneous emulators
 - **speedrun** - Split into subcategories:
+  _Спидран - Инструменты и техники для прохождения игр максимально быстро._
   - **speedrun-tools** (37) - LiveSplit, autosplitters, timers
   - **speedrun-tas** (47) - TAS tools, frame-perfect inputs
   - **speedrun-routing** (43) - Route optimization, planning
@@ -263,9 +266,9 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 
 ---
 
-## 🌐 Web Development
+## 🌐 Веб-разработка
 
-### React Ecosystem (208 repos split)
+### React Ecosystem (208 репозиториев split)
 - [**react-nextjs**](categories/react-nextjs.txt) (59) - Next.js, Vercel, SSR/SSG
 - **react-state-management** (36) - Redux, MobX, Zustand, Recoil
 - [**react-ui-libraries**](categories/react-ui-libraries.txt) (1) - Material-UI, Ant Design, Chakra
@@ -280,6 +283,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - [**angular**](categories/angular.txt) (7) - Angular, RxJS frameworks
 - [**svelte**](categories/svelte.txt) (9) - Svelte, SvelteKit
 - **typescript** - Split into subcategories:
+  _TypeScript - JavaScript с типами, помогает предотвращать ошибки и улучшать качество кода._
   - **ts-frameworks** (73) - Angular, NestJS, Express
   - **ts-utilities** (34) - Lodash, Ramda, date-fns
   - [**ts-build-tools**](categories/ts-build-tools.txt) (23) - Webpack, Vite, esbuild, SWC
@@ -287,7 +291,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
   - [**ts-type-tools**](categories/ts-type-tools.txt) (1) - Zod, io-ts, TypeBox
   - **ts-other** (24) - Miscellaneous TypeScript
 
-### WebAssembly (210 repos split)
+### WebAssembly (210 репозиториев split)
 - [**wasm-runtimes**](categories/wasm-runtimes.txt) (33) - Wasmtime, Wasmer, WasmCloud
 - [**wasm-languages**](categories/wasm-languages.txt) (44) - AssemblyScript, Rust WASM
 - [**wasm-web-frameworks**](categories/wasm-web-frameworks.txt) (38) - Yew, Blazor, Leptos
@@ -315,9 +319,9 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 
 ---
 
-## ☁️ Cloud & Infrastructure
+## ☁️ Облако и инфраструктура
 
-### Kubernetes (164 repos split)
+### Kubernetes (164 репозиториев split)
 - [**k8s-operators**](categories/k8s-operators.txt) (31) - Operators, controllers, CRDs
 - [**k8s-networking**](categories/k8s-networking.txt) (29) - Service mesh, Istio, Linkerd
 - [**k8s-storage**](categories/k8s-storage.txt) (1) - Persistent volumes, CSI, Rook
@@ -326,7 +330,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - [**k8s-platforms**](categories/k8s-platforms.txt) (23) - OpenShift, Rancher, EKS, GKE
 - **k8s-other** (19) - Miscellaneous Kubernetes
 
-### Docker & Containers (190 repos split)
+### Docker & Containers (190 репозиториев split)
 - [**docker-compose**](categories/docker-compose.txt) (29) - Docker Compose, multi-container
 - [**docker-orchestration**](categories/docker-orchestration.txt) (36) - Swarm, orchestration tools
 - [**docker-images**](categories/docker-images.txt) (38) - Dockerfiles, Alpine, distroless
@@ -358,9 +362,9 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 
 ---
 
-## 🔒 Security & Privacy
+## 🔒 Безопасность и конфиденциальность
 
-### Privacy Tools (1473 repos split - largest category!)
+### Privacy Tools (1473 репозиториев split - largest category!)
 - **privacy-tor-onion-1** through **privacy-tor-onion-16** (90 each, last one 22) - Tor, onion routing, darknet
 - [**privacy-vpn-tunnels**](categories/privacy-vpn-tunnels.txt) (19) - VPN tools, WireGuard, OpenVPN
 - [**privacy-encryption-tools**](categories/privacy-encryption-tools.txt) (14) - Encryption tools, PGP, GPG
@@ -372,7 +376,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - **privacy-metadata** (0) - Metadata removal, fingerprinting
 - [**privacy-other**](categories/privacy-other.txt) (48) - Miscellaneous privacy tools
 
-### Encryption & Cryptography (319 repos split)
+### Encryption & Cryptography (319 репозиториев split)
 - [**encryption-symmetric**](categories/encryption-symmetric.txt) (25) - AES, ChaCha20, symmetric crypto
 - [**encryption-asymmetric-1**](categories/encryption-asymmetric-1.txt) (90) - RSA, ECC, public key crypto
 - [**encryption-asymmetric-2**](categories/encryption-asymmetric-2.txt) (12) - Additional asymmetric crypto
@@ -399,9 +403,9 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 
 ---
 
-## 📱 Mobile Development
+## 📱 Мобильная разработка
 
-### Android (126 repos split)
+### Android (126 репозиториев split)
 - [**android-kotlin**](categories/android-kotlin.txt) (4) - Kotlin Android, Jetpack Compose
 - [**android-frameworks**](categories/android-frameworks.txt) (1) - AOSP, Android frameworks
 - [**android-reverse**](categories/android-reverse.txt) (5) - APK analysis, Frida
@@ -421,9 +425,9 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 
 ---
 
-## 🛠️ Development Tools
+## 🛠️ Инструменты разработки
 
-### IDEs & Editors (722 repos split)
+### IDEs & Editors (722 репозиториев split)
 - [**ide-vscode-extensions**](categories/ide-vscode-extensions.txt) (88) - VS Code extensions, themes
 - [**ide-neovim-configs**](categories/ide-neovim-configs.txt) (86) - Neovim, Vim, Lua configs
 - [**ide-emacs-packages**](categories/ide-emacs-packages.txt) (42) - Emacs, Elisp, Doom, Spacemacs
@@ -434,7 +438,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - [**ide-terminal-based**](categories/ide-terminal-based.txt) (88) - Terminal IDEs, TUI editors
 - **ide-other-1** through **ide-other-4** (90, 90, 90, 18) - General IDE tools
 
-### Terminal Tools (320 repos split)
+### Terminal Tools (320 репозиториев split)
 - [**terminal-emulators**](categories/terminal-emulators.txt) (88) - Alacritty, Kitty, WezTerm
 - [**terminal-multiplexers**](categories/terminal-multiplexers.txt) (14) - tmux, screen, Zellij
 - [**terminal-shells**](categories/terminal-shells.txt) (47) - zsh, fish, bash, nushell
@@ -444,7 +448,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - **terminal-git-tools** (9) - lazygit, tig, gitui
 - [**terminal-tools-other-1**](categories/terminal-tools-other-1.txt) (90) - General terminal tools
 
-### Profiling & Performance (497 repos split)
+### Profiling & Performance (497 репозиториев split)
 - **profilers-cpu** (87) - CPU profilers, perf, VTune
 - [**profilers-memory**](categories/profilers-memory.txt) (1) - Memory profilers, Valgrind
 - [**profilers-gpu**](categories/profilers-gpu.txt) (1) - GPU profilers, Nsight, RenderDoc
@@ -454,7 +458,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - **profilers-language-specific** (51) - py-spy, Java profilers
 - **profilers-other-1** through **profilers-other-3** (90, 90, 90) - General profiling
 
-### Benchmarking (465 repos split)
+### Benchmarking (465 репозиториев split)
 - [**benchmarking-micro**](categories/benchmarking-micro.txt) (71) - Microbenchmarks, Criterion
 - [**benchmarking-load-testing**](categories/benchmarking-load-testing.txt) (51) - JMeter, Gatling, k6
 - **benchmarking-database** (24) - Database benchmarks, TPC, YCSB
@@ -466,6 +470,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 
 ### Development Utilities
 - **dotfiles** - Split into subcategories:
+  _Файлы конфигурации - Персональные настройки для комфортной среды разработки._
   - **dotfiles-shell** (48) - zshrc, bashrc configs
   - **dotfiles-vim** (36) - vimrc, neovim configs
   - [**dotfiles-managers**](categories/dotfiles-managers.txt) (1) - stow, chezmoi, dotbot
@@ -480,9 +485,9 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 
 ---
 
-## 💻 Programming Languages
+## 💻 Языки программирования
 
-### Rust (670 repos split)
+### Rust (670 репозиториев split)
 - [**rust-async-tokio**](categories/rust-async-tokio.txt) (86) - Tokio, async, futures
 - [**rust-wasm**](categories/rust-wasm.txt) (85) - Rust WASM, wasm-bindgen
 - [**rust-embedded**](categories/rust-embedded.txt) (74) - Embedded Rust, no_std
@@ -493,7 +498,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - [**rust-systems**](categories/rust-systems.txt) (68) - OS, kernels, bare metal
 - **rust-other** (70) - Miscellaneous Rust
 
-### Zig (586 repos split)
+### Zig (586 репозиториев split)
 - [**zig-gamedev**](categories/zig-gamedev.txt) (84) - Zig game development
 - [**zig-systems-programming**](categories/zig-systems-programming.txt) (85) - OS, kernel, embedded
 - [**zig-comptime**](categories/zig-comptime.txt) (71) - Comptime, metaprogramming
@@ -502,7 +507,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - [**zig-c-interop**](categories/zig-c-interop.txt) (84) - C interop, bindings
 - **zig-other-1** through **zig-other-2** (90, 35) - General Zig
 
-### Python Ecosystem (291 repos split)
+### Python Ecosystem (291 репозиториев split)
 - [**python-web-frameworks**](categories/python-web-frameworks.txt) (1) - Django, Flask, FastAPI
 - [**python-data-science**](categories/python-data-science.txt) (87) - Pandas, NumPy, SciPy
 - [**python-ml-ai**](categories/python-ml-ai.txt) (85) - scikit-learn, TensorFlow, PyTorch
@@ -512,7 +517,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - [**python-cli**](categories/python-cli.txt) (2) - Click, Typer, argparse
 - **python-tools-other** (33) - Miscellaneous Python
 
-### C/C++ (377 repos split)
+### C/C++ (377 репозиториев split)
 - [**cpp-modern**](categories/cpp-modern.txt) (84) - C++20/23, modern C++
 - [**cpp-gamedev**](categories/cpp-gamedev.txt) (86) - Game development, Unreal
 - [**cpp-systems**](categories/cpp-systems.txt) (68) - Kernels, OS, drivers
@@ -556,13 +561,14 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 
 ---
 
-## 📊 Data & Databases
+## 📊 Данные и базы данных
 
 ### Databases
 - [**postgresql**](categories/postgresql.txt) (65) - PostgreSQL, Postgres
 - [**mysql**](categories/mysql.txt) (16) - MySQL, MariaDB
 - [**mongodb**](categories/mongodb.txt) (13) - MongoDB, Mongoose
 - **redis** - Split into subcategories:
+  _Redis - Сверхбыстрая база данных в памяти для кеша и данных реального времени._
   - [**redis-clients**](categories/redis-clients.txt) (35) - Redis clients, ioredis
   - [**redis-modules**](categories/redis-modules.txt) (18) - RediSearch, RedisGraph
   - [**redis-tools**](categories/redis-tools.txt) (16) - RedisInsight, redis-cli
@@ -586,7 +592,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - [**big-data**](categories/big-data.txt) (37) - Hadoop, Spark, Databricks, Snowflake
 - [**data-quality**](categories/data-quality.txt) (2) - Great Expectations, dbt
 
-### Distributed Systems (211 repos split)
+### Distributed Systems (211 репозиториев split)
 - [**distributed-consensus**](categories/distributed-consensus.txt) (40) - Raft, Paxos, consensus
 - [**distributed-databases**](categories/distributed-databases.txt) (29) - CockroachDB, YugabyteDB
 - [**distributed-messaging**](categories/distributed-messaging.txt) (1) - Kafka, RabbitMQ, NATS
@@ -598,16 +604,16 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 
 ---
 
-## 🔬 Science & Research
+## 🔬 Наука и исследования
 
-### Scientific Computing (115 repos split)
+### Scientific Computing (115 репозиториев split)
 - [**sci-numerical**](categories/sci-numerical.txt) (48) - NumPy, SciPy, LAPACK, BLAS
 - [**sci-simulation**](categories/sci-simulation.txt) (29) - Monte Carlo, finite element
 - **sci-visualization** (14) - ParaView, scientific viz
 - [**sci-hpc**](categories/sci-hpc.txt) (15) - HPC, MPI, OpenMP
 - [**scientific-computing-other**](categories/scientific-computing-other.txt) (9) - Miscellaneous scientific
 
-### Physics (325 repos split)
+### Physics (325 репозиториев split)
 - [**physics-simulation**](categories/physics-simulation.txt) (88) - Bullet, Box2D, physics engines
 - **physics-quantum** (87) - Quantum computing, Qiskit
 - [**physics-particle**](categories/physics-particle.txt) (48) - Particle physics, N-body
@@ -619,6 +625,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 
 ### Other Sciences
 - **astronomy** - Split into subcategories:
+  _Астрономия - Инструменты для космических исследований, управления телескопами и небесных симуляций._
   - [**astro-simulation**](categories/astro-simulation.txt) (44) - N-body, orbital mechanics
   - [**astro-data**](categories/astro-data.txt) (1) - Astronomy data, FITS
   - **astro-visualization** (34) - Planetarium, sky maps
@@ -628,7 +635,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - [**chemistry**](categories/chemistry.txt) (10) - Molecular modeling, computational chemistry
 - [**biology**](categories/biology.txt) (2) - Bioinformatics, genomics
 
-### Robotics (434 repos split)
+### Robotics (434 репозиториев split)
 - **robotics-ros** (87) - ROS, ROS2, Gazebo
 - **robotics-autonomous-vehicles** (83) - Self-driving, SLAM
 - [**robotics-drones**](categories/robotics-drones.txt) (1) - Drones, quadcopters, PX4
@@ -640,9 +647,9 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 
 ---
 
-## 🎯 Specialized Domains
+## 🎯 Специализированные области
 
-### Parsing & Compilers (857 repos split)
+### Parsing & Compilers (857 репозиториев split)
 - **parsing-ast-compilers** (88) - AST, compiler infrastructure
 - [**parsing-lexers**](categories/parsing-lexers.txt) (86) - Lexers, tokenizers
 - [**parsing-parsers-generators**](categories/parsing-parsers-generators.txt) (1) - Parser generators, ANTLR
@@ -653,7 +660,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - [**parsing-binary**](categories/parsing-binary.txt) (58) - Binary protocols, packets
 - **parsing-other-1** through **parsing-other-5** (90 each) - General parsing
 
-### Automation (179 repos split)
+### Automation (179 репозиториев split)
 - [**automation-ci-cd**](categories/automation-ci-cd.txt) (2) - GitHub Actions, Jenkins
 - [**automation-testing**](categories/automation-testing.txt) (2) - Selenium, Playwright, Cypress
 - [**automation-infrastructure**](categories/automation-infrastructure.txt) (3) - Terraform, Ansible
@@ -668,7 +675,7 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - [**payment**](categories/payment.txt) (18) - Stripe, PayPal, gateways
 - [**banking**](categories/banking.txt) (10) - Banking, fintech, open banking
 
-### Communication Tools (204 repos split)
+### Communication Tools (204 репозиториев split)
 - [**chat-discord**](categories/chat-discord.txt) (1) - Discord bots, discord.js
 - [**chat-slack**](categories/chat-slack.txt) (1) - Slack bots, apps
 - [**chat-matrix**](categories/chat-matrix.txt) (33) - Matrix, Element, Synapse
@@ -751,16 +758,16 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - [**voip**](categories/voip.txt) (5) - VoIP, SIP, telephony
 
 ### Special Interest Groups
-- [**opensvm**](categories/opensvm.txt) (16) - OpenSVM organization repos
+- [**opensvm**](categories/opensvm.txt) (16) - OpenSVM organization репозиториев
 - [**aldrin**](categories/aldrin.txt) (35) - Aldrin Labs related projects
-- [**ziglana**](categories/ziglana.txt) (6) - Ziglana organization repos
+- [**ziglana**](categories/ziglana.txt) (6) - Ziglana organization репозиториев
 
 ---
 
-## 📈 Repository Distribution
+## 📈 Распределение репозиториев
 
-### Largest Categories (90 repos)
-- Privacy/Tor (15 subcategories with 90 repos each)
+### Крупнейшие категории (90 репозиториев)
+- Privacy/Tor (15 subcategories with 90 репозиториев each)
 - Assembly optimization (2 subcategories)
 - Encryption (2 subcategories)
 - IDE tools (4 subcategories)
@@ -768,21 +775,21 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 - Profiling (3 subcategories)
 - Benchmarking (2 subcategories)
 
-### Smallest Categories (<5 repos)
+### Наименьшие категории (<5 репозиториев)
 - Various specialized tools and frameworks
 - Niche programming language implementations
 - Specific protocol implementations
 
 ---
 
-## 📝 Notes
+## 📝 Примечания
 
-1. Categories are split when they exceed 99 repos to maintain manageable sizes
+1. Categories are split when they exceed 99 репозиториев to maintain manageable sizes
 2. Subcategories follow semantic grouping based on technology trends
 3. Some categories have multiple numbered parts (e.g., -other-1, -other-2) when semantic splitting wasn't sufficient
-4. Empty categories (0 repos) indicate search patterns that didn't match any repos in your collection
+4. Empty categories (0 репозиториев) indicate search patterns that didn't match any репозиториев in your collection
 
-## 🔍 How to Use
+## 🔍 Как использовать
 
 1. Browse categories in the navigation above
 2. Each `.txt` file contains repo name, description, and GitHub URL
@@ -791,9 +798,8 @@ A comprehensive collection of 575 categorized GitHub repositories, organized by 
 
 ---
 
-*Generated from starred GitHub repositories collection*
-*Last updated: 2025*# awesome-stargazer
-
+*Создано из коллекции GitHub Stars*
+*Последнее обновление: 2025*
 
 ## Categories
 

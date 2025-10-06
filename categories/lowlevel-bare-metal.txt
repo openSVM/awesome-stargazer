@@ -1,0 +1,8 @@
+# LOWLEVEL BARE METAL (6 repositories)
+
+godarch/darch: A tool for building and booting stateless and immutable images, bare metal. - https://github.com/godarch/darch
+whily/yalo: Lisp OS running on bare metal x86-64 hardware (WIP) - https://github.com/whily/yalo
+andrewrk/clashos: multiplayer arcade game for bare metal Raspberry Pi 3 B+ - https://github.com/andrewrk/clashos
+tinkerbell/tink: Workflow Engine for provisioning Bare Metal - https://github.com/tinkerbell/tink
+trustgraph-ai/trustgraph: The agentic AI platform for enterprise. Built by data engineers for data engineers. Complete context engineering and LLM orchestration infrastructure. Run anywhere - local, cloud, or bare metal. - https://github.com/trustgraph-ai/trustgraph
+MightyMoud/sidekick: Bare metal to production ready in mins; your own fly server on your VPS. - https://github.com/MightyMoud/sidekick

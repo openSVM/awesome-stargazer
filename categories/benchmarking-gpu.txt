@@ -1,0 +1,4 @@
+# BENCHMARKING GPU (2 repositories)
+
+ProjectPhysX/OpenCL-Benchmark: A small OpenCL benchmark program to measure peak GPU/CPU performance. - https://github.com/ProjectPhysX/OpenCL-Benchmark
+michaeljclark/aes-gcm: Benchmarking AES-GCM on GPUs with OpenCL - https://github.com/michaeljclark/aes-gcm

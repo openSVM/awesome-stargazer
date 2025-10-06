@@ -1,0 +1,8 @@
+# WEBASSEMBLY OTHER 3 (6 repositories)
+
+WebAssembly_zig: 5 repos
+WebAssembly_awesome: 4 repos
+WebAssembly_parquet: 1 repos
+WebAssembly_runwell: 1 repos
+WebAssembly_spacey: 1 repos
+WebAssembly_watt: 1 repos
