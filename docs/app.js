@@ -5,6 +5,11 @@ let bookmarks = new Set();
 let likes = new Map();
 let learningPaths = [];
 
+// Pagination
+let currentPage = 1;
+let itemsPerPage = 50;
+let filteredReposCache = [];
+
 // Load from localStorage
 function loadFromStorage() {
     const saved = localStorage.getItem('awesome-stargazer-data');
@@ -109,9 +114,19 @@ function renderRepos(repos) {
     }
 
     noResults.classList.add('hidden');
-    resultsCount.textContent = `${repos.length} repositories`;
+    
+    // Store for pagination
+    filteredReposCache = repos;
+    
+    // Calculate pagination
+    const totalPages = Math.ceil(repos.length / itemsPerPage);
+    const startIdx = (currentPage - 1) * itemsPerPage;
+    const endIdx = Math.min(startIdx + itemsPerPage, repos.length);
+    const paginatedRepos = repos.slice(startIdx, endIdx);
+    
+    resultsCount.textContent = `Showing ${startIdx + 1}-${endIdx} of ${repos.length.toLocaleString()} repositories`;
 
-    container.innerHTML = repos.map(repo => {
+    container.innerHTML = paginatedRepos.map(repo => {
         const isBookmarked = bookmarks.has(repo.id);
         const likeCount = likes.get(repo.id) || 0;
         const isLiked = likeCount > 0;
@@ -184,6 +199,59 @@ function renderRepos(repos) {
             addToPath(btn.dataset.repoId);
         });
     });
+    
+    // Render pagination
+    renderPagination(totalPages);
+}
+
+// Render pagination controls
+function renderPagination(totalPages) {
+    let paginationContainer = document.getElementById('pagination-controls');
+    
+    if (!paginationContainer) {
+        // Create pagination container if it doesn't exist
+        paginationContainer = document.createElement('div');
+        paginationContainer.id = 'pagination-controls';
+        paginationContainer.className = 'pagination-controls';
+        const reposContainer = document.getElementById('repos-container');
+        reposContainer.parentNode.insertBefore(paginationContainer, reposContainer.nextSibling);
+    }
+    
+    if (totalPages <= 1) {
+        paginationContainer.style.display = 'none';
+        return;
+    }
+    
+    paginationContainer.style.display = 'flex';
+    
+    let html = '';
+    
+    // Previous button
+    html += `<button class="pagination-btn" ${currentPage === 1 ? 'disabled' : ''} onclick="changePage(${currentPage - 1})">
+        ← Previous
+    </button>`;
+    
+    // Page info
+    html += `<span class="pagination-info">Page ${currentPage} of ${totalPages}</span>`;
+    
+    // Next button
+    html += `<button class="pagination-btn" ${currentPage === totalPages ? 'disabled' : ''} onclick="changePage(${currentPage + 1})">
+        Next →
+    </button>`;
+    
+    paginationContainer.innerHTML = html;
+}
+
+// Change page
+function changePage(page) {
+    const totalPages = Math.ceil(filteredReposCache.length / itemsPerPage);
+    if (page < 1 || page > totalPages) return;
+    
+    currentPage = page;
+    renderRepos(filteredReposCache);
+    
+    // Scroll to top of results
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 // Toggle bookmark
@@ -516,19 +584,23 @@ async function init() {
 
     // Event listeners
     document.getElementById('search-input').addEventListener('input', () => {
+        currentPage = 1; // Reset to first page on search
         renderRepos(filterRepos());
     });
 
     document.getElementById('search-clear').addEventListener('click', () => {
         document.getElementById('search-input').value = '';
+        currentPage = 1; // Reset to first page
         renderRepos(filterRepos());
     });
 
     document.getElementById('category-filter').addEventListener('change', () => {
+        currentPage = 1; // Reset to first page on filter change
         renderRepos(filterRepos());
     });
 
     document.getElementById('sort-filter').addEventListener('change', () => {
+        currentPage = 1; // Reset to first page on sort change
         renderRepos(filterRepos());
     });
 
