@@ -6,6 +6,44 @@ let likes = new Map();
 let learningPaths = [];
 let searchDebounceTimer = null;
 
+// Category icon mapping
+function getCategoryIcon(category) {
+    const iconMap = {
+        'AI': '🤖',
+        'BLOCKCHAIN': '⛓️',
+        'SOLANA': '◎',
+        'ETHEREUM': '⟠',
+        'REACT': '⚛️',
+        'RUST': '🦀',
+        'PYTHON': '🐍',
+        'JAVASCRIPT': '📜',
+        'TYPESCRIPT': '💙',
+        'GO': '🐹',
+        'DATABASE': '🗄️',
+        'WEB': '🌐',
+        'MOBILE': '📱',
+        'SECURITY': '🔒',
+        'DEVOPS': '🚀',
+        'TESTING': '✅',
+        'GAMING': '🎮',
+        'MACHINE LEARNING': '🧠',
+        'NLP': '💬',
+        'COMPUTER VISION': '👁️',
+        'DATA': '📊',
+        'CLOUD': '☁️'
+    };
+    
+    // Try to match category with icon map
+    const upperCategory = category.toUpperCase();
+    for (const [key, icon] of Object.entries(iconMap)) {
+        if (upperCategory.includes(key)) {
+            return icon;
+        }
+    }
+    
+    return '📦'; // Default icon
+}
+
 // Load from localStorage
 function loadFromStorage() {
     const saved = localStorage.getItem('awesome-stargazer-data');
@@ -159,11 +197,12 @@ function renderRepos(repos) {
         const isBookmarked = bookmarks.has(repo.id);
         const likeCount = likes.get(repo.id) || 0;
         const isLiked = likeCount > 0;
+        const categoryIcon = getCategoryIcon(repo.category);
         
         return `
             <div class="repo-card" data-repo-id="${repo.id}">
                 <div class="repo-header">
-                    <div class="repo-icon">📦</div>
+                    <div class="repo-icon">${categoryIcon}</div>
                     <div class="repo-info">
                         <a href="${repo.url}" class="repo-name" target="_blank" rel="noopener">${repo.name}</a>
                         <div class="repo-category">${repo.category}</div>

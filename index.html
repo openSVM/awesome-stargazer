@@ -9,6 +9,9 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⭐</text></svg>">
 </head>
 <body class="dark-mode">
+    <!-- Skip to content for accessibility -->
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
+    
     <!-- Header -->
     <header class="header">
         <div class="container header-content">
@@ -57,10 +60,16 @@
     </header>
 
     <!-- Main Content -->
-    <main class="main-content">
+    <main class="main-content" id="main-content">
         <!-- Explorer Tab -->
         <div class="tab-content active" id="explorer-tab">
             <div class="container">
+                <!-- Hero Section -->
+                <div class="hero-section">
+                    <h1 class="hero-title">Discover Amazing GitHub Repositories</h1>
+                    <p class="hero-subtitle">Explore 59,000+ curated repositories across 575 categories</p>
+                </div>
+
                 <div class="search-section">
                     <div class="search-wrapper">
                         <svg class="search-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
@@ -72,8 +81,9 @@
                             class="search-input" 
                             placeholder="Search repositories by name, topic, language, or description..."
                             autocomplete="off"
+                            aria-label="Search repositories"
                         >
-                        <button class="search-clear hidden" id="search-clear" title="Clear search (Esc)">
+                        <button class="search-clear hidden" id="search-clear" title="Clear search (Esc)" aria-label="Clear search">
                             <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
                             </svg>

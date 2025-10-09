@@ -5,7 +5,7 @@
     --bg-overlay: rgba(13, 17, 23, 0.8);
     --border-default: #30363d;
     --border-muted: #21262d;
-    --text-primary: #c9d1d9;
+    --text-primary: #e6edf3;
     --text-secondary: #8b949e;
     --text-link: #58a6ff;
     --text-link-hover: #79c0ff;
@@ -46,6 +46,24 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+/* Skip to content link for accessibility */
+.skip-to-content {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--accent-primary);
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 0 0 6px 0;
+    z-index: 1000;
+    font-weight: 500;
+}
+
+.skip-to-content:focus {
+    top: 0;
 }
 
 body {
@@ -185,6 +203,29 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    padding: 48px 24px 32px;
+    animation: fadeIn 0.6s ease;
+}
+
+.hero-title {
+    font-size: 36px;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--text-primary), var(--text-link));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 12px;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    color: var(--text-secondary);
+    font-weight: 400;
+}
+
 /* Search Section */
 .search-section {
     margin-bottom: 24px;
@@ -220,6 +261,10 @@ body {
     outline: none;
     border-color: var(--text-link);
     box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.1);
+}
+
+.search-input:not(:placeholder-shown) {
+    background: var(--bg-tertiary);
 }
 
 .search-clear {
@@ -381,17 +426,29 @@ kbd {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    transition: color 0.2s ease;
 }
 
 .repo-name:hover {
     color: var(--text-link-hover);
-    text-decoration: underline;
+}
+
+.repo-name:focus {
+    outline: 2px solid var(--text-link);
+    outline-offset: 2px;
+    border-radius: 3px;
 }
 
 .repo-category {
     font-size: 12px;
     color: var(--text-secondary);
     margin-top: 2px;
+    display: inline-block;
+    padding: 2px 8px;
+    background: var(--bg-tertiary);
+    border-radius: 12px;
+    border: 1px solid var(--border-muted);
+    font-weight: 500;
 }
 
 .repo-description {
@@ -1115,5 +1172,13 @@ kbd {
 
     .toast {
         min-width: auto;
+    }
+
+    .hero-title {
+        font-size: 28px;
+    }
+
+    .hero-subtitle {
+        font-size: 16px;
     }
 }
