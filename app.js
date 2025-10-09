@@ -4,6 +4,45 @@ let categories = new Set();
 let bookmarks = new Set();
 let likes = new Map();
 let learningPaths = [];
+let searchDebounceTimer = null;
+
+// Category icon mapping
+function getCategoryIcon(category) {
+    const iconMap = {
+        'AI': '🤖',
+        'BLOCKCHAIN': '⛓️',
+        'SOLANA': '◎',
+        'ETHEREUM': '⟠',
+        'REACT': '⚛️',
+        'RUST': '🦀',
+        'PYTHON': '🐍',
+        'JAVASCRIPT': '📜',
+        'TYPESCRIPT': '💙',
+        'GO': '🐹',
+        'DATABASE': '🗄️',
+        'WEB': '🌐',
+        'MOBILE': '📱',
+        'SECURITY': '🔒',
+        'DEVOPS': '🚀',
+        'TESTING': '✅',
+        'GAMING': '🎮',
+        'MACHINE LEARNING': '🧠',
+        'NLP': '💬',
+        'COMPUTER VISION': '👁️',
+        'DATA': '📊',
+        'CLOUD': '☁️'
+    };
+    
+    // Try to match category with icon map
+    const upperCategory = category.toUpperCase();
+    for (const [key, icon] of Object.entries(iconMap)) {
+        if (upperCategory.includes(key)) {
+            return icon;
+        }
+    }
+    
+    return '📦'; // Default icon
+}
 
 // Load from localStorage
 function loadFromStorage() {
@@ -32,21 +71,64 @@ function saveToStorage() {
 
 // Fetch and parse repository data
 async function fetchRepoData() {
+    const loadingText = document.getElementById('loading-text');
+    const loadingStats = document.getElementById('loading-stats');
+    const progressBar = document.getElementById('loading-progress-bar');
+    
     try {
+        loadingText.textContent = 'Fetching repository data...';
+        
         const response = await fetch('data.json');
-        if (response.ok) {
-            const data = await response.json();
-            // Check if data has repos property or is array
-            allRepos = Array.isArray(data) ? data : (data.repos || []);
-            allRepos.forEach(repo => categories.add(repo.category));
-            console.log(`Loaded ${allRepos.length} repositories from JSON`);
-        } else {
+        if (!response.ok) {
             throw new Error('JSON not found');
         }
+        
+        const totalSize = response.headers.get('content-length');
+        const reader = response.body.getReader();
+        let receivedLength = 0;
+        let chunks = [];
+        
+        while(true) {
+            const {done, value} = await reader.read();
+            
+            if (done) break;
+            
+            chunks.push(value);
+            receivedLength += value.length;
+            
+            if (totalSize) {
+                const progress = (receivedLength / totalSize) * 100;
+                progressBar.style.width = `${progress}%`;
+                loadingStats.textContent = `Downloaded ${(receivedLength / 1024 / 1024).toFixed(2)} MB of ${(totalSize / 1024 / 1024).toFixed(2)} MB`;
+            }
+        }
+        
+        loadingText.textContent = 'Processing repository data...';
+        progressBar.style.width = '100%';
+        
+        const chunksAll = new Uint8Array(receivedLength);
+        let position = 0;
+        for(let chunk of chunks) {
+            chunksAll.set(chunk, position);
+            position += chunk.length;
+        }
+        
+        const result = new TextDecoder("utf-8").decode(chunksAll);
+        const data = JSON.parse(result);
+        
+        allRepos = Array.isArray(data) ? data : (data.repos || []);
+        allRepos.forEach(repo => categories.add(repo.category));
+        
+        loadingStats.textContent = `Loaded ${allRepos.length.toLocaleString()} repositories across ${categories.size} categories`;
+        console.log(`Loaded ${allRepos.length} repositories from JSON`);
+        
+        showToast('success', 'Data Loaded', `${allRepos.length.toLocaleString()} repositories ready to explore`);
     } catch (e) {
         console.error('Error loading repo data:', e);
-        // Show error message
+        loadingText.textContent = 'Error loading repositories';
+        loadingStats.textContent = 'Please refresh the page to try again';
         document.getElementById('results-count').textContent = 'Error loading repositories';
+        showToast('error', 'Loading Failed', 'Could not load repository data. Please refresh the page.');
     }
 }
 
@@ -115,11 +197,12 @@ function renderRepos(repos) {
         const isBookmarked = bookmarks.has(repo.id);
         const likeCount = likes.get(repo.id) || 0;
         const isLiked = likeCount > 0;
+        const categoryIcon = getCategoryIcon(repo.category);
         
         return `
             <div class="repo-card" data-repo-id="${repo.id}">
                 <div class="repo-header">
-                    <div class="repo-icon">📦</div>
+                    <div class="repo-icon">${categoryIcon}</div>
                     <div class="repo-info">
                         <a href="${repo.url}" class="repo-name" target="_blank" rel="noopener">${repo.name}</a>
                         <div class="repo-category">${repo.category}</div>
@@ -188,10 +271,20 @@ function renderRepos(repos) {
 
 // Toggle bookmark
 function toggleBookmark(repoId) {
-    if (bookmarks.has(repoId)) {
+    const wasBookmarked = bookmarks.has(repoId);
+    
+    if (wasBookmarked) {
         bookmarks.delete(repoId);
+        showToast('info', 'Bookmark Removed', 'Repository removed from bookmarks');
     } else {
         bookmarks.add(repoId);
+        showToast('success', 'Bookmark Added', 'Repository saved to bookmarks');
+        // Add animation to the button
+        const btn = document.querySelector(`.bookmark-btn[data-repo-id="${repoId}"]`);
+        if (btn) {
+            btn.classList.add('animating');
+            setTimeout(() => btn.classList.remove('animating'), 400);
+        }
     }
     saveToStorage();
     updateBookmarkCount();
@@ -209,8 +302,17 @@ function toggleLike(repoId) {
     const currentLikes = likes.get(repoId) || 0;
     likes.set(repoId, currentLikes + 1);
     saveToStorage();
+    
+    // Add animation to the button
+    const btn = document.querySelector(`.like-btn[data-repo-id="${repoId}"]`);
+    if (btn) {
+        btn.classList.add('animating');
+        setTimeout(() => btn.classList.remove('animating'), 400);
+    }
+    
     renderRepos(filterRepos());
     updateStats();
+    showToast('success', 'Liked!', 'Thank you for your feedback');
 }
 
 // Share repo
@@ -218,9 +320,35 @@ function shareRepo(repoId) {
     const repo = allRepos.find(r => r.id === repoId);
     if (!repo) return;
 
-    const text = `Check out ${repo.name} - ${repo.description} #AwesomeStargazer #GitHub`;
-    const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(repo.url)}`;
-    window.open(url, '_blank', 'width=550,height=420');
+    // Try to use modern share API first
+    if (navigator.share) {
+        navigator.share({
+            title: repo.name,
+            text: repo.description,
+            url: repo.url
+        }).then(() => {
+            showToast('success', 'Shared!', 'Repository link shared successfully');
+        }).catch((error) => {
+            if (error.name !== 'AbortError') {
+                fallbackShare(repo);
+            }
+        });
+    } else {
+        fallbackShare(repo);
+    }
+}
+
+function fallbackShare(repo) {
+    // Copy to clipboard as fallback
+    const text = `${repo.name}: ${repo.description}\n${repo.url}`;
+    navigator.clipboard.writeText(text).then(() => {
+        showToast('success', 'Link Copied!', 'Repository link copied to clipboard');
+    }).catch(() => {
+        // Fallback to Twitter share
+        const tweetText = `Check out ${repo.name} - ${repo.description} #AwesomeStargazer #GitHub`;
+        const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}&url=${encodeURIComponent(repo.url)}`;
+        window.open(url, '_blank', 'width=550,height=420');
+    });
 }
 
 // Add to learning path
@@ -229,8 +357,8 @@ function addToPath(repoId) {
     if (!repo) return;
 
     if (learningPaths.length === 0) {
-        alert('Please create a learning path first!');
-        switchTab('learning-paths');
+        showToast('info', 'No Learning Paths', 'Create a learning path first to add repositories');
+        setTimeout(() => switchTab('learning-paths'), 1500);
         return;
     }
 
@@ -249,9 +377,9 @@ function addToPath(repoId) {
                     completed: false
                 });
                 saveToStorage();
-                alert(`Added to "${learningPaths[index].name}"!`);
+                showToast('success', 'Added to Path!', `Added to "${learningPaths[index].name}"`);
             } else {
-                alert('Repository already in this path!');
+                showToast('info', 'Already Added', 'Repository is already in this learning path');
             }
         }
     }
@@ -516,7 +644,11 @@ async function init() {
 
     // Event listeners
     document.getElementById('search-input').addEventListener('input', () => {
-        renderRepos(filterRepos());
+        // Debounce search for better performance
+        clearTimeout(searchDebounceTimer);
+        searchDebounceTimer = setTimeout(() => {
+            renderRepos(filterRepos());
+        }, 300);
     });
 
     document.getElementById('search-clear').addEventListener('click', () => {
@@ -530,6 +662,15 @@ async function init() {
 
     document.getElementById('sort-filter').addEventListener('change', () => {
         renderRepos(filterRepos());
+    });
+
+    // Reset filters button
+    document.getElementById('reset-filters-btn').addEventListener('click', () => {
+        document.getElementById('search-input').value = '';
+        document.getElementById('category-filter').value = '';
+        document.getElementById('sort-filter').value = 'name-asc';
+        renderRepos(filterRepos());
+        showToast('info', 'Filters Reset', 'All filters have been cleared');
     });
 
     // Tab navigation
@@ -640,6 +781,37 @@ function showPathModal() {
 
 function showHelpModal() {
     document.getElementById('help-modal').classList.remove('hidden');
+}
+
+// Toast notification system
+function showToast(type, title, message) {
+    const container = document.getElementById('toast-container');
+    const toast = document.createElement('div');
+    toast.className = `toast ${type}`;
+    
+    const icons = {
+        success: '<svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm3.78-9.72a.75.75 0 0 0-1.06-1.06L6.75 9.19 5.28 7.72a.75.75 0 0 0-1.06 1.06l2 2a.75.75 0 0 0 1.06 0l4.5-4.5z"></path></svg>',
+        error: '<svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"></path></svg>',
+        info: '<svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"></path></svg>'
+    };
+    
+    toast.innerHTML = `
+        <div class="toast-icon">${icons[type]}</div>
+        <div class="toast-content">
+            <div class="toast-title">${title}</div>
+            <div class="toast-message">${message}</div>
+        </div>
+    `;
+    
+    container.appendChild(toast);
+    
+    // Auto remove after 4 seconds
+    setTimeout(() => {
+        toast.classList.add('removing');
+        setTimeout(() => {
+            container.removeChild(toast);
+        }, 300);
+    }, 4000);
 }
 
 // Start the app

@@ -9,6 +9,9 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⭐</text></svg>">
 </head>
 <body class="dark-mode">
+    <!-- Skip to content for accessibility -->
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
+    
     <!-- Header -->
     <header class="header">
         <div class="container header-content">
@@ -57,10 +60,16 @@
     </header>
 
     <!-- Main Content -->
-    <main class="main-content">
+    <main class="main-content" id="main-content">
         <!-- Explorer Tab -->
         <div class="tab-content active" id="explorer-tab">
             <div class="container">
+                <!-- Hero Section -->
+                <div class="hero-section">
+                    <h1 class="hero-title">Discover Amazing GitHub Repositories</h1>
+                    <p class="hero-subtitle">Explore 59,000+ curated repositories across 575 categories</p>
+                </div>
+
                 <div class="search-section">
                     <div class="search-wrapper">
                         <svg class="search-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
@@ -72,8 +81,9 @@
                             class="search-input" 
                             placeholder="Search repositories by name, topic, language, or description..."
                             autocomplete="off"
+                            aria-label="Search repositories"
                         >
-                        <button class="search-clear hidden" id="search-clear" title="Clear search (Esc)">
+                        <button class="search-clear hidden" id="search-clear" title="Clear search (Esc)" aria-label="Clear search">
                             <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
                             </svg>
@@ -110,7 +120,11 @@
                 <div id="repos-container" class="repos-grid"></div>
                 <div id="loading-state" class="loading-state">
                     <div class="loading-spinner"></div>
-                    <p>Loading repositories...</p>
+                    <p id="loading-text">Loading repositories...</p>
+                    <div class="loading-progress">
+                        <div class="loading-progress-bar" id="loading-progress-bar"></div>
+                    </div>
+                    <p class="loading-stats" id="loading-stats"></p>
                 </div>
                 <div id="no-results" class="no-results hidden">
                     <svg width="64" height="64" fill="currentColor" viewBox="0 0 16 16">
@@ -118,6 +132,13 @@
                     </svg>
                     <h3>No repositories found</h3>
                     <p>Try adjusting your search or filters</p>
+                    <button class="btn btn-secondary" id="reset-filters-btn" style="margin-top: 16px;">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"></path>
+                            <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"></path>
+                        </svg>
+                        Reset Filters
+                    </button>
                 </div>
             </div>
         </div>
@@ -269,6 +290,9 @@
             </div>
         </div>
     </div>
+
+    <!-- Toast notifications -->
+    <div id="toast-container" class="toast-container"></div>
 
     <script src="app.js"></script>
 </body>
