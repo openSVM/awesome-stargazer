@@ -1,46 +1,57 @@
 # Awesome Stargazer - GitHub Pages Site
 
-This is the GitHub Pages site for exploring all repositories in the awesome-stargazer collection.
+A dynamic, interactive web application to explore 19,564+ curated GitHub repositories across 567 categories.
 
 ## Features
 
-- **Repository Explorer**: Browse 59,300+ categorized repositories
-- **Advanced Search**: Search by name, topic, language, or description
-- **Dynamic Filters**: Filter by category and sort by various criteria
-- **Bookmarks**: Save repositories for later
-- **Likes**: Mark your favorite repositories
-- **Learning Paths**: Create personalized learning journeys
-- **Share**: One-click sharing to Twitter/X
-- **Dark/Light Mode**: Toggle between themes
-- **Keyboard Shortcuts**: Power-user navigation
-- **Mobile Responsive**: Works on all devices
-- **PWA Support**: Install as an app
+- **📚 Repository Explorer**: Browse all repos with rich metadata
+- **🔍 Dynamic Search**: Real-time filtering by name, description, or category  
+- **🎯 Learning Paths**: Create and manage personalized learning journeys
+- **🔖 Bookmarks**: Save favorites with localStorage persistence
+- **❤️ Likes & Trending**: Like repos and see what's popular
+- **🌓 Dark/Light Mode**: Toggle themes with one click
+- **⌨️ Keyboard Shortcuts**: Power-user navigation (⌘K, Esc, T, ?, 1-4)
+- **📱 Mobile Responsive**: Works beautifully on all devices
+- **🚀 GitHub-like UI**: Familiar design and interactions
+
+## Tech Stack
+
+- Pure HTML/CSS/JavaScript (no frameworks)
+- LocalStorage for data persistence
+- Pre-generated JSON data (6.2MB)
+- ~1,800 lines of code
+
+## Data Generation
+
+Run `python3 generate-repo-data.py` from the root directory to regenerate `docs/data.json` from the markdown files in `categories/`.
 
 ## Local Development
 
-To run locally:
+```bash
+cd docs
+python3 -m http.server 8000
+# Visit http://localhost:8000
+```
 
-1. Clone the repository
-2. Serve the `docs` directory with any HTTP server
-3. Example: `python3 -m http.server 8000` from the docs directory
+## GitHub Pages Deployment
+
+This site is configured to deploy from the `docs/` directory. Enable GitHub Pages in repository settings:
+
+1. Go to Settings → Pages
+2. Select "Deploy from a branch"
+3. Choose branch `main` (or your default branch) and folder `/docs`
+4. Save
+
+**Note**: The `data.json` file is 6.2MB. GitHub has a recommended limit of 1MB per file for optimal performance. Consider splitting the data or using pagination if you encounter issues.
 
 ## Keyboard Shortcuts
 
-- `⌘/Ctrl + K`: Focus search
-- `Esc`: Clear search or close modal
-- `?`: Show shortcuts help
-- `T`: Toggle theme
-- `B`: View bookmarks
-- `P`: View learning paths
+- `⌘/Ctrl + K` - Focus search
+- `Esc` - Clear search / Close modal
+- `T` - Toggle dark/light mode
+- `?` - Show help
+- `1-4` - Switch between tabs
 
-## Technologies Used
+## Browser Compatibility
 
-- Pure HTML, CSS, and JavaScript (no frameworks)
-- GitHub-like UI design
-- Local storage for data persistence
-- Progressive Web App (PWA) capabilities
-- Responsive design for mobile and desktop
-
-## Data Source
-
-Repository data is loaded from the markdown files in the `categories/` directory of the main repository.
+Works in all modern browsers (Chrome, Firefox, Safari, Edge).

@@ -1,0 +1,4029 @@
+{
+  "repos": [
+    {
+      "id": "JanLahmann/RasQberry",
+      "name": "JanLahmann/RasQberry",
+      "url": "https://github.com/JanLahmann/RasQberry",
+      "category": "3d-printing",
+      "description": "The RasQberry project: Exploring Quantum Computing and Qiskit with a Raspberry Pi and a 3D Printer",
+      "likes": 0
+    },
+    {
+      "id": "chr15m/slingcode",
+      "name": "chr15m/slingcode",
+      "url": "https://github.com/chr15m/slingcode",
+      "category": "3d-printing",
+      "description": "personal computing platform",
+      "likes": 0
+    },
+    {
+      "id": "EmbeddedLLM/JamAIBase",
+      "name": "EmbeddedLLM/JamAIBase",
+      "url": "https://github.com/EmbeddedLLM/JamAIBase",
+      "category": "ab-testing",
+      "description": "The collaborative spreadsheet for AI. Chain cells into powerful pipelines, experiment with prompts and models, and evaluate LLM responses in real-time. Work together seamlessly to build and iterate on AI applications.",
+      "likes": 0
+    },
+    {
+      "id": "nwiizo/tfmcp",
+      "name": "nwiizo/tfmcp",
+      "url": "https://github.com/nwiizo/tfmcp",
+      "category": "ab-testing",
+      "description": "🌍 Terraform Model Context Protocol (MCP) Tool - An experimental CLI tool that enables AI assistants to manage and operate Terraform environments. Supports reading Terraform configurations, analyzing plans, applying configurations, and managing state with Claude Desktop integration. ⚡️",
+      "likes": 0
+    },
+    {
+      "id": "raganwald-deprecated/homoiconic",
+      "name": "raganwald-deprecated/homoiconic",
+      "url": "https://github.com/raganwald-deprecated/homoiconic",
+      "category": "ab-testing",
+      "description": "An experiment in publishing code and words about code on a small scale.",
+      "likes": 0
+    },
+    {
+      "id": "mckaywrigley/ai-brainstore",
+      "name": "mckaywrigley/ai-brainstore",
+      "url": "https://github.com/mckaywrigley/ai-brainstore",
+      "category": "ab-testing",
+      "description": "An experiment concept for an AI brain.",
+      "likes": 0
+    },
+    {
+      "id": "context-labs/autodoc",
+      "name": "context-labs/autodoc",
+      "url": "https://github.com/context-labs/autodoc",
+      "category": "ab-testing",
+      "description": "Experimental toolkit for auto-generating codebase documentation using LLMs",
+      "likes": 0
+    },
+    {
+      "id": "newsnowlabs/runcvm",
+      "name": "newsnowlabs/runcvm",
+      "url": "https://github.com/newsnowlabs/runcvm",
+      "category": "ab-testing",
+      "description": "RunCVM (Run Container VM) is an experimental open-source Docker container runtime, for launching standard container workloads - as well as Systemd, Docker, even OpenWrt - in VMs using 'docker run`",
+      "likes": 0
+    },
+    {
+      "id": "aimhubio/aim",
+      "name": "aimhubio/aim",
+      "url": "https://github.com/aimhubio/aim",
+      "category": "ab-testing",
+      "description": "Aim 💫 — An easy-to-use & supercharged open-source experiment tracker.",
+      "likes": 0
+    },
+    {
+      "id": "rainner/wormhole-extreme",
+      "name": "rainner/wormhole-extreme",
+      "url": "https://github.com/rainner/wormhole-extreme",
+      "category": "ab-testing",
+      "description": "This is an experimental interactive space scene rendered on the browser using WebGL and Three.js with Javascript. The 3D scene contains planets, stars and a nebula effect that changes color and warps into a \"wormhole\" effect to create the illusion of traveling through space.",
+      "likes": 0
+    },
+    {
+      "id": "RayVentura/ShortGPT",
+      "name": "RayVentura/ShortGPT",
+      "url": "https://github.com/RayVentura/ShortGPT",
+      "category": "ab-testing",
+      "description": "🚀🎬 ShortGPT - Experimental AI framework for youtube shorts / tiktok channel automation",
+      "likes": 0
+    },
+    {
+      "id": "ericardomuten/CERN-QGAN",
+      "name": "ericardomuten/CERN-QGAN",
+      "url": "https://github.com/ericardomuten/CERN-QGAN",
+      "category": "ab-testing",
+      "description": "A CERN openlab Summer Student Programme 2021 Project Repository. In this work, Quantum Generative Adversarial Networks are developed to simulate the ttH production processes in the LHC experiment.",
+      "likes": 0
+    },
+    {
+      "id": "Membrizard/PyVaporation",
+      "name": "Membrizard/PyVaporation",
+      "url": "https://github.com/Membrizard/PyVaporation",
+      "category": "ab-testing",
+      "description": "The solution for modelling pervaporation membrane performance based on experimental data",
+      "likes": 0
+    },
+    {
+      "id": "amilz/epochs",
+      "name": "amilz/epochs",
+      "url": "https://github.com/amilz/epochs",
+      "category": "ab-testing",
+      "description": "experimental svm on-chain nft generation",
+      "likes": 0
+    },
+    {
+      "id": "SuCicada/lain-voice-models",
+      "name": "SuCicada/lain-voice-models",
+      "url": "https://github.com/SuCicada/lain-voice-models",
+      "category": "ab-testing",
+      "description": "run voice model (so-vits-svc-4.0) of \"Serial Experiments Lain\" on Windows",
+      "likes": 0
+    },
+    {
+      "id": "Martchus/arch-repo-manager",
+      "name": "Martchus/arch-repo-manager",
+      "url": "https://github.com/Martchus/arch-repo-manager",
+      "category": "ab-testing",
+      "description": "Experimental project containing INOFFICIAL tools to manage custom Arch Linux repositories; built on top of tools provided by the pacman and devtools packages.",
+      "likes": 0
+    },
+    {
+      "id": "AntonOsika/gpt-engineer",
+      "name": "AntonOsika/gpt-engineer",
+      "url": "https://github.com/AntonOsika/gpt-engineer",
+      "category": "ab-testing",
+      "description": "CLI platform to experiment with codegen. Precursor to: https://lovable.dev",
+      "likes": 0
+    },
+    {
+      "id": "alaa-eddine/PineTS",
+      "name": "alaa-eddine/PineTS",
+      "url": "https://github.com/alaa-eddine/PineTS",
+      "category": "ab-testing",
+      "description": "PineTS is a lightweight, open-source TypeScript framework that recreates key Pine Script™ features and syntax in JavaScript. It enables developers to write, port, and experiment with PineScript-like indicators outside of TradingView’s environment.",
+      "likes": 0
+    },
+    {
+      "id": "barkerbg001/echo-valley",
+      "name": "barkerbg001/echo-valley",
+      "url": "https://github.com/barkerbg001/echo-valley",
+      "category": "ab-testing",
+      "description": "Echo Valley is a procedurally generated 3D environment built with WebGL and Three.js. It offers an expansive, evolving world for exploration and experimentation, showcasing procedural generation in 3D. Whether you're a developer or just love endless virtual spaces, Echo Valley is a captivating sandbox to explore.",
+      "likes": 0
+    },
+    {
+      "id": "dexter-xD/jade",
+      "name": "dexter-xD/jade",
+      "url": "https://github.com/dexter-xD/jade",
+      "category": "ab-testing",
+      "description": "Experimental JavaScript runtime built with C, JavaScriptCore (JSC), and libuv.",
+      "likes": 0
+    },
+    {
+      "id": "zackradisic/tyvm",
+      "name": "zackradisic/tyvm",
+      "url": "https://github.com/zackradisic/tyvm",
+      "category": "ab-testing",
+      "description": "An experimental bytecode interpreter / type-checker for type-level Typescript",
+      "likes": 0
+    },
+    {
+      "id": "evgeny-nadymov/telegram-react",
+      "name": "evgeny-nadymov/telegram-react",
+      "url": "https://github.com/evgeny-nadymov/telegram-react",
+      "category": "ab-testing",
+      "description": "Experimental Telegram web client with tdlib, webassembly and react js under the hood",
+      "likes": 0
+    },
+    {
+      "id": "tgfrerer/island",
+      "name": "tgfrerer/island",
+      "url": "https://github.com/tgfrerer/island",
+      "category": "ab-testing",
+      "description": "🌋🐎 Project Island is an experimental, hot-reloading Vulkan Renderer for Linux and Windows, written in C/C++.",
+      "likes": 0
+    },
+    {
+      "id": "hundredrabbits/Ronin",
+      "name": "hundredrabbits/Ronin",
+      "url": "https://github.com/hundredrabbits/Ronin",
+      "category": "ab-testing",
+      "description": "Experimental Graphics Terminal",
+      "likes": 0
+    },
+    {
+      "id": "AshenvaleZX/ZXEngine",
+      "name": "AshenvaleZX/ZXEngine",
+      "url": "https://github.com/AshenvaleZX/ZXEngine",
+      "category": "ab-testing",
+      "description": "C++ game engine project, for learning, practice and experiment.",
+      "likes": 0
+    },
+    {
+      "id": "Quantum4HEP/QUnfold",
+      "name": "Quantum4HEP/QUnfold",
+      "url": "https://github.com/Quantum4HEP/QUnfold",
+      "category": "ab-testing",
+      "description": "Quantum Annealing for distribution unfolding in experimental High-Energy Physics",
+      "likes": 0
+    },
+    {
+      "id": "libretro/libretro-lutro",
+      "name": "libretro/libretro-lutro",
+      "url": "https://github.com/libretro/libretro-lutro",
+      "category": "ab-testing",
+      "description": "An experimental lua game framework for libretro following the LÖVE API",
+      "likes": 0
+    },
+    {
+      "id": "obhq/obliteration",
+      "name": "obhq/obliteration",
+      "url": "https://github.com/obhq/obliteration",
+      "category": "ab-testing",
+      "description": "Experimental free and open-source PlayStation 4 kernel",
+      "likes": 0
+    },
+    {
+      "id": "Askannz/munal-os",
+      "name": "Askannz/munal-os",
+      "url": "https://github.com/Askannz/munal-os",
+      "category": "ab-testing",
+      "description": "An experimental operating system fully written in Rust, with a unikernel design, cooperative scheduling and a security model based on WASM sandboxing.",
+      "likes": 0
+    },
+    {
+      "id": "microsoft/CyberBattleSim",
+      "name": "microsoft/CyberBattleSim",
+      "url": "https://github.com/microsoft/CyberBattleSim",
+      "category": "ab-testing",
+      "description": "An experimentation and research platform to investigate the interaction of automated agents in an abstract simulated network environments.",
+      "likes": 0
+    },
+    {
+      "id": "Robbepop/runwell",
+      "name": "Robbepop/runwell",
+      "url": "https://github.com/Robbepop/runwell",
+      "category": "ab-testing",
+      "description": "An experimental WebAssembly virtual machine.",
+      "likes": 0
+    },
+    {
+      "id": "meteroid-oss/meteroid",
+      "name": "meteroid-oss/meteroid",
+      "url": "https://github.com/meteroid-oss/meteroid",
+      "category": "ab-testing",
+      "description": "Open-source Pricing and Billing Infrastructure 🚀 Subscription management, Invoicing, Pricing, Usage-based billing, Cost limiting, Grandfathering, Experiments, Revenue analytics & Actionable insights",
+      "likes": 0
+    },
+    {
+      "id": "drone-os/drone-riscv",
+      "name": "drone-os/drone-riscv",
+      "url": "https://github.com/drone-os/drone-riscv",
+      "category": "ab-testing",
+      "description": "[EXPERIMENTAL] RISC-V platform crate for Drone, an Embedded Operating System.",
+      "likes": 0
+    },
+    {
+      "id": "theghostmac/solana-trading-bot",
+      "name": "theghostmac/solana-trading-bot",
+      "url": "https://github.com/theghostmac/solana-trading-bot",
+      "category": "ab-testing",
+      "description": "maybe its possible to trade Solana tokens from my terminal at only profits, lets experiment.",
+      "likes": 0
+    },
+    {
+      "id": "r3-os/r3",
+      "name": "r3-os/r3",
+      "url": "https://github.com/r3-os/r3",
+      "category": "ab-testing",
+      "description": "R3-OS — Experimental static (μITRON-esque) RTOS kernel for deeply embedded systems, testing the limit of Rust's compile-time evaluation and generics",
+      "likes": 0
+    },
+    {
+      "id": "vugu/vugu",
+      "name": "vugu/vugu",
+      "url": "https://github.com/vugu/vugu",
+      "category": "ab-testing",
+      "description": "Vugu: A modern UI library for Go+WebAssembly (experimental)",
+      "likes": 0
+    },
+    {
+      "id": "matteodelabre/waved",
+      "name": "matteodelabre/waved",
+      "url": "https://github.com/matteodelabre/waved",
+      "category": "ab-testing",
+      "description": "Experimental driver for the reMarkable 2 E-Ink display",
+      "likes": 0
+    },
+    {
+      "id": "ublue-os/beyond",
+      "name": "ublue-os/beyond",
+      "url": "https://github.com/ublue-os/beyond",
+      "category": "ab-testing",
+      "description": "Cassidy’s playground for GNOME experiments",
+      "likes": 0
+    },
+    {
+      "id": "AsahiLinux/m1n1",
+      "name": "AsahiLinux/m1n1",
+      "url": "https://github.com/AsahiLinux/m1n1",
+      "category": "ab-testing",
+      "description": "A bootloader and experimentation playground for Apple Silicon",
+      "likes": 0
+    },
+    {
+      "id": "open-quantum-safe/liboqs",
+      "name": "open-quantum-safe/liboqs",
+      "url": "https://github.com/open-quantum-safe/liboqs",
+      "category": "ab-testing",
+      "description": "C library for prototyping and experimenting with quantum-resistant cryptography",
+      "likes": 0
+    },
+    {
+      "id": "fomy/destor",
+      "name": "fomy/destor",
+      "url": "https://github.com/fomy/destor",
+      "category": "ab-testing",
+      "description": "An experimental platform for chunk-level data deduplication. Key words: DDFS, Sparse Index, Extreme Binning, SiLo, Sample Index, BLC; CBR, CFL, CAP, HAR; ASM, OPT; GC, Cumulus",
+      "likes": 0
+    },
+    {
+      "id": "kf5i/k3ai",
+      "name": "kf5i/k3ai",
+      "url": "https://github.com/kf5i/k3ai",
+      "category": "ab-testing",
+      "description": "K3ai is a lightweight, fully automated, AI infrastructure-in-a-box solution that allows anyone to experiment quickly with Kubeflow pipelines. K3ai  is perfect for anything from Edge to laptops.",
+      "likes": 0
+    },
+    {
+      "id": "Azure-Samples/AI-Gateway",
+      "name": "Azure-Samples/AI-Gateway",
+      "url": "https://github.com/Azure-Samples/AI-Gateway",
+      "category": "ab-testing",
+      "description": "APIM ❤️ AI - This repo contains experiments on Azure API Management's AI capabilities, integrating with Azure OpenAI, AI Foundry, and much more 🚀 . New workshop experience at https://aka.ms/ai-gateway/workshop",
+      "likes": 0
+    },
+    {
+      "id": "saschagrunert/kubernix",
+      "name": "saschagrunert/kubernix",
+      "url": "https://github.com/saschagrunert/kubernix",
+      "category": "ab-testing",
+      "description": "Single dependency Kubernetes clusters for local testing, experimenting and development",
+      "likes": 0
+    },
+    {
+      "id": "nestrilabs/nestri",
+      "name": "nestrilabs/nestri",
+      "url": "https://github.com/nestrilabs/nestri",
+      "category": "ab-testing",
+      "description": "[Experimental] Deploy and stream games/apps in the cloud. Use our GPUs or bring your own.",
+      "likes": 0
+    },
+    {
+      "id": "tensorzero/tensorzero",
+      "name": "tensorzero/tensorzero",
+      "url": "https://github.com/tensorzero/tensorzero",
+      "category": "ab-testing",
+      "description": "TensorZero is an open-source stack for industrial-grade LLM applications. It unifies an LLM gateway, observability, optimization, evaluation, and experimentation.",
+      "likes": 0
+    },
+    {
+      "id": "tobegit3hub/swarm",
+      "name": "tobegit3hub/swarm",
+      "url": "https://github.com/tobegit3hub/swarm",
+      "category": "ab-testing",
+      "description": "Framework for building, orchestrating and deploying multi-agent systems. Managed by OpenAI Solutions team. Experimental framework.",
+      "likes": 0
+    },
+    {
+      "id": "awslabs/llrt",
+      "name": "awslabs/llrt",
+      "url": "https://github.com/awslabs/llrt",
+      "category": "ab-testing",
+      "description": "LLRT (Low Latency Runtime) is an experimental, lightweight JavaScript runtime designed to address the growing demand for fast and efficient Serverless applications.",
+      "likes": 0
+    },
+    {
+      "id": "HarshVaragiya/TOR-Microservice",
+      "name": "HarshVaragiya/TOR-Microservice",
+      "url": "https://github.com/HarshVaragiya/TOR-Microservice",
+      "category": "ab-testing",
+      "description": "An experiment to distribute a tor hidden service into multiple microservices all of which run on tor",
+      "likes": 0
+    },
+    {
+      "id": "carbon-language/carbon-lang",
+      "name": "carbon-language/carbon-lang",
+      "url": "https://github.com/carbon-language/carbon-lang",
+      "category": "ab-testing",
+      "description": "Carbon Language's main repository: documents, design, implementation, and related tools. (NOTE: Carbon Language is experimental; see README)",
+      "likes": 0
+    },
+    {
+      "id": "carl-erwin/unlimited",
+      "name": "carl-erwin/unlimited",
+      "url": "https://github.com/carl-erwin/unlimited",
+      "category": "ab-testing",
+      "description": "An experimental text editor written in Rust with very large file support",
+      "likes": 0
+    },
+    {
+      "id": "magiblot/turbo",
+      "name": "magiblot/turbo",
+      "url": "https://github.com/magiblot/turbo",
+      "category": "ab-testing",
+      "description": "An experimental text editor based on Scintilla and Turbo Vision.",
+      "likes": 0
+    },
+    {
+      "id": "AndreaOrru/zen",
+      "name": "AndreaOrru/zen",
+      "url": "https://github.com/AndreaOrru/zen",
+      "category": "ab-testing",
+      "description": "Experimental operating system written in Zig",
+      "likes": 0
+    },
+    {
+      "id": "mihaelastoycheva/QuantumAlgorithm-EarlyCancerPrediction",
+      "name": "mihaelastoycheva/QuantumAlgorithm-EarlyCancerPrediction",
+      "url": "https://github.com/mihaelastoycheva/QuantumAlgorithm-EarlyCancerPrediction",
+      "category": "ab-testing",
+      "description": "This repository presents a project describing a quantum simulator algorithm for early cancer prediction. The QisKit and QisKit Aer libraries were used for the experiment. At the core lies Python as the programming language.",
+      "likes": 0
+    },
+    {
+      "id": "evanhockings/QuantumACES.jl",
+      "name": "evanhockings/QuantumACES.jl",
+      "url": "https://github.com/evanhockings/QuantumACES.jl",
+      "category": "ab-testing",
+      "description": "Design scalable noise characterisation experiments for quantum computers",
+      "likes": 0
+    },
+    {
+      "id": "judofyr/zig-experiments",
+      "name": "judofyr/zig-experiments",
+      "url": "https://github.com/judofyr/zig-experiments",
+      "category": "ab-testing",
+      "description": "Experiments in Zig",
+      "likes": 0
+    },
+    {
+      "id": "alexnask/iguanaTLS",
+      "name": "alexnask/iguanaTLS",
+      "url": "https://github.com/alexnask/iguanaTLS",
+      "category": "ab-testing",
+      "description": "Minimal, experimental TLS 1.2 implementation in Zig",
+      "likes": 0
+    },
+    {
+      "id": "floooh/chipz",
+      "name": "floooh/chipz",
+      "url": "https://github.com/floooh/chipz",
+      "category": "ab-testing",
+      "description": "8-bit emulator experiments in Zig",
+      "likes": 0
+    },
+    {
+      "id": "BlockstreamResearch/secp256k1-zkp",
+      "name": "BlockstreamResearch/secp256k1-zkp",
+      "url": "https://github.com/BlockstreamResearch/secp256k1-zkp",
+      "category": "ab-testing",
+      "description": "A fork of libsecp256k1 with support for advanced and experimental features such as Confidential Assets and MuSig2",
+      "likes": 0
+    },
+    {
+      "id": "dalek-cryptography/zkp",
+      "name": "dalek-cryptography/zkp",
+      "url": "https://github.com/dalek-cryptography/zkp",
+      "category": "ab-testing",
+      "description": "Experimental zero-knowledge proof compiler in Rust macros",
+      "likes": 0
+    },
+    {
+      "id": "Lucifer-02/python_zig",
+      "name": "Lucifer-02/python_zig",
+      "url": "https://github.com/Lucifer-02/python_zig",
+      "category": "ab-testing",
+      "description": "Experiment creating a Python module in Ziglang",
+      "likes": 0
+    },
+    {
+      "id": "aajayssingh/concurrent-persistent-datastructure",
+      "name": "aajayssingh/concurrent-persistent-datastructure",
+      "url": "https://github.com/aajayssingh/concurrent-persistent-datastructure",
+      "category": "ab-testing",
+      "description": "The rep contains my experiments with state of the art NVM programming abstractions during my internship at Regal Lab of Inria Paris under the supervision of Dr Marc Shapiro and Dr Gael Thomas.",
+      "likes": 0
+    },
+    {
+      "id": "Vexu/toy-lang",
+      "name": "Vexu/toy-lang",
+      "url": "https://github.com/Vexu/toy-lang",
+      "category": "ab-testing",
+      "description": "Toy language for experimentation and fun.",
+      "likes": 0
+    },
+    {
+      "id": "l3x61/luna",
+      "name": "l3x61/luna",
+      "url": "https://github.com/l3x61/luna",
+      "category": "ab-testing",
+      "description": "experimental scripting language written in zig",
+      "likes": 0
+    },
+    {
+      "id": "shadow/shadow",
+      "name": "shadow/shadow",
+      "url": "https://github.com/shadow/shadow",
+      "category": "ab-testing",
+      "description": "Shadow is a discrete-event network simulator that directly executes real application code, enabling you to simulate distributed systems with thousands of network-connected processes in realistic and scalable private network experiments using your laptop, desktop, or server running Linux.",
+      "likes": 0
+    },
+    {
+      "id": "That3Percent/tree-buf",
+      "name": "That3Percent/tree-buf",
+      "url": "https://github.com/That3Percent/tree-buf",
+      "category": "ab-testing",
+      "description": "An experimental serialization system written in Rust",
+      "likes": 0
+    },
+    {
+      "id": "seyhajin/webgpu-wasm-zig",
+      "name": "seyhajin/webgpu-wasm-zig",
+      "url": "https://github.com/seyhajin/webgpu-wasm-zig",
+      "category": "ab-testing",
+      "description": "🚀 A minimal WebGPU example written in Zig, compiled to WebAssembly (wasm). 🛠️ Ideal for experimenting and preparing for native development without install dependencies (dawn, wgpu-rs).",
+      "likes": 0
+    },
+    {
+      "id": "mawww/kakoune",
+      "name": "mawww/kakoune",
+      "url": "https://github.com/mawww/kakoune",
+      "category": "ab-testing",
+      "description": "mawww's experiment for a better code editor",
+      "likes": 0
+    },
+    {
+      "id": "yggdrasil-network/yggdrasil-go",
+      "name": "yggdrasil-network/yggdrasil-go",
+      "url": "https://github.com/yggdrasil-network/yggdrasil-go",
+      "category": "ab-testing",
+      "description": "An experiment in scalable routing as an encrypted IPv6 overlay network",
+      "likes": 0
+    },
+    {
+      "id": "NightTrek/Software-planning-mcp",
+      "name": "NightTrek/Software-planning-mcp",
+      "url": "https://github.com/NightTrek/Software-planning-mcp",
+      "category": "ab-testing",
+      "description": "An experiment in software planning using MCP",
+      "likes": 0
+    },
+    {
+      "id": "beakerbrowser/beaker",
+      "name": "beakerbrowser/beaker",
+      "url": "https://github.com/beakerbrowser/beaker",
+      "category": "ab-testing",
+      "description": "An experimental peer-to-peer Web browser",
+      "likes": 0
+    },
+    {
+      "id": "open-edge-platform/anomalib",
+      "name": "open-edge-platform/anomalib",
+      "url": "https://github.com/open-edge-platform/anomalib",
+      "category": "ab-testing",
+      "description": "An anomaly detection library comprising state-of-the-art algorithms and features such as experiment management, hyper-parameter optimization, and edge inference.",
+      "likes": 0
+    },
+    {
+      "id": "jamesbrink/darkstar",
+      "name": "jamesbrink/darkstar",
+      "url": "https://github.com/jamesbrink/darkstar",
+      "category": "ab-testing",
+      "description": "DarkStar - Experimental data visualization project using force directed graphs.",
+      "likes": 0
+    },
+    {
+      "id": "HPAC/linnea",
+      "name": "HPAC/linnea",
+      "url": "https://github.com/HPAC/linnea",
+      "category": "ab-testing",
+      "description": "Linnea is an experimental tool for the automatic generation of optimized code for linear algebra problems.",
+      "likes": 0
+    },
+    {
+      "id": "scarletquasar/better-threading",
+      "name": "scarletquasar/better-threading",
+      "url": "https://github.com/scarletquasar/better-threading",
+      "category": "ab-testing",
+      "description": "[Experiment] Small tool to enforce enhanced multi-threading in Node.js",
+      "likes": 0
+    },
+    {
+      "id": "MrKrzYch00/zopfli",
+      "name": "MrKrzYch00/zopfli",
+      "url": "https://github.com/MrKrzYch00/zopfli",
+      "category": "ab-testing",
+      "description": "Advanced Zopfli fork: ZIP support, multi-threading, compression cache (zopfliDB), auto/manual block split, compression and speed control with thread affinity locking and more, experimental switches.",
+      "likes": 0
+    },
+    {
+      "id": "yoheinakajima/prettygraph",
+      "name": "yoheinakajima/prettygraph",
+      "url": "https://github.com/yoheinakajima/prettygraph",
+      "category": "ab-testing",
+      "description": "An experimental UI for text-to-knowledge-graph generation",
+      "likes": 0
+    },
+    {
+      "id": "wunderwuzzi23/Offensive-BPF",
+      "name": "wunderwuzzi23/Offensive-BPF",
+      "url": "https://github.com/wunderwuzzi23/Offensive-BPF",
+      "category": "ab-testing",
+      "description": "Various BPF resources, tools, scripts and experiments created while learning more about the eBPF technology.",
+      "likes": 0
+    },
+    {
+      "id": "DarkStarStrix/QSolvers",
+      "name": "DarkStarStrix/QSolvers",
+      "url": "https://github.com/DarkStarStrix/QSolvers",
+      "category": "ab-testing",
+      "description": "The Swiss Army Knife of Applied Quantum Technology (Experimental Tech)",
+      "likes": 0
+    },
+    {
+      "id": "briansmith/ring",
+      "name": "briansmith/ring",
+      "url": "https://github.com/briansmith/ring",
+      "category": "ab-testing",
+      "description": "An experiment.",
+      "likes": 0
+    },
+    {
+      "id": "tdlight-team/tdlight-telegram-bot-api",
+      "name": "tdlight-team/tdlight-telegram-bot-api",
+      "url": "https://github.com/tdlight-team/tdlight-telegram-bot-api",
+      "category": "ab-testing",
+      "description": "The TDLight Telegram Bot API is an actively enhanced fork of the original Bot API, featuring experimental user support, proxies, unlimited files size, and more.",
+      "likes": 0
+    },
+    {
+      "id": "mediar-ai/terminator",
+      "name": "mediar-ai/terminator",
+      "url": "https://github.com/mediar-ai/terminator",
+      "category": "accessibility",
+      "description": "AI-powered desktop automation — open source, MIT-licensed, cross-platform, accessibility-first. Works across all apps and browsers. Inspired by GitHub Actions & Playwright. 100x faster than generic AI agents, >95% success rate, no vendor lock-in.",
+      "likes": 0
+    },
+    {
+      "id": "test-zeus-ai/testzeus-hercules",
+      "name": "test-zeus-ai/testzeus-hercules",
+      "url": "https://github.com/test-zeus-ai/testzeus-hercules",
+      "category": "accessibility",
+      "description": "Hercules is the world’s first open-source testing agent, enabling UI, API, Security, Accessibility, and Visual validations – all without code or maintenance. Automate testing effortlessly and let Hercules handle the heavy lifting! ⚡",
+      "likes": 0
+    },
+    {
+      "id": "epicmaxco/vuestic-admin",
+      "name": "epicmaxco/vuestic-admin",
+      "url": "https://github.com/epicmaxco/vuestic-admin",
+      "category": "accessibility",
+      "description": "Vuestic Admin is an open-source, ready-to-use admin template suite designed for rapid development, easy maintenance, and high accessibility. Built on Vuestic UI, Vue 3, Vite, Pinia, and Tailwind CSS. Maintained by Epicmax (@epicmaxco).",
+      "likes": 0
+    },
+    {
+      "id": "milwd/2D-Drone-Simulation-Remote",
+      "name": "milwd/2D-Drone-Simulation-Remote",
+      "url": "https://github.com/milwd/2D-Drone-Simulation-Remote",
+      "category": "accessibility",
+      "description": "2D Drone simulation in terminal with remote accessibility over FastDDS",
+      "likes": 0
+    },
+    {
+      "id": "iron-fish/ironfish",
+      "name": "iron-fish/ironfish",
+      "url": "https://github.com/iron-fish/ironfish",
+      "category": "accessibility",
+      "description": "A novel cryptocurrency focused on privacy and accessibility.",
+      "likes": 0
+    },
+    {
+      "id": "OnedocLabs/react-print-pdf",
+      "name": "OnedocLabs/react-print-pdf",
+      "url": "https://github.com/OnedocLabs/react-print-pdf",
+      "category": "accounting",
+      "description": "Build and generate PDF using React 📄 UI kit for PDFs and print documents. Simple, reusable components and templates to create great invoices, docs, brochures. Use your favorite front-end framework React to build your next PDF.",
+      "likes": 0
+    },
+    {
+      "id": "mayswind/ezbookkeeping",
+      "name": "mayswind/ezbookkeeping",
+      "url": "https://github.com/mayswind/ezbookkeeping",
+      "category": "accounting",
+      "description": "A lightweight, self-hosted personal finance app with a user-friendly interface and powerful bookkeeping features.",
+      "likes": 0
+    },
+    {
+      "id": "prehensilecode/torque_accounting",
+      "name": "prehensilecode/torque_accounting",
+      "url": "https://github.com/prehensilecode/torque_accounting",
+      "category": "accounting",
+      "description": "Creates report from Torque accounting logs",
+      "likes": 0
+    },
+    {
+      "id": "microsoft/autogen",
+      "name": "microsoft/autogen",
+      "url": "https://github.com/microsoft/autogen",
+      "category": "agents-autogen",
+      "description": "A programming framework for agentic AI",
+      "likes": 0
+    },
+    {
+      "id": "PaulSonOfLars/gotgbot",
+      "name": "PaulSonOfLars/gotgbot",
+      "url": "https://github.com/PaulSonOfLars/gotgbot",
+      "category": "agents-autogen",
+      "description": "Autogenerated Go wrapper for the telegram API. Inspired by the python-telegram-bot library.",
+      "likes": 0
+    },
+    {
+      "id": "yewstack/facade",
+      "name": "yewstack/facade",
+      "url": "https://github.com/yewstack/facade",
+      "category": "agents-autogen",
+      "description": "Facade Framework - autogenerated embedded live dashboards for Rust apps",
+      "likes": 0
+    },
+    {
+      "id": "crewAIInc/nvidia-demo",
+      "name": "crewAIInc/nvidia-demo",
+      "url": "https://github.com/crewAIInc/nvidia-demo",
+      "category": "agents-crewai",
+      "description": "",
+      "likes": 0
+    },
+    {
+      "id": "shaadclt/crewAI-Multi-AI-Agents-Investment-Risk-Analysis",
+      "name": "shaadclt/crewAI-Multi-AI-Agents-Investment-Risk-Analysis",
+      "url": "https://github.com/shaadclt/crewAI-Multi-AI-Agents-Investment-Risk-Analysis",
+      "category": "agents-crewai",
+      "description": "This project automates the process of monitoring market data, developing trading strategies, executing trades, and assessing risks using a team of specialized AI Agents from crewAI. Each agent is equipped with specific roles and goals, and they collaborate to optimize trading decisions and strategies.",
+      "likes": 0
+    },
+    {
+      "id": "curiousily/tweetcrafter",
+      "name": "curiousily/tweetcrafter",
+      "url": "https://github.com/curiousily/tweetcrafter",
+      "category": "agents-crewai",
+      "description": "Write tweets with AI Agents (CrewAI) and LLMs (Llama 3, GPT-4o)",
+      "likes": 0
+    },
+    {
+      "id": "crewAIInc/crewAI",
+      "name": "crewAIInc/crewAI",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "category": "agents-crewai",
+      "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+      "likes": 0
+    },
+    {
+      "id": "rnadigital/agentcloud",
+      "name": "rnadigital/agentcloud",
+      "url": "https://github.com/rnadigital/agentcloud",
+      "category": "agents-crewai",
+      "description": "Agent Cloud is like having your own GPT builder with a bunch extra goodies. The GUI features 1) RAG pipeline which can natively embed 260+ datasources 2) Create Conversational apps (like GPTs) 3) Create Multi Agent process automation apps (crewai) 4) Tools 5) Teams+user permissions. Get started fast with Docker and our install.sh",
+      "likes": 0
+    },
+    {
+      "id": "neurocult/agency",
+      "name": "neurocult/agency",
+      "url": "https://github.com/neurocult/agency",
+      "category": "agents-frameworks",
+      "description": "🕵️‍♂️ Library designed for developers eager to explore the potential of Large Language Models (LLMs) and other generative AI through a clean, effective, and Go-idiomatic approach.",
+      "likes": 0
+    },
+    {
+      "id": "TransformerOptimus/SuperAGI",
+      "name": "TransformerOptimus/SuperAGI",
+      "url": "https://github.com/TransformerOptimus/SuperAGI",
+      "category": "agents-frameworks",
+      "description": "<⚡️> SuperAGI - A dev-first open source autonomous AI agent framework. Enabling developers to build, manage & run useful autonomous agents quickly and reliably.",
+      "likes": 0
+    },
+    {
+      "id": "NationalSecurityAgency/timely",
+      "name": "NationalSecurityAgency/timely",
+      "url": "https://github.com/NationalSecurityAgency/timely",
+      "category": "agents-frameworks",
+      "description": "Accumulo backed time series database",
+      "likes": 0
+    },
+    {
+      "id": "NationalSecurityAgency/ghidra",
+      "name": "NationalSecurityAgency/ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "category": "agents-frameworks",
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "likes": 0
+    },
+    {
+      "id": "LangGraph-GUI/CrewAI-GUI-Qt",
+      "name": "LangGraph-GUI/CrewAI-GUI-Qt",
+      "url": "https://github.com/LangGraph-GUI/CrewAI-GUI-Qt",
+      "category": "agents-langchain",
+      "description": "A Node-Based Frontend for CrewAI: Revolutionizing AI Workflow Creation",
+      "likes": 0
+    },
+    {
+      "id": "AgentOps-AI/agentops",
+      "name": "AgentOps-AI/agentops",
+      "url": "https://github.com/AgentOps-AI/agentops",
+      "category": "agents-langchain",
+      "description": "Python SDK for AI agent monitoring, LLM cost tracking, benchmarking, and more. Integrates with most LLMs and agent frameworks including CrewAI, Agno, OpenAI Agents SDK, Langchain, Autogen, AG2, and CamelAI",
+      "likes": 0
+    },
+    {
+      "id": "mastra-ai/mastra",
+      "name": "mastra-ai/mastra",
+      "url": "https://github.com/mastra-ai/mastra",
+      "category": "agents-multi-agent",
+      "description": "The TypeScript AI agent framework. ⚡ Assistants, RAG, observability. Supports any LLM: GPT-4, Claude, Gemini, Llama.",
+      "likes": 0
+    },
+    {
+      "id": "camel-ai/camel",
+      "name": "camel-ai/camel",
+      "url": "https://github.com/camel-ai/camel",
+      "category": "agents-multi-agent",
+      "description": "🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org",
+      "likes": 0
+    },
+    {
+      "id": "camel-ai/owl",
+      "name": "camel-ai/owl",
+      "url": "https://github.com/camel-ai/owl",
+      "category": "agents-multi-agent",
+      "description": "🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation",
+      "likes": 0
+    },
+    {
+      "id": "nanobrowser/nanobrowser",
+      "name": "nanobrowser/nanobrowser",
+      "url": "https://github.com/nanobrowser/nanobrowser",
+      "category": "agents-multi-agent",
+      "description": "Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator.",
+      "likes": 0
+    },
+    {
+      "id": "evoplex/evoplex",
+      "name": "evoplex/evoplex",
+      "url": "https://github.com/evoplex/evoplex",
+      "category": "agents-multi-agent",
+      "description": "Evoplex is a fast, robust and extensible platform for developing agent-based models and multi-agent systems on networks. It's available for Windows, Linux and macOS.",
+      "likes": 0
+    },
+    {
+      "id": "subeshb1/agenite",
+      "name": "subeshb1/agenite",
+      "url": "https://github.com/subeshb1/agenite",
+      "category": "agents-multi-agent",
+      "description": "🤖 Build powerful AI agents with TypeScript. Agenite makes it easy to create, compose, and control AI agents with first-class support for tools, streaming, and multi-agent architectures. Switch seamlessly between providers like OpenAI, Anthropic, AWS Bedrock, and Ollama.",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/aidrin",
+      "name": "aldrin-labs/aidrin",
+      "url": "https://github.com/aldrin-labs/aidrin",
+      "category": "agents-multi-agent",
+      "description": "aidrin is a VS Code plugin for multi-agentic realtime development, aiming to automate full enterprise development cycle",
+      "likes": 0
+    },
+    {
+      "id": "langroid/langroid",
+      "name": "langroid/langroid",
+      "url": "https://github.com/langroid/langroid",
+      "category": "agents-multi-agent",
+      "description": "Harness LLMs with Multi-Agent Programming",
+      "likes": 0
+    },
+    {
+      "id": "RelevanceAI/relevanceai",
+      "name": "RelevanceAI/relevanceai",
+      "url": "https://github.com/RelevanceAI/relevanceai",
+      "category": "agents-multi-agent",
+      "description": "Home of the AI workforce - Multi-agent system, AI agents & tools",
+      "likes": 0
+    },
+    {
+      "id": "albert-espin/stealth-temple",
+      "name": "albert-espin/stealth-temple",
+      "url": "https://github.com/albert-espin/stealth-temple",
+      "category": "agents-multi-agent",
+      "description": "Stealth Temple: Game with Multi-Agent, Behaviour-oriented Enemy Artificial Intelligence (Bachelor Thesis)",
+      "likes": 0
+    },
+    {
+      "id": "datamllab/awesome-game-ai",
+      "name": "datamllab/awesome-game-ai",
+      "url": "https://github.com/datamllab/awesome-game-ai",
+      "category": "agents-multi-agent",
+      "description": "Awesome Game AI materials of Multi-Agent Reinforcement Learning",
+      "likes": 0
+    },
+    {
+      "id": "starpig1129/DATAGEN",
+      "name": "starpig1129/DATAGEN",
+      "url": "https://github.com/starpig1129/DATAGEN",
+      "category": "agents-multi-agent",
+      "description": "DATAGEN: AI-driven multi-agent research assistant automating hypothesis generation, data analysis, and report writing. Now expanding into crypto market intelligence. Learn more: https://datagen.digital/.",
+      "likes": 0
+    },
+    {
+      "id": "codefuse-ai/codefuse-chatbot",
+      "name": "codefuse-ai/codefuse-chatbot",
+      "url": "https://github.com/codefuse-ai/codefuse-chatbot",
+      "category": "agents-multi-agent",
+      "description": "An intelligent assistant serving the entire software development lifecycle, powered by a Multi-Agent Framework, working with DevOps Toolkits, Code&Doc Repo RAG,  etc.",
+      "likes": 0
+    },
+    {
+      "id": "InternLM/MindSearch",
+      "name": "InternLM/MindSearch",
+      "url": "https://github.com/InternLM/MindSearch",
+      "category": "agents-multi-agent",
+      "description": "🔍 An LLM-based Multi-agent Framework of Web Search Engine (like Perplexity.ai Pro and SearchGPT)",
+      "likes": 0
+    },
+    {
+      "id": "swarmzero/swarmzero",
+      "name": "swarmzero/swarmzero",
+      "url": "https://github.com/swarmzero/swarmzero",
+      "category": "agents-multi-agent",
+      "description": "SwarmZero's SDK for building AI agents, swarms of agents and much more.",
+      "likes": 0
+    },
+    {
+      "id": "Yassine-Ag/AMLSim",
+      "name": "Yassine-Ag/AMLSim",
+      "url": "https://github.com/Yassine-Ag/AMLSim",
+      "category": "agents-multi-agent",
+      "description": "The AMLSim project is intended to provide a multi-agent based simulator that generates synthetic banking transaction data together with a set of known money laundering patterns - mainly for the purpose of testing machine learning models and graph algorithms.  We welcome you to enhance this effort since the data set related to money laundering is critical to advance detection capabilities of money laundering activities.",
+      "likes": 0
+    },
+    {
+      "id": "FoundationAgents/MetaGPT",
+      "name": "FoundationAgents/MetaGPT",
+      "url": "https://github.com/FoundationAgents/MetaGPT",
+      "category": "agents-multi-agent",
+      "description": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
+      "likes": 0
+    },
+    {
+      "id": "SciSharp/BotSharp",
+      "name": "SciSharp/BotSharp",
+      "url": "https://github.com/SciSharp/BotSharp",
+      "category": "agents-multi-agent",
+      "description": "AI Multi-Agent Framework in .NET",
+      "likes": 0
+    },
+    {
+      "id": "openai/swarm",
+      "name": "openai/swarm",
+      "url": "https://github.com/openai/swarm",
+      "category": "agents-multi-agent",
+      "description": "Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.",
+      "likes": 0
+    },
+    {
+      "id": "ChuaCheowHuan/gym-continuousDoubleAuction",
+      "name": "ChuaCheowHuan/gym-continuousDoubleAuction",
+      "url": "https://github.com/ChuaCheowHuan/gym-continuousDoubleAuction",
+      "category": "agents-multi-agent",
+      "description": "A custom MARL (multi-agent reinforcement learning) environment where multiple agents trade against one another (self-play) in a zero-sum continuous double auction. Ray [RLlib] is used for training.",
+      "likes": 0
+    },
+    {
+      "id": "HITsz-TMG/FilmAgent",
+      "name": "HITsz-TMG/FilmAgent",
+      "url": "https://github.com/HITsz-TMG/FilmAgent",
+      "category": "agents-multi-agent",
+      "description": "Resources of our paper \"FilmAgent: A Multi-Agent Framework for End-to-End Film Automation in Virtual 3D Spaces\". New versions in the making!",
+      "likes": 0
+    },
+    {
+      "id": "sentient-agi/ROMA",
+      "name": "sentient-agi/ROMA",
+      "url": "https://github.com/sentient-agi/ROMA",
+      "category": "agents-multi-agent",
+      "description": "Recursive-Open-Meta-Agent v0.1 (Beta). A meta-agent framework to build high-performance multi-agent systems.",
+      "likes": 0
+    },
+    {
+      "id": "mit-acl/mader",
+      "name": "mit-acl/mader",
+      "url": "https://github.com/mit-acl/mader",
+      "category": "agents-multi-agent",
+      "description": "Trajectory Planner in Multi-Agent and Dynamic Environments",
+      "likes": 0
+    },
+    {
+      "id": "harnesslabs/arbiter",
+      "name": "harnesslabs/arbiter",
+      "url": "https://github.com/harnesslabs/arbiter",
+      "category": "agents-multi-agent",
+      "description": "Multi-agent framework for design, simulation, and auditing.",
+      "likes": 0
+    },
+    {
+      "id": "SWE-agent/SWE-ReX",
+      "name": "SWE-agent/SWE-ReX",
+      "url": "https://github.com/SWE-agent/SWE-ReX",
+      "category": "agents-multi-agent",
+      "description": "Sandboxed code execution for AI agents, locally or on the cloud. Massively parallel, easy to extend. Powering SWE-agent and more.",
+      "likes": 0
+    },
+    {
+      "id": "kyegomez/swarms",
+      "name": "kyegomez/swarms",
+      "url": "https://github.com/kyegomez/swarms",
+      "category": "agents-multi-agent",
+      "description": "The Enterprise-Grade Production-Ready Multi-Agent Orchestration Framework. Website: https://swarms.ai",
+      "likes": 0
+    },
+    {
+      "id": "tobegit3hub/swarm",
+      "name": "tobegit3hub/swarm",
+      "url": "https://github.com/tobegit3hub/swarm",
+      "category": "agents-multi-agent",
+      "description": "Framework for building, orchestrating and deploying multi-agent systems. Managed by OpenAI Solutions team. Experimental framework.",
+      "likes": 0
+    },
+    {
+      "id": "Azure-Samples/contoso-creative-writer",
+      "name": "Azure-Samples/contoso-creative-writer",
+      "url": "https://github.com/Azure-Samples/contoso-creative-writer",
+      "category": "agents-multi-agent",
+      "description": "A creative writing multi-agent solution to help users write articles.",
+      "likes": 0
+    },
+    {
+      "id": "agno-agi/agno",
+      "name": "agno-agi/agno",
+      "url": "https://github.com/agno-agi/agno",
+      "category": "agents-multi-agent",
+      "description": "High-performance runtime for multi-agent systems. Build, run and manage secure multi-agent systems in your cloud.",
+      "likes": 0
+    },
+    {
+      "id": "OpenBMB/ChatDev",
+      "name": "OpenBMB/ChatDev",
+      "url": "https://github.com/OpenBMB/ChatDev",
+      "category": "agents-multi-agent",
+      "description": "Create Customized Software using Natural Language Idea (through LLM-powered Multi-Agent Collaboration)",
+      "likes": 0
+    },
+    {
+      "id": "coleam00/ai-agents-masterclass",
+      "name": "coleam00/ai-agents-masterclass",
+      "url": "https://github.com/coleam00/ai-agents-masterclass",
+      "category": "agents-multi-agent",
+      "description": "Follow along with my AI Agents Masterclass videos! All of the code I create and use in this series on YouTube will be here for you to use and even build on top of!",
+      "likes": 0
+    },
+    {
+      "id": "psrane8/Market-Research-Agent",
+      "name": "psrane8/Market-Research-Agent",
+      "url": "https://github.com/psrane8/Market-Research-Agent",
+      "category": "agents-multi-agent",
+      "description": "A Multi-Agent based application which provides a comphrehensive financial/market analysis of any company",
+      "likes": 0
+    },
+    {
+      "id": "kortix-ai/suna",
+      "name": "kortix-ai/suna",
+      "url": "https://github.com/kortix-ai/suna",
+      "category": "agents-other-1",
+      "description": "Kortix – build, manage and train AI Agents. Fully Open Source.",
+      "likes": 0
+    },
+    {
+      "id": "vxcontrol/pentagi",
+      "name": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "category": "agents-other-1",
+      "description": "✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "likes": 0
+    },
+    {
+      "id": "Klavis-AI/klavis",
+      "name": "Klavis-AI/klavis",
+      "url": "https://github.com/Klavis-AI/klavis",
+      "category": "agents-other-1",
+      "description": "Klavis AI (YC X25):  MCP integration layers that let AI agents use thousands of tools reliably.",
+      "likes": 0
+    },
+    {
+      "id": "PV-Bhat/vibe-check-mcp-server",
+      "name": "PV-Bhat/vibe-check-mcp-server",
+      "url": "https://github.com/PV-Bhat/vibe-check-mcp-server",
+      "category": "agents-other-1",
+      "description": "Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering and reasoning lock-in for complex and long-horizon agent workflows. Effective for: Coding, Ambiguous Tasks, High-Risk tasks",
+      "likes": 0
+    },
+    {
+      "id": "mediar-ai/terminator",
+      "name": "mediar-ai/terminator",
+      "url": "https://github.com/mediar-ai/terminator",
+      "category": "agents-other-1",
+      "description": "AI-powered desktop automation — open source, MIT-licensed, cross-platform, accessibility-first. Works across all apps and browsers. Inspired by GitHub Actions & Playwright. 100x faster than generic AI agents, >95% success rate, no vendor lock-in.",
+      "likes": 0
+    },
+    {
+      "id": "rounak/PhoneAgent",
+      "name": "rounak/PhoneAgent",
+      "url": "https://github.com/rounak/PhoneAgent",
+      "category": "agents-other-1",
+      "description": "An AI agent that can get things done across iPhone apps.",
+      "likes": 0
+    },
+    {
+      "id": "ai-boost/awesome-a2a",
+      "name": "ai-boost/awesome-a2a",
+      "url": "https://github.com/ai-boost/awesome-a2a",
+      "category": "agents-other-1",
+      "description": "Agent2Agent (A2A) – awesome A2A agents, tools, servers & clients, all in one place.",
+      "likes": 0
+    },
+    {
+      "id": "microsoft/ai-agent-evals",
+      "name": "microsoft/ai-agent-evals",
+      "url": "https://github.com/microsoft/ai-agent-evals",
+      "category": "agents-other-1",
+      "description": "Github action to evaluate AI agent applications using model as the judge, content safety and mathematical metrics.",
+      "likes": 0
+    },
+    {
+      "id": "orra-dev/orra",
+      "name": "orra-dev/orra",
+      "url": "https://github.com/orra-dev/orra",
+      "category": "agents-other-1",
+      "description": "A plan engine for dynamic planning and reliable execution of AI agent workflows.",
+      "likes": 0
+    },
+    {
+      "id": "mlc-ai/web-agent-interface",
+      "name": "mlc-ai/web-agent-interface",
+      "url": "https://github.com/mlc-ai/web-agent-interface",
+      "category": "agents-other-1",
+      "description": "An interface for AI Agents to interact with various web platforms.",
+      "likes": 0
+    },
+    {
+      "id": "myshell-ai/AIlice",
+      "name": "myshell-ai/AIlice",
+      "url": "https://github.com/myshell-ai/AIlice",
+      "category": "agents-other-1",
+      "description": "AIlice is a fully autonomous, general-purpose AI agent.",
+      "likes": 0
+    },
+    {
+      "id": "casibase/casibase",
+      "name": "casibase/casibase",
+      "url": "https://github.com/casibase/casibase",
+      "category": "agents-other-1",
+      "description": "⚡️AI Cloud OS: Open-source enterprise-level AI knowledge base and MCP (model-context-protocol)/A2A (agent-to-agent) management platform with admin UI, user management and Single-Sign-On⚡️, supports ChatGPT, Claude, Llama, Ollama, HuggingFace, etc., chat bot demo: https://ai.casibase.com, admin UI demo: https://ai-admin.casibase.com",
+      "likes": 0
+    },
+    {
+      "id": "NVIDIA/NeMo-Agent-Toolkit",
+      "name": "NVIDIA/NeMo-Agent-Toolkit",
+      "url": "https://github.com/NVIDIA/NeMo-Agent-Toolkit",
+      "category": "agents-other-1",
+      "description": "The NVIDIA NeMo Agent toolkit is an open-source library for efficiently connecting and optimizing teams of AI agents.",
+      "likes": 0
+    },
+    {
+      "id": "stacklok/codegate",
+      "name": "stacklok/codegate",
+      "url": "https://github.com/stacklok/codegate",
+      "category": "agents-other-1",
+      "description": "CodeGate: Security, Workspaces and Multiplexing for AI Agentic Frameworks",
+      "likes": 0
+    },
+    {
+      "id": "eumemic/ai-legion",
+      "name": "eumemic/ai-legion",
+      "url": "https://github.com/eumemic/ai-legion",
+      "category": "agents-other-1",
+      "description": "An LLM-powered autonomous agent platform",
+      "likes": 0
+    },
+    {
+      "id": "vessl-ai/hyperpocket",
+      "name": "vessl-ai/hyperpocket",
+      "url": "https://github.com/vessl-ai/hyperpocket",
+      "category": "agents-other-1",
+      "description": "Building AI agent with hyperpocket tool in a flash",
+      "likes": 0
+    },
+    {
+      "id": "SerpentAI/SerpentAI",
+      "name": "SerpentAI/SerpentAI",
+      "url": "https://github.com/SerpentAI/SerpentAI",
+      "category": "agents-other-1",
+      "description": "Game Agent Framework. Helping you create AIs / Bots that learn to play any game you own!",
+      "likes": 0
+    },
+    {
+      "id": "bolna-ai/bolna",
+      "name": "bolna-ai/bolna",
+      "url": "https://github.com/bolna-ai/bolna",
+      "category": "agents-other-1",
+      "description": "Conversational voice AI agents",
+      "likes": 0
+    },
+    {
+      "id": "hrithikkoduri/WebRover",
+      "name": "hrithikkoduri/WebRover",
+      "url": "https://github.com/hrithikkoduri/WebRover",
+      "category": "agents-other-1",
+      "description": "WebRover is an autonomous AI agent designed to interpret user input and execute actions by interacting with web elements to accomplish tasks or answer questions. It leverages advanced language models and web automation tools to navigate the web, gather information, and provide structured responses based on the user's needs.",
+      "likes": 0
+    },
+    {
+      "id": "bosun-ai/kwaak",
+      "name": "bosun-ai/kwaak",
+      "url": "https://github.com/bosun-ai/kwaak",
+      "category": "agents-other-1",
+      "description": "Burn through tech debt with AI agents!",
+      "likes": 0
+    },
+    {
+      "id": "PennyroyalTea/gibberlink",
+      "name": "PennyroyalTea/gibberlink",
+      "url": "https://github.com/PennyroyalTea/gibberlink",
+      "category": "agents-other-1",
+      "description": "Two conversational AI agents switching from English to sound-level protocol after confirming they are both AI agents",
+      "likes": 0
+    },
+    {
+      "id": "block/goose",
+      "name": "block/goose",
+      "url": "https://github.com/block/goose",
+      "category": "agents-other-1",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "likes": 0
+    },
+    {
+      "id": "Integuru-AI/Integuru",
+      "name": "Integuru-AI/Integuru",
+      "url": "https://github.com/Integuru-AI/Integuru",
+      "category": "agents-other-1",
+      "description": "The first AI agent that builds permissionless integrations through reverse engineering platforms' internal APIs.",
+      "likes": 0
+    },
+    {
+      "id": "activepieces/activepieces",
+      "name": "activepieces/activepieces",
+      "url": "https://github.com/activepieces/activepieces",
+      "category": "agents-other-1",
+      "description": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
+      "likes": 0
+    },
+    {
+      "id": "s-smits/agentic-cursorrules",
+      "name": "s-smits/agentic-cursorrules",
+      "url": "https://github.com/s-smits/agentic-cursorrules",
+      "category": "agents-other-1",
+      "description": "A practical approach to managing multiple AI agents in Cursor through strict file-tree partitioning and domain boundaries.",
+      "likes": 0
+    },
+    {
+      "id": "SezoAI/sezo",
+      "name": "SezoAI/sezo",
+      "url": "https://github.com/SezoAI/sezo",
+      "category": "agents-other-1",
+      "description": "Open-source toolkit for connecting AI agents to Solana protocols. Automate token trades, NFTs, DeFi, & more. 🚀",
+      "likes": 0
+    },
+    {
+      "id": "niceberginc/agentipy",
+      "name": "niceberginc/agentipy",
+      "url": "https://github.com/niceberginc/agentipy",
+      "category": "agents-other-1",
+      "description": "The #Python framework for connecting AI agents to any onchain app on  @solana-labs  🤖🐍",
+      "likes": 0
+    },
+    {
+      "id": "RooCodeInc/Roo-Code",
+      "name": "RooCodeInc/Roo-Code",
+      "url": "https://github.com/RooCodeInc/Roo-Code",
+      "category": "agents-other-1",
+      "description": "Roo Code gives you a whole dev team of AI agents in your code editor.",
+      "likes": 0
+    },
+    {
+      "id": "livekit/agents-js",
+      "name": "livekit/agents-js",
+      "url": "https://github.com/livekit/agents-js",
+      "category": "agents-other-1",
+      "description": "Build realtime multimodal AI agents with Node.js",
+      "likes": 0
+    },
+    {
+      "id": "idosal/AgentLLM",
+      "name": "idosal/AgentLLM",
+      "url": "https://github.com/idosal/AgentLLM",
+      "category": "agents-other-1",
+      "description": "AgentLLM is a PoC for browser-native autonomous agents",
+      "likes": 0
+    },
+    {
+      "id": "TEN-framework/ten-framework",
+      "name": "TEN-framework/ten-framework",
+      "url": "https://github.com/TEN-framework/ten-framework",
+      "category": "agents-other-1",
+      "description": "Open-source framework for conversational voice AI agents",
+      "likes": 0
+    },
+    {
+      "id": "DavidUdell/persistent",
+      "name": "DavidUdell/persistent",
+      "url": "https://github.com/DavidUdell/persistent",
+      "category": "agents-other-1",
+      "description": "A proof-of-concept persistent AI agent implementation",
+      "likes": 0
+    },
+    {
+      "id": "Polymarket/agents",
+      "name": "Polymarket/agents",
+      "url": "https://github.com/Polymarket/agents",
+      "category": "agents-other-1",
+      "description": "Trade autonomously on Polymarket using AI Agents",
+      "likes": 0
+    },
+    {
+      "id": "agentstack-ai/AgentStack",
+      "name": "agentstack-ai/AgentStack",
+      "url": "https://github.com/agentstack-ai/AgentStack",
+      "category": "agents-other-1",
+      "description": "The fastest way to build robust AI agents",
+      "likes": 0
+    },
+    {
+      "id": "kram254/Structured-AI-Agents-using-DeepseekR1-and-Pydantic-AI",
+      "name": "kram254/Structured-AI-Agents-using-DeepseekR1-and-Pydantic-AI",
+      "url": "https://github.com/kram254/Structured-AI-Agents-using-DeepseekR1-and-Pydantic-AI",
+      "category": "agents-other-1",
+      "description": "Colab notebook on building structured AI agents using DeepseekR1 and Pydantic AI",
+      "likes": 0
+    },
+    {
+      "id": "bytedance/UI-TARS-desktop",
+      "name": "bytedance/UI-TARS-desktop",
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "category": "agents-other-1",
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "likes": 0
+    },
+    {
+      "id": "nottelabs/notte",
+      "name": "nottelabs/notte",
+      "url": "https://github.com/nottelabs/notte",
+      "category": "agents-other-1",
+      "description": "🔥 Reliable Browser AI agents (YC S25)",
+      "likes": 0
+    },
+    {
+      "id": "rootflo/flo-ai",
+      "name": "rootflo/flo-ai",
+      "url": "https://github.com/rootflo/flo-ai",
+      "category": "agents-other-1",
+      "description": "🔥🔥🔥 Simple way to create composable AI agents",
+      "likes": 0
+    },
+    {
+      "id": "wordware-ai/twitter",
+      "name": "wordware-ai/twitter",
+      "url": "https://github.com/wordware-ai/twitter",
+      "category": "agents-other-1",
+      "description": "AI Agent for Twitter Personality Analysis",
+      "likes": 0
+    },
+    {
+      "id": "10cl/chatdev",
+      "name": "10cl/chatdev",
+      "url": "https://github.com/10cl/chatdev",
+      "category": "agents-other-1",
+      "description": "ChatDev IDE is an tools for building your ai agent, Whether it's NPCs in games or powerful agent tools, you can design what you want for this platform.",
+      "likes": 0
+    },
+    {
+      "id": "AI4Finance-Foundation/FinRobot",
+      "name": "AI4Finance-Foundation/FinRobot",
+      "url": "https://github.com/AI4Finance-Foundation/FinRobot",
+      "category": "agents-other-1",
+      "description": "FinRobot: An Open-Source AI Agent Platform for Financial Analysis using LLMs 🚀 🚀 🚀",
+      "likes": 0
+    },
+    {
+      "id": "testdriverai/cli",
+      "name": "testdriverai/cli",
+      "url": "https://github.com/testdriverai/cli",
+      "category": "agents-other-1",
+      "description": "Next generation autonomous AI agent for end-to-end testing of web & desktop",
+      "likes": 0
+    },
+    {
+      "id": "BrainBlend-AI/atomic-agents",
+      "name": "BrainBlend-AI/atomic-agents",
+      "url": "https://github.com/BrainBlend-AI/atomic-agents",
+      "category": "agents-other-1",
+      "description": "Building AI agents, atomically",
+      "likes": 0
+    },
+    {
+      "id": "Upsonic/Upsonic",
+      "name": "Upsonic/Upsonic",
+      "url": "https://github.com/Upsonic/Upsonic",
+      "category": "agents-other-1",
+      "description": "The most reliable AI agent framework that supports MCP.",
+      "likes": 0
+    },
+    {
+      "id": "facebookresearch/Pearl",
+      "name": "facebookresearch/Pearl",
+      "url": "https://github.com/facebookresearch/Pearl",
+      "category": "agents-other-1",
+      "description": "A Production-ready Reinforcement Learning AI Agent Library brought by the Applied Reinforcement Learning team at Meta.",
+      "likes": 0
+    },
+    {
+      "id": "facebookresearch/habitat-lab",
+      "name": "facebookresearch/habitat-lab",
+      "url": "https://github.com/facebookresearch/habitat-lab",
+      "category": "agents-other-1",
+      "description": "A modular high-level library to train embodied AI agents across a variety of tasks and environments.",
+      "likes": 0
+    },
+    {
+      "id": "trycua/acu",
+      "name": "trycua/acu",
+      "url": "https://github.com/trycua/acu",
+      "category": "agents-other-1",
+      "description": "A curated list of resources about AI agents for Computer Use, including research papers, projects, frameworks, and tools.",
+      "likes": 0
+    },
+    {
+      "id": "zTgx/solagent",
+      "name": "zTgx/solagent",
+      "url": "https://github.com/zTgx/solagent",
+      "category": "agents-other-1",
+      "description": "The library for AI agents on Solana",
+      "likes": 0
+    },
+    {
+      "id": "fiddlecube/compliant-llm",
+      "name": "fiddlecube/compliant-llm",
+      "url": "https://github.com/fiddlecube/compliant-llm",
+      "category": "agents-other-1",
+      "description": "Build Secure and Compliant AI agents and MCP Servers. YC W23",
+      "likes": 0
+    },
+    {
+      "id": "sendaifun/solana-agent-kit",
+      "name": "sendaifun/solana-agent-kit",
+      "url": "https://github.com/sendaifun/solana-agent-kit",
+      "category": "agents-other-1",
+      "description": "connect any ai agents to solana protocols",
+      "likes": 0
+    },
+    {
+      "id": "turing-machines/mentals-ai",
+      "name": "turing-machines/mentals-ai",
+      "url": "https://github.com/turing-machines/mentals-ai",
+      "category": "agents-other-1",
+      "description": "No code AI agents",
+      "likes": 0
+    },
+    {
+      "id": "agi-inc/agent-protocol",
+      "name": "agi-inc/agent-protocol",
+      "url": "https://github.com/agi-inc/agent-protocol",
+      "category": "agents-other-1",
+      "description": "Common interface for interacting with AI agents. The protocol is tech stack agnostic - you can use it with any framework for building agents.",
+      "likes": 0
+    },
+    {
+      "id": "topoteretes/cognee",
+      "name": "topoteretes/cognee",
+      "url": "https://github.com/topoteretes/cognee",
+      "category": "agents-other-1",
+      "description": "Memory for AI Agents in 6 lines of code",
+      "likes": 0
+    },
+    {
+      "id": "browser-use/browser-use",
+      "name": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "category": "agents-other-1",
+      "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+      "likes": 0
+    },
+    {
+      "id": "prism-sh/prism-agent",
+      "name": "prism-sh/prism-agent",
+      "url": "https://github.com/prism-sh/prism-agent",
+      "category": "agents-other-1",
+      "description": "PRISM AI Agents",
+      "likes": 0
+    },
+    {
+      "id": "microsoft/Trace",
+      "name": "microsoft/Trace",
+      "url": "https://github.com/microsoft/Trace",
+      "category": "agents-other-1",
+      "description": "End-to-end Generative Optimization for AI Agents",
+      "likes": 0
+    },
+    {
+      "id": "Jenqyang/Awesome-AI-Agents",
+      "name": "Jenqyang/Awesome-AI-Agents",
+      "url": "https://github.com/Jenqyang/Awesome-AI-Agents",
+      "category": "agents-other-1",
+      "description": "A collection of autonomous agents 🤖️ powered by LLM.",
+      "likes": 0
+    },
+    {
+      "id": "NirDiamant/GenAI_Agents",
+      "name": "NirDiamant/GenAI_Agents",
+      "url": "https://github.com/NirDiamant/GenAI_Agents",
+      "category": "agents-other-1",
+      "description": "This repository provides tutorials and implementations for various Generative AI Agent techniques, from basic to advanced. It serves as a comprehensive guide for building intelligent, interactive AI systems.",
+      "likes": 0
+    },
+    {
+      "id": "kaymen99/personal-ai-assistant",
+      "name": "kaymen99/personal-ai-assistant",
+      "url": "https://github.com/kaymen99/personal-ai-assistant",
+      "category": "agents-other-1",
+      "description": "Your personal AI assistant powered by multiple AI agents. Connects to WhatsApp, Slack, or Telegram to manage your emails, schedule, to-dos, messages, and daily research.",
+      "likes": 0
+    },
+    {
+      "id": "frenrug/contracts",
+      "name": "frenrug/contracts",
+      "url": "https://github.com/frenrug/contracts",
+      "category": "agents-other-1",
+      "description": "Frenrug on-chain AI agent smart contracts.",
+      "likes": 0
+    },
+    {
+      "id": "ifokeev/telegram-ai-agent",
+      "name": "ifokeev/telegram-ai-agent",
+      "url": "https://github.com/ifokeev/telegram-ai-agent",
+      "category": "agents-other-1",
+      "description": "Telegram AI Agent: A powerful Python library for creating AI-powered Telegram bots",
+      "likes": 0
+    },
+    {
+      "id": "markmbain/aius",
+      "name": "markmbain/aius",
+      "url": "https://github.com/markmbain/aius",
+      "category": "agents-other-1",
+      "description": "The long-term memory for your Superagents 🥷and LLMs 🤖. Built with GraphRAG, Knowledge graphs and autonomous ai agents",
+      "likes": 0
+    },
+    {
+      "id": "SugarAI-HQ/CopilotOne",
+      "name": "SugarAI-HQ/CopilotOne",
+      "url": "https://github.com/SugarAI-HQ/CopilotOne",
+      "category": "agents-other-1",
+      "description": "Add Siri like Native AI Agents in you App.",
+      "likes": 0
+    },
+    {
+      "id": "julep-ai/julep",
+      "name": "julep-ai/julep",
+      "url": "https://github.com/julep-ai/julep",
+      "category": "agents-other-1",
+      "description": "Deploy serverless AI workflows at scale. Firebase for AI agents",
+      "likes": 0
+    },
+    {
+      "id": "cheshire-cat-ai/core",
+      "name": "cheshire-cat-ai/core",
+      "url": "https://github.com/cheshire-cat-ai/core",
+      "category": "agents-other-1",
+      "description": "AI agent microservice",
+      "likes": 0
+    },
+    {
+      "id": "goat-sdk/goat",
+      "name": "goat-sdk/goat",
+      "url": "https://github.com/goat-sdk/goat",
+      "category": "agents-other-1",
+      "description": "The leading agentic finance toolkit for AI agents",
+      "likes": 0
+    },
+    {
+      "id": "Shubhamsaboo/awesome-llm-apps",
+      "name": "Shubhamsaboo/awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "category": "agents-other-1",
+      "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
+      "likes": 0
+    },
+    {
+      "id": "AgentEra/Agently",
+      "name": "AgentEra/Agently",
+      "url": "https://github.com/AgentEra/Agently",
+      "category": "agents-other-1",
+      "description": "[GenAI Application Development Framework]  🚀 Build GenAI application quick and easy 💬 Easy to interact with GenAI agent in code using structure data and chained-calls syntax 🧩 Use Event-Driven Flow *TriggerFlow* to manage complex GenAI working logic 🔀 Switch to any model without rewrite application code",
+      "likes": 0
+    },
+    {
+      "id": "ComposioHQ/composio",
+      "name": "ComposioHQ/composio",
+      "url": "https://github.com/ComposioHQ/composio",
+      "category": "agents-other-1",
+      "description": "Composio equips your AI agents & LLMs with 100+ high-quality integrations via function calling",
+      "likes": 0
+    },
+    {
+      "id": "mem0ai/mem0",
+      "name": "mem0ai/mem0",
+      "url": "https://github.com/mem0ai/mem0",
+      "category": "agents-other-1",
+      "description": "Universal memory layer for AI Agents; Announcing OpenMemory MCP - local and secure memory management.",
+      "likes": 0
+    },
+    {
+      "id": "TencentQQGYLab/AppAgent",
+      "name": "TencentQQGYLab/AppAgent",
+      "url": "https://github.com/TencentQQGYLab/AppAgent",
+      "category": "agents-other-1",
+      "description": "AppAgent: Multimodal Agents as Smartphone Users, an LLM-based multimodal agent framework designed to operate smartphone apps.",
+      "likes": 0
+    },
+    {
+      "id": "shibing624/agentica",
+      "name": "shibing624/agentica",
+      "url": "https://github.com/shibing624/agentica",
+      "category": "agents-other-1",
+      "description": "Agentica: Effortlessly Build Intelligent, Reflective, and Collaborative Multimodal AI Agents! 构建智能的多模态AI Agent。",
+      "likes": 0
+    },
+    {
+      "id": "Lesterpaintstheworld/terminal-velocity",
+      "name": "Lesterpaintstheworld/terminal-velocity",
+      "url": "https://github.com/Lesterpaintstheworld/terminal-velocity",
+      "category": "agents-other-1",
+      "description": "A novel created autonomously by a team of 10 AI agents",
+      "likes": 0
+    },
+    {
+      "id": "BuilderIO/micro-agent",
+      "name": "BuilderIO/micro-agent",
+      "url": "https://github.com/BuilderIO/micro-agent",
+      "category": "agents-other-1",
+      "description": "An AI agent that writes (actually useful) code for you",
+      "likes": 0
+    },
+    {
+      "id": "dust-tt/dust",
+      "name": "dust-tt/dust",
+      "url": "https://github.com/dust-tt/dust",
+      "category": "agents-other-1",
+      "description": "Custom AI agent platform to speed up your work.",
+      "likes": 0
+    },
+    {
+      "id": "SamurAIGPT/Best-AI-Agents",
+      "name": "SamurAIGPT/Best-AI-Agents",
+      "url": "https://github.com/SamurAIGPT/Best-AI-Agents",
+      "category": "agents-other-1",
+      "description": "A list of top AI agents",
+      "likes": 0
+    },
+    {
+      "id": "CopilotKit/CopilotKit",
+      "name": "CopilotKit/CopilotKit",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "category": "agents-other-1",
+      "description": "React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic last-mile 🪁",
+      "likes": 0
+    },
+    {
+      "id": "semanser/codel",
+      "name": "semanser/codel",
+      "url": "https://github.com/semanser/codel",
+      "category": "agents-other-1",
+      "description": "✨ Fully autonomous AI Agent that can perform complicated tasks and projects using terminal, browser, and editor.",
+      "likes": 0
+    },
+    {
+      "id": "e2b-dev/awesome-ai-agents",
+      "name": "e2b-dev/awesome-ai-agents",
+      "url": "https://github.com/e2b-dev/awesome-ai-agents",
+      "category": "agents-other-1",
+      "description": "A list of AI autonomous agents",
+      "likes": 0
+    },
+    {
+      "id": "i-am-bee/beeai-framework-ts-starter",
+      "name": "i-am-bee/beeai-framework-ts-starter",
+      "url": "https://github.com/i-am-bee/beeai-framework-ts-starter",
+      "category": "agents-other-1",
+      "description": "Template to quickly start working with Bee Agent Framework.",
+      "likes": 0
+    },
+    {
+      "id": "getzep/graphiti",
+      "name": "getzep/graphiti",
+      "url": "https://github.com/getzep/graphiti",
+      "category": "agents-other-1",
+      "description": "Build Real-Time Knowledge Graphs for AI Agents",
+      "likes": 0
+    },
+    {
+      "id": "intelligentnode/Intelli",
+      "name": "intelligentnode/Intelli",
+      "url": "https://github.com/intelligentnode/Intelli",
+      "category": "agents-other-1",
+      "description": "Create chatbot and AI agent workflows with unified access.",
+      "likes": 0
+    },
+    {
+      "id": "nrwl/nx",
+      "name": "nrwl/nx",
+      "url": "https://github.com/nrwl/nx",
+      "category": "agents-other-1",
+      "description": "Get to green PRs in half the time. Nx optimizes your builds, scales your CI, and fixes failed PRs. Built for developers and AI agents.",
+      "likes": 0
+    },
+    {
+      "id": "FlowiseAI/Flowise",
+      "name": "FlowiseAI/Flowise",
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "category": "agents-other-1",
+      "description": "Build AI Agents, Visually",
+      "likes": 0
+    },
+    {
+      "id": "ThousandBirdsInc/chidori",
+      "name": "ThousandBirdsInc/chidori",
+      "url": "https://github.com/ThousandBirdsInc/chidori",
+      "category": "agents-other-1",
+      "description": "A reactive runtime for building durable AI agents",
+      "likes": 0
+    },
+    {
+      "id": "reworkd/AgentGPT",
+      "name": "reworkd/AgentGPT",
+      "url": "https://github.com/reworkd/AgentGPT",
+      "category": "agents-other-1",
+      "description": "🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.",
+      "likes": 0
+    },
+    {
+      "id": "warpdotdev/Warp",
+      "name": "warpdotdev/Warp",
+      "url": "https://github.com/warpdotdev/Warp",
+      "category": "agents-other-1",
+      "description": "Warp is the agentic development environment, built for coding with multiple AI agents.",
+      "likes": 0
+    },
+    {
+      "id": "assafelovic/gpt-researcher",
+      "name": "assafelovic/gpt-researcher",
+      "url": "https://github.com/assafelovic/gpt-researcher",
+      "category": "agents-other-1",
+      "description": "LLM based autonomous agent that conducts deep local and web research on any topic and generates a long report with citations.",
+      "likes": 0
+    },
+    {
+      "id": "livekit/agents",
+      "name": "livekit/agents",
+      "url": "https://github.com/livekit/agents",
+      "category": "agents-other-1",
+      "description": "A powerful framework for building realtime voice AI agents 🤖🎙️📹",
+      "likes": 0
+    },
+    {
+      "id": "Mintplex-Labs/anything-llm",
+      "name": "Mintplex-Labs/anything-llm",
+      "url": "https://github.com/Mintplex-Labs/anything-llm",
+      "category": "agents-other-1",
+      "description": "The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility,  and more.",
+      "likes": 0
+    },
+    {
+      "id": "OpenBB-finance/OpenBB",
+      "name": "OpenBB-finance/OpenBB",
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "category": "agents-other-2",
+      "description": "Financial data platform for analysts, quants and AI agents.",
+      "likes": 0
+    },
+    {
+      "id": "yomorun/yomo",
+      "name": "yomorun/yomo",
+      "url": "https://github.com/yomorun/yomo",
+      "category": "agents-other-2",
+      "description": "🦖 Serverless AI Agent Framework with Geo-distributed Edge AI Infra.",
+      "likes": 0
+    },
+    {
+      "id": "fetchai/agents-aea",
+      "name": "fetchai/agents-aea",
+      "url": "https://github.com/fetchai/agents-aea",
+      "category": "agents-other-2",
+      "description": "A framework for autonomous economic agent (AEA) development",
+      "likes": 0
+    },
+    {
+      "id": "agentlabs-dev/agentlabs",
+      "name": "agentlabs-dev/agentlabs",
+      "url": "https://github.com/agentlabs-dev/agentlabs",
+      "category": "agents-other-2",
+      "description": "Universal AI Agent Frontend. Build your backend we handle the rest.",
+      "likes": 0
+    },
+    {
+      "id": "NeoVertex1/SuperPrompt",
+      "name": "NeoVertex1/SuperPrompt",
+      "url": "https://github.com/NeoVertex1/SuperPrompt",
+      "category": "agents-other-2",
+      "description": "SuperPrompt is an attempt to engineer prompts that might help us understand AI agents.",
+      "likes": 0
+    },
+    {
+      "id": "Fosowl/agenticSeek",
+      "name": "Fosowl/agenticSeek",
+      "url": "https://github.com/Fosowl/agenticSeek",
+      "category": "agents-other-2",
+      "description": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin993886460 (Beware of fake account)",
+      "likes": 0
+    },
+    {
+      "id": "kingjulio8238/Memary",
+      "name": "kingjulio8238/Memary",
+      "url": "https://github.com/kingjulio8238/Memary",
+      "category": "agents-other-2",
+      "description": "The Open Source Memory Layer For Autonomous Agents",
+      "likes": 0
+    },
+    {
+      "id": "microsoft/TaskWeaver",
+      "name": "microsoft/TaskWeaver",
+      "url": "https://github.com/microsoft/TaskWeaver",
+      "category": "agents-other-2",
+      "description": "A code-first agent framework for seamlessly planning and executing data analytics tasks.",
+      "likes": 0
+    },
+    {
+      "id": "elizaOS/eliza",
+      "name": "elizaOS/eliza",
+      "url": "https://github.com/elizaOS/eliza",
+      "category": "agents-other-2",
+      "description": "Autonomous agents for everyone",
+      "likes": 0
+    },
+    {
+      "id": "theonlyamos/cognitrix",
+      "name": "theonlyamos/cognitrix",
+      "url": "https://github.com/theonlyamos/cognitrix",
+      "category": "agents-other-2",
+      "description": "Create AI Agents equipped with tools and extensions",
+      "likes": 0
+    },
+    {
+      "id": "sing1ee/a2a-directory",
+      "name": "sing1ee/a2a-directory",
+      "url": "https://github.com/sing1ee/a2a-directory",
+      "category": "agents-other-2",
+      "description": "Agent2Agent (A2A) – AgentCards, Servers, Clients, Docs",
+      "likes": 0
+    },
+    {
+      "id": "microsoft/teams-agent-accelerator-templates",
+      "name": "microsoft/teams-agent-accelerator-templates",
+      "url": "https://github.com/microsoft/teams-agent-accelerator-templates",
+      "category": "agents-other-2",
+      "description": "A collection of templates integrating Microsoft Teams with various AI agent paradigms.",
+      "likes": 0
+    },
+    {
+      "id": "cfrg/draft-irtf-cfrg-aegis-aead",
+      "name": "cfrg/draft-irtf-cfrg-aegis-aead",
+      "url": "https://github.com/cfrg/draft-irtf-cfrg-aegis-aead",
+      "category": "agents-other-2",
+      "description": "Specification for the AEGIS family of authenticated encryption algorithms.",
+      "likes": 0
+    },
+    {
+      "id": "Canner/vulcan-sql",
+      "name": "Canner/vulcan-sql",
+      "url": "https://github.com/Canner/vulcan-sql",
+      "category": "agents-other-2",
+      "description": "Data API Framework for AI Agents and Data Apps",
+      "likes": 0
+    },
+    {
+      "id": "triggerdotdev/trigger.dev",
+      "name": "triggerdotdev/trigger.dev",
+      "url": "https://github.com/triggerdotdev/trigger.dev",
+      "category": "agents-other-2",
+      "description": "Trigger.dev – build and deploy fully‑managed AI agents and workflows",
+      "likes": 0
+    },
+    {
+      "id": "coze-dev/coze-loop",
+      "name": "coze-dev/coze-loop",
+      "url": "https://github.com/coze-dev/coze-loop",
+      "category": "agents-other-2",
+      "description": "Next-generation AI Agent Optimization Platform: Cozeloop addresses challenges in AI agent development by providing full-lifecycle management capabilities from development, debugging, and evaluation to monitoring.",
+      "likes": 0
+    },
+    {
+      "id": "smallcloudai/refact",
+      "name": "smallcloudai/refact",
+      "url": "https://github.com/smallcloudai/refact",
+      "category": "agents-other-2",
+      "description": "AI Agent that handles engineering tasks end-to-end: integrates with developers’ tools, plans, executes, and iterates until it achieves a successful result.",
+      "likes": 0
+    },
+    {
+      "id": "dagger/dagger",
+      "name": "dagger/dagger",
+      "url": "https://github.com/dagger/dagger",
+      "category": "agents-other-2",
+      "description": "An open-source runtime for composable workflows. Great for AI agents and CI/CD.",
+      "likes": 0
+    },
+    {
+      "id": "damianvtran/local-operator",
+      "name": "damianvtran/local-operator",
+      "url": "https://github.com/damianvtran/local-operator",
+      "category": "agents-other-2",
+      "description": "AI agents platform that gives you a workspace with an integrated team of personal assistants that can work behind the scenes to handle daily monotonous tasks.",
+      "likes": 0
+    },
+    {
+      "id": "Alwurts/Chatsemble",
+      "name": "Alwurts/Chatsemble",
+      "url": "https://github.com/Alwurts/Chatsemble",
+      "category": "agents-other-2",
+      "description": "Chatsemble is a real-time, multi-user chat application with integrated AI agents, built on the Cloudflare stack.",
+      "likes": 0
+    },
+    {
+      "id": "panaversity/learn-agentic-ai",
+      "name": "panaversity/learn-agentic-ai",
+      "url": "https://github.com/panaversity/learn-agentic-ai",
+      "category": "agents-other-2",
+      "description": "Learn Agentic AI using Dapr Agentic Cloud Ascent (DACA) Design Pattern and Agent-Native Cloud Technologies: OpenAI Agents SDK, Memory, MCP, A2A, Knowledge Graphs, Dapr, Rancher Desktop, and Kubernetes.",
+      "likes": 0
+    },
+    {
+      "id": "steel-dev/steel-browser",
+      "name": "steel-dev/steel-browser",
+      "url": "https://github.com/steel-dev/steel-browser",
+      "category": "agents-other-2",
+      "description": "🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.",
+      "likes": 0
+    },
+    {
+      "id": "awslabs/agent-squad",
+      "name": "awslabs/agent-squad",
+      "url": "https://github.com/awslabs/agent-squad",
+      "category": "agents-other-2",
+      "description": "Flexible and powerful framework for managing multiple AI agents and handling complex conversations",
+      "likes": 0
+    },
+    {
+      "id": "lobehub/lobe-chat",
+      "name": "lobehub/lobe-chat",
+      "url": "https://github.com/lobehub/lobe-chat",
+      "category": "agents-other-2",
+      "description": "🤯 Lobe Chat - an open-source, modern design AI chat framework. Supports multiple AI providers (OpenAI / Claude 4 / Gemini / DeepSeek / Ollama / Qwen), Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application.",
+      "likes": 0
+    },
+    {
+      "id": "e2b-dev/awesome-ai-sdks",
+      "name": "e2b-dev/awesome-ai-sdks",
+      "url": "https://github.com/e2b-dev/awesome-ai-sdks",
+      "category": "agents-other-2",
+      "description": "A database of SDKs, frameworks, libraries, and tools for creating, monitoring, debugging and deploying autonomous AI agents",
+      "likes": 0
+    },
+    {
+      "id": "firerpa/lamda",
+      "name": "firerpa/lamda",
+      "url": "https://github.com/firerpa/lamda",
+      "category": "agents-other-2",
+      "description": "The most powerful Android RPA agent framework, next generation of mobile automation robots.",
+      "likes": 0
+    },
+    {
+      "id": "octelium/octelium",
+      "name": "octelium/octelium",
+      "url": "https://github.com/octelium/octelium",
+      "category": "agents-other-2",
+      "description": "A next-gen FOSS self-hosted unified zero trust secure access platform that can operate as a remote access VPN, a ZTNA/BeyondCorp architecture, API/AI gateway, a PaaS, an infrastructure for MCP & A2A architectures or even as an ngrok-alternative and a homelab infrastructure.",
+      "likes": 0
+    },
+    {
+      "id": "google/adk-python",
+      "name": "google/adk-python",
+      "url": "https://github.com/google/adk-python",
+      "category": "agents-other-2",
+      "description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+      "likes": 0
+    },
+    {
+      "id": "trycua/cua",
+      "name": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "category": "agents-other-2",
+      "description": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
+      "likes": 0
+    },
+    {
+      "id": "QwenLM/Qwen-Agent",
+      "name": "QwenLM/Qwen-Agent",
+      "url": "https://github.com/QwenLM/Qwen-Agent",
+      "category": "agents-other-2",
+      "description": "Agent framework and applications built upon Qwen>=3.0, featuring Function Calling, MCP, Code Interpreter, RAG, Chrome extension, etc.",
+      "likes": 0
+    },
+    {
+      "id": "openSVM/aeamcp",
+      "name": "openSVM/aeamcp",
+      "url": "https://github.com/openSVM/aeamcp",
+      "category": "agents-other-2",
+      "description": "Solana Protocol Design for Agent and MCP Server Registries",
+      "likes": 0
+    },
+    {
+      "id": "a2aproject/A2A",
+      "name": "a2aproject/A2A",
+      "url": "https://github.com/a2aproject/A2A",
+      "category": "agents-other-2",
+      "description": "An open protocol enabling communication and interoperability between opaque agentic applications.",
+      "likes": 0
+    },
+    {
+      "id": "cazala/shoal",
+      "name": "cazala/shoal",
+      "url": "https://github.com/cazala/shoal",
+      "category": "agents-other-2",
+      "description": "autonomous agents + genetic algorithms",
+      "likes": 0
+    },
+    {
+      "id": "ArchaeaSoftware/cudahandbook",
+      "name": "ArchaeaSoftware/cudahandbook",
+      "url": "https://github.com/ArchaeaSoftware/cudahandbook",
+      "category": "agents-other-2",
+      "description": "Source code that accompanies The CUDA Handbook.",
+      "likes": 0
+    },
+    {
+      "id": "skydoves/chatgpt-android",
+      "name": "skydoves/chatgpt-android",
+      "url": "https://github.com/skydoves/chatgpt-android",
+      "category": "ai-chats-other-1",
+      "description": "📲 ChatGPT Android demonstrates a Chatbot application using OpenAI's chat API on Android with Stream Chat SDK for Compose.",
+      "likes": 0
+    },
+    {
+      "id": "DLHellMe/telegram-mcp-server",
+      "name": "DLHellMe/telegram-mcp-server",
+      "url": "https://github.com/DLHellMe/telegram-mcp-server",
+      "category": "ai-chats-other-1",
+      "description": "Powerfull Telegram MCP for Claude Desktop to scrape and analyze Telegram content.",
+      "likes": 0
+    },
+    {
+      "id": "jamez-bondos/awesome-gpt4o-images",
+      "name": "jamez-bondos/awesome-gpt4o-images",
+      "url": "https://github.com/jamez-bondos/awesome-gpt4o-images",
+      "category": "ai-chats-other-1",
+      "description": "Awesome curated collection of images and prompts generated by GPT-4o and gpt-image-1. Explore AI generated visuals created with ChatGPT and Sora, showcasing OpenAI’s advanced image generation capabilities.",
+      "likes": 0
+    },
+    {
+      "id": "yihong0618/xiaogpt",
+      "name": "yihong0618/xiaogpt",
+      "url": "https://github.com/yihong0618/xiaogpt",
+      "category": "ai-chats-other-1",
+      "description": "Play ChatGPT and other LLM with Xiaomi AI Speaker",
+      "likes": 0
+    },
+    {
+      "id": "firecrawl/firecrawl-mcp-server",
+      "name": "firecrawl/firecrawl-mcp-server",
+      "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+      "category": "ai-chats-other-1",
+      "description": "🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients.",
+      "likes": 0
+    },
+    {
+      "id": "jasonacox/TinyLLM",
+      "name": "jasonacox/TinyLLM",
+      "url": "https://github.com/jasonacox/TinyLLM",
+      "category": "ai-chats-other-1",
+      "description": "Setup and run a local LLM and Chatbot using consumer grade hardware.",
+      "likes": 0
+    },
+    {
+      "id": "smtg-ai/claude-squad",
+      "name": "smtg-ai/claude-squad",
+      "url": "https://github.com/smtg-ai/claude-squad",
+      "category": "ai-chats-other-1",
+      "description": "Manage multiple AI terminal agents like Claude Code, Aider, Codex, OpenCode, and Amp.",
+      "likes": 0
+    },
+    {
+      "id": "presidio-oss/factif-ai",
+      "name": "presidio-oss/factif-ai",
+      "url": "https://github.com/presidio-oss/factif-ai",
+      "category": "ai-chats-other-1",
+      "description": "AI-powered computer control for automated testing. Factifai uses vision models (Claude, GPT-4o, Gemini) to interact with applications naturally - clicking, typing, and verifying results just like a human would.",
+      "likes": 0
+    },
+    {
+      "id": "ai-boost/awesome-prompts",
+      "name": "ai-boost/awesome-prompts",
+      "url": "https://github.com/ai-boost/awesome-prompts",
+      "category": "ai-chats-other-1",
+      "description": "Curated list of chatgpt prompts from the top-rated GPTs in the GPTs Store. Prompt Engineering, prompt attack & prompt protect. Advanced Prompt Engineering papers.",
+      "likes": 0
+    },
+    {
+      "id": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "category": "ai-chats-other-1",
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus Agent Tools, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "likes": 0
+    },
+    {
+      "id": "julien040/anyquery",
+      "name": "julien040/anyquery",
+      "url": "https://github.com/julien040/anyquery",
+      "category": "ai-chats-other-1",
+      "description": "Query anything (GitHub, Notion, +40 more) with SQL and let LLMs (ChatGPT, Claude) connect to using MCP",
+      "likes": 0
+    },
+    {
+      "id": "microsoft/azure-search-openai-demo-exp",
+      "name": "microsoft/azure-search-openai-demo-exp",
+      "url": "https://github.com/microsoft/azure-search-openai-demo-exp",
+      "category": "ai-chats-other-1",
+      "description": "A sample app for the Retrieval-Augmented Generation pattern running in Azure, using Azure AI Search for retrieval and Azure OpenAI large language models  to power ChatGPT-style and Q&A experiences.",
+      "likes": 0
+    },
+    {
+      "id": "casibase/casibase",
+      "name": "casibase/casibase",
+      "url": "https://github.com/casibase/casibase",
+      "category": "ai-chats-other-1",
+      "description": "⚡️AI Cloud OS: Open-source enterprise-level AI knowledge base and MCP (model-context-protocol)/A2A (agent-to-agent) management platform with admin UI, user management and Single-Sign-On⚡️, supports ChatGPT, Claude, Llama, Ollama, HuggingFace, etc., chat bot demo: https://ai.casibase.com, admin UI demo: https://ai-admin.casibase.com",
+      "likes": 0
+    },
+    {
+      "id": "openchatai/OpenChat",
+      "name": "openchatai/OpenChat",
+      "url": "https://github.com/openchatai/OpenChat",
+      "category": "ai-chats-other-1",
+      "description": "LLMs custom-chatbots console ⚡",
+      "likes": 0
+    },
+    {
+      "id": "deeppavlov/DeepPavlov",
+      "name": "deeppavlov/DeepPavlov",
+      "url": "https://github.com/deeppavlov/DeepPavlov",
+      "category": "ai-chats-other-1",
+      "description": "An open source library for deep learning end-to-end dialog systems and chatbots.",
+      "likes": 0
+    },
+    {
+      "id": "awwaiid/ghostwriter",
+      "name": "awwaiid/ghostwriter",
+      "url": "https://github.com/awwaiid/ghostwriter",
+      "category": "ai-chats-other-1",
+      "description": "Use the reMarkable2 as an interface to vision-LLMs (ChatGPT, Claude, Gemini). Ghost in the machine!",
+      "likes": 0
+    },
+    {
+      "id": "sudoAlireza/GeminiBot",
+      "name": "sudoAlireza/GeminiBot",
+      "url": "https://github.com/sudoAlireza/GeminiBot",
+      "category": "ai-chats-other-1",
+      "description": "TelegramBot Tool to Interact with Google's Gemini AI Chatbot",
+      "likes": 0
+    },
+    {
+      "id": "h1ddenpr0cess20/ollamarama-matrix",
+      "name": "h1ddenpr0cess20/ollamarama-matrix",
+      "url": "https://github.com/h1ddenpr0cess20/ollamarama-matrix",
+      "category": "ai-chats-other-1",
+      "description": "AI chatbot for Matrix with infinite personalties, using ollama",
+      "likes": 0
+    },
+    {
+      "id": "CSML-by-Clevy/csml-engine",
+      "name": "CSML-by-Clevy/csml-engine",
+      "url": "https://github.com/CSML-by-Clevy/csml-engine",
+      "category": "ai-chats-other-1",
+      "description": "CSML is an easy-to-use chatbot programming language and framework.",
+      "likes": 0
+    },
+    {
+      "id": "ugorsahin/TalkingHeads",
+      "name": "ugorsahin/TalkingHeads",
+      "url": "https://github.com/ugorsahin/TalkingHeads",
+      "category": "ai-chats-other-1",
+      "description": "A library to communicate with ChatGPT, Claude, Copilot, Gemini, HuggingChat, and Pi",
+      "likes": 0
+    },
+    {
+      "id": "vincelwt/chatgpt-mac",
+      "name": "vincelwt/chatgpt-mac",
+      "url": "https://github.com/vincelwt/chatgpt-mac",
+      "category": "ai-chats-other-1",
+      "description": "ChatGPT for Mac, living in your menubar.",
+      "likes": 0
+    },
+    {
+      "id": "winfunc/deepclaude",
+      "name": "winfunc/deepclaude",
+      "url": "https://github.com/winfunc/deepclaude",
+      "category": "ai-chats-other-1",
+      "description": "A high-performance LLM inference API and Chat UI that integrates DeepSeek R1's CoT reasoning traces with Anthropic Claude models.",
+      "likes": 0
+    },
+    {
+      "id": "webwhiz-ai/webwhiz",
+      "name": "webwhiz-ai/webwhiz",
+      "url": "https://github.com/webwhiz-ai/webwhiz",
+      "category": "ai-chats-other-1",
+      "description": "WebWhiz allows you to create an AI chatbot that knows everything about your product and can instantly respond to your customer's queries.",
+      "likes": 0
+    },
+    {
+      "id": "hollobit/GenAI_LLM_timeline",
+      "name": "hollobit/GenAI_LLM_timeline",
+      "url": "https://github.com/hollobit/GenAI_LLM_timeline",
+      "category": "ai-chats-other-1",
+      "description": "ChatGPT, GenerativeAI and LLMs Timeline",
+      "likes": 0
+    },
+    {
+      "id": "OpenGVLab/InternGPT",
+      "name": "OpenGVLab/InternGPT",
+      "url": "https://github.com/OpenGVLab/InternGPT",
+      "category": "ai-chats-other-1",
+      "description": "InternGPT (iGPT) is an open source demo platform where you can easily showcase your AI models. Now it supports DragGAN, ChatGPT, ImageBind, multimodal chat like GPT-4, SAM, interactive image editing, etc. Try it at igpt.opengvlab.com (支持DragGAN、ChatGPT、ImageBind、SAM的在线Demo系统)",
+      "likes": 0
+    },
+    {
+      "id": "rasbt/LLMs-from-scratch",
+      "name": "rasbt/LLMs-from-scratch",
+      "url": "https://github.com/rasbt/LLMs-from-scratch",
+      "category": "ai-chats-other-1",
+      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+      "likes": 0
+    },
+    {
+      "id": "RafalWilinski/telegram-chatgpt-concierge-bot",
+      "name": "RafalWilinski/telegram-chatgpt-concierge-bot",
+      "url": "https://github.com/RafalWilinski/telegram-chatgpt-concierge-bot",
+      "category": "ai-chats-other-1",
+      "description": "Interact with OpenAI's ChatGPT via Telegram and Voice.",
+      "likes": 0
+    },
+    {
+      "id": "kevinamiri/Instructgpt-prompts",
+      "name": "kevinamiri/Instructgpt-prompts",
+      "url": "https://github.com/kevinamiri/Instructgpt-prompts",
+      "category": "ai-chats-other-1",
+      "description": "A collection of ChatGPT and GPT-3.5 instruction-based prompts for generating and classifying text.",
+      "likes": 0
+    },
+    {
+      "id": "langgptai/wonderful-prompts",
+      "name": "langgptai/wonderful-prompts",
+      "url": "https://github.com/langgptai/wonderful-prompts",
+      "category": "ai-chats-other-1",
+      "description": "🔥中文 prompt 精选🔥，ChatGPT 使用指南，提升 ChatGPT 可玩性和可用性！🚀",
+      "likes": 0
+    },
+    {
+      "id": "promptfoo/promptfoo",
+      "name": "promptfoo/promptfoo",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "category": "ai-chats-other-1",
+      "description": "Test your prompts, agents, and RAGs. AI Red teaming, pentesting, and vulnerability scanning for LLMs. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.",
+      "likes": 0
+    },
+    {
+      "id": "LouisShark/chatgpt_system_prompt",
+      "name": "LouisShark/chatgpt_system_prompt",
+      "url": "https://github.com/LouisShark/chatgpt_system_prompt",
+      "category": "ai-chats-other-1",
+      "description": "A collection of GPT system prompts and various prompt injection/leaking knowledge.",
+      "likes": 0
+    },
+    {
+      "id": "P1kaj1uu/ChatGPT-Video-Parsing",
+      "name": "P1kaj1uu/ChatGPT-Video-Parsing",
+      "url": "https://github.com/P1kaj1uu/ChatGPT-Video-Parsing",
+      "category": "ai-chats-other-1",
+      "description": "本项目已接入ChatGPT和文生图服务(无需再代理和APIKey)，同时支持腾讯视频、爱奇艺、优酷、芒果TV、哔哩哔哩、网易云音乐等平台会员视频破解可在线解析和论文降重（目前仅适用于PC端，移动端适配暂未完成）",
+      "likes": 0
+    },
+    {
+      "id": "smol-ai/GodMode",
+      "name": "smol-ai/GodMode",
+      "url": "https://github.com/smol-ai/GodMode",
+      "category": "ai-chats-other-1",
+      "description": "AI Chat Browser: Fast, Full webapp access to ChatGPT / Claude / Bard / Bing / Llama2! I use this 20 times a day.",
+      "likes": 0
+    },
+    {
+      "id": "muratcankoylan/AI-Investigator",
+      "name": "muratcankoylan/AI-Investigator",
+      "url": "https://github.com/muratcankoylan/AI-Investigator",
+      "category": "ai-chats-other-1",
+      "description": "An automated AI system (Python framework) designed to analyze any type of website content and generate structured reports using Claude 3.5 Sonnet API and Firecrawl. While currently configured for enterprise AI case studies, the architecture can be adapted for various content analysis needs.",
+      "likes": 0
+    },
+    {
+      "id": "mzxrai/mcp-webresearch",
+      "name": "mzxrai/mcp-webresearch",
+      "url": "https://github.com/mzxrai/mcp-webresearch",
+      "category": "ai-chats-other-1",
+      "description": "MCP web research server (give Claude real-time info from the web)",
+      "likes": 0
+    },
+    {
+      "id": "danny-avila/LibreChat",
+      "name": "danny-avila/LibreChat",
+      "url": "https://github.com/danny-avila/LibreChat",
+      "category": "ai-chats-other-1",
+      "description": "Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.",
+      "likes": 0
+    },
+    {
+      "id": "xtekky/chatgpt-clone",
+      "name": "xtekky/chatgpt-clone",
+      "url": "https://github.com/xtekky/chatgpt-clone",
+      "category": "ai-chats-other-1",
+      "description": "ChatGPT interface with better UI",
+      "likes": 0
+    },
+    {
+      "id": "michaelthwan/searchGPT",
+      "name": "michaelthwan/searchGPT",
+      "url": "https://github.com/michaelthwan/searchGPT",
+      "category": "ai-chats-other-1",
+      "description": "Grounded search engine (i.e. with source reference) based on LLM / ChatGPT / OpenAI API. It supports web search, file content search etc.",
+      "likes": 0
+    },
+    {
+      "id": "menloresearch/jan",
+      "name": "menloresearch/jan",
+      "url": "https://github.com/menloresearch/jan",
+      "category": "ai-chats-other-1",
+      "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer",
+      "likes": 0
+    },
+    {
+      "id": "pashpashpash/vault-ai",
+      "name": "pashpashpash/vault-ai",
+      "url": "https://github.com/pashpashpash/vault-ai",
+      "category": "ai-chats-other-1",
+      "description": "OP Vault ChatGPT: Give ChatGPT long-term memory using the OP Stack (OpenAI + Pinecone Vector Database). Upload your own custom knowledge base files (PDF, txt, epub, etc) using a simple React frontend.",
+      "likes": 0
+    },
+    {
+      "id": "mudler/LocalAI",
+      "name": "mudler/LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "category": "ai-chats-other-1",
+      "description": ":robot: The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI,  running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference",
+      "likes": 0
+    },
+    {
+      "id": "ai-shifu/ChatALL",
+      "name": "ai-shifu/ChatALL",
+      "url": "https://github.com/ai-shifu/ChatALL",
+      "category": "ai-chats-other-1",
+      "description": "Concurrently chat with ChatGPT, Bing Chat, Bard, Alpaca, Vicuna, Claude, ChatGLM, MOSS, 讯飞星火, 文心一言 and more, discover the best answers",
+      "likes": 0
+    },
+    {
+      "id": "intel/intel-extension-for-transformers",
+      "name": "intel/intel-extension-for-transformers",
+      "url": "https://github.com/intel/intel-extension-for-transformers",
+      "category": "ai-chats-other-1",
+      "description": "⚡ Build your chatbot within minutes on your favorite device; offer SOTA compression techniques for LLMs; run LLMs efficiently on Intel Platforms⚡",
+      "likes": 0
+    },
+    {
+      "id": "AmruthaPatil/NYU-ChatBot",
+      "name": "AmruthaPatil/NYU-ChatBot",
+      "url": "https://github.com/AmruthaPatil/NYU-ChatBot",
+      "category": "ai-chats-other-1",
+      "description": "Creating simple chatbot using movie scripts from the Cornell Movie Dialogs Corpus based on the PyTorch Chatbot Tutorial.",
+      "likes": 0
+    },
+    {
+      "id": "open-compass/opencompass",
+      "name": "open-compass/opencompass",
+      "url": "https://github.com/open-compass/opencompass",
+      "category": "ai-chats-other-1",
+      "description": "OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets.",
+      "likes": 0
+    },
+    {
+      "id": "jwest951227/tgChatbotAim",
+      "name": "jwest951227/tgChatbotAim",
+      "url": "https://github.com/jwest951227/tgChatbotAim",
+      "category": "ai-chats-other-1",
+      "description": "Telegram Chat-bot created in python with using AIML",
+      "likes": 0
+    },
+    {
+      "id": "jwest951227/aiChanChatbot",
+      "name": "jwest951227/aiChanChatbot",
+      "url": "https://github.com/jwest951227/aiChanChatbot",
+      "category": "ai-chats-other-1",
+      "description": "",
+      "likes": 0
+    },
+    {
+      "id": "vercel/ai-chatbot",
+      "name": "vercel/ai-chatbot",
+      "url": "https://github.com/vercel/ai-chatbot",
+      "category": "ai-chats-other-1",
+      "description": "A full-featured, hackable Next.js AI chatbot built by Vercel",
+      "likes": 0
+    },
+    {
+      "id": "f/awesome-chatgpt-prompts",
+      "name": "f/awesome-chatgpt-prompts",
+      "url": "https://github.com/f/awesome-chatgpt-prompts",
+      "category": "ai-chats-other-1",
+      "description": "This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.",
+      "likes": 0
+    },
+    {
+      "id": "ngundotra/solana-gpt-plugin",
+      "name": "ngundotra/solana-gpt-plugin",
+      "url": "https://github.com/ngundotra/solana-gpt-plugin",
+      "category": "ai-chats-other-1",
+      "description": "A ChatGPT plugin for Solana",
+      "likes": 0
+    },
+    {
+      "id": "trendy-design/llmchat",
+      "name": "trendy-design/llmchat",
+      "url": "https://github.com/trendy-design/llmchat",
+      "category": "ai-chats-other-1",
+      "description": "Unified interface for AI chat, Agentic workflows and more ...",
+      "likes": 0
+    },
+    {
+      "id": "run-llama/rags",
+      "name": "run-llama/rags",
+      "url": "https://github.com/run-llama/rags",
+      "category": "ai-chats-other-1",
+      "description": "Build ChatGPT over your data, all with natural language",
+      "likes": 0
+    },
+    {
+      "id": "ztjhz/BetterChatGPT",
+      "name": "ztjhz/BetterChatGPT",
+      "url": "https://github.com/ztjhz/BetterChatGPT",
+      "category": "ai-chats-other-1",
+      "description": "An amazing UI for OpenAI's ChatGPT (Website + Windows + MacOS + Linux)",
+      "likes": 0
+    },
+    {
+      "id": "solana-labs/chatgpt-plugin",
+      "name": "solana-labs/chatgpt-plugin",
+      "url": "https://github.com/solana-labs/chatgpt-plugin",
+      "category": "ai-chats-other-1",
+      "description": "",
+      "likes": 0
+    },
+    {
+      "id": "anse-app/chatgpt-demo",
+      "name": "anse-app/chatgpt-demo",
+      "url": "https://github.com/anse-app/chatgpt-demo",
+      "category": "ai-chats-other-1",
+      "description": "Minimal web UI for ChatGPT.",
+      "likes": 0
+    },
+    {
+      "id": "copilot-us/chatgpt-plugins",
+      "name": "copilot-us/chatgpt-plugins",
+      "url": "https://github.com/copilot-us/chatgpt-plugins",
+      "category": "ai-chats-other-1",
+      "description": "Official ChatGPT Plugins🧩",
+      "likes": 0
+    },
+    {
+      "id": "PickleBoxer/dev-chatgpt-prompts",
+      "name": "PickleBoxer/dev-chatgpt-prompts",
+      "url": "https://github.com/PickleBoxer/dev-chatgpt-prompts",
+      "category": "ai-chats-other-1",
+      "description": "📚 Personal collection of ChatGPT prompts for developers!",
+      "likes": 0
+    },
+    {
+      "id": "CopilotKit/CopilotKit",
+      "name": "CopilotKit/CopilotKit",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "category": "ai-chats-other-1",
+      "description": "React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic last-mile 🪁",
+      "likes": 0
+    },
+    {
+      "id": "billmei/every-chatgpt-gui",
+      "name": "billmei/every-chatgpt-gui",
+      "url": "https://github.com/billmei/every-chatgpt-gui",
+      "category": "ai-chats-other-1",
+      "description": "Every front-end GUI client for ChatGPT, Claude, and other LLMs",
+      "likes": 0
+    },
+    {
+      "id": "CH563/gpts-url",
+      "name": "CH563/gpts-url",
+      "url": "https://github.com/CH563/gpts-url",
+      "category": "ai-chats-other-1",
+      "description": "ChatGPT GPTs Store, use Astro + Taiwindcss, and crawl the 6,876 GPTs SQL packet",
+      "likes": 0
+    },
+    {
+      "id": "CNSeniorious000/free-chat",
+      "name": "CNSeniorious000/free-chat",
+      "url": "https://github.com/CNSeniorious000/free-chat",
+      "category": "ai-chats-other-1",
+      "description": "An elegant LLM chat UI forked from chatgpt-demo of @anse-app. Index site at https://free-chat.asia",
+      "likes": 0
+    },
+    {
+      "id": "yamadashy/repomix",
+      "name": "yamadashy/repomix",
+      "url": "https://github.com/yamadashy/repomix",
+      "category": "ai-chats-other-1",
+      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
+      "likes": 0
+    },
+    {
+      "id": "kodu-ai/claude-coder",
+      "name": "kodu-ai/claude-coder",
+      "url": "https://github.com/kodu-ai/claude-coder",
+      "category": "ai-chats-other-1",
+      "description": "Kodu is an autonomous coding agent that lives in your IDE. It is a VSCode extension that can help you build your dream project step by step by leveraging the latest technologies in automated coding agents",
+      "likes": 0
+    },
+    {
+      "id": "gragland/chatgpt-chrome-extension",
+      "name": "gragland/chatgpt-chrome-extension",
+      "url": "https://github.com/gragland/chatgpt-chrome-extension",
+      "category": "ai-chats-other-1",
+      "description": "A ChatGPT Chrome extension. Integrates ChatGPT into every text box on the internet.",
+      "likes": 0
+    },
+    {
+      "id": "saeedezzati/superpower-chatgpt",
+      "name": "saeedezzati/superpower-chatgpt",
+      "url": "https://github.com/saeedezzati/superpower-chatgpt",
+      "category": "ai-chats-other-1",
+      "description": "ChatGPT with superpowers! Search chat history, create folders, export all chats, pin messages, access thousands of community prompts, incognito mode, language and tone selection, and many more features",
+      "likes": 0
+    },
+    {
+      "id": "UmileVX/LegalChat",
+      "name": "UmileVX/LegalChat",
+      "url": "https://github.com/UmileVX/LegalChat",
+      "category": "ai-chats-other-1",
+      "description": "LLM powered chatbot of legal domain",
+      "likes": 0
+    },
+    {
+      "id": "context-labs/toly-gpt",
+      "name": "context-labs/toly-gpt",
+      "url": "https://github.com/context-labs/toly-gpt",
+      "category": "ai-chats-other-1",
+      "description": "A chatbot trained on the Solana validator codebase.",
+      "likes": 0
+    },
+    {
+      "id": "khoj-ai/khoj",
+      "name": "khoj-ai/khoj",
+      "url": "https://github.com/khoj-ai/khoj",
+      "category": "ai-chats-other-1",
+      "description": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
+      "likes": 0
+    },
+    {
+      "id": "intelligentnode/Intelli",
+      "name": "intelligentnode/Intelli",
+      "url": "https://github.com/intelligentnode/Intelli",
+      "category": "ai-chats-other-1",
+      "description": "Create chatbot and AI agent workflows with unified access.",
+      "likes": 0
+    },
+    {
+      "id": "Tusharknwl/Lumina_AI",
+      "name": "Tusharknwl/Lumina_AI",
+      "url": "https://github.com/Tusharknwl/Lumina_AI",
+      "category": "ai-chats-other-1",
+      "description": "Lumina AI is a SaaS-based AI platform built with Next.js, Shadcn, Tailwind CSS, Clerk, and the OpenAI API. It offers various AI-powered features such as chatbot, image generation, code generation,video and music generation.",
+      "likes": 0
+    },
+    {
+      "id": "eunomia-bpf/GPTtrace",
+      "name": "eunomia-bpf/GPTtrace",
+      "url": "https://github.com/eunomia-bpf/GPTtrace",
+      "category": "ai-chats-other-1",
+      "description": "Generate eBPF programs and tracing with ChatGPT",
+      "likes": 0
+    },
+    {
+      "id": "lmangani/chdb-GPT",
+      "name": "lmangani/chdb-GPT",
+      "url": "https://github.com/lmangani/chdb-GPT",
+      "category": "ai-chats-other-1",
+      "description": "Generate chDB and ClickHouse queries with ChatGPT/OpenAI APIs",
+      "likes": 0
+    },
+    {
+      "id": "m1guelpf/chatgpt-telegram",
+      "name": "m1guelpf/chatgpt-telegram",
+      "url": "https://github.com/m1guelpf/chatgpt-telegram",
+      "category": "ai-chats-other-1",
+      "description": "Run your own GPTChat Telegram bot, with a single command!",
+      "likes": 0
+    },
+    {
+      "id": "askcharm/figchat",
+      "name": "askcharm/figchat",
+      "url": "https://github.com/askcharm/figchat",
+      "category": "ai-chats-other-1",
+      "description": "GPT-4 & Claude for Figma & FigJam",
+      "likes": 0
+    },
+    {
+      "id": "YuriNasci/ProjectToContext",
+      "name": "YuriNasci/ProjectToContext",
+      "url": "https://github.com/YuriNasci/ProjectToContext",
+      "category": "ai-chats-other-1",
+      "description": "Convert all relevant content from your project to just one file context and send this for ChatGPT or your favorite LLM.",
+      "likes": 0
+    },
+    {
+      "id": "yym68686/ChatGPT-Telegram-Bot",
+      "name": "yym68686/ChatGPT-Telegram-Bot",
+      "url": "https://github.com/yym68686/ChatGPT-Telegram-Bot",
+      "category": "ai-chats-other-1",
+      "description": "TeleChat: 🤖️ an AI chat Telegram bot can Web Search Powered by GPT-5, DALL·E , Groq, Gemini 2.5 Pro/Flash and the official Claude4.1 API using Python on Zeabur, fly.io and Replit.",
+      "likes": 0
+    },
+    {
+      "id": "langgptai/awesome-claude-prompts",
+      "name": "langgptai/awesome-claude-prompts",
+      "url": "https://github.com/langgptai/awesome-claude-prompts",
+      "category": "ai-chats-other-1",
+      "description": "This repo includes Claude prompt curation to use Claude better.",
+      "likes": 0
+    },
+    {
+      "id": "darrenburns/elia",
+      "name": "darrenburns/elia",
+      "url": "https://github.com/darrenburns/elia",
+      "category": "ai-chats-other-1",
+      "description": "A snappy, keyboard-centric terminal user interface for interacting with large language models. Chat with ChatGPT, Claude, Llama 3, Phi 3, Mistral, Gemma and more.",
+      "likes": 0
+    },
+    {
+      "id": "brianpetro/obsidian-smart-connections",
+      "name": "brianpetro/obsidian-smart-connections",
+      "url": "https://github.com/brianpetro/obsidian-smart-connections",
+      "category": "ai-chats-other-1",
+      "description": "Chat with your notes & see links to related content with AI embeddings. Use local models or 100+ via APIs like Claude, Gemini, ChatGPT & Llama 3",
+      "likes": 0
+    },
+    {
+      "id": "FaridSafi/react-native-gifted-chat",
+      "name": "FaridSafi/react-native-gifted-chat",
+      "url": "https://github.com/FaridSafi/react-native-gifted-chat",
+      "category": "ai-chats-other-1",
+      "description": "💬 The most complete chat UI for React Native",
+      "likes": 0
+    },
+    {
+      "id": "krishn404/Git-Friend",
+      "name": "krishn404/Git-Friend",
+      "url": "https://github.com/krishn404/Git-Friend",
+      "category": "ai-chats-other-1",
+      "description": "GitFriend is an AI-powered GitHub companion built with React, TypeScript, and Firebase. It helps users resolve Git/GitHub issues through smart AI chat, generates dynamic and professional README files, and adds commit emojis to enhance commit history.",
+      "likes": 0
+    },
+    {
+      "id": "clauderic/react-tiny-virtual-list",
+      "name": "clauderic/react-tiny-virtual-list",
+      "url": "https://github.com/clauderic/react-tiny-virtual-list",
+      "category": "ai-chats-other-1",
+      "description": "A tiny but mighty 3kb list virtualization library, with zero dependencies 💪 Supports variable heights/widths, sticky items, scrolling to index, and more!",
+      "likes": 0
+    },
+    {
+      "id": "asgeirtj/system_prompts_leaks",
+      "name": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "category": "ai-chats-other-1",
+      "description": "Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini",
+      "likes": 0
+    },
+    {
+      "id": "AdmTal/chat-gpt-games",
+      "name": "AdmTal/chat-gpt-games",
+      "url": "https://github.com/AdmTal/chat-gpt-games",
+      "category": "ai-chats-other-1",
+      "description": "Prompts for playable games in ChatGPT",
+      "likes": 0
+    },
+    {
+      "id": "microsoft/byoeb",
+      "name": "microsoft/byoeb",
+      "url": "https://github.com/microsoft/byoeb",
+      "category": "ai-chats-other-1",
+      "description": "BYOeB is a tool to build a chatbot with a custom knowledge base and an expert-in-the-loop.",
+      "likes": 0
+    },
+    {
+      "id": "MaliosDark/eva",
+      "name": "MaliosDark/eva",
+      "url": "https://github.com/MaliosDark/eva",
+      "category": "ai-chats-other-1",
+      "description": "Eva, an advanced self-modifying AGI chatbot prototype built on top of the Deepseek-r1 AI foundation model. We use a specific fine-tuned version named nexer-r1 provided by Nexus Erebus. Below is a comprehensive overview of how Eva operates, manages her memory, and evolves over time.",
+      "likes": 0
+    },
+    {
+      "id": "shaneholloman/mcp-knowledge-graph",
+      "name": "shaneholloman/mcp-knowledge-graph",
+      "url": "https://github.com/shaneholloman/mcp-knowledge-graph",
+      "category": "ai-chats-other-1",
+      "description": "MCP server enabling persistent memory for Claude through a local knowledge graph - fork focused on local development",
+      "likes": 0
+    },
+    {
+      "id": "koishijs/koishi",
+      "name": "koishijs/koishi",
+      "url": "https://github.com/koishijs/koishi",
+      "category": "ai-chats-other-1",
+      "description": "Cross-platform chatbot framework made with love",
+      "likes": 0
+    },
+    {
+      "id": "clidey/whodb",
+      "name": "clidey/whodb",
+      "url": "https://github.com/clidey/whodb",
+      "category": "ai-chats-other-1",
+      "description": "A lightweight next-gen data explorer - Postgres, MySQL, SQLite, MongoDB, Redis, MariaDB, Elastic Search, and Clickhouse with Chat interface",
+      "likes": 0
+    },
+    {
+      "id": "davila7/claude-code-templates",
+      "name": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "category": "ai-chats-other-1",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "likes": 0
+    },
+    {
+      "id": "rohitg00/kubectl-mcp-server",
+      "name": "rohitg00/kubectl-mcp-server",
+      "url": "https://github.com/rohitg00/kubectl-mcp-server",
+      "category": "ai-chats-other-2",
+      "description": "Chat with your Kubernetes Cluster using AI tools and IDEs like Claude and Cursor!",
+      "likes": 0
+    },
+    {
+      "id": "lobehub/lobe-chat",
+      "name": "lobehub/lobe-chat",
+      "url": "https://github.com/lobehub/lobe-chat",
+      "category": "ai-chats-other-2",
+      "description": "🤯 Lobe Chat - an open-source, modern design AI chat framework. Supports multiple AI providers (OpenAI / Claude 4 / Gemini / DeepSeek / Ollama / Qwen), Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application.",
+      "likes": 0
+    },
+    {
+      "id": "anthropics/claude-quickstarts",
+      "name": "anthropics/claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "category": "ai-chats-other-2",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "likes": 0
+    },
+    {
+      "id": "TBXark/ChatGPT-Telegram-Workers",
+      "name": "TBXark/ChatGPT-Telegram-Workers",
+      "url": "https://github.com/TBXark/ChatGPT-Telegram-Workers",
+      "category": "ai-chats-other-2",
+      "description": "Easily deploy your Telegram ChatGPT bot on Cloudflare Workers (or Vercel, Docker...).",
+      "likes": 0
+    },
+    {
+      "id": "rusiaaman/wcgw",
+      "name": "rusiaaman/wcgw",
+      "url": "https://github.com/rusiaaman/wcgw",
+      "category": "ai-chats-other-2",
+      "description": "Shell and coding agent on claude desktop app",
+      "likes": 0
+    },
+    {
+      "id": "mochi-neko/clust",
+      "name": "mochi-neko/clust",
+      "url": "https://github.com/mochi-neko/clust",
+      "category": "ai-chats-other-2",
+      "description": "An unofficial Rust client for the Anthropic/Claude API.",
+      "likes": 0
+    },
+    {
+      "id": "anthropics/claude-code",
+      "name": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "category": "ai-chats-other-2",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "likes": 0
+    },
+    {
+      "id": "chinpeerapat/anthropic-fastapi-service",
+      "name": "chinpeerapat/anthropic-fastapi-service",
+      "url": "https://github.com/chinpeerapat/anthropic-fastapi-service",
+      "category": "ai-chats-other-2",
+      "description": "This is a FastAPI service that provides a RESTful API for the Anthropic Claude AI model using anthropic-sdk-python.",
+      "likes": 0
+    },
+    {
+      "id": "wshobson/agents",
+      "name": "wshobson/agents",
+      "url": "https://github.com/wshobson/agents",
+      "category": "ai-chats-other-2",
+      "description": "A collection of production-ready subagents for Claude Code",
+      "likes": 0
+    },
+    {
+      "id": "weaviate/Verba",
+      "name": "weaviate/Verba",
+      "url": "https://github.com/weaviate/Verba",
+      "category": "ai-chats-other-2",
+      "description": "Retrieval Augmented Generation (RAG) chatbot powered by Weaviate",
+      "likes": 0
+    },
+    {
+      "id": "steel-dev/claude-browser",
+      "name": "steel-dev/claude-browser",
+      "url": "https://github.com/steel-dev/claude-browser",
+      "category": "ai-chats-other-2",
+      "description": "claude-browser",
+      "likes": 0
+    },
+    {
+      "id": "ciuzaak/Claude-Telegram-Bot",
+      "name": "ciuzaak/Claude-Telegram-Bot",
+      "url": "https://github.com/ciuzaak/Claude-Telegram-Bot",
+      "category": "ai-chats-other-2",
+      "description": "Anthropic Claude & Google Bard Bot for Telegram.",
+      "likes": 0
+    },
+    {
+      "id": "n4ze3m/dialoqbase",
+      "name": "n4ze3m/dialoqbase",
+      "url": "https://github.com/n4ze3m/dialoqbase",
+      "category": "ai-chats-other-2",
+      "description": "Create chatbots with ease",
+      "likes": 0
+    },
+    {
+      "id": "nwiizo/tfmcp",
+      "name": "nwiizo/tfmcp",
+      "url": "https://github.com/nwiizo/tfmcp",
+      "category": "aichats-bots",
+      "description": "🌍 Terraform Model Context Protocol (MCP) Tool - An experimental CLI tool that enables AI assistants to manage and operate Terraform environments. Supports reading Terraform configurations, analyzing plans, applying configurations, and managing state with Claude Desktop integration. ⚡️",
+      "likes": 0
+    },
+    {
+      "id": "mastra-ai/mastra",
+      "name": "mastra-ai/mastra",
+      "url": "https://github.com/mastra-ai/mastra",
+      "category": "aichats-bots",
+      "description": "The TypeScript AI agent framework. ⚡ Assistants, RAG, observability. Supports any LLM: GPT-4, Claude, Gemini, Llama.",
+      "likes": 0
+    },
+    {
+      "id": "AndraxDev/speak-gpt",
+      "name": "AndraxDev/speak-gpt",
+      "url": "https://github.com/AndraxDev/speak-gpt",
+      "category": "aichats-bots",
+      "description": "Your personal voice assistant based on OpenAI ChatGPT.",
+      "likes": 0
+    },
+    {
+      "id": "codefuse-ai/codefuse-chatbot",
+      "name": "codefuse-ai/codefuse-chatbot",
+      "url": "https://github.com/codefuse-ai/codefuse-chatbot",
+      "category": "aichats-bots",
+      "description": "An intelligent assistant serving the entire software development lifecycle, powered by a Multi-Agent Framework, working with DevOps Toolkits, Code&Doc Repo RAG,  etc.",
+      "likes": 0
+    },
+    {
+      "id": "sigoden/aichat",
+      "name": "sigoden/aichat",
+      "url": "https://github.com/sigoden/aichat",
+      "category": "aichats-bots",
+      "description": "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.",
+      "likes": 0
+    },
+    {
+      "id": "diciaup/assistant-cli",
+      "name": "diciaup/assistant-cli",
+      "url": "https://github.com/diciaup/assistant-cli",
+      "category": "aichats-bots",
+      "description": "A comfortable CLI tool to use ChatGPT service🔥",
+      "likes": 0
+    },
+    {
+      "id": "assistant-ui/assistant-ui",
+      "name": "assistant-ui/assistant-ui",
+      "url": "https://github.com/assistant-ui/assistant-ui",
+      "category": "aichats-bots",
+      "description": "Typescript/React Library for AI Chat💬🚀",
+      "likes": 0
+    },
+    {
+      "id": "chongdashu/unreal-mcp",
+      "name": "chongdashu/unreal-mcp",
+      "url": "https://github.com/chongdashu/unreal-mcp",
+      "category": "aichats-bots",
+      "description": "Enable AI assistant clients like Cursor, Windsurf and Claude Desktop to control Unreal Engine through natural language using the Model Context Protocol (MCP).",
+      "likes": 0
+    },
+    {
+      "id": "horizon-ui/shadcn-nextjs-boilerplate",
+      "name": "horizon-ui/shadcn-nextjs-boilerplate",
+      "url": "https://github.com/horizon-ui/shadcn-nextjs-boilerplate",
+      "category": "aichats-interfaces",
+      "description": "Shadcn UI NextJS Boilerplate ⚡️ Free Open-source ChatGPT UI Admin Dashboard Template - Horizon AI Boilerplate",
+      "likes": 0
+    },
+    {
+      "id": "PennyroyalTea/gibberlink",
+      "name": "PennyroyalTea/gibberlink",
+      "url": "https://github.com/PennyroyalTea/gibberlink",
+      "category": "aichats-libraries",
+      "description": "Two conversational AI agents switching from English to sound-level protocol after confirming they are both AI agents",
+      "likes": 0
+    },
+    {
+      "id": "Capsize-Games/airunner",
+      "name": "Capsize-Games/airunner",
+      "url": "https://github.com/Capsize-Games/airunner",
+      "category": "aichats-libraries",
+      "description": "Offline inference engine for art, real-time voice conversations, LLM powered chatbots and automated workflows",
+      "likes": 0
+    },
+    {
+      "id": "deepset-ai/haystack",
+      "name": "deepset-ai/haystack",
+      "url": "https://github.com/deepset-ai/haystack",
+      "category": "aichats-libraries",
+      "description": "AI orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.",
+      "likes": 0
+    },
+    {
+      "id": "GPTStonks/gptstonks",
+      "name": "GPTStonks/gptstonks",
+      "url": "https://github.com/GPTStonks/gptstonks",
+      "category": "aichats-libraries",
+      "description": "GPTStonks is a financial chatbot powered by LLMs and enhanced with data frameworks. It provides natural language conversation capabilities for financial topics, making it an ideal choice for a wide range of financial applications.",
+      "likes": 0
+    },
+    {
+      "id": "Robitx/gp.nvim",
+      "name": "Robitx/gp.nvim",
+      "url": "https://github.com/Robitx/gp.nvim",
+      "category": "aichats-voice",
+      "description": "Gp.nvim (GPT prompt) Neovim AI plugin: ChatGPT sessions & Instructable text/code operations & Speech to text [OpenAI, Ollama, Anthropic, ..]",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/aidrin",
+      "name": "aldrin-labs/aidrin",
+      "url": "https://github.com/aldrin-labs/aidrin",
+      "category": "aldrin",
+      "description": "aidrin is a VS Code plugin for multi-agentic realtime development, aiming to automate full enterprise development cycle",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/abyssbook",
+      "name": "aldrin-labs/abyssbook",
+      "url": "https://github.com/aldrin-labs/abyssbook",
+      "category": "aldrin",
+      "description": "first zig orderbook in history // benchmark prolly wrong its ai estimate",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/monopoly",
+      "name": "aldrin-labs/monopoly",
+      "url": "https://github.com/aldrin-labs/monopoly",
+      "category": "aldrin",
+      "description": "monopoly - onchain monopoly game on solana, compatible with pilot.buzz agents",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/vypdex-amm",
+      "name": "aldrin-labs/vypdex-amm",
+      "url": "https://github.com/aldrin-labs/vypdex-amm",
+      "category": "aldrin",
+      "description": "vypdex.com - vyper based amm aimed at getting stable revenue stream to fund neccesary public goods and infra tooling that only devs can understand why its needed, coz biztards ngmi, devs taking situation under control now, no more pain brothers, choose vypdex.com <3",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/sui-dca-bot",
+      "name": "aldrin-labs/sui-dca-bot",
+      "url": "https://github.com/aldrin-labs/sui-dca-bot",
+      "category": "aldrin",
+      "description": "sui on-chain DCA bot",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/ramm-evm-sdk",
+      "name": "aldrin-labs/ramm-evm-sdk",
+      "url": "https://github.com/aldrin-labs/ramm-evm-sdk",
+      "category": "aldrin",
+      "description": "RAMM SDK for EVM chains",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/serum-ts",
+      "name": "aldrin-labs/serum-ts",
+      "url": "https://github.com/aldrin-labs/serum-ts",
+      "category": "aldrin",
+      "description": "Project Serum TypeScript monorepo",
+      "likes": 0
+    },
+    {
+      "id": "orhanemree/aldrin",
+      "name": "orhanemree/aldrin",
+      "url": "https://github.com/orhanemree/aldrin",
+      "category": "aldrin",
+      "description": "👩‍🦰 Simple 2D Computer Graphics Library in C.",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/seahorse-price-feed",
+      "name": "aldrin-labs/seahorse-price-feed",
+      "url": "https://github.com/aldrin-labs/seahorse-price-feed",
+      "category": "aldrin",
+      "description": "A simple Seahorse program that retrieves prices from the Pyth oracle.",
+      "likes": 0
+    },
+    {
+      "id": "aldrinmathew/kyber.dart",
+      "name": "aldrinmathew/kyber.dart",
+      "url": "https://github.com/aldrinmathew/kyber.dart",
+      "category": "aldrin",
+      "description": "Kyber Post-Quantum key exchange protocol for Dart",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/seahorse-deposit-pool",
+      "name": "aldrin-labs/seahorse-deposit-pool",
+      "url": "https://github.com/aldrin-labs/seahorse-deposit-pool",
+      "category": "aldrin",
+      "description": "A simple example of a Solana smart contract written in the Seahorse language. It is a pool that receives SOL and mints a SPL token. Users can them redeem their SPL tokens to retrieve their deposited SOL.",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/proxypool-service",
+      "name": "aldrin-labs/proxypool-service",
+      "url": "https://github.com/aldrin-labs/proxypool-service",
+      "category": "aldrin",
+      "description": "",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/zlay",
+      "name": "aldrin-labs/zlay",
+      "url": "https://github.com/aldrin-labs/zlay",
+      "category": "aldrin",
+      "description": "High performance UI layout library in C ported to Zig.",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/buzz",
+      "name": "aldrin-labs/buzz",
+      "url": "https://github.com/aldrin-labs/buzz",
+      "category": "aldrin",
+      "description": "👨‍🚀  buzz, A small/lightweight statically typed scripting language",
+      "likes": 0
+    },
+    {
+      "id": "aldrinzigmundv/zigfi",
+      "name": "aldrinzigmundv/zigfi",
+      "url": "https://github.com/aldrinzigmundv/zigfi",
+      "category": "aldrin",
+      "description": "zigfi is an open-source stocks, commodities and cryptocurrencies price monitoring CLI app, written fully in Rust, where you can organize assets you're watching easily into watchlists for easy access on your terminal.",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/CLOB",
+      "name": "aldrin-labs/CLOB",
+      "url": "https://github.com/aldrin-labs/CLOB",
+      "category": "aldrin",
+      "description": "Aldrin DEX Rust Monorepo",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/spl-token-wallet",
+      "name": "aldrin-labs/spl-token-wallet",
+      "url": "https://github.com/aldrin-labs/spl-token-wallet",
+      "category": "aldrin",
+      "description": "",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/RINbot",
+      "name": "aldrin-labs/RINbot",
+      "url": "https://github.com/aldrin-labs/RINbot",
+      "category": "aldrin",
+      "description": "telegram bot for degens",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/awesome-rinegade",
+      "name": "aldrin-labs/awesome-rinegade",
+      "url": "https://github.com/aldrin-labs/awesome-rinegade",
+      "category": "aldrin",
+      "description": "",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/metal-mcp-server",
+      "name": "aldrin-labs/metal-mcp-server",
+      "url": "https://github.com/aldrin-labs/metal-mcp-server",
+      "category": "aldrin",
+      "description": "",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/metaplex-mcp-server",
+      "name": "aldrin-labs/metaplex-mcp-server",
+      "url": "https://github.com/aldrin-labs/metaplex-mcp-server",
+      "category": "aldrin",
+      "description": "",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/solana-docs-mcp-server",
+      "name": "aldrin-labs/solana-docs-mcp-server",
+      "url": "https://github.com/aldrin-labs/solana-docs-mcp-server",
+      "category": "aldrin",
+      "description": "solana docs",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/solana-mcp-server",
+      "name": "aldrin-labs/solana-mcp-server",
+      "url": "https://github.com/aldrin-labs/solana-mcp-server",
+      "category": "aldrin",
+      "description": "solana mcp sever to enable solana rpc methods",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/solana-amm",
+      "name": "aldrin-labs/solana-amm",
+      "url": "https://github.com/aldrin-labs/solana-amm",
+      "category": "aldrin",
+      "description": "",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/accountless.js",
+      "name": "aldrin-labs/accountless.js",
+      "url": "https://github.com/aldrin-labs/accountless.js",
+      "category": "aldrin",
+      "description": "AA js sdk for Sui Network",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/Sui-Account-Abstraction",
+      "name": "aldrin-labs/Sui-Account-Abstraction",
+      "url": "https://github.com/aldrin-labs/Sui-Account-Abstraction",
+      "category": "aldrin",
+      "description": "",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/refund-contract",
+      "name": "aldrin-labs/refund-contract",
+      "url": "https://github.com/aldrin-labs/refund-contract",
+      "category": "aldrin",
+      "description": "",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/sui-packages",
+      "name": "aldrin-labs/sui-packages",
+      "url": "https://github.com/aldrin-labs/sui-packages",
+      "category": "aldrin",
+      "description": "",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/homobook",
+      "name": "aldrin-labs/homobook",
+      "url": "https://github.com/aldrin-labs/homobook",
+      "category": "aldrin",
+      "description": "fhe orderbook concept research",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/rinbot-sui-sdk",
+      "name": "aldrin-labs/rinbot-sui-sdk",
+      "url": "https://github.com/aldrin-labs/rinbot-sui-sdk",
+      "category": "aldrin",
+      "description": "sui defi sdk",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/ramm-sui",
+      "name": "aldrin-labs/ramm-sui",
+      "url": "https://github.com/aldrin-labs/ramm-sui",
+      "category": "aldrin",
+      "description": "RAMM implementation on Sui Network",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/amm",
+      "name": "aldrin-labs/amm",
+      "url": "https://github.com/aldrin-labs/amm",
+      "category": "aldrin",
+      "description": "",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/RAMM",
+      "name": "aldrin-labs/RAMM",
+      "url": "https://github.com/aldrin-labs/RAMM",
+      "category": "aldrin",
+      "description": "Rebalancing AMM",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/vesting-ui",
+      "name": "aldrin-labs/vesting-ui",
+      "url": "https://github.com/aldrin-labs/vesting-ui",
+      "category": "aldrin",
+      "description": "",
+      "likes": 0
+    },
+    {
+      "id": "aldrin-labs/aldrin-sdk",
+      "name": "aldrin-labs/aldrin-sdk",
+      "url": "https://github.com/aldrin-labs/aldrin-sdk",
+      "category": "aldrin",
+      "description": "[← Previous: Aichats Voice](aichats-voice.txt) | [🏠 Back to README](../README.md) | [Next: Algotrading →](algotrading.txt)",
+      "likes": 0
+    },
+    {
+      "id": "stefan-jansen/machine-learning-for-trading",
+      "name": "stefan-jansen/machine-learning-for-trading",
+      "url": "https://github.com/stefan-jansen/machine-learning-for-trading",
+      "category": "algotrading",
+      "description": "Code for Machine Learning for Algorithmic Trading, 2nd edition.",
+      "likes": 0
+    },
+    {
+      "id": "jcwill415/Stock_Market_Data_Analysis",
+      "name": "jcwill415/Stock_Market_Data_Analysis",
+      "url": "https://github.com/jcwill415/Stock_Market_Data_Analysis",
+      "category": "algotrading",
+      "description": "Scrape, analyze & visualize stock market data for the S&P500 using Python. Build a basic trading strategy using machine learning to assess company performance and determine buy, sell, hold. Read me & instructions available in Spanish. This is a working repo, with plans to expand the project from technical analysis to fundamental analysis.",
+      "likes": 0
+    },
+    {
+      "id": "kanupriyaanand/Pairs_Trading_Quant",
+      "name": "kanupriyaanand/Pairs_Trading_Quant",
+      "url": "https://github.com/kanupriyaanand/Pairs_Trading_Quant",
+      "category": "algotrading",
+      "description": "A pairs trade is a market neutral trading strategy enabling traders to profit from virtually any market conditions. This strategy is categorized as a statistical arbitrage and convergence trading strategy.",
+      "likes": 0
+    },
+    {
+      "id": "The-Swarm-Corporation/ATLAS",
+      "name": "The-Swarm-Corporation/ATLAS",
+      "url": "https://github.com/The-Swarm-Corporation/ATLAS",
+      "category": "algotrading",
+      "description": "ATLAS is a sophisticated real-time risk analysis system designed for institutional-grade market risk assessment. Built with high-frequency trading (HFT) capabilities and advanced machine learning techniques, ATLAS provides continuous volatility predictions and risk metrics using both historical patterns and real-time market data.",
+      "likes": 0
+    },
+    {
+      "id": "MRYingLEE/BackTesting-LowLaterncy",
+      "name": "MRYingLEE/BackTesting-LowLaterncy",
+      "url": "https://github.com/MRYingLEE/BackTesting-LowLaterncy",
+      "category": "algotrading",
+      "description": "This is a backtesting demo in Python. Different moving average prices are used to make buy and sell decisions. A Jupyter notebook version is for serial mode. while py version is for multiprocessing. A version for GPU has been tried, but not successful.",
+      "likes": 0
+    },
+    {
+      "id": "vkgnandhu177/Bayesian-Regression-and-Bitcoin",
+      "name": "vkgnandhu177/Bayesian-Regression-and-Bitcoin",
+      "url": "https://github.com/vkgnandhu177/Bayesian-Regression-and-Bitcoin",
+      "category": "algotrading",
+      "description": "",
+      "likes": 0
+    },
+    {
+      "id": "bradleyboyuyang/ML-HFT",
+      "name": "bradleyboyuyang/ML-HFT",
+      "url": "https://github.com/bradleyboyuyang/ML-HFT",
+      "category": "algotrading",
+      "description": "High frequency trading (HFT) framework built for futures using machine learning and deep learning techniques",
+      "likes": 0
+    },
+    {
+      "id": "huseinzol05/Stock-Prediction-Models",
+      "name": "huseinzol05/Stock-Prediction-Models",
+      "url": "https://github.com/huseinzol05/Stock-Prediction-Models",
+      "category": "algotrading",
+      "description": "Gathers machine learning and deep learning models for Stock forecasting including trading bots and simulations",
+      "likes": 0
+    },
+    {
+      "id": "Yvictor/TradingGym",
+      "name": "Yvictor/TradingGym",
+      "url": "https://github.com/Yvictor/TradingGym",
+      "category": "algotrading",
+      "description": "Trading and Backtesting environment for training reinforcement learning agent or simple rule base algo.",
+      "likes": 0
+    },
+    {
+      "id": "cbailes/awesome-deep-trading",
+      "name": "cbailes/awesome-deep-trading",
+      "url": "https://github.com/cbailes/awesome-deep-trading",
+      "category": "algotrading",
+      "description": "List of awesome resources for machine learning-based algorithmic trading",
+      "likes": 0
+    },
+    {
+      "id": "asavinov/intelligent-trading-bot",
+      "name": "asavinov/intelligent-trading-bot",
+      "url": "https://github.com/asavinov/intelligent-trading-bot",
+      "category": "algotrading",
+      "description": "Intelligent Trading Bot: Automatically generating signals and trading based on machine learning and feature engineering",
+      "likes": 0
+    },
+    {
+      "id": "babakmahdavi/HFTE",
+      "name": "babakmahdavi/HFTE",
+      "url": "https://github.com/babakmahdavi/HFTE",
+      "category": "algotrading",
+      "description": "Context: Supporting material for the paper \"Guidelines for Building a Realistic Algorithmic Trading Market Simulator for Backtesting while Incorporating Market Impact\" What it does: This is a simplification of the HFT game. We examine, in sequence how different classic financial strategies fair with respect to each other via an orderbook",
+      "likes": 0
+    },
+    {
+      "id": "purefinance/mmb",
+      "name": "purefinance/mmb",
+      "url": "https://github.com/purefinance/mmb",
+      "category": "algotrading",
+      "description": "Trading bot implemented in Rust, with market making and strategy automation for any exchange or blockchain.",
+      "likes": 0
+    },
+    {
+      "id": "rorysroes/SGX-Full-OrderBook-Tick-Data-Trading-Strategy",
+      "name": "rorysroes/SGX-Full-OrderBook-Tick-Data-Trading-Strategy",
+      "url": "https://github.com/rorysroes/SGX-Full-OrderBook-Tick-Data-Trading-Strategy",
+      "category": "algotrading",
+      "description": "Providing the solutions for high-frequency trading (HFT) strategies using data science approaches (Machine Learning) on Full Orderbook Tick Data.",
+      "likes": 0
+    },
+    {
+      "id": "nmweaver/soltrade",
+      "name": "nmweaver/soltrade",
+      "url": "https://github.com/nmweaver/soltrade",
+      "category": "algotrading",
+      "description": "Python trading bot using the Solana blockchain.",
+      "likes": 0
+    },
+    {
+      "id": "fasenderos/nodejs-order-book",
+      "name": "fasenderos/nodejs-order-book",
+      "url": "https://github.com/fasenderos/nodejs-order-book",
+      "category": "algotrading",
+      "description": "Ultra-fast Limit Order Book for Node.js written in TypeScript for high-frequency trading (HFT) :rocket::rocket:",
+      "likes": 0
+    },
+    {
+      "id": "0xAbin/orderbook-HFT",
+      "name": "0xAbin/orderbook-HFT",
+      "url": "https://github.com/0xAbin/orderbook-HFT",
+      "category": "algotrading",
+      "description": "OrderBook - Integrates Prep, Spot, and Matching Engine",
+      "likes": 0
+    },
+    {
+      "id": "fortesenselabs/trade_flow",
+      "name": "fortesenselabs/trade_flow",
+      "url": "https://github.com/fortesenselabs/trade_flow",
+      "category": "algotrading",
+      "description": "A toolkit for composing self-learning algorithmic trading agents",
+      "likes": 0
+    },
+    {
+      "id": "gweidart/alpha-evm-dex-bot",
+      "name": "gweidart/alpha-evm-dex-bot",
+      "url": "https://github.com/gweidart/alpha-evm-dex-bot",
+      "category": "algotrading",
+      "description": "🤖 Automated multifunctional DeFi trading bot for the KCC ecosystem.  Sniping, Front run, Limit orders, Stop Loss, and more...",
+      "likes": 0
+    },
+    {
+      "id": "jeffersonlicet/price-prediction-bot",
+      "name": "jeffersonlicet/price-prediction-bot",
+      "url": "https://github.com/jeffersonlicet/price-prediction-bot",
+      "category": "algotrading",
+      "description": "🔮  Run backtest over PancakeSwap and CandleGenie Prediction and place realtime bets - Trading Bot",
+      "likes": 0
+    },
+    {
+      "id": "michaelgrosner/tribeca",
+      "name": "michaelgrosner/tribeca",
+      "url": "https://github.com/michaelgrosner/tribeca",
+      "category": "algotrading",
+      "description": "A high frequency, market making cryptocurrency trading platform in node.js",
+      "likes": 0
+    },
+    {
+      "id": "Superalgos/Superalgos",
+      "name": "Superalgos/Superalgos",
+      "url": "https://github.com/Superalgos/Superalgos",
+      "category": "algotrading",
+      "description": "Free, open-source crypto trading bot, automated bitcoin / cryptocurrency trading software, algorithmic trading bots. Visually design your crypto trading bot, leveraging an integrated charting system, data-mining, backtesting, paper trading, and multi-server crypto bot deployments.",
+      "likes": 0
+    },
+    {
+      "id": "s-brez/trading-server",
+      "name": "s-brez/trading-server",
+      "url": "https://github.com/s-brez/trading-server",
+      "category": "algotrading",
+      "description": "Multi-asset, multi-strategy, event-driven trading platform for running low to medium freq strategies at many venues simultaneously with portfolio-based risk management and %-per-strategy capital allocation. Supports event-driven backtesting across all desired instruments, venues and strategies under a single parameterized portfolio.",
+      "likes": 0
+    },
+    {
+      "id": "lfginweb3/solana-bot",
+      "name": "lfginweb3/solana-bot",
+      "url": "https://github.com/lfginweb3/solana-bot",
+      "category": "algotrading",
+      "description": "Omnipotent Trading Bot for SPL token on Solana. The most powerful and the best Automatic Market Making System(boost token holders, boost trading volume, etc...)",
+      "likes": 0
+    },
+    {
+      "id": "ivopetiz/algotrading",
+      "name": "ivopetiz/algotrading",
+      "url": "https://github.com/ivopetiz/algotrading",
+      "category": "algotrading",
+      "description": "Algorithmic trading framework for cryptocurrencies.",
+      "likes": 0
+    },
+    {
+      "id": "mmssss/hft-market-making",
+      "name": "mmssss/hft-market-making",
+      "url": "https://github.com/mmssss/hft-market-making",
+      "category": "algotrading",
+      "description": "Implementation of HFT backtesting simulator and Stoikov strategy",
+      "likes": 0
+    },
+    {
+      "id": "StockSharp/StockSharp",
+      "name": "StockSharp/StockSharp",
+      "url": "https://github.com/StockSharp/StockSharp",
+      "category": "algotrading",
+      "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
+      "likes": 0
+    },
+    {
+      "id": "jialuechen/trademind",
+      "name": "jialuechen/trademind",
+      "url": "https://github.com/jialuechen/trademind",
+      "category": "algotrading",
+      "description": "Hybrid Event-driven and Vectorized Strategy Backtesting Library",
+      "likes": 0
+    },
+    {
+      "id": "kelvinau/crypto-arbitrage",
+      "name": "kelvinau/crypto-arbitrage",
+      "url": "https://github.com/kelvinau/crypto-arbitrage",
+      "category": "algotrading",
+      "description": "Automatic Cryptocurrency Trading Bot using Triangular or Exchange Arbitrages",
+      "likes": 0
+    },
+    {
+      "id": "botcrypto-io/awesome-crypto-trading-bots",
+      "name": "botcrypto-io/awesome-crypto-trading-bots",
+      "url": "https://github.com/botcrypto-io/awesome-crypto-trading-bots",
+      "category": "algotrading",
+      "description": "Awesome crypto trading bots",
+      "likes": 0
+    },
+    {
+      "id": "thrasher-corp/gocryptotrader",
+      "name": "thrasher-corp/gocryptotrader",
+      "url": "https://github.com/thrasher-corp/gocryptotrader",
+      "category": "algotrading",
+      "description": "A cryptocurrency trading bot and framework supporting multiple exchanges written in Golang.",
+      "likes": 0
+    },
+    {
+      "id": "DangerAcorn/pumpfun-tools",
+      "name": "DangerAcorn/pumpfun-tools",
+      "url": "https://github.com/DangerAcorn/pumpfun-tools",
+      "category": "algotrading",
+      "description": "All-in-one PumpFun Bundler suite featuring PumpFun Bundler (20+ wallets), MEV bot protection, high-frequency trading bot, Solana token creator, jito bundle, multi wallet management, live price tracking, custom RPC nodes, anti rug tools, and instant token launches.",
+      "likes": 0
+    },
+    {
+      "id": "hadialaddin/crypto-genie",
+      "name": "hadialaddin/crypto-genie",
+      "url": "https://github.com/hadialaddin/crypto-genie",
+      "category": "algotrading",
+      "description": "Suite of advanced automated trading bots and risk management tools to empower Day Traders and enable them to stick to their Trade Plans.",
+      "likes": 0
+    },
+    {
+      "id": "ZENALC/algobot",
+      "name": "ZENALC/algobot",
+      "url": "https://github.com/ZENALC/algobot",
+      "category": "algotrading",
+      "description": "Cryptocurrency trading bot with a graphical user interface with support for simulations, backtests, optimizations, and running live bots.",
+      "likes": 0
+    },
+    {
+      "id": "Drakkar-Software/OctoBot",
+      "name": "Drakkar-Software/OctoBot",
+      "url": "https://github.com/Drakkar-Software/OctoBot",
+      "category": "algotrading",
+      "description": "Open source crypto trading bot",
+      "likes": 0
+    },
+    {
+      "id": "polakowo/vectorbt",
+      "name": "polakowo/vectorbt",
+      "url": "https://github.com/polakowo/vectorbt",
+      "category": "algotrading",
+      "description": "Find your trading edge, using the fastest engine for backtesting, algorithmic trading, and research.",
+      "likes": 0
+    },
+    {
+      "id": "ctubio/Krypto-trading-bot",
+      "name": "ctubio/Krypto-trading-bot",
+      "url": "https://github.com/ctubio/Krypto-trading-bot",
+      "category": "algotrading",
+      "description": "Self-hosted crypto trading bot (automated high frequency market making) written in C++",
+      "likes": 0
+    },
+    {
+      "id": "karma0/nombot",
+      "name": "karma0/nombot",
+      "url": "https://github.com/karma0/nombot",
+      "category": "algotrading",
+      "description": "Cryptocurrency Trading Bot",
+      "likes": 0
+    },
+    {
+      "id": "zbarge/stocklook",
+      "name": "zbarge/stocklook",
+      "url": "https://github.com/zbarge/stocklook",
+      "category": "algotrading",
+      "description": "crypto currency library for trading & market making bots, account management, and data analysis",
+      "likes": 0
+    },
+    {
+      "id": "nkaz001/hftbacktest",
+      "name": "nkaz001/hftbacktest",
+      "url": "https://github.com/nkaz001/hftbacktest",
+      "category": "algotrading",
+      "description": "Free, open source, a high frequency trading and market making backtesting and trading bot, which accounts for limit orders, queue positions, and latencies, utilizing full tick data for trades and order books(Level-2 and Level-3), with real-world crypto trading examples for Binance and Bybit",
+      "likes": 0
+    },
+    {
+      "id": "c9s/bbgo",
+      "name": "c9s/bbgo",
+      "url": "https://github.com/c9s/bbgo",
+      "category": "algotrading",
+      "description": "The modern cryptocurrency trading bot framework written in Go.",
+      "likes": 0
+    },
+    {
+      "id": "SpiralDevelopment/crypto-hft-data",
+      "name": "SpiralDevelopment/crypto-hft-data",
+      "url": "https://github.com/SpiralDevelopment/crypto-hft-data",
+      "category": "algotrading",
+      "description": "Collect real-time orderbook, trade and other HFT data from several crypto exchanges using WebSocket connections.",
+      "likes": 0
+    },
+    {
+      "id": "nkaz001/algotrading-example",
+      "name": "nkaz001/algotrading-example",
+      "url": "https://github.com/nkaz001/algotrading-example",
+      "category": "algotrading",
+      "description": "algorithmic trading backtest and optimization examples using order book imbalances. (bitcoin, cryptocurrency, bitmex, binance futures, market making)",
+      "likes": 0
+    },
+    {
+      "id": "Crypto-toolbox/HFT-Orderbook",
+      "name": "Crypto-toolbox/HFT-Orderbook",
+      "url": "https://github.com/Crypto-toolbox/HFT-Orderbook",
+      "category": "algotrading",
+      "description": "Limit Order Book for high-frequency trading (HFT), as described by WK Selph, implemented in Python3 and C",
+      "likes": 0
+    },
+    {
+      "id": "hummingbot/hummingbot",
+      "name": "hummingbot/hummingbot",
+      "url": "https://github.com/hummingbot/hummingbot",
+      "category": "algotrading",
+      "description": "Open source software that helps you create and deploy high-frequency crypto trading bots",
+      "likes": 0
+    },
+    {
+      "id": "visualHFT/VisualHFT",
+      "name": "visualHFT/VisualHFT",
+      "url": "https://github.com/visualHFT/VisualHFT",
+      "category": "algotrading",
+      "description": "VisualHFT is a WPF/C# desktop GUI that shows market microstructure in real time. You can track advanced limit‑order‑book dynamics and execution quality, then use its modular plugins to shape the analysis to your workflow.",
+      "likes": 0
+    },
+    {
+      "id": "freqtrade/freqtrade",
+      "name": "freqtrade/freqtrade",
+      "url": "https://github.com/freqtrade/freqtrade",
+      "category": "algotrading",
+      "description": "Free, open source crypto trading bot",
+      "likes": 0
+    },
+    {
+      "id": "mementum/backtrader",
+      "name": "mementum/backtrader",
+      "url": "https://github.com/mementum/backtrader",
+      "category": "algotrading",
+      "description": "Python Backtesting library for trading strategies",
+      "likes": 0
+    },
+    {
+      "id": "scrtlabs/catalyst",
+      "name": "scrtlabs/catalyst",
+      "url": "https://github.com/scrtlabs/catalyst",
+      "category": "algotrading",
+      "description": "An Algorithmic Trading Library for Crypto-Assets in Python",
+      "likes": 0
+    },
+    {
+      "id": "Behappy123/market-maker",
+      "name": "Behappy123/market-maker",
+      "url": "https://github.com/Behappy123/market-maker",
+      "category": "algotrading",
+      "description": "Vastly Improved BitMEX Market Making Algo",
+      "likes": 0
+    },
+    {
+      "id": "AsyncAlgoTrading/aat",
+      "name": "AsyncAlgoTrading/aat",
+      "url": "https://github.com/AsyncAlgoTrading/aat",
+      "category": "algotrading",
+      "description": "Asynchronous, event-driven algorithmic trading in Python and C++",
+      "likes": 0
+    },
+    {
+      "id": "AsyncAlgoTrading/algo-coin",
+      "name": "AsyncAlgoTrading/algo-coin",
+      "url": "https://github.com/AsyncAlgoTrading/algo-coin",
+      "category": "algotrading",
+      "description": "Python library for algorithmic trading cryptocurrencies across multiple exchanges",
+      "likes": 0
+    },
+    {
+      "id": "LasticotSoftware/Astibot",
+      "name": "LasticotSoftware/Astibot",
+      "url": "https://github.com/LasticotSoftware/Astibot",
+      "category": "algotrading",
+      "description": "Astibot is a simple, visual and automated trading software for Coinbase Pro cryptocurrencies (Bitcoin trading bot)",
+      "likes": 0
+    },
+    {
+      "id": "Roibal/Cryptocurrency-Trading-Bots-Python-Beginner-Advance",
+      "name": "Roibal/Cryptocurrency-Trading-Bots-Python-Beginner-Advance",
+      "url": "https://github.com/Roibal/Cryptocurrency-Trading-Bots-Python-Beginner-Advance",
+      "category": "algotrading",
+      "description": "Crypto Trading Bots in Python - Triangular Arbitrage, Beginner & Advanced Cryptocurrency Trading Bots Written in Python",
+      "likes": 0
+    },
+    {
+      "id": "rodrigo-brito/ninjabot",
+      "name": "rodrigo-brito/ninjabot",
+      "url": "https://github.com/rodrigo-brito/ninjabot",
+      "category": "algotrading",
+      "description": "A fast trading bot platform for cryptocurrency in Go (Binance)",
+      "likes": 0
+    },
+    {
+      "id": "je-suis-tm/quant-trading",
+      "name": "je-suis-tm/quant-trading",
+      "url": "https://github.com/je-suis-tm/quant-trading",
+      "category": "algotrading",
+      "description": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
+      "likes": 0
+    },
+    {
+      "id": "Ameobea/tickgrinder",
+      "name": "Ameobea/tickgrinder",
+      "url": "https://github.com/Ameobea/tickgrinder",
+      "category": "algotrading",
+      "description": "Low-latency algorithmic trading platform written in Rust",
+      "likes": 0
+    },
+    {
+      "id": "alexey-ernest/go-hft-orderbook",
+      "name": "alexey-ernest/go-hft-orderbook",
+      "url": "https://github.com/alexey-ernest/go-hft-orderbook",
+      "category": "algotrading",
+      "description": "Golang implementation of a Limit Order Book (LOB) for high frequency trading in crypto exchanges",
+      "likes": 0
+    },
+    {
+      "id": "pe049395/Market-Making",
+      "name": "pe049395/Market-Making",
+      "url": "https://github.com/pe049395/Market-Making",
+      "category": "algotrading",
+      "description": "Repository for market making ideas",
+      "likes": 0
+    },
+    {
+      "id": "QuantConnect/Lean",
+      "name": "QuantConnect/Lean",
+      "url": "https://github.com/QuantConnect/Lean",
+      "category": "algotrading",
+      "description": "Lean Algorithmic Trading Engine by QuantConnect (Python, C#)",
+      "likes": 0
+    },
+    {
+      "id": "quantopian/zipline",
+      "name": "quantopian/zipline",
+      "url": "https://github.com/quantopian/zipline",
+      "category": "algotrading",
+      "description": "Zipline, a Pythonic Algorithmic Trading Library",
+      "likes": 0
+    },
+    {
+      "id": "exchange-core/exchange-core",
+      "name": "exchange-core/exchange-core",
+      "url": "https://github.com/exchange-core/exchange-core",
+      "category": "algotrading",
+      "description": "Ultra-fast matching engine written in Java based on LMAX Disruptor, Eclipse Collections, Real Logic Agrona, OpenHFT, LZ4 Java, and Adaptive Radix Trees.",
+      "likes": 0
+    },
+    {
+      "id": "barter-rs/barter-rs",
+      "name": "barter-rs/barter-rs",
+      "url": "https://github.com/barter-rs/barter-rs",
+      "category": "algotrading",
+      "description": "Open-source Rust framework for building event-driven live-trading & backtesting systems",
+      "likes": 0
+    },
+    {
+      "id": "dineshpinto/orderbook-delta-bot",
+      "name": "dineshpinto/orderbook-delta-bot",
+      "url": "https://github.com/dineshpinto/orderbook-delta-bot",
+      "category": "algotrading",
+      "description": "A simple trading bot written in Rust based on counter-trading large deviations in the futures order book delta volume.",
+      "likes": 0
+    },
+    {
+      "id": "vladmeer/copy-trading-bot",
+      "name": "vladmeer/copy-trading-bot",
+      "url": "https://github.com/vladmeer/copy-trading-bot",
+      "category": "algotrading",
+      "description": "Copy trading bot(copytrading bot): copy the trader's trading on solana, This copy trading bot can work on any DEXs on Solana",
+      "likes": 0
+    },
+    {
+      "id": "donewiththedollar/directionalscalper",
+      "name": "donewiththedollar/directionalscalper",
+      "url": "https://github.com/donewiththedollar/directionalscalper",
+      "category": "algotrading",
+      "description": "CCXT based algorithmic trading framework for Bybit and other CCXT supported exchanges",
+      "likes": 0
+    },
+    {
+      "id": "skynetcap/openbook-mm",
+      "name": "skynetcap/openbook-mm",
+      "url": "https://github.com/skynetcap/openbook-mm",
+      "category": "algotrading",
+      "description": "HFT market making client for openbook-dex",
+      "likes": 0
+    },
+    {
+      "id": "jshellen/HFT",
+      "name": "jshellen/HFT",
+      "url": "https://github.com/jshellen/HFT",
+      "category": "algotrading",
+      "description": "High Frequency Market Making",
+      "likes": 0
+    },
+    {
+      "id": "robaho/go-trader",
+      "name": "robaho/go-trader",
+      "url": "https://github.com/robaho/go-trader",
+      "category": "algotrading",
+      "description": "financial exchange written in Go, designed for algorithmic trading tests",
+      "likes": 0
+    },
+    {
+      "id": "alexnicholsamu/HFT-market-sim",
+      "name": "alexnicholsamu/HFT-market-sim",
+      "url": "https://github.com/alexnicholsamu/HFT-market-sim",
+      "category": "algotrading",
+      "description": "A HFT Market Simulation utilizing high-speed, efficient C++ and concurrent/parallel programming",
+      "likes": 0
+    },
+    {
+      "id": "hjk612/Financial-Computing-Project",
+      "name": "hjk612/Financial-Computing-Project",
+      "url": "https://github.com/hjk612/Financial-Computing-Project",
+      "category": "algotrading",
+      "description": "C++ trading strategy based on earning estimates and surprise",
+      "likes": 0
+    },
+    {
+      "id": "singhaniatanay/QuantFinance-Trading",
+      "name": "singhaniatanay/QuantFinance-Trading",
+      "url": "https://github.com/singhaniatanay/QuantFinance-Trading",
+      "category": "algotrading",
+      "description": "Quantative Trading, building a trading strategy by generating alpha, optimizing a portfolio.",
+      "likes": 0
+    },
+    {
+      "id": "stellar-deprecated/kelp",
+      "name": "stellar-deprecated/kelp",
+      "url": "https://github.com/stellar-deprecated/kelp",
+      "category": "algotrading",
+      "description": "Kelp is a free and open-source trading bot for the Stellar DEX and 100+ centralized exchanges",
+      "likes": 0
+    },
+    {
+      "id": "joelowj/awesome-algorithmic-trading",
+      "name": "joelowj/awesome-algorithmic-trading",
+      "url": "https://github.com/joelowj/awesome-algorithmic-trading",
+      "category": "algotrading",
+      "description": "A curated list of awesome algorithmic trading frameworks, libraries, software and resources",
+      "likes": 0
+    },
+    {
+      "id": "yato-sketch/trading-bot-solana",
+      "name": "yato-sketch/trading-bot-solana",
+      "url": "https://github.com/yato-sketch/trading-bot-solana",
+      "category": "algotrading",
+      "description": "Developed an automated trading bot for Solana, optimizing strategies for high-frequency trading and real-time market analysis",
+      "likes": 0
+    },
+    {
+      "id": "cutupdev/Solana-Copytrading-bot",
+      "name": "cutupdev/Solana-Copytrading-bot",
+      "url": "https://github.com/cutupdev/Solana-Copytrading-bot",
+      "category": "algotrading",
+      "description": "Copy Trading: Solana copytrading bot source code, copy trading target wallet (pumpfun, pumpswap, raydium amm, cpmm, clmm)",
+      "likes": 0
+    },
+    {
+      "id": "nautechsystems/nautilus_trader",
+      "name": "nautechsystems/nautilus_trader",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "category": "algotrading",
+      "description": "A high-performance algorithmic trading platform and event-driven backtester",
+      "likes": 0
+    },
+    {
+      "id": "gabriel-milan/btrader",
+      "name": "gabriel-milan/btrader",
+      "url": "https://github.com/gabriel-milan/btrader",
+      "category": "algotrading",
+      "description": "Triangle arbitrage trading bot for Binance",
+      "likes": 0
+    },
+    {
+      "id": "chugach-foundation/cypher-cli-v3",
+      "name": "chugach-foundation/cypher-cli-v3",
+      "url": "https://github.com/chugach-foundation/cypher-cli-v3",
+      "category": "algotrading",
+      "description": "command line utilities for cypher v3, including market making and liquidating",
+      "likes": 0
+    },
+    {
+      "id": "fedecaccia/avellaneda-stoikov",
+      "name": "fedecaccia/avellaneda-stoikov",
+      "url": "https://github.com/fedecaccia/avellaneda-stoikov",
+      "category": "algotrading",
+      "description": "Avellaneda-Stoikov HFT market making algorithm implementation",
+      "likes": 0
+    },
+    {
+      "id": "roq-trading/roq-algo",
+      "name": "roq-trading/roq-algo",
+      "url": "https://github.com/roq-trading/roq-algo",
+      "category": "algotrading",
+      "description": "C++ tools and utilities for algorithmic trading.",
+      "likes": 0
+    },
+    {
+      "id": "xreptoid/viperfish",
+      "name": "xreptoid/viperfish",
+      "url": "https://github.com/xreptoid/viperfish",
+      "category": "algotrading",
+      "description": "Library for algorithmic trading",
+      "likes": 0
+    },
+    {
+      "id": "alpacahq/example-hftish",
+      "name": "alpacahq/example-hftish",
+      "url": "https://github.com/alpacahq/example-hftish",
+      "category": "algotrading",
+      "description": "Example Order Book Imbalance Algorithm",
+      "likes": 0
+    },
+    {
+      "id": "warp-id/solana-trading-bot",
+      "name": "warp-id/solana-trading-bot",
+      "url": "https://github.com/warp-id/solana-trading-bot",
+      "category": "algotrading",
+      "description": "Solana Trading Bot - Beta",
+      "likes": 0
+    },
+    {
+      "id": "MystenLabs/capybot",
+      "name": "MystenLabs/capybot",
+      "url": "https://github.com/MystenLabs/capybot",
+      "category": "algotrading",
+      "description": "Automated trading bot",
+      "likes": 0
+    },
+    {
+      "id": "BitMEX/sample-market-maker",
+      "name": "BitMEX/sample-market-maker",
+      "url": "https://github.com/BitMEX/sample-market-maker",
+      "category": "algotrading",
+      "description": "Sample BitMEX Market Making Bot",
+      "likes": 0
+    },
+    {
+      "id": "Hamza417/Inure",
+      "name": "Hamza417/Inure",
+      "url": "https://github.com/Hamza417/Inure",
+      "category": "analytics",
+      "description": "An elegant and beautiful premium Android app manager for rooted and non-rooted devices with a built-in terminal, analytics, virustotal, debloat, stats and various other features with a custom theme engine, developed with purely custom UI design and reproducible build.",
+      "likes": 0
+    },
+    {
+      "id": "pageauc/speed-camera",
+      "name": "pageauc/speed-camera",
+      "url": "https://github.com/pageauc/speed-camera",
+      "category": "analytics",
+      "description": "A Unix, Windows, Raspberry Pi Object Speed Camera using python3, opencv, video streaming, motion tracking.  Includes a Standalone Web Server , Image Search using opencv template match and a whiptail Admin Menu Interface  Includes picam and webcam Plugins for motion track security camera configuration including rclone sync scripts.",
+      "likes": 0
+    },
+    {
+      "id": "Ragowit/psn100",
+      "name": "Ragowit/psn100",
+      "url": "https://github.com/Ragowit/psn100",
+      "category": "analytics",
+      "description": "PSN100 is a trophy tracking website with leaderboards, focusing on merging game stacks and removal of unobtainable trophies",
+      "likes": 0
+    }
+  ],
+  "categories": {
+    "3d-printing": 2,
+    "ab-testing": 79,
+    "accessibility": 5,
+    "accounting": 3,
+    "agents-autogen": 3,
+    "agents-crewai": 5,
+    "agents-frameworks": 4,
+    "agents-langchain": 2,
+    "agents-multi-agent": 32,
+    "agents-other-1": 90,
+    "agents-other-2": 34,
+    "ai-chats-other-1": 90,
+    "ai-chats-other-2": 13,
+    "aichats-bots": 8,
+    "aichats-interfaces": 1,
+    "aichats-libraries": 4,
+    "aichats-voice": 1,
+    "aldrin": 35,
+    "algotrading": 86,
+    "analytics": 3
+  },
+  "total_repos": 500,
+  "total_categories": 20,
+  "generated_at": "2025-01-09"
+}

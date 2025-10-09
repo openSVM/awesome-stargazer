@@ -1,764 +1,646 @@
-// Awesome Stargazer - Main Application
-(function() {
-    'use strict';
+// Data storage
+let allRepos = [];
+let categories = new Set();
+let bookmarks = new Set();
+let likes = new Map();
+let learningPaths = [];
 
-    // State Management
-    const state = {
-        repos: [],
-        categories: new Map(),
-        bookmarks: new Set(),
-        likes: new Set(),
-        learningPaths: [],
-        currentView: 'explorer',
-        searchQuery: '',
-        categoryFilter: '',
-        sortBy: 'name'
-    };
-
-    // Local Storage Keys
-    const STORAGE_KEYS = {
-        BOOKMARKS: 'awesome-stargazer-bookmarks',
-        LIKES: 'awesome-stargazer-likes',
-        PATHS: 'awesome-stargazer-paths',
-        THEME: 'awesome-stargazer-theme'
-    };
-
-    // Initialize App
-    async function init() {
-        loadFromLocalStorage();
-        setupEventListeners();
-        setupKeyboardShortcuts();
-        await loadRepositories();
-        renderCurrentView();
-        updateStats();
-    }
-
-    // Load data from localStorage
-    function loadFromLocalStorage() {
+// Load from localStorage
+function loadFromStorage() {
+    const saved = localStorage.getItem('awesome-stargazer-data');
+    if (saved) {
         try {
-            const bookmarks = localStorage.getItem(STORAGE_KEYS.BOOKMARKS);
-            if (bookmarks) state.bookmarks = new Set(JSON.parse(bookmarks));
-
-            const likes = localStorage.getItem(STORAGE_KEYS.LIKES);
-            if (likes) state.likes = new Set(JSON.parse(likes));
-
-            const paths = localStorage.getItem(STORAGE_KEYS.PATHS);
-            if (paths) state.learningPaths = JSON.parse(paths);
-
-            const theme = localStorage.getItem(STORAGE_KEYS.THEME) || 'dark';
-            document.body.setAttribute('data-theme', theme);
+            const data = JSON.parse(saved);
+            bookmarks = new Set(data.bookmarks || []);
+            likes = new Map(data.likes || []);
+            learningPaths = data.learningPaths || [];
         } catch (e) {
-            console.error('Error loading from localStorage:', e);
+            console.error('Error loading data:', e);
         }
     }
+}
 
-    // Save to localStorage
-    function saveToLocalStorage() {
-        try {
-            localStorage.setItem(STORAGE_KEYS.BOOKMARKS, JSON.stringify([...state.bookmarks]));
-            localStorage.setItem(STORAGE_KEYS.LIKES, JSON.stringify([...state.likes]));
-            localStorage.setItem(STORAGE_KEYS.PATHS, JSON.stringify(state.learningPaths));
-        } catch (e) {
-            console.error('Error saving to localStorage:', e);
-        }
-    }
+// Save to localStorage
+function saveToStorage() {
+    const data = {
+        bookmarks: Array.from(bookmarks),
+        likes: Array.from(likes.entries()),
+        learningPaths: learningPaths
+    };
+    localStorage.setItem('awesome-stargazer-data', JSON.stringify(data));
+}
 
-    // Load repository data from pregenerated JSON file
-    async function loadRepositories() {
-        showLoading(true);
-        
-        try {
-            const response = await fetch('data.json');
-            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-            
+// Fetch and parse repository data
+async function fetchRepoData() {
+    try {
+        const response = await fetch('data.json');
+        if (response.ok) {
             const data = await response.json();
-            
-            state.repos = data.repos || [];
-            
-            // Convert categories object to Map
-            if (data.categories) {
-                Object.entries(data.categories).forEach(([cat, count]) => {
-                    state.categories.set(cat, count);
-                });
-            }
-
-            populateCategoryFilter();
-            renderCurrentView();
-            updateStats();
-        } catch (e) {
-            console.error('Error loading repositories:', e);
-            // Use fallback data for demo
-            loadFallbackData();
-        } finally {
-            showLoading(false);
+            // Check if data has repos property or is array
+            allRepos = Array.isArray(data) ? data : (data.repos || []);
+            allRepos.forEach(repo => categories.add(repo.category));
+            console.log(`Loaded ${allRepos.length} repositories from JSON`);
+        } else {
+            throw new Error('JSON not found');
         }
+    } catch (e) {
+        console.error('Error loading repo data:', e);
+        // Show error message
+        document.getElementById('results-count').textContent = 'Error loading repositories';
     }
+}
 
-    // Fallback data for initial demo
-    function loadFallbackData() {
-        const sampleRepos = [
-            {
-                id: 'developersdigest/llm-answer-engine',
-                name: 'developersdigest/llm-answer-engine',
-                url: 'https://github.com/developersdigest/llm-answer-engine',
-                category: 'react-nextjs',
-                description: 'Build a Perplexity-Inspired Answer Engine Using Next.js, Groq, Llama-3, Langchain, OpenAI, Upstash, Brave & Serper',
-                likes: 42
-            },
-            {
-                id: 'openai/openai-assistants-quickstart',
-                name: 'openai/openai-assistants-quickstart',
-                url: 'https://github.com/openai/openai-assistants-quickstart',
-                category: 'react-nextjs',
-                description: 'OpenAI Assistants API quickstart with Next.js.',
-                likes: 38
-            },
-            {
-                id: 'vercel/ai-chatbot',
-                name: 'vercel/ai-chatbot',
-                url: 'https://github.com/vercel/ai-chatbot',
-                category: 'react-nextjs',
-                description: 'A full-featured, hackable Next.js AI chatbot built by Vercel',
-                likes: 156
-            },
-            {
-                id: 'tailwindlabs/tailwindcss',
-                name: 'tailwindlabs/tailwindcss',
-                url: 'https://github.com/tailwindlabs/tailwindcss',
-                category: 'css-frameworks',
-                description: 'A utility-first CSS framework for rapid UI development.',
-                likes: 203
-            },
-            {
-                id: 'themesberg/flowbite',
-                name: 'themesberg/flowbite',
-                url: 'https://github.com/themesberg/flowbite',
-                category: 'css-frameworks',
-                description: 'Open-source UI component library and front-end development framework based on Tailwind CSS',
-                likes: 89
-            }
-        ];
+// Parse markdown files - removed, now using pre-generated JSON
 
-        state.repos = sampleRepos;
-        state.categories.set('react-nextjs', 3);
-        state.categories.set('css-frameworks', 2);
-        populateCategoryFilter();
-        renderCurrentView();
-        updateStats();
-    }
+// Filter and search repos
+function filterRepos() {
+    const searchTerm = document.getElementById('search-input').value.toLowerCase();
+    const categoryFilter = document.getElementById('category-filter').value;
+    const sortBy = document.getElementById('sort-filter').value;
 
-    // Populate category filter dropdown
-    function populateCategoryFilter() {
-        const select = document.getElementById('category-filter');
-        const categories = Array.from(state.categories.keys()).sort();
+    let filtered = allRepos.filter(repo => {
+        const matchesSearch = !searchTerm || 
+            repo.name.toLowerCase().includes(searchTerm) ||
+            repo.description.toLowerCase().includes(searchTerm) ||
+            repo.category.toLowerCase().includes(searchTerm);
         
-        categories.forEach(category => {
-            const option = document.createElement('option');
-            option.value = category;
-            option.textContent = formatCategoryName(category) + ` (${state.categories.get(category)})`;
-            select.appendChild(option);
-        });
-    }
+        const matchesCategory = !categoryFilter || repo.category === categoryFilter;
 
-    // Format category name for display
-    function formatCategoryName(category) {
-        return category
-            .split('-')
-            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-            .join(' ');
-    }
+        return matchesSearch && matchesCategory;
+    });
 
-    // Filter and sort repositories
-    function getFilteredRepos() {
-        let filtered = [...state.repos];
-
-        // Apply search filter
-        if (state.searchQuery) {
-            const query = state.searchQuery.toLowerCase();
-            filtered = filtered.filter(repo =>
-                repo.name.toLowerCase().includes(query) ||
-                repo.description.toLowerCase().includes(query) ||
-                repo.category.toLowerCase().includes(query)
-            );
-        }
-
-        // Apply category filter
-        if (state.categoryFilter) {
-            filtered = filtered.filter(repo => repo.category === state.categoryFilter);
-        }
-
-        // Apply sorting
-        switch (state.sortBy) {
-            case 'name':
-                filtered.sort((a, b) => a.name.localeCompare(b.name));
-                break;
+    // Sort
+    filtered.sort((a, b) => {
+        switch (sortBy) {
+            case 'name-asc':
+                return a.name.localeCompare(b.name);
+            case 'name-desc':
+                return b.name.localeCompare(a.name);
+            case 'category':
+                return a.category.localeCompare(b.category);
             case 'likes':
-                filtered.sort((a, b) => (state.likes.has(b.id) ? 1 : 0) - (state.likes.has(a.id) ? 1 : 0));
-                break;
-            case 'recent':
-                // For demo, just reverse the order
-                filtered.reverse();
-                break;
+                return (likes.get(b.id) || 0) - (likes.get(a.id) || 0);
+            default:
+                return 0;
         }
+    });
 
-        return filtered;
+    return filtered;
+}
+
+// Render repositories
+function renderRepos(repos) {
+    const container = document.getElementById('repos-container');
+    const noResults = document.getElementById('no-results');
+    const resultsCount = document.getElementById('results-count');
+    const searchClear = document.getElementById('search-clear');
+
+    if (document.getElementById('search-input').value) {
+        searchClear.classList.remove('hidden');
+    } else {
+        searchClear.classList.add('hidden');
     }
 
-    // Render repository grid
-    function renderRepoGrid(repos, containerId = 'repo-grid') {
-        const container = document.getElementById(containerId);
+    if (repos.length === 0) {
         container.innerHTML = '';
-
-        if (repos.length === 0) {
-            container.innerHTML = `
-                <div class="empty-state" style="grid-column: 1 / -1;">
-                    <svg width="48" height="48" viewBox="0 0 16 16" fill="currentColor">
-                        <path d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path>
-                    </svg>
-                    <h3>No repositories found</h3>
-                    <p>Try adjusting your search or filters</p>
-                </div>
-            `;
-            return;
-        }
-
-        repos.forEach(repo => {
-            const card = createRepoCard(repo);
-            container.appendChild(card);
-        });
-
-        updateResultCount(repos.length);
+        noResults.classList.remove('hidden');
+        resultsCount.textContent = 'No repositories found';
+        return;
     }
 
-    // Create repository card element
-    function createRepoCard(repo) {
-        const card = document.createElement('div');
-        card.className = 'repo-card';
-        
-        const isBookmarked = state.bookmarks.has(repo.id);
-        const isLiked = state.likes.has(repo.id);
+    noResults.classList.add('hidden');
+    resultsCount.textContent = `${repos.length} repositories`;
 
-        card.innerHTML = `
-            <div class="repo-card-header">
-                <a href="${repo.url}" target="_blank" class="repo-name">${escapeHtml(repo.name)}</a>
-                <div class="repo-actions">
-                    <button class="action-btn bookmark-btn ${isBookmarked ? 'active' : ''}" 
-                            data-repo-id="${repo.id}" title="Bookmark">
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-                            <path d="M3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 01-1.227.579L8 11.722l-3.773 3.107A.75.75 0 013 14.25V2.75z"></path>
-                        </svg>
-                    </button>
-                    <button class="action-btn like-btn ${isLiked ? 'liked' : ''}" 
-                            data-repo-id="${repo.id}" title="Like">
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-                            <path d="M8 14.25l-.345.666a.75.75 0 001.39 0l-.645-.666zm0 0l.645-.666a.75.75 0 00-1.29 0l.645.666zm-6.543-4.5a5.5 5.5 0 117.778 7.778L8 14.25l-6.543-4.5z"></path>
-                        </svg>
-                    </button>
+    container.innerHTML = repos.map(repo => {
+        const isBookmarked = bookmarks.has(repo.id);
+        const likeCount = likes.get(repo.id) || 0;
+        const isLiked = likeCount > 0;
+        
+        return `
+            <div class="repo-card" data-repo-id="${repo.id}">
+                <div class="repo-header">
+                    <div class="repo-icon">📦</div>
+                    <div class="repo-info">
+                        <a href="${repo.url}" class="repo-name" target="_blank" rel="noopener">${repo.name}</a>
+                        <div class="repo-category">${repo.category}</div>
+                    </div>
                 </div>
-            </div>
-            <div class="repo-description">${escapeHtml(repo.description)}</div>
-            <div class="repo-footer">
-                <span class="repo-category">${formatCategoryName(repo.category)}</span>
-                <div class="repo-stats">
-                    <span class="repo-stat">
-                        <svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor">
-                            <path d="M8 14.25l-.345.666a.75.75 0 001.39 0l-.645-.666zm0 0l.645-.666a.75.75 0 00-1.29 0l.645.666zm-6.543-4.5a5.5 5.5 0 117.778 7.778L8 14.25l-6.543-4.5z"></path>
-                        </svg>
-                        ${isLiked ? repo.likes + 1 : repo.likes}
-                    </span>
+                <div class="repo-description">${repo.description || 'No description available'}</div>
+                <div class="repo-footer">
+                    <div class="repo-actions">
+                        <button class="action-btn bookmark-btn ${isBookmarked ? 'active' : ''}" data-repo-id="${repo.id}" title="Bookmark">
+                            <svg width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 01-1.227.579L8 11.722l-3.773 3.107A.75.75 0 013 14.25V2.75z"></path>
+                            </svg>
+                            ${isBookmarked ? 'Saved' : 'Save'}
+                        </button>
+                        <button class="action-btn like-btn ${isLiked ? 'liked' : ''}" data-repo-id="${repo.id}" title="Like">
+                            <svg width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M8 14.25l-.345.666a.75.75 0 001.39 0L8 14.25zm3.598-11.982A5.515 5.515 0 0116 7.207c0 4.125-5.503 8.674-7.656 10.043L8 14.25l.344 3zm-7.196 0A5.515 5.515 0 000 7.207c0 4.125 5.503 8.674 7.656 10.043L8 14.25l-.344 3z"></path>
+                            </svg>
+                            ${likeCount || ''}
+                        </button>
+                        <button class="action-btn share-btn" data-repo-id="${repo.id}" title="Share">
+                            <svg width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M11 2.5a2.5 2.5 0 11.603 1.628l-6.718 3.12a2.499 2.499 0 010 1.504l6.718 3.12a2.5 2.5 0 11-.488.876l-6.718-3.12a2.5 2.5 0 110-3.256l6.718-3.12A2.5 2.5 0 0111 2.5z"></path>
+                            </svg>
+                        </button>
+                        <button class="action-btn add-to-path-btn" data-repo-id="${repo.id}" title="Add to learning path">
+                            <svg width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 010 1.5H8.5v4.25a.75.75 0 01-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
-                <button class="share-btn" data-repo-id="${repo.id}">
-                    <svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor">
-                        <path d="M7.823 1.677L4.927 4.573A.25.25 0 005.104 5H7.25v3.236a.75.75 0 101.5 0V5h2.146a.25.25 0 00.177-.427L8.177 1.677a.25.25 0 00-.354 0zM3.75 6.5a.75.75 0 00-.75.75v6.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-6.5a.75.75 0 00-.75-.75h-1.5a.75.75 0 000 1.5h.75v5h-7v-5h.75a.75.75 0 000-1.5h-1.5z"></path>
-                    </svg>
-                    Share
-                </button>
             </div>
         `;
+    }).join('');
 
-        // Add event listeners
-        card.querySelector('.bookmark-btn').addEventListener('click', (e) => {
+    // Add event listeners
+    document.querySelectorAll('.bookmark-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
             e.stopPropagation();
-            toggleBookmark(repo.id);
+            toggleBookmark(btn.dataset.repoId);
         });
+    });
 
-        card.querySelector('.like-btn').addEventListener('click', (e) => {
+    document.querySelectorAll('.like-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
             e.stopPropagation();
-            toggleLike(repo.id);
+            toggleLike(btn.dataset.repoId);
         });
+    });
 
-        card.querySelector('.share-btn').addEventListener('click', (e) => {
+    document.querySelectorAll('.share-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
             e.stopPropagation();
-            shareRepo(repo);
+            shareRepo(btn.dataset.repoId);
         });
+    });
 
-        return card;
+    document.querySelectorAll('.add-to-path-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            addToPath(btn.dataset.repoId);
+        });
+    });
+}
+
+// Toggle bookmark
+function toggleBookmark(repoId) {
+    if (bookmarks.has(repoId)) {
+        bookmarks.delete(repoId);
+    } else {
+        bookmarks.add(repoId);
+    }
+    saveToStorage();
+    updateBookmarkCount();
+    
+    const currentTab = document.querySelector('.tab-content.active').id;
+    if (currentTab === 'bookmarks-tab') {
+        renderBookmarks();
+    } else {
+        renderRepos(filterRepos());
+    }
+}
+
+// Toggle like
+function toggleLike(repoId) {
+    const currentLikes = likes.get(repoId) || 0;
+    likes.set(repoId, currentLikes + 1);
+    saveToStorage();
+    renderRepos(filterRepos());
+    updateStats();
+}
+
+// Share repo
+function shareRepo(repoId) {
+    const repo = allRepos.find(r => r.id === repoId);
+    if (!repo) return;
+
+    const text = `Check out ${repo.name} - ${repo.description} #AwesomeStargazer #GitHub`;
+    const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(repo.url)}`;
+    window.open(url, '_blank', 'width=550,height=420');
+}
+
+// Add to learning path
+function addToPath(repoId) {
+    const repo = allRepos.find(r => r.id === repoId);
+    if (!repo) return;
+
+    if (learningPaths.length === 0) {
+        alert('Please create a learning path first!');
+        switchTab('learning-paths');
+        return;
     }
 
-    // Toggle bookmark
-    function toggleBookmark(repoId) {
-        if (state.bookmarks.has(repoId)) {
-            state.bookmarks.delete(repoId);
-        } else {
-            state.bookmarks.add(repoId);
-        }
-        saveToLocalStorage();
-        updateBookmarkCount();
-        renderCurrentView();
-    }
-
-    // Toggle like
-    function toggleLike(repoId) {
-        if (state.likes.has(repoId)) {
-            state.likes.delete(repoId);
-        } else {
-            state.likes.add(repoId);
-        }
-        saveToLocalStorage();
-        renderCurrentView();
-    }
-
-    // Share repository to Twitter
-    function shareRepo(repo) {
-        const text = `Check out ${repo.name}: ${repo.description}`;
-        const hashtags = 'GitHub,AwesomeList,OpenSource';
-        const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(repo.url)}&hashtags=${hashtags}`;
-        window.open(url, '_blank', 'width=550,height=420');
-    }
-
-    // Render current view
-    function renderCurrentView() {
-        const views = document.querySelectorAll('.view');
-        views.forEach(view => view.classList.remove('active'));
-
-        const navBtns = document.querySelectorAll('.nav-btn');
-        navBtns.forEach(btn => btn.classList.remove('active'));
-
-        const currentViewBtn = document.querySelector(`[data-view="${state.currentView}"]`);
-        if (currentViewBtn) currentViewBtn.classList.add('active');
-
-        switch (state.currentView) {
-            case 'explorer':
-                document.getElementById('explorer-view').classList.add('active');
-                renderRepoGrid(getFilteredRepos());
-                break;
-            case 'bookmarks':
-                document.getElementById('bookmarks-view').classList.add('active');
-                renderBookmarksView();
-                break;
-            case 'paths':
-                document.getElementById('paths-view').classList.add('active');
-                renderPathsView();
-                break;
-            case 'stats':
-                document.getElementById('stats-view').classList.add('active');
-                renderStatsView();
-                break;
-        }
-    }
-
-    // Render bookmarks view
-    function renderBookmarksView() {
-        const bookmarkedRepos = state.repos.filter(repo => state.bookmarks.has(repo.id));
-        const container = document.getElementById('bookmarks-container');
-        
-        if (bookmarkedRepos.length === 0) {
-            container.innerHTML = `
-                <div class="empty-state" style="grid-column: 1 / -1;">
-                    <svg width="48" height="48" viewBox="0 0 16 16" fill="currentColor">
-                        <path d="M3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 01-1.227.579L8 11.722l-3.773 3.107A.75.75 0 013 14.25V2.75z"></path>
-                    </svg>
-                    <h3>No Bookmarks Yet</h3>
-                    <p>Start bookmarking repositories to save them for later</p>
-                </div>
-            `;
-        } else {
-            renderRepoGrid(bookmarkedRepos, 'bookmarks-container');
+    // Show path selection
+    const pathNames = learningPaths.map((p, i) => `${i + 1}. ${p.name}`).join('\n');
+    const selection = prompt(`Select a learning path:\n${pathNames}\n\nEnter number:`);
+    
+    if (selection) {
+        const index = parseInt(selection) - 1;
+        if (index >= 0 && index < learningPaths.length) {
+            if (!learningPaths[index].repos.find(r => r.id === repo.id)) {
+                learningPaths[index].repos.push({
+                    id: repo.id,
+                    name: repo.name,
+                    url: repo.url,
+                    completed: false
+                });
+                saveToStorage();
+                alert(`Added to "${learningPaths[index].name}"!`);
+            } else {
+                alert('Repository already in this path!');
+            }
         }
     }
+}
 
-    // Render learning paths view
-    function renderPathsView() {
-        const container = document.getElementById('paths-container');
-        
-        if (state.learningPaths.length === 0) {
-            container.innerHTML = `
-                <div class="empty-state">
-                    <svg width="48" height="48" viewBox="0 0 16 16" fill="currentColor">
-                        <path d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"></path>
-                    </svg>
-                    <h3>No Learning Paths Yet</h3>
-                    <p>Create your first learning path to organize repositories for your learning journey</p>
-                </div>
-            `;
-            return;
-        }
+// Update bookmark count
+function updateBookmarkCount() {
+    document.getElementById('bookmarks-count').textContent = bookmarks.size;
+}
 
+// Render bookmarks
+function renderBookmarks() {
+    const bookmarkedRepos = allRepos.filter(repo => bookmarks.has(repo.id));
+    const container = document.getElementById('bookmarks-container');
+    const noBookmarks = document.getElementById('no-bookmarks');
+
+    if (bookmarkedRepos.length === 0) {
         container.innerHTML = '';
-        state.learningPaths.forEach(path => {
-            const card = createPathCard(path);
-            container.appendChild(card);
-        });
+        noBookmarks.classList.remove('hidden');
+        return;
     }
 
-    // Create learning path card
-    function createPathCard(path) {
-        const card = document.createElement('div');
-        card.className = 'path-card';
-        
-        card.innerHTML = `
-            <h3>${escapeHtml(path.name)}</h3>
-            <p>${escapeHtml(path.description || 'No description')}</p>
-            <div class="path-repos">${path.repos.length} repositories</div>
-            <div class="path-actions">
-                <button class="btn-secondary view-path-btn" data-path-id="${path.id}">View</button>
-                <button class="btn-secondary share-path-btn" data-path-id="${path.id}">Share</button>
-                <button class="btn-secondary delete-path-btn" data-path-id="${path.id}">Delete</button>
+    noBookmarks.classList.add('hidden');
+    renderRepos(bookmarkedRepos);
+    
+    // Re-target container
+    const tempContainer = document.createElement('div');
+    tempContainer.className = 'repos-grid';
+    tempContainer.innerHTML = container.innerHTML;
+    container.innerHTML = '';
+    container.appendChild(tempContainer);
+}
+
+// Render learning paths
+function renderLearningPaths() {
+    const container = document.getElementById('learning-paths-container');
+    const noPaths = document.getElementById('no-paths');
+
+    if (learningPaths.length === 0) {
+        container.innerHTML = '';
+        noPaths.classList.remove('hidden');
+        return;
+    }
+
+    noPaths.classList.add('hidden');
+
+    container.innerHTML = learningPaths.map((path, pathIndex) => {
+        const completed = path.repos.filter(r => r.completed).length;
+        const total = path.repos.length;
+        const progress = total > 0 ? (completed / total) * 100 : 0;
+
+        return `
+            <div class="learning-path-card">
+                <div class="path-header">
+                    <div class="path-title">${path.name}</div>
+                    <div class="path-actions">
+                        <button class="action-btn export-path-btn" data-path-index="${pathIndex}" title="Export">
+                            <svg width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M7.25 10.25a.75.75 0 001.5 0V4.56l2.22 2.22a.75.75 0 101.06-1.06l-3.5-3.5a.75.75 0 00-1.06 0l-3.5 3.5a.75.75 0 001.06 1.06l2.22-2.22v5.69z"></path>
+                                <path d="M3.5 9.75a.75.75 0 00-1.5 0v1.5A2.75 2.75 0 004.75 14h6.5A2.75 2.75 0 0014 11.25v-1.5a.75.75 0 00-1.5 0v1.5c0 .69-.56 1.25-1.25 1.25h-6.5c-.69 0-1.25-.56-1.25-1.25v-1.5z"></path>
+                            </svg>
+                        </button>
+                        <button class="action-btn share-path-btn" data-path-index="${pathIndex}" title="Share">
+                            <svg width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M11 2.5a2.5 2.5 0 11.603 1.628l-6.718 3.12a2.499 2.499 0 010 1.504l6.718 3.12a2.5 2.5 0 11-.488.876l-6.718-3.12a2.5 2.5 0 110-3.256l6.718-3.12A2.5 2.5 0 0111 2.5z"></path>
+                            </svg>
+                        </button>
+                        <button class="action-btn delete-path-btn" data-path-index="${pathIndex}" title="Delete">
+                            <svg width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M11 1.75V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                ${path.description ? `<div class="path-description">${path.description}</div>` : ''}
+                <div class="path-repos">
+                    ${path.repos.map((repo, repoIndex) => `
+                        <div class="path-repo-item">
+                            <span class="drag-handle">☰</span>
+                            <input type="checkbox" ${repo.completed ? 'checked' : ''} 
+                                   data-path-index="${pathIndex}" 
+                                   data-repo-index="${repoIndex}">
+                            <div class="path-repo-info">
+                                <a href="${repo.url}" class="path-repo-name" target="_blank">${repo.name}</a>
+                            </div>
+                            <button class="action-btn" data-path-index="${pathIndex}" data-repo-index="${repoIndex}" title="Remove">
+                                <svg width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    `).join('')}
+                </div>
+                <div class="path-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: ${progress}%"></div>
+                    </div>
+                    <span class="progress-text">${completed}/${total}</span>
+                </div>
             </div>
         `;
+    }).join('');
 
-        card.querySelector('.view-path-btn').addEventListener('click', () => viewPath(path));
-        card.querySelector('.share-path-btn').addEventListener('click', () => sharePath(path));
-        card.querySelector('.delete-path-btn').addEventListener('click', () => deletePath(path.id));
-
-        return card;
-    }
-
-    // View learning path
-    function viewPath(path) {
-        alert(`Path: ${path.name}\n\nRepositories:\n${path.repos.map(id => `- ${id}`).join('\n')}`);
-    }
-
-    // Share learning path
-    function sharePath(path) {
-        const text = `Check out my learning path: ${path.name}`;
-        const hashtags = 'LearningPath,GitHub,OpenSource';
-        const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&hashtags=${hashtags}`;
-        window.open(url, '_blank', 'width=550,height=420');
-    }
-
-    // Delete learning path
-    function deletePath(pathId) {
-        if (confirm('Are you sure you want to delete this learning path?')) {
-            state.learningPaths = state.learningPaths.filter(p => p.id !== pathId);
-            saveToLocalStorage();
-            renderCurrentView();
-            updateStats();
-        }
-    }
-
-    // Render stats view
-    function renderStatsView() {
-        document.getElementById('total-repos').textContent = state.repos.length;
-        document.getElementById('total-categories').textContent = state.categories.size;
-        document.getElementById('total-bookmarks').textContent = state.bookmarks.size;
-        document.getElementById('total-paths').textContent = state.learningPaths.length;
-
-        // Render top categories chart
-        const chartContainer = document.getElementById('category-chart');
-        chartContainer.innerHTML = '';
-
-        const sortedCategories = Array.from(state.categories.entries())
-            .sort((a, b) => b[1] - a[1])
-            .slice(0, 10);
-
-        const maxCount = sortedCategories[0]?.[1] || 1;
-
-        sortedCategories.forEach(([category, count]) => {
-            const bar = document.createElement('div');
-            bar.className = 'chart-bar';
-            
-            const width = (count / maxCount) * 100;
-            
-            bar.innerHTML = `
-                <div class="chart-label">${formatCategoryName(category)}</div>
-                <div class="chart-value-bar" style="width: ${width}%">
-                    <div class="chart-value-text">${count}</div>
-                </div>
-            `;
-            
-            chartContainer.appendChild(bar);
+    // Add event listeners
+    document.querySelectorAll('.path-repo-item input[type="checkbox"]').forEach(cb => {
+        cb.addEventListener('change', (e) => {
+            const pathIndex = parseInt(cb.dataset.pathIndex);
+            const repoIndex = parseInt(cb.dataset.repoIndex);
+            learningPaths[pathIndex].repos[repoIndex].completed = cb.checked;
+            saveToStorage();
+            renderLearningPaths();
         });
-    }
+    });
 
-    // Update stats
-    function updateStats() {
-        updateBookmarkCount();
-    }
-
-    // Update bookmark count badge
-    function updateBookmarkCount() {
-        document.getElementById('bookmark-count').textContent = state.bookmarks.size;
-    }
-
-    // Update result count
-    function updateResultCount(count) {
-        const total = state.repos.length;
-        const text = count === total 
-            ? `Showing all ${total} repositories`
-            : `Showing ${count} of ${total} repositories`;
-        document.getElementById('result-count').textContent = text;
-    }
-
-    // Setup event listeners
-    function setupEventListeners() {
-        // Navigation
-        document.querySelectorAll('.nav-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                state.currentView = btn.dataset.view;
-                renderCurrentView();
-            });
-        });
-
-        // Theme toggle
-        document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
-
-        // Search
-        const searchInput = document.getElementById('search-input');
-        searchInput.addEventListener('input', (e) => {
-            state.searchQuery = e.target.value;
-            document.getElementById('clear-search').style.display = state.searchQuery ? 'block' : 'none';
-            renderCurrentView();
-        });
-
-        document.getElementById('clear-search').addEventListener('click', () => {
-            searchInput.value = '';
-            state.searchQuery = '';
-            document.getElementById('clear-search').style.display = 'none';
-            renderCurrentView();
-        });
-
-        // Filters
-        document.getElementById('category-filter').addEventListener('change', (e) => {
-            state.categoryFilter = e.target.value;
-            renderCurrentView();
-        });
-
-        document.getElementById('sort-filter').addEventListener('change', (e) => {
-            state.sortBy = e.target.value;
-            renderCurrentView();
-        });
-
-        // Create path button
-        document.getElementById('create-path-btn').addEventListener('click', openCreatePathModal);
-
-        // Modal close buttons
-        document.querySelectorAll('.modal-close').forEach(btn => {
-            btn.addEventListener('click', () => {
-                btn.closest('.modal').classList.remove('active');
-            });
-        });
-
-        // Click outside modal to close
-        document.querySelectorAll('.modal').forEach(modal => {
-            modal.addEventListener('click', (e) => {
-                if (e.target === modal) {
-                    modal.classList.remove('active');
-                }
-            });
-        });
-
-        // Create path modal actions
-        document.getElementById('cancel-path').addEventListener('click', () => {
-            document.getElementById('create-path-modal').classList.remove('active');
-        });
-
-        document.getElementById('save-path').addEventListener('click', saveLearningPath);
-
-        // Path search
-        document.getElementById('path-search').addEventListener('input', (e) => {
-            filterAvailableRepos(e.target.value);
-        });
-    }
-
-    // Setup keyboard shortcuts
-    function setupKeyboardShortcuts() {
-        document.addEventListener('keydown', (e) => {
-            // Cmd/Ctrl + K: Focus search
-            if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
-                e.preventDefault();
-                document.getElementById('search-input').focus();
-            }
-
-            // Escape: Clear search or close modal
-            if (e.key === 'Escape') {
-                const activeModal = document.querySelector('.modal.active');
-                if (activeModal) {
-                    activeModal.classList.remove('active');
-                } else {
-                    document.getElementById('search-input').value = '';
-                    state.searchQuery = '';
-                    document.getElementById('clear-search').style.display = 'none';
-                    renderCurrentView();
-                }
-            }
-
-            // T: Toggle theme
-            if (e.key === 't' || e.key === 'T') {
-                if (document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
-                    toggleTheme();
-                }
-            }
-
-            // B: View bookmarks
-            if (e.key === 'b' || e.key === 'B') {
-                if (document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
-                    state.currentView = 'bookmarks';
-                    renderCurrentView();
-                }
-            }
-
-            // P: View paths
-            if (e.key === 'p' || e.key === 'P') {
-                if (document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
-                    state.currentView = 'paths';
-                    renderCurrentView();
-                }
-            }
-
-            // ?: Show shortcuts
-            if (e.key === '?') {
-                if (document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
-                    document.getElementById('shortcuts-modal').classList.add('active');
-                }
+    document.querySelectorAll('.delete-path-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            if (confirm('Delete this learning path?')) {
+                learningPaths.splice(parseInt(btn.dataset.pathIndex), 1);
+                saveToStorage();
+                renderLearningPaths();
             }
         });
-    }
+    });
 
-    // Toggle theme
-    function toggleTheme() {
-        const currentTheme = document.body.getAttribute('data-theme');
-        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-        document.body.setAttribute('data-theme', newTheme);
-        localStorage.setItem(STORAGE_KEYS.THEME, newTheme);
-    }
+    document.querySelectorAll('.export-path-btn').forEach(btn => {
+        btn.addEventListener('click', () => exportPath(parseInt(btn.dataset.pathIndex)));
+    });
 
-    // Open create path modal
-    function openCreatePathModal() {
-        const modal = document.getElementById('create-path-modal');
-        modal.classList.add('active');
-        
-        // Populate available repos
-        const container = document.getElementById('available-repos-list');
-        container.innerHTML = '';
-        
-        state.repos.forEach(repo => {
-            const item = document.createElement('div');
-            item.className = 'repo-item';
-            item.textContent = repo.name;
-            item.dataset.repoId = repo.id;
-            
-            item.addEventListener('click', () => {
-                addRepoToPath(repo.id);
-            });
-            
-            container.appendChild(item);
+    document.querySelectorAll('.share-path-btn').forEach(btn => {
+        btn.addEventListener('click', () => sharePath(parseInt(btn.dataset.pathIndex)));
+    });
+
+    document.querySelectorAll('.path-repo-item button.action-btn[data-repo-index]').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const pathIndex = parseInt(btn.dataset.pathIndex);
+            const repoIndex = parseInt(btn.dataset.repoIndex);
+            learningPaths[pathIndex].repos.splice(repoIndex, 1);
+            saveToStorage();
+            renderLearningPaths();
         });
+    });
+}
 
-        // Clear selected repos
-        document.getElementById('selected-repos-list').innerHTML = '';
-        document.getElementById('selected-count').textContent = '0';
-        document.getElementById('path-name').value = '';
-        document.getElementById('path-description').value = '';
+// Export path as markdown
+function exportPath(pathIndex) {
+    const path = learningPaths[pathIndex];
+    let markdown = `# ${path.name}\n\n`;
+    if (path.description) {
+        markdown += `${path.description}\n\n`;
     }
+    markdown += `## Repositories\n\n`;
+    path.repos.forEach((repo, i) => {
+        markdown += `${i + 1}. [${repo.completed ? 'x' : ' '}] [${repo.name}](${repo.url})\n`;
+    });
 
-    // Add repo to learning path
-    function addRepoToPath(repoId) {
-        const selectedList = document.getElementById('selected-repos-list');
-        
-        // Check if already added
-        if (selectedList.querySelector(`[data-repo-id="${repoId}"]`)) return;
-        
-        const repo = state.repos.find(r => r.id === repoId);
-        if (!repo) return;
-        
-        const item = document.createElement('div');
-        item.className = 'repo-item selected';
-        item.textContent = repo.name;
-        item.dataset.repoId = repoId;
-        
-        item.addEventListener('click', () => {
-            item.remove();
-            updateSelectedCount();
-        });
-        
-        selectedList.appendChild(item);
-        updateSelectedCount();
-    }
+    const blob = new Blob([markdown], { type: 'text/markdown' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `${path.name.replace(/\s+/g, '-').toLowerCase()}.md`;
+    a.click();
+    URL.revokeObjectURL(url);
+}
 
-    // Update selected repos count
-    function updateSelectedCount() {
-        const count = document.querySelectorAll('#selected-repos-list .repo-item').length;
-        document.getElementById('selected-count').textContent = count;
-    }
+// Share learning path
+function sharePath(pathIndex) {
+    const path = learningPaths[pathIndex];
+    const text = `Check out my learning path: ${path.name} with ${path.repos.length} repositories! #AwesomeStargazer #LearningPath`;
+    const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
+    window.open(url, '_blank', 'width=550,height=420');
+}
 
-    // Filter available repos in path modal
-    function filterAvailableRepos(query) {
-        const items = document.querySelectorAll('#available-repos-list .repo-item');
-        const lowerQuery = query.toLowerCase();
-        
-        items.forEach(item => {
-            const text = item.textContent.toLowerCase();
-            item.style.display = text.includes(lowerQuery) ? 'block' : 'none';
-        });
-    }
+// Update stats
+function updateStats() {
+    document.getElementById('total-repos').textContent = allRepos.length.toLocaleString();
+    document.getElementById('total-categories').textContent = categories.size;
+    document.getElementById('total-likes').textContent = Array.from(likes.values()).reduce((a, b) => a + b, 0);
+    document.getElementById('total-bookmarks').textContent = bookmarks.size;
 
-    // Save learning path
-    function saveLearningPath() {
-        const name = document.getElementById('path-name').value.trim();
-        const description = document.getElementById('path-description').value.trim();
-        const selectedItems = document.querySelectorAll('#selected-repos-list .repo-item');
-        
-        if (!name) {
-            alert('Please enter a path name');
-            return;
-        }
-        
-        if (selectedItems.length === 0) {
-            alert('Please select at least one repository');
-            return;
-        }
-        
-        const repos = Array.from(selectedItems).map(item => item.dataset.repoId);
-        
-        const path = {
-            id: Date.now().toString(),
-            name,
-            description,
-            repos,
-            createdAt: new Date().toISOString()
-        };
-        
-        state.learningPaths.push(path);
-        saveToLocalStorage();
-        
-        document.getElementById('create-path-modal').classList.remove('active');
-        state.currentView = 'paths';
-        renderCurrentView();
+    // Top categories
+    const categoryCounts = {};
+    allRepos.forEach(repo => {
+        categoryCounts[repo.category] = (categoryCounts[repo.category] || 0) + 1;
+    });
+    
+    const topCategories = Object.entries(categoryCounts)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 10);
+
+    document.getElementById('top-categories').innerHTML = topCategories.map(([cat, count], i) => `
+        <div class="top-item">
+            <span class="top-item-rank">#${i + 1}</span>
+            <span class="top-item-name">${cat}</span>
+            <span class="top-item-value">${count}</span>
+        </div>
+    `).join('');
+
+    // Top liked repos
+    const topLiked = Array.from(likes.entries())
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 10)
+        .map(([id, count]) => {
+            const repo = allRepos.find(r => r.id === id);
+            return { repo, count };
+        })
+        .filter(item => item.repo);
+
+    document.getElementById('top-liked').innerHTML = topLiked.length > 0 
+        ? topLiked.map((item, i) => `
+            <div class="top-item">
+                <span class="top-item-rank">#${i + 1}</span>
+                <span class="top-item-name">${item.repo.name}</span>
+                <span class="top-item-value">❤️ ${item.count}</span>
+            </div>
+        `).join('')
+        : '<p style="text-align: center; padding: 20px; color: var(--text-secondary);">No liked repositories yet</p>';
+}
+
+// Switch tabs
+function switchTab(tabName) {
+    document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
+
+    const tabBtn = document.querySelector(`[data-tab="${tabName}"]`);
+    const tabContent = document.getElementById(`${tabName}-tab`);
+
+    if (tabBtn) tabBtn.classList.add('active');
+    if (tabContent) tabContent.classList.add('active');
+
+    // Render content for specific tabs
+    if (tabName === 'bookmarks') {
+        renderBookmarks();
+    } else if (tabName === 'learning-paths') {
+        renderLearningPaths();
+    } else if (tabName === 'stats') {
         updateStats();
     }
+}
 
-    // Show/hide loading spinner
-    function showLoading(show) {
-        const loading = document.getElementById('loading');
-        if (show) {
-            loading.classList.add('active');
-        } else {
-            loading.classList.remove('active');
+// Initialize
+async function init() {
+    loadFromStorage();
+    updateBookmarkCount();
+
+    // Load repo data
+    await fetchRepoData();
+
+    // Hide loading state
+    document.getElementById('loading-state').style.display = 'none';
+
+    // Populate category filter
+    const categoryFilter = document.getElementById('category-filter');
+    Array.from(categories).sort().forEach(cat => {
+        const option = document.createElement('option');
+        option.value = cat;
+        option.textContent = cat;
+        categoryFilter.appendChild(option);
+    });
+
+    // Initial render
+    renderRepos(filterRepos());
+
+    // Event listeners
+    document.getElementById('search-input').addEventListener('input', () => {
+        renderRepos(filterRepos());
+    });
+
+    document.getElementById('search-clear').addEventListener('click', () => {
+        document.getElementById('search-input').value = '';
+        renderRepos(filterRepos());
+    });
+
+    document.getElementById('category-filter').addEventListener('change', () => {
+        renderRepos(filterRepos());
+    });
+
+    document.getElementById('sort-filter').addEventListener('change', () => {
+        renderRepos(filterRepos());
+    });
+
+    // Tab navigation
+    document.querySelectorAll('.nav-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            switchTab(btn.dataset.tab);
+        });
+    });
+
+    // Theme toggle
+    document.getElementById('theme-toggle').addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+        document.body.classList.toggle('light-mode');
+        document.querySelector('.sun-icon').classList.toggle('hidden');
+        document.querySelector('.moon-icon').classList.toggle('hidden');
+        localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+    });
+
+    // Load saved theme
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    if (savedTheme === 'light') {
+        document.body.classList.remove('dark-mode');
+        document.body.classList.add('light-mode');
+        document.querySelector('.sun-icon').classList.add('hidden');
+        document.querySelector('.moon-icon').classList.remove('hidden');
+    }
+
+    // Create path button
+    document.getElementById('create-path-btn').addEventListener('click', () => {
+        showPathModal();
+    });
+
+    // Modal close buttons
+    document.querySelectorAll('.modal-close, .modal-overlay').forEach(el => {
+        el.addEventListener('click', () => {
+            document.querySelectorAll('.modal').forEach(modal => modal.classList.add('hidden'));
+        });
+    });
+
+    // Path modal actions
+    document.getElementById('save-path-btn').addEventListener('click', () => {
+        const name = document.getElementById('path-name-input').value.trim();
+        const description = document.getElementById('path-description-input').value.trim();
+        
+        if (name) {
+            learningPaths.push({
+                name,
+                description,
+                repos: [],
+                created: Date.now()
+            });
+            saveToStorage();
+            document.getElementById('path-modal').classList.add('hidden');
+            renderLearningPaths();
+            document.getElementById('path-name-input').value = '';
+            document.getElementById('path-description-input').value = '';
         }
-    }
+    });
 
-    // Escape HTML
-    function escapeHtml(text) {
-        const div = document.createElement('div');
-        div.textContent = text;
-        return div.innerHTML;
-    }
+    document.getElementById('cancel-path-btn').addEventListener('click', () => {
+        document.getElementById('path-modal').classList.add('hidden');
+        document.getElementById('path-name-input').value = '';
+        document.getElementById('path-description-input').value = '';
+    });
 
-    // Initialize app when DOM is ready
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
-    } else {
-        init();
-    }
-})();
+    // Keyboard shortcuts
+    document.addEventListener('keydown', (e) => {
+        // Cmd/Ctrl + K for search
+        if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+            e.preventDefault();
+            document.getElementById('search-input').focus();
+        }
+
+        // Esc to clear search or close modal
+        if (e.key === 'Escape') {
+            if (document.querySelector('.modal:not(.hidden)')) {
+                document.querySelectorAll('.modal').forEach(modal => modal.classList.add('hidden'));
+            } else {
+                document.getElementById('search-input').value = '';
+                renderRepos(filterRepos());
+            }
+        }
+
+        // T for theme toggle
+        if (e.key === 't' && !e.target.matches('input, textarea')) {
+            document.getElementById('theme-toggle').click();
+        }
+
+        // ? for help
+        if (e.key === '?' && !e.target.matches('input, textarea')) {
+            showHelpModal();
+        }
+
+        // 1-4 for tab switching
+        if (e.key >= '1' && e.key <= '4' && !e.target.matches('input, textarea')) {
+            const tabs = ['explorer', 'learning-paths', 'bookmarks', 'stats'];
+            switchTab(tabs[parseInt(e.key) - 1]);
+        }
+    });
+
+    updateStats();
+}
+
+function showPathModal() {
+    document.getElementById('path-modal').classList.remove('hidden');
+    document.getElementById('path-name-input').focus();
+}
+
+function showHelpModal() {
+    document.getElementById('help-modal').classList.remove('hidden');
+}
+
+// Start the app
+init();

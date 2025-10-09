@@ -33,9 +33,11 @@ function saveToStorage() {
 // Fetch and parse repository data
 async function fetchRepoData() {
     try {
-        const response = await fetch('repo-data.json');
+        const response = await fetch('data.json');
         if (response.ok) {
-            allRepos = await response.json();
+            const data = await response.json();
+            // Check if data has repos property or is array
+            allRepos = Array.isArray(data) ? data : (data.repos || []);
             allRepos.forEach(repo => categories.add(repo.category));
             console.log(`Loaded ${allRepos.length} repositories from JSON`);
         } else {

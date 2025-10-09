@@ -3,221 +3,250 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awesome Stargazer - Explore GitHub Repositories</title>
-    <meta name="description" content="Explore 59,300+ categorized GitHub repositories with advanced search, filters, and learning paths">
+    <title>Awesome Stargazer - Explore 575 Curated Repositories</title>
+    <meta name="description" content="Discover and explore 575 categorized GitHub repositories with powerful search, learning paths, and bookmarks.">
     <link rel="stylesheet" href="styles.css">
-    <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#0d1117">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⭐</text></svg>">
 </head>
-<body data-theme="dark">
+<body class="dark-mode">
     <!-- Header -->
     <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <svg height="32" viewBox="0 0 16 16" width="32" class="octicon">
-                        <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
-                    </svg>
-                    <span>Awesome Stargazer</span>
-                </div>
-                <nav class="nav">
-                    <button class="nav-btn active" data-view="explorer">
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-                            <path d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3H7.5a.25.25 0 01-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75z"></path>
-                        </svg>
-                        Explorer
-                    </button>
-                    <button class="nav-btn" data-view="paths">
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-                            <path d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"></path>
-                        </svg>
-                        Learning Paths
-                    </button>
-                    <button class="nav-btn" data-view="bookmarks">
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-                            <path d="M3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 01-1.227.579L8 11.722l-3.773 3.107A.75.75 0 013 14.25V2.75z"></path>
-                        </svg>
-                        Bookmarks
-                        <span class="badge" id="bookmark-count">0</span>
-                    </button>
-                    <button class="nav-btn" data-view="stats">
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-                            <path d="M1.5 1.75V13.5h13.75a.75.75 0 010 1.5H.75a.75.75 0 01-.75-.75V1.75a.75.75 0 011.5 0zm14.28 2.53a.75.75 0 00-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 00-1.06 0L3.22 8.72a.75.75 0 001.06 1.06L7 7.06l2.47 2.47a.75.75 0 001.06 0l5.25-5.25z"></path>
-                        </svg>
-                        Stats
-                    </button>
-                    <button class="icon-btn theme-toggle" id="theme-toggle" title="Toggle theme">
-                        <svg width="16" height="16" viewBox="0 0 16 16" class="sun-icon">
-                            <path fill="currentColor" d="M8 12a4 4 0 110-8 4 4 0 010 8zM8 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V.75A.75.75 0 018 0zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 018 13zM2.343 2.343a.75.75 0 011.061 0l1.06 1.061a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm9.193 9.193a.75.75 0 011.06 0l1.061 1.06a.75.75 0 01-1.06 1.061l-1.061-1.06a.75.75 0 010-1.061zM16 8a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0116 8zM3 8a.75.75 0 01-.75.75H.75a.75.75 0 010-1.5h1.5A.75.75 0 013 8zm10.657-5.657a.75.75 0 010 1.061l-1.061 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 01-1.061-1.06l1.06-1.061a.75.75 0 011.061 0z"></path>
-                        </svg>
-                        <svg width="16" height="16" viewBox="0 0 16 16" class="moon-icon" style="display: none;">
-                            <path fill="currentColor" d="M9.598 1.591a.75.75 0 01.785-.175 7 7 0 11-8.967 8.967.75.75 0 01.961-.96 5.5 5.5 0 007.046-7.046.75.75 0 01.175-.786zm1.616 1.945a7 7 0 01-7.678 7.678 5.5 5.5 0 107.678-7.678z"></path>
-                        </svg>
-                    </button>
-                </nav>
+        <div class="container header-content">
+            <div class="header-left">
+                <svg class="github-logo" height="32" viewBox="0 0 16 16" width="32" fill="currentColor">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                </svg>
+                <h1 class="site-title">Awesome Stargazer</h1>
             </div>
+            <nav class="header-nav">
+                <button class="nav-btn active" data-tab="explorer">
+                    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M1.75 2.5h12.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0114.25 13.5H1.75A1.75 1.75 0 010 11.75v-7.5C0 3.284.784 2.5 1.75 2.5zm12.5 1.5H1.75a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h12.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25z"></path>
+                    </svg>
+                    Explorer
+                </button>
+                <button class="nav-btn" data-tab="learning-paths">
+                    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M1 2.5A2.5 2.5 0 013.5 0h8.75a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0V1.5h-8a1 1 0 00-1 1v6.708A2.492 2.492 0 013.5 9h3.25a.75.75 0 010 1.5H3.5a1 1 0 100 2h5.75a.75.75 0 010 1.5H3.5A2.5 2.5 0 011 11.5v-9zm13.23 7.79a.75.75 0 001.06-1.06l-2.505-2.505a.75.75 0 00-1.06 0L9.22 9.229a.75.75 0 001.06 1.061l1.225-1.224v6.184a.75.75 0 001.5 0V9.066l1.224 1.224z"></path>
+                    </svg>
+                    Learning Paths
+                </button>
+                <button class="nav-btn" data-tab="bookmarks">
+                    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 01-1.227.579L8 11.722l-3.773 3.107A.75.75 0 013 14.25V2.75z"></path>
+                    </svg>
+                    Bookmarks
+                    <span class="badge" id="bookmarks-count">0</span>
+                </button>
+                <button class="nav-btn" data-tab="stats">
+                    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M1.5 1.75a.75.75 0 00-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 000-1.5H1.5V1.75zm14.28 2.53a.75.75 0 00-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 00-1.06 0L3.22 8.72a.75.75 0 001.06 1.06L7 7.06l2.47 2.47a.75.75 0 001.06 0l5.25-5.25z"></path>
+                    </svg>
+                    Stats
+                </button>
+                <button class="theme-toggle" id="theme-toggle" title="Toggle theme (T)">
+                    <svg class="sun-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M8 12a4 4 0 100-8 4 4 0 000 8zM8 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V.75A.75.75 0 018 0zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 018 13zM2.343 2.343a.75.75 0 011.061 0l1.06 1.061a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm9.193 9.193a.75.75 0 011.06 0l1.061 1.06a.75.75 0 01-1.06 1.061l-1.061-1.06a.75.75 0 010-1.061zM16 8a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0116 8zM3 8a.75.75 0 01-.75.75H.75a.75.75 0 010-1.5h1.5A.75.75 0 013 8zm10.657-5.657a.75.75 0 010 1.061l-1.061 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 11-1.061-1.06l1.06-1.061a.75.75 0 011.061 0z"></path>
+                    </svg>
+                    <svg class="moon-icon hidden" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M9.598 1.591a.75.75 0 01.785-.175 7 7 0 11-8.967 8.967.75.75 0 01.961-.96 5.5 5.5 0 007.046-7.046.75.75 0 01.175-.786zm1.616 1.945a7 7 0 01-7.678 7.678 5.5 5.5 0 107.678-7.678z"></path>
+                    </svg>
+                </button>
+            </nav>
         </div>
     </header>
 
     <!-- Main Content -->
-    <main class="main">
-        <div class="container">
-            <!-- Search Bar -->
-            <div class="search-section">
-                <div class="search-box">
-                    <svg width="16" height="16" viewBox="0 0 16 16" class="search-icon">
-                        <path fill="currentColor" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path>
-                    </svg>
-                    <input type="text" id="search-input" placeholder="Search repositories by name, topic, language, or description..." />
-                    <button class="clear-btn" id="clear-search" style="display: none;">✕</button>
-                </div>
-                <div class="filters">
-                    <select id="category-filter" class="select-input">
-                        <option value="">All Categories</option>
-                    </select>
-                    <select id="sort-filter" class="select-input">
-                        <option value="name">Name (A-Z)</option>
-                        <option value="likes">Most Liked</option>
-                        <option value="recent">Recently Added</option>
-                    </select>
-                </div>
-                <div class="search-stats">
-                    <span id="result-count">Loading repositories...</span>
-                </div>
-                <div class="keyboard-hint">
-                    <kbd>⌘</kbd> + <kbd>K</kbd> to focus search | <kbd>Esc</kbd> to clear | <kbd>?</kbd> for help
-                </div>
-            </div>
-
-            <!-- Views Container -->
-            <div id="view-container">
-                <!-- Explorer View -->
-                <div id="explorer-view" class="view active">
-                    <div class="repo-grid" id="repo-grid">
-                        <!-- Repositories will be loaded here -->
-                    </div>
-                </div>
-
-                <!-- Learning Paths View -->
-                <div id="paths-view" class="view">
-                    <div class="paths-header">
-                        <h2>Learning Paths</h2>
-                        <button class="btn-primary" id="create-path-btn">
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-                                <path d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 010 1.5H8.5v4.25a.75.75 0 01-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+    <main class="main-content">
+        <!-- Explorer Tab -->
+        <div class="tab-content active" id="explorer-tab">
+            <div class="container">
+                <div class="search-section">
+                    <div class="search-wrapper">
+                        <svg class="search-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M10.68 11.74a6 6 0 01-7.922-8.982 6 6 0 018.982 7.922l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04zM11.5 7a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0z"></path>
+                        </svg>
+                        <input 
+                            type="text" 
+                            id="search-input" 
+                            class="search-input" 
+                            placeholder="Search repositories by name, topic, language, or description..."
+                            autocomplete="off"
+                        >
+                        <button class="search-clear hidden" id="search-clear" title="Clear search (Esc)">
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
                             </svg>
-                            Create New Path
                         </button>
                     </div>
-                    <div id="paths-container" class="paths-container">
-                        <div class="empty-state">
-                            <svg width="48" height="48" viewBox="0 0 16 16" fill="currentColor">
-                                <path d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"></path>
-                            </svg>
-                            <h3>No Learning Paths Yet</h3>
-                            <p>Create your first learning path to organize repositories for your learning journey</p>
-                        </div>
+                    <div class="keyboard-hints">
+                        <span class="hint"><kbd>⌘</kbd> + <kbd>K</kbd> to focus search</span>
+                        <span class="hint"><kbd>Esc</kbd> to clear</span>
+                        <span class="hint"><kbd>?</kbd> for help</span>
                     </div>
                 </div>
 
-                <!-- Bookmarks View -->
-                <div id="bookmarks-view" class="view">
-                    <h2>Bookmarked Repositories</h2>
-                    <div id="bookmarks-container" class="repo-grid">
-                        <div class="empty-state">
-                            <svg width="48" height="48" viewBox="0 0 16 16" fill="currentColor">
-                                <path d="M3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 01-1.227.579L8 11.722l-3.773 3.107A.75.75 0 013 14.25V2.75z"></path>
-                            </svg>
-                            <h3>No Bookmarks Yet</h3>
-                            <p>Start bookmarking repositories to save them for later</p>
-                        </div>
+                <div class="filters-section">
+                    <div class="filter-group">
+                        <label for="category-filter">Category:</label>
+                        <select id="category-filter" class="filter-select">
+                            <option value="">All Categories</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="sort-filter">Sort by:</label>
+                        <select id="sort-filter" class="filter-select">
+                            <option value="name-asc">Name (A-Z)</option>
+                            <option value="name-desc">Name (Z-A)</option>
+                            <option value="category">Category</option>
+                            <option value="likes">Most Liked</option>
+                        </select>
+                    </div>
+                    <div class="results-info">
+                        <span id="results-count">Loading repositories...</span>
                     </div>
                 </div>
 
-                <!-- Stats View -->
-                <div id="stats-view" class="view">
-                    <h2>Repository Statistics</h2>
-                    <div class="stats-grid">
-                        <div class="stat-card">
-                            <div class="stat-value" id="total-repos">0</div>
-                            <div class="stat-label">Total Repositories</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-value" id="total-categories">0</div>
-                            <div class="stat-label">Categories</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-value" id="total-bookmarks">0</div>
-                            <div class="stat-label">Bookmarked</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-value" id="total-paths">0</div>
-                            <div class="stat-label">Learning Paths</div>
-                        </div>
+                <div id="repos-container" class="repos-grid"></div>
+                <div id="loading-state" class="loading-state">
+                    <div class="loading-spinner"></div>
+                    <p>Loading repositories...</p>
+                </div>
+                <div id="no-results" class="no-results hidden">
+                    <svg width="64" height="64" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M10.68 11.74a6 6 0 01-7.922-8.982 6 6 0 018.982 7.922l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04zM11.5 7a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0z"></path>
+                    </svg>
+                    <h3>No repositories found</h3>
+                    <p>Try adjusting your search or filters</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Learning Paths Tab -->
+        <div class="tab-content" id="learning-paths-tab">
+            <div class="container">
+                <div class="learning-paths-header">
+                    <h2>🎯 Learning Paths Builder</h2>
+                    <p>Create personalized learning journeys by adding repositories to your paths</p>
+                    <button class="btn btn-primary" id="create-path-btn">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 010 1.5H8.5v4.25a.75.75 0 01-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                        </svg>
+                        Create New Path
+                    </button>
+                </div>
+                <div id="learning-paths-container" class="learning-paths-list"></div>
+                <div id="no-paths" class="no-results">
+                    <svg width="64" height="64" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M1 2.5A2.5 2.5 0 013.5 0h8.75a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0V1.5h-8a1 1 0 00-1 1v6.708A2.492 2.492 0 013.5 9h3.25a.75.75 0 010 1.5H3.5a1 1 0 100 2h5.75a.75.75 0 010 1.5H3.5A2.5 2.5 0 011 11.5v-9z"></path>
+                    </svg>
+                    <h3>No learning paths yet</h3>
+                    <p>Create your first learning path to get started</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bookmarks Tab -->
+        <div class="tab-content" id="bookmarks-tab">
+            <div class="container">
+                <h2>📑 Bookmarked Repositories</h2>
+                <div id="bookmarks-container" class="repos-grid"></div>
+                <div id="no-bookmarks" class="no-results">
+                    <svg width="64" height="64" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 01-1.227.579L8 11.722l-3.773 3.107A.75.75 0 013 14.25V2.75z"></path>
+                    </svg>
+                    <h3>No bookmarks yet</h3>
+                    <p>Bookmark repositories from the Explorer to save them here</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats Tab -->
+        <div class="tab-content" id="stats-tab">
+            <div class="container">
+                <h2>📊 Repository Statistics</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">📚</div>
+                        <div class="stat-value" id="total-repos">0</div>
+                        <div class="stat-label">Total Repositories</div>
                     </div>
-                    <div class="chart-container">
-                        <h3>Top Categories</h3>
-                        <div id="category-chart"></div>
+                    <div class="stat-card">
+                        <div class="stat-icon">📁</div>
+                        <div class="stat-value" id="total-categories">0</div>
+                        <div class="stat-label">Categories</div>
                     </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">❤️</div>
+                        <div class="stat-value" id="total-likes">0</div>
+                        <div class="stat-label">Total Likes</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🔖</div>
+                        <div class="stat-value" id="total-bookmarks">0</div>
+                        <div class="stat-label">Bookmarks</div>
+                    </div>
+                </div>
+
+                <div class="stats-section">
+                    <h3>Top Categories</h3>
+                    <div id="top-categories" class="top-list"></div>
+                </div>
+
+                <div class="stats-section">
+                    <h3>Most Liked Repositories</h3>
+                    <div id="top-liked" class="top-list"></div>
                 </div>
             </div>
         </div>
     </main>
 
     <!-- Modals -->
-    <!-- README Preview Modal -->
-    <div id="readme-modal" class="modal">
+    <div id="repo-modal" class="modal hidden">
+        <div class="modal-overlay"></div>
         <div class="modal-content">
-            <div class="modal-header">
-                <h3 id="modal-repo-name">Repository README</h3>
-                <button class="modal-close">&times;</button>
-            </div>
-            <div class="modal-body" id="readme-content">
-                Loading README...
-            </div>
+            <button class="modal-close">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+                </svg>
+            </button>
+            <div id="modal-body"></div>
         </div>
     </div>
 
-    <!-- Create Path Modal -->
-    <div id="create-path-modal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3>Create Learning Path</h3>
-                <button class="modal-close">&times;</button>
-            </div>
-            <div class="modal-body">
-                <input type="text" id="path-name" placeholder="Path name (e.g., 'React Mastery')" class="input-field">
-                <textarea id="path-description" placeholder="Description (optional)" class="input-field"></textarea>
-                <div class="path-builder">
-                    <div class="available-repos">
-                        <h4>Available Repositories</h4>
-                        <input type="text" id="path-search" placeholder="Search repositories..." class="input-field">
-                        <div id="available-repos-list" class="repos-list"></div>
-                    </div>
-                    <div class="selected-repos">
-                        <h4>Selected (<span id="selected-count">0</span>)</h4>
-                        <div id="selected-repos-list" class="repos-list sortable"></div>
-                    </div>
-                </div>
+    <div id="path-modal" class="modal hidden">
+        <div class="modal-overlay"></div>
+        <div class="modal-content path-modal-content">
+            <button class="modal-close">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+                </svg>
+            </button>
+            <div class="path-modal-body">
+                <h2>Create Learning Path</h2>
+                <input type="text" id="path-name-input" class="path-input" placeholder="Enter path name..." maxlength="100">
+                <textarea id="path-description-input" class="path-textarea" placeholder="Description (optional)" rows="3"></textarea>
                 <div class="modal-actions">
-                    <button class="btn-secondary" id="cancel-path">Cancel</button>
-                    <button class="btn-primary" id="save-path">Save Path</button>
+                    <button class="btn btn-secondary" id="cancel-path-btn">Cancel</button>
+                    <button class="btn btn-primary" id="save-path-btn">Create Path</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Keyboard Shortcuts Help -->
-    <div id="shortcuts-modal" class="modal">
+    <div id="help-modal" class="modal hidden">
+        <div class="modal-overlay"></div>
         <div class="modal-content">
-            <div class="modal-header">
-                <h3>Keyboard Shortcuts</h3>
-                <button class="modal-close">&times;</button>
-            </div>
-            <div class="modal-body">
+            <button class="modal-close">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+                </svg>
+            </button>
+            <div class="help-content">
+                <h2>⌨️ Keyboard Shortcuts</h2>
                 <div class="shortcuts-grid">
                     <div class="shortcut-item">
-                        <kbd>⌘/Ctrl</kbd> + <kbd>K</kbd>
+                        <kbd>⌘</kbd> + <kbd>K</kbd> or <kbd>Ctrl</kbd> + <kbd>K</kbd>
                         <span>Focus search</span>
                     </div>
                     <div class="shortcut-item">
@@ -225,29 +254,20 @@
                         <span>Clear search / Close modal</span>
                     </div>
                     <div class="shortcut-item">
-                        <kbd>?</kbd>
-                        <span>Show shortcuts</span>
-                    </div>
-                    <div class="shortcut-item">
                         <kbd>T</kbd>
                         <span>Toggle theme</span>
                     </div>
                     <div class="shortcut-item">
-                        <kbd>B</kbd>
-                        <span>View bookmarks</span>
+                        <kbd>?</kbd>
+                        <span>Show help</span>
                     </div>
                     <div class="shortcut-item">
-                        <kbd>P</kbd>
-                        <span>View paths</span>
+                        <kbd>1</kbd> - <kbd>4</kbd>
+                        <span>Switch tabs</span>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <!-- Loading Spinner -->
-    <div id="loading" class="loading">
-        <div class="spinner"></div>
     </div>
 
     <script src="app.js"></script>

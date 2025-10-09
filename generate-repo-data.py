@@ -68,9 +68,10 @@ def main():
         print(f"  ✓ {category}: {len(repos)} repos")
     
     # Write to JSON file
-    output_file = 'repo-data.json'
+    output_file = 'docs/data.json'
     with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(all_repos, f, indent=2, ensure_ascii=False)
+        # Wrap in object with repos key for compatibility
+        json.dump({'repos': all_repos}, f, indent=2, ensure_ascii=False)
     
     print(f"\n✓ Generated {output_file} with {len(all_repos)} repositories")
     
