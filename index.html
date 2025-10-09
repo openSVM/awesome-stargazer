@@ -110,7 +110,11 @@
                 <div id="repos-container" class="repos-grid"></div>
                 <div id="loading-state" class="loading-state">
                     <div class="loading-spinner"></div>
-                    <p>Loading repositories...</p>
+                    <p id="loading-text">Loading repositories...</p>
+                    <div class="loading-progress">
+                        <div class="loading-progress-bar" id="loading-progress-bar"></div>
+                    </div>
+                    <p class="loading-stats" id="loading-stats"></p>
                 </div>
                 <div id="no-results" class="no-results hidden">
                     <svg width="64" height="64" fill="currentColor" viewBox="0 0 16 16">
@@ -118,6 +122,13 @@
                     </svg>
                     <h3>No repositories found</h3>
                     <p>Try adjusting your search or filters</p>
+                    <button class="btn btn-secondary" id="reset-filters-btn" style="margin-top: 16px;">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"></path>
+                            <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"></path>
+                        </svg>
+                        Reset Filters
+                    </button>
                 </div>
             </div>
         </div>
@@ -269,6 +280,9 @@
             </div>
         </div>
     </div>
+
+    <!-- Toast notifications -->
+    <div id="toast-container" class="toast-container"></div>
 
     <script src="app.js"></script>
 </body>
